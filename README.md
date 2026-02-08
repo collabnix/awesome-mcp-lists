@@ -214,6 +214,7 @@ MCP servers for AI and machine learning capabilities.
 | 1 | modelcontextprotocol/inspector | TypeScript | Official UI for testing MCP servers |
 | 2 | wong2/mcp-cli | Multiple | Command line inspector for testing |
 | 3 | mclenhard/mcp-evals | Multiple | Package for running evaluations |
+| 4 | Typewise/mcp-chaos-rig | TypeScript | Fault injection server for testing MCP clients against auth failures, disappearing tools, flaky responses, and token expiry |
 
 ### Utilities
 
