@@ -224,7 +224,7 @@ MCP servers for AI and machine learning capabilities.
 | 2 | punkpeye/mcp-proxy | TypeScript | SSE proxy for MCP servers |
 | 3 | multi-mcp | Python | Multi-MCP Proxy Server |
 | 4 | f/MCPTools | Go | CLI tool for MCP server interactions |
-| 5 | portel-dev/ncp | TypeScript | **1 MCP to rule them all** - Orchestrates your entire MCP ecosystem through intelligent discovery, eliminating token overhead while maintaining 98.2% accuracy. Transform 100+ tools into 2 unified interfaces, achieve 94.8% token savings |
+| 5 | portel-dev/ncp | TypeScript | MCP orchestrator with intelligent discovery, 98.2% accuracy, and 94.8% token savings. Transforms 100+ tools into 2 unified interfaces |
 | 6 | strowk/mcp-autotest | Go | YAML-based autotest tool |
 
 ### Hosting Solutions
@@ -380,7 +380,7 @@ There are currently 109 MCP servers available:
 | 3 | octomind | Automated testing and quality assurance platform | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/octomind.md) |
 | 4 | openapi-schema | API definition and documentation standard | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/openapi-schema.md) |
 | 5 | desktop-commander | Control desktop applications and perform system operations | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/desktop-commander.md) |
-| 6 | **Roundtable** | **Zero-configuration MCP server that unifies multiple AI coding assistants (Claude Code, Cursor, GPT-4) for enhanced development workflows** | **Production Ready** | [GitHub](https://github.com/askbudi/roundtable) |
+| 6 | Roundtable | Zero-configuration MCP server that unifies multiple AI coding assistants (Claude Code, Cursor, GPT-4) for enhanced development workflows | Production Ready | [GitHub](https://github.com/askbudi/roundtable) |
 
 ### Communication
 
