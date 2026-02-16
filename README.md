@@ -101,6 +101,7 @@ MCP servers for accessing external services and APIs.
 | 9 | box | Manage files and folders in Box cloud storage | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/box.md) |
 | 10 | razorpay | Payment gateway and financial services platform | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/razorpay.md) |
 | 11 | resend | Email delivery and management service | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/resend.md) |
+| 12 | **x402engine-mcp** | 51 pay-per-call APIs for AI agents — LLMs, image/video generation, code execution, TTS, transcription, crypto data, wallet analytics, web scraping, and IPFS via HTTP 402 micropayments | TBD | [GitHub](https://github.com/agentc22/x402engine-mcp) |
 
 ### AI & Machine Learning
 
