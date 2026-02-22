@@ -227,6 +227,7 @@ MCP servers for AI and machine learning capabilities.
 | 4 | f/MCPTools | Go | CLI tool for MCP server interactions |
 | 5 | portel-dev/ncp | TypeScript | MCP orchestrator with intelligent discovery, 98.2% accuracy, and 94.8% token savings. Transforms 100+ tools into 2 unified interfaces |
 | 6 | strowk/mcp-autotest | Go | YAML-based autotest tool |
+| 7 | khalidsaidi/ragmap | TypeScript | RAG-focused MCP subregistry + discovery server: semantic/keyword search, filters (transport, hasRemote, reachable), MCP tools for finding retrieval-capable servers. [GitHub](https://github.com/khalidsaidi/ragmap) · [API](https://ragmap-api.web.app) |
 
 ### Hosting Solutions
 
@@ -408,6 +409,7 @@ There are currently 109 MCP servers available:
 | 2 | handwriting-ocr | Optical character recognition for handwritten text | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/handwriting-ocr.md) |
 | 3 | webflow | Visual website design and content management system | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/webflow.md) |
 | 4 | youtube_transcript | YouTube video transcript extraction | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/youtube_transcript.md) |
+| 5 | speech-ai | Speech AI with pronunciation assessment, text-to-speech, and speech-to-text | TBD | [GitHub](https://github.com/fasuizu-br/speech-ai-examples) |
 
 
 
