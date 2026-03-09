@@ -167,6 +167,7 @@ MCP servers for accessing external services and APIs.
 | 15 | **WritBase** | MCP-native task management for AI agent fleets | TBD | [GitHub](https://github.com/Writbase/writbase) |
 | 16 | **short-video-maker** | Creates short videos for TikTok, Instagram Reels, and YouTube Shorts using the Model Context Protocol (MCP) and a REST API. | TBD | [GitHub](https://github.com/gyoridavid/short-video-maker) |
 | 17 | **n8n-mcp-server** | MCP server that provides tools and resources for interacting with n8n API | TBD | [GitHub](https://github.com/leonardsellem/n8n-mcp-server) |
+| 18 | **nutrient-dws-mcp-server** | MCP server for Nutrient Document Web Services API (convert, merge, redact, sign, OCR, watermark, extract) | TBD | [GitHub](https://github.com/PSPDFKit/nutrient-dws-mcp-server) |
 
 ### AI & Machine Learning
 
