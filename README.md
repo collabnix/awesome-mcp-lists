@@ -105,6 +105,7 @@ MCP servers for accessing external services and APIs.
 | 12 | **x402engine-mcp** | 51 pay-per-call APIs for AI agents — LLMs, image/video generation, code execution, TTS, transcription, crypto data, wallet analytics, web scraping, and IPFS via HTTP 402 micropayments | TBD | [GitHub](https://github.com/agentc22/x402engine-mcp) |
 | 13 | **mcp-api-bridge-lite** | Free REST API to MCP bridge — connect any REST API to AI assistants with simple YAML configuration, supporting GET, POST, PUT, DELETE with authentication | TBD | [GitHub](https://github.com/tiranmoskovitch-dev/mcp-api-bridge-lite) |
 | 14 | **lightning-wallet-mcp** | Give AI agents a Bitcoin wallet with Lightning Network payments and L402 support | TBD | [GitHub](https://github.com/lightningfaucet/lightning-wallet-mcp) |
+| 15 | **WritBase** | MCP-native task management for AI agent fleets | TBD | [GitHub](https://github.com/Writbase/writbase) |
 
 ### AI & Machine Learning
 
