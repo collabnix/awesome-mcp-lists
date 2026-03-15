@@ -119,6 +119,7 @@ MCP servers for AI and machine learning capabilities.
 | 6 | **OpenAI Compatible** | Any OpenAI SDK compatible API | TBD | [GitHub](https://github.com/imbactbulletz/any-chat-completions-mcp) |
 | 7 | **Amazon Bedrock** | AWS AI services integration | TBD | [AWS Labs](https://github.com/awslabs/mcp) |
 | 8 | **Amazon Nova Canvas** | AI image generation platform | TBD | [AWS Labs](https://github.com/awslabs/mcp) |
+| 9 | **Roundtable** | Multi-model AI debate platform — GPT-4o, Claude, Gemini & 200+ models discuss, then synthesize insight | TBD | [GitHub](https://github.com/deadpixel/roundtable-dashboard) |
 
 ## MCP Clients
 
