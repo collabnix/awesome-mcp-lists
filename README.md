@@ -389,6 +389,7 @@ There are currently 109 MCP servers available:
 | 4 | openapi-schema | API definition and documentation standard | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/openapi-schema.md) |
 | 5 | desktop-commander | Control desktop applications and perform system operations | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/desktop-commander.md) |
 | 6 | Roundtable | Zero-configuration MCP server that unifies multiple AI coding assistants (Claude Code, Cursor, GPT-4) for enhanced development workflows | Production Ready | [GitHub](https://github.com/askbudi/roundtable) |
+| 7 | **onUI** | Open-source browser extension and MCP server for annotation-first UI pair programming with AI agents. 8 tools for AI agents to access UI annotations. Works with Claude Code, Cursor, Windsurf. Chrome, Edge, Firefox support. Local only, no cloud backend. GPL-3.0. | TBD | [GitHub](https://github.com/onllm-dev/onUI) |
 
 ### Communication
 
