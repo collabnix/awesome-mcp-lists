@@ -94,7 +94,8 @@ MCP servers for accessing external services and APIs.
 | 1 | stripe | Process payments and manage financial transactions | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/stripe.md) |
 | 2 | shopify | Manage Shopify e-commerce stores and products | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/shopify.md) |
 | 3 | **shopsavvy** | Complete product and pricing data solution - search products, compare prices, track history | TBD | [GitHub](https://github.com/shopsavvy/shopsavvy-mcp-server) |
-| 4 | atlassian | Integrate with Atlassian products like Jira and Confluence | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/atlassian.md) |
+| 4 | **agent-signal** | Collective intelligence for AI shopping agents - 23 tools for buyer intelligence, seller analytics, price alerts, and trend tracking | TBD | [GitHub](https://github.com/dan24ou-cpu/agent-signal) |
+| 5 | atlassian | Integrate with Atlassian products like Jira and Confluence | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/atlassian.md) |
 | 5 | azure | Interact with Microsoft Azure cloud services and resources | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/azure.md) |
 | 6 | google-maps | Geographic information and location services | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/google-maps.md) |
 | 7 | slack | Send and receive messages in Slack workspaces | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/slack.md) |
