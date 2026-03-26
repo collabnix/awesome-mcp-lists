@@ -106,6 +106,8 @@ MCP servers for accessing external services and APIs.
 | 13 | **mcp-api-bridge-lite** | Free REST API to MCP bridge — connect any REST API to AI assistants with simple YAML configuration, supporting GET, POST, PUT, DELETE with authentication | TBD | [GitHub](https://github.com/tiranmoskovitch-dev/mcp-api-bridge-lite) |
 | 14 | **lightning-wallet-mcp** | Give AI agents a Bitcoin wallet with Lightning Network payments and L402 support | TBD | [GitHub](https://github.com/lightningfaucet/lightning-wallet-mcp) |
 | 15 | **WritBase** | MCP-native task management for AI agent fleets | TBD | [GitHub](https://github.com/Writbase/writbase) |
+| 16 | **dexpaprika-mcp** | Real-time DEX data across 34 blockchains. 30M+ pools, 27M+ tokens, OHLCV, trades. Free, no API key | TBD | [GitHub](https://github.com/coinpaprika/dexpaprika-mcp) |
+| 17 | **coinpaprika-mcp** | Crypto market data for 12,000+ coins, 350+ exchanges. Tickers, OHLCV, historical prices. Free, no API key | TBD | [GitHub](https://github.com/coinpaprika/coinpaprika-mcp) |
 
 ### AI & Machine Learning
 
