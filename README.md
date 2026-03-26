@@ -84,6 +84,7 @@ MCP servers for web search, content access, and web automation.
 | 3 | puppeteer | Automate browser interactions and scrape web content | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/puppeteer.md) |
 | 4 | duckduckgo | Privacy-focused web search engine | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/duckduckgo.md) |
 | 5 | firecrawl | Web crawling and content extraction tool | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/firecrawl.md) |
+| 6 | contextwire | Free search API for AI agents — 105 engines, 22 profiles, MCP server, 94.3% SimpleQA accuracy | TBD | [GitHub](https://github.com/keptlive/contextwire-mcp) |
 
 ### Integrations & APIs
 
