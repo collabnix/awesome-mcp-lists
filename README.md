@@ -54,7 +54,7 @@ MCP servers for managing infrastructure, containers, and DevOps workflows.
 | 8 | pulumi | Infrastructure as code platform | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/pulumi.md) |
 | 9 | heroku | Cloud platform as a service (PaaS) | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/heroku.md) |
 | 10 | jetbrains | Integrate with JetBrains IDEs and tools | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/jetbrains.md) |
-| 11 | **github-mcp-server** | GitHub's official MCP Server for repository and workflow management | TBD | [GitHub](https://github.com/github/github-mcp-server) |
+| 11 | **github-mcp-server** | GitHub's official MCP server for repository and workflow management | TBD | [GitHub](https://github.com/github/github-mcp-server) |
 | 12 | **mcp-context-forge** | AI Gateway, registry, and proxy for MCP, A2A, and REST/gRPC APIs with unified endpoint and centralized discovery | TBD | [GitHub](https://github.com/IBM/mcp-context-forge) |
 | 13 | **toolhive** | Enterprise-grade platform for running and managing MCP servers | TBD | [GitHub](https://github.com/stacklok/toolhive) |
 | 14 | **MCPJungle** | Self-hosted MCP Gateway for AI agents | TBD | [GitHub](https://github.com/mcpjungle/MCPJungle) |
@@ -265,7 +265,7 @@ MCP servers for AI and machine learning capabilities.
 | 5 | [portel-dev/ncp](https://github.com/portel-dev/ncp) | TypeScript | MCP orchestrator with intelligent discovery, 98.2% accuracy, and 94.8% token savings. Transforms 100+ tools into 2 unified interfaces |
 | 6 | [strowk/mcp-autotest](https://github.com/strowk/mcp-autotest) | Go | YAML-based autotest tool |
 | 7 | [khalidsaidi/ragmap](https://github.com/khalidsaidi/ragmap) | TypeScript | RAG-focused MCP subregistry + discovery server: semantic/keyword search, filters (transport, hasRemote, reachable), MCP tools for finding retrieval-capable servers. [API](https://ragmap-api.web.app) |
-| 8 | [MCP Trust Kit](https://github.com/aak204/MCP-Trust-Kit) | Python | Deterministic CI scanner and surface-risk scoring for MCP servers — checks schema hygiene and flags dangerous capabilities like filesystem mutation or shell execution |
+| 8 | [aak204/MCP-Trust-Kit](https://github.com/aak204/MCP-Trust-Kit) | Python | Deterministic CI scanner and surface-risk scoring for MCP servers — checks schema hygiene and flags dangerous capabilities like filesystem mutation or shell execution |
 
 ### Hosting Solutions
 
@@ -278,9 +278,9 @@ MCP servers for AI and machine learning capabilities.
 
 | # | Tool Name | Language | Description |
 |---|-----------|----------|-------------|
-| 1 | [fastmcp-boilerplate](https://github.com/jlowin/fastmcp) | TypeScript | MCP server built with FastMCP |
-| 2 | [dart-mcp-server-template](https://github.com/invertase/dart-mcp-server) | Dart | Template for Dart MCP servers |
-| 3 | [rails-mcp-startup-boilerplate](https://github.com/obie/rails-mcp-startup-boilerplate) | Ruby | Rails template for paid MCP servers |
+| 1 | fastmcp-boilerplate | TypeScript | MCP server built with FastMCP |
+| 2 | dart-mcp-server-template | Dart | Template for Dart MCP servers |
+| 3 | rails-mcp-startup-boilerplate | Ruby | Rails template for paid MCP servers |
 
 ## Docker MCP Toolkit
 
