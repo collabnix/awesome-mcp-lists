@@ -84,7 +84,7 @@ MCP servers for web search, content access, and web automation.
 | 3 | puppeteer | Automate browser interactions and scrape web content | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/puppeteer.md) |
 | 4 | duckduckgo | Privacy-focused web search engine | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/duckduckgo.md) |
 | 5 | firecrawl | Web crawling and content extraction tool | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/firecrawl.md) |
-| 6 | **ContextWire** | Free search API for AI agents — 105 engines, 22 profiles, remote MCP server (streamable-http), 94.3% SimpleQA accuracy, 1,000 free queries/month | TBD | [GitHub](https://github.com/keptlive/contextwire-mcp) |
+| 6 | **ContextWire** | Free search API for AI agents with multi-engine support, multiple search profiles, and a remote MCP server (streamable-http). 1,000 free queries/month | TBD | [GitHub](https://github.com/keptlive/contextwire-mcp) |
 
 ### Integrations & APIs
 
@@ -107,9 +107,9 @@ MCP servers for accessing external services and APIs.
 | 13 | **mcp-api-bridge-lite** | Free REST API to MCP bridge — connect any REST API to AI assistants with simple YAML configuration, supporting GET, POST, PUT, DELETE with authentication | TBD | [GitHub](https://github.com/tiranmoskovitch-dev/mcp-api-bridge-lite) |
 | 14 | **lightning-wallet-mcp** | Give AI agents a Bitcoin wallet with Lightning Network payments and L402 support | TBD | [GitHub](https://github.com/lightningfaucet/lightning-wallet-mcp) |
 | 15 | **WritBase** | MCP-native task management for AI agent fleets | TBD | [GitHub](https://github.com/Writbase/writbase) |
-| 16 | **agent-signal** | Collective intelligence for AI shopping agents — 23 tools across buyer intelligence, seller analytics, price alerts, and session logging | TBD | [GitHub](https://github.com/dan24ou-cpu/agent-signal) |
-| 17 | **dexpaprika-mcp** | Real-time DEX data across 34 blockchains, 30M+ pools, 27M+ tokens, OHLCV, trades. Free, no API key | TBD | [GitHub](https://github.com/coinpaprika/dexpaprika-mcp) |
-| 18 | **coinpaprika-mcp** | Crypto market data for 12,000+ coins, 350+ exchanges — tickers, OHLCV, historical prices. Free, no API key | TBD | [GitHub](https://github.com/coinpaprika/coinpaprika-mcp) |
+| 16 | **agent-signal** | Collective intelligence for AI shopping agents — buyer intelligence, seller analytics, price alerts, and session logging | TBD | [GitHub](https://github.com/dan24ou-cpu/agent-signal) |
+| 17 | **dexpaprika-mcp** | Real-time DEX data across multiple blockchains with pool, token, OHLCV, and trade data. Free, no API key | TBD | [GitHub](https://github.com/coinpaprika/dexpaprika-mcp) |
+| 18 | **coinpaprika-mcp** | Crypto market data for thousands of coins and exchanges — tickers, OHLCV, historical prices. Free, no API key | TBD | [GitHub](https://github.com/coinpaprika/coinpaprika-mcp) |
 | 19 | **nutrient-dws-mcp-server** | MCP server for Nutrient Document Web Services API — convert, merge, redact, sign, OCR, watermark, and extract documents | TBD | [GitHub](https://github.com/PSPDFKit/nutrient-dws-mcp-server) |
 
 ### AI & Machine Learning
@@ -239,7 +239,7 @@ MCP servers for AI and machine learning capabilities.
 | 5 | portel-dev/ncp | TypeScript | MCP orchestrator with intelligent discovery, 98.2% accuracy, and 94.8% token savings. Transforms 100+ tools into 2 unified interfaces |
 | 6 | strowk/mcp-autotest | Go | YAML-based autotest tool |
 | 7 | khalidsaidi/ragmap | TypeScript | RAG-focused MCP subregistry + discovery server: semantic/keyword search, filters (transport, hasRemote, reachable), MCP tools for finding retrieval-capable servers. [GitHub](https://github.com/khalidsaidi/ragmap) · [API](https://ragmap-api.web.app) |
-| 8 | [MCP Trust Kit](https://github.com/aak204/MCP-Trust-Kit) | Python | Deterministic CI scanner and surface-risk scoring for MCP servers — checks schema hygiene and flags dangerous capabilities like filesystem mutation or shell execution |
+| 8 | **MCP Trust Kit** | Python | Deterministic CI scanner and surface-risk scoring for MCP servers — checks schema hygiene and flags dangerous capabilities like filesystem mutation or shell execution. [GitHub](https://github.com/aak204/MCP-Trust-Kit) |
 
 ### Hosting Solutions
 
