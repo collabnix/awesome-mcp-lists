@@ -247,6 +247,7 @@ MCP servers for AI and machine learning capabilities.
 |---|-----------|-------------|
 | 1 | Glama | Platform for hosting open-source MCP servers |
 | 2 | Smithery | Cloud hosting for MCP servers via containers |
+| 3 | [ToolRouter](https://toolrouter.com) | Give your AI agent superpowers with access to 150+ tools on demand with just one account. Competitor research, video production, web search, image generation, security scanning, and more. One API key replaces managing dozens of provider accounts. `npx -y toolrouter-mcp` |
 
 ### Templates
 
