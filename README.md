@@ -103,6 +103,7 @@ MCP servers for web search, content access, and web automation.
 | 11 | **linkedin-mcp-server** | MCP server for accessing LinkedIn profiles, companies, jobs, and performing job searches | TBD | [GitHub](https://github.com/stickerdaniel/linkedin-mcp-server) |
 | 12 | **browser-use-mcp-server** | MCP server for browser automation — browse the web directly from Cursor and other AI assistants | TBD | [GitHub](https://github.com/kontext-dev/browser-use-mcp-server) |
 | 13 | **chrome-devtools-mcp** | Chrome DevTools MCP server for coding agents — inspect pages, capture logs, and debug | TBD | [GitHub](https://github.com/ChromeDevTools/chrome-devtools-mcp) |
+| 14 | **safari-mcp** | Native Safari browser automation for AI agents on macOS — 80 tools, ~5ms per command, zero Chrome overhead | macOS | [GitHub](https://github.com/achiya-automation/safari-mcp) |
 | 14 | **google_workspace_mcp** | Control Gmail, Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, and Drive with AI via MCP | TBD | [GitHub](https://github.com/taylorwilsdon/google_workspace_mcp) |
 
 ### Integrations & APIs
