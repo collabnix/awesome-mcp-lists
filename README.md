@@ -413,7 +413,6 @@ There are currently 109 MCP servers available:
 | 5 | **VirusTotal** | File and URL security analysis | TBD | [GitHub](https://github.com/skydeckai/virustotal-mcp-server) |
 | 6 | risken | Security risk management platform | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/risken.md) |
 | 7 | **Agent Module** | EU AI Act compliance logic for autonomous agents — risk classification, prohibited practices, transparency obligations, GDPR data protection. Free 24hr trial, self-provisioned via MCP | TBD | [GitHub](https://github.com/AgentModule/mcp) |
-| 8 | **damn-vulnerable-MCP-server** | Intentionally vulnerable MCP server for security research, training, and CTF exercises | TBD | [GitHub](https://github.com/harishsg993010/damn-vulnerable-MCP-server) |
 
 ### Development Tools
 
