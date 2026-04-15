@@ -355,10 +355,8 @@ MCP servers for AI and machine learning capabilities.
 | 2 | punkpeye/mcp-proxy | TypeScript | SSE proxy for MCP servers |
 | 3 | multi-mcp | Python | Multi-MCP Proxy Server |
 | 4 | f/MCPTools | Go | CLI tool for MCP server interactions |
-| 5 | portel-dev/ncp | TypeScript | MCP orchestrator with intelligent discovery, 98.2% accuracy, and 94.8% token savings. Transforms 100+ tools into 2 unified interfaces |
+| 5 | portel-dev/ncp | TypeScript | **1 MCP to rule them all** - Orchestrates your entire MCP ecosystem through intelligent discovery, eliminating token overhead while maintaining 98.2% accuracy. Transform 100+ tools into 2 unified interfaces, achieve 94.8% token savings |
 | 6 | strowk/mcp-autotest | Go | YAML-based autotest tool |
-| 7 | khalidsaidi/ragmap | TypeScript | RAG-focused MCP subregistry + discovery server: semantic/keyword search, filters (transport, hasRemote, reachable), MCP tools for finding retrieval-capable servers. [GitHub](https://github.com/khalidsaidi/ragmap) · [API](https://ragmap-api.web.app) |
-| 8 | [MCP Trust Kit](https://github.com/aak204/MCP-Trust-Kit) | Python | Deterministic CI scanner and surface-risk scoring for MCP servers. |
 
 ### Hosting Solutions
 
