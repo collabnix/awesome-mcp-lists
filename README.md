@@ -142,7 +142,7 @@ MCP servers for accessing external services and APIs.
 | 19 | **nutrient-dws-mcp-server** | MCP server for Nutrient Document Web Services API — convert, merge, redact, sign, OCR, watermark, and extract documents | TBD | [GitHub](https://github.com/PSPDFKit/nutrient-dws-mcp-server) |
 | 20 | **n8n-mcp-server** | MCP server for interacting with the n8n workflow automation API | TBD | [GitHub](https://github.com/leonardsellem/n8n-mcp-server) |
 | 21 | **Gmail-MCP-Server** | MCP server for Gmail integration — read, search, send, and manage emails in Claude Desktop | TBD | [GitHub](https://github.com/jasonsum/Gmail-MCP-Server) |
-| 22 | **rustchain-mcp-server** | RustChain blockchain MCP server — health, balance, miners, epoch, bounties, network stats for AI agents. Zero deps, stdio+HTTP. Node: https://50.28.86.131 | TBD | [GitHub](https://github.com/Scottcjn/rustchain-bounties) |
+| 22 | **MRC Data** | China's apparel supply chain data infrastructure for AI agents — 1,040+ suppliers, 351 lab-tested fabrics, 173 industrial clusters with AATCC / ISO / GB lab test data | TBD | [GitHub](https://github.com/meacheal-ai/mrc-data) |
 
 ### AI & Machine Learning
 
