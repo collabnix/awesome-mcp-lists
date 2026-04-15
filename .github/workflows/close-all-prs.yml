@@ -1,0 +1,65 @@
+name: Close All Open Pull Requests
+
+on:
+  workflow_dispatch:
+    inputs:
+      exclude_pr:
+        description: 'PR number to exclude from closing (optional)'
+        required: false
+        default: ''
+        type: string
+
+permissions:
+  pull-requests: write
+
+jobs:
+  close-all-prs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Close all open pull requests
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          EXCLUDE_PR: ${{ inputs.exclude_pr }}
+        run: |
+          echo "Fetching all open pull requests in $REPO..."
+
+          # Get all open PRs as JSON array of numbers
+          PR_NUMBERS=$(gh pr list --repo "$REPO" --state open --json number --jq '.[].number')
+
+          if [ -z "$PR_NUMBERS" ]; then
+            echo "No open pull requests found."
+            exit 0
+          fi
+
+          echo "Open PRs found: $PR_NUMBERS"
+
+          CLOSED=0
+          FAILED=0
+          SKIPPED=0
+
+          for PR in $PR_NUMBERS; do
+            if [ -n "$EXCLUDE_PR" ] && [ "$PR" = "$EXCLUDE_PR" ]; then
+              echo "Skipping PR #$PR (excluded by input)"
+              SKIPPED=$((SKIPPED + 1))
+              continue
+            fi
+
+            echo "Closing PR #$PR..."
+            if gh pr close "$PR" \
+              --repo "$REPO" \
+              --comment "Closing this pull request as part of a bulk PR cleanup. Thank you for your contribution!"; then
+              echo "✅ PR #$PR closed"
+              CLOSED=$((CLOSED + 1))
+            else
+              echo "⚠️  Failed to close PR #$PR"
+              FAILED=$((FAILED + 1))
+            fi
+          done
+
+          echo ""
+          echo "Summary:"
+          echo "  Closed:  $CLOSED"
+          echo "  Failed:  $FAILED"
+          echo "  Skipped: $SKIPPED"
