@@ -103,16 +103,7 @@ MCP servers for web search, content access, and web automation.
 | 3 | puppeteer | Automate browser interactions and scrape web content | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/puppeteer.md) |
 | 4 | duckduckgo | Privacy-focused web search engine | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/duckduckgo.md) |
 | 5 | firecrawl | Web crawling and content extraction tool | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/firecrawl.md) |
-| 6 | **ContextWire** | Free search API for AI agents with multi-engine support, multiple search profiles, and a remote MCP server (streamable-http). 1,000 free queries/month | TBD | [GitHub](https://github.com/keptlive/contextwire-mcp) |
-| 7 | **exa-mcp-server** | Official Exa MCP server for web search and web crawling | TBD | [GitHub](https://github.com/exa-labs/exa-mcp-server) |
-| 8 | **browser-tools-mcp** | Monitor browser logs and console directly from Cursor and other MCP-compatible IDEs | TBD | [GitHub](https://github.com/AgentDeskAI/browser-tools-mcp) |
-| 9 | **apple-docs-mcp** | MCP server for Apple Developer Documentation — search iOS/macOS/SwiftUI/UIKit docs, WWDC videos, and code examples | TBD | [GitHub](https://github.com/kimsungwhee/apple-docs-mcp) |
-| 10 | **arxiv-mcp-server** | MCP server for searching and analyzing arXiv papers | TBD | [GitHub](https://github.com/blazickjp/arxiv-mcp-server) |
-| 11 | **linkedin-mcp-server** | MCP server for accessing LinkedIn profiles, companies, jobs, and performing job searches | TBD | [GitHub](https://github.com/stickerdaniel/linkedin-mcp-server) |
-| 12 | **browser-use-mcp-server** | MCP server for browser automation — browse the web directly from Cursor and other AI assistants | TBD | [GitHub](https://github.com/kontext-dev/browser-use-mcp-server) |
-| 13 | **chrome-devtools-mcp** | Chrome DevTools MCP server for coding agents — inspect pages, capture logs, and debug | TBD | [GitHub](https://github.com/ChromeDevTools/chrome-devtools-mcp) |
-| 14 | **safari-mcp** | Native Safari browser automation for AI agents on macOS — 80 tools, ~5ms per command, zero Chrome overhead | macOS | [GitHub](https://github.com/achiya-automation/safari-mcp) |
-| 14 | **google_workspace_mcp** | Control Gmail, Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, and Drive with AI via MCP | TBD | [GitHub](https://github.com/taylorwilsdon/google_workspace_mcp) |
+| 6 | contextwire | Free search API for AI agents — 105 engines, 22 profiles, MCP server, 94.3% SimpleQA accuracy | TBD | [GitHub](https://github.com/keptlive/contextwire-mcp) |
 
 ### Integrations & APIs
 
@@ -124,7 +115,8 @@ MCP servers for accessing external services and APIs.
 | 1 | stripe | Process payments and manage financial transactions | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/stripe.md) |
 | 2 | shopify | Manage Shopify e-commerce stores and products | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/shopify.md) |
 | 3 | **shopsavvy** | Complete product and pricing data solution - search products, compare prices, track history | TBD | [GitHub](https://github.com/shopsavvy/shopsavvy-mcp-server) |
-| 4 | atlassian | Integrate with Atlassian products like Jira and Confluence | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/atlassian.md) |
+| 4 | **agent-signal** | Collective intelligence for AI shopping agents - 23 tools for buyer intelligence, seller analytics, price alerts, and trend tracking | TBD | [GitHub](https://github.com/dan24ou-cpu/agent-signal) |
+| 5 | atlassian | Integrate with Atlassian products like Jira and Confluence | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/atlassian.md) |
 | 5 | azure | Interact with Microsoft Azure cloud services and resources | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/azure.md) |
 | 6 | google-maps | Geographic information and location services | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/google-maps.md) |
 | 7 | slack | Send and receive messages in Slack workspaces | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/slack.md) |
@@ -271,10 +263,8 @@ MCP servers for AI and machine learning capabilities.
 | 2 | punkpeye/mcp-proxy | TypeScript | SSE proxy for MCP servers |
 | 3 | multi-mcp | Python | Multi-MCP Proxy Server |
 | 4 | f/MCPTools | Go | CLI tool for MCP server interactions |
-| 5 | portel-dev/ncp | TypeScript | MCP orchestrator with intelligent discovery, 98.2% accuracy, and 94.8% token savings. Transforms 100+ tools into 2 unified interfaces |
+| 5 | portel-dev/ncp | TypeScript | **1 MCP to rule them all** - Orchestrates your entire MCP ecosystem through intelligent discovery, eliminating token overhead while maintaining 98.2% accuracy. Transform 100+ tools into 2 unified interfaces, achieve 94.8% token savings |
 | 6 | strowk/mcp-autotest | Go | YAML-based autotest tool |
-| 7 | khalidsaidi/ragmap | TypeScript | RAG-focused MCP subregistry + discovery server: semantic/keyword search, filters (transport, hasRemote, reachable), MCP tools for finding retrieval-capable servers. [GitHub](https://github.com/khalidsaidi/ragmap) · [API](https://ragmap-api.web.app) |
-| 8 | [MCP Trust Kit](https://github.com/aak204/MCP-Trust-Kit) | Python | Deterministic CI scanner and surface-risk scoring for MCP servers. |
 
 ### Hosting Solutions
 
@@ -436,12 +426,7 @@ There are currently 109 MCP servers available:
 | 4 | openapi-schema | API definition and documentation standard | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/openapi-schema.md) |
 | 5 | desktop-commander | Control desktop applications and perform system operations | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/desktop-commander.md) |
 | 6 | Roundtable | Zero-configuration MCP server that unifies multiple AI coding assistants (Claude Code, Cursor, GPT-4) for enhanced development workflows | Production Ready | [GitHub](https://github.com/askbudi/roundtable) |
-| 7 | **onUI** | Open-source browser extension and MCP server for annotation-first UI pair programming with AI agents. 8 MCP tools for accessing UI annotations. Works with Claude Code, Cursor, Windsurf. Chrome, Edge, Firefox. Local only, GPL-3.0 | TBD | [GitHub](https://github.com/onllm-dev/onUI) |
-| 8 | **XcodeBuildMCP** | MCP server and CLI for Xcode build, test, and deploy operations in AI coding agents | TBD | [GitHub](https://github.com/cameroncooke/XcodeBuildMCP) |
-| 9 | **drawio-mcp-server** | MCP server for creating and editing Draw.io diagrams via AI assistants | TBD | [GitHub](https://github.com/Jinksi/drawio-mcp-server) |
-| 10 | **mcp-language-server** | MCP server that gives clients access to semantic tools like go-to-definition, find-references, and hover documentation | TBD | [GitHub](https://github.com/isaacphi/mcp-language-server) |
-| 11 | **Office-Word-MCP-Server** | MCP server for creating, reading, and manipulating Microsoft Word documents | TBD | [GitHub](https://github.com/GongRzhe/Office-Word-MCP-Server) |
-| 12 | **Office-PowerPoint-MCP-Server** | MCP server for PowerPoint manipulation — create presentations, add slides, and insert content | TBD | [GitHub](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) |
+| 7 | **onUI** | Open-source browser extension and MCP server for annotation-first UI pair programming with AI agents. 8 tools for AI agents to access UI annotations. Works with Claude Code, Cursor, Windsurf. Chrome, Edge, Firefox support. Local only, no cloud backend. GPL-3.0. | TBD | [GitHub](https://github.com/onllm-dev/onUI) |
 
 ### Communication
 
