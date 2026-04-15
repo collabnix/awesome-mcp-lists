@@ -1,4 +1,5 @@
 # A Curated List of containerised MCP Servers, Clients and Toolkits
+- [Asynkor](https://github.com/asynkor/asynkor) - Coordination layer for AI agent teams. File leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/collabnix/awesome-mcp-lists.svg)](https://github.com/collabnix/awesome-mcp-lists/stargazers)
@@ -9,9 +10,11 @@
 [![Docker MCP](https://img.shields.io/badge/Docker-MCP-blue)](https://www.docker.com/)
 
 A comprehensive curated list of containerised MCP Servers, Clients and toolkits.
+- [Asynkor](https://github.com/asynkor/asynkor) - Coordination layer for AI agent teams. File leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf.
 
 ## Table of Contents
 - [MCP Servers](#mcp-servers)
+- [Asynkor](https://github.com/asynkor/asynkor) - Coordination layer for AI agent teams. File leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf.
   - [DevOps & Infrastructure](#devops--infrastructure)
   - [Database & Storage](#database--storage)
   - [Web & Content](#web--content)
@@ -37,12 +40,14 @@ A comprehensive curated list of containerised MCP Servers, Clients and toolkits.
   - [Templates](#templates)
 
 ## Containerised MCP Servers
+- [Asynkor](https://github.com/asynkor/asynkor) - Coordination layer for AI agent teams. File leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf.
 
 ### DevOps & Infrastructure
 
 MCP servers for managing infrastructure, containers, and DevOps workflows.
 
 | # | MCP Server | Description | Docker Hub Pulls | Link |
+- [Asynkor](https://github.com/asynkor/asynkor) - Coordination layer for AI agent teams. File leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf.
 |---|------------|-------------|------------------|------|
 | 1 | github | Manage GitHub repositories and perform Git operations | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/github.md) |
 | 2 | docker | Integrate with Docker to manage containers, images, and networks | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/docker.md) |
@@ -59,6 +64,7 @@ MCP servers for managing infrastructure, containers, and DevOps workflows.
 | 13 | **toolhive** | Enterprise-grade platform for running and managing MCP servers | TBD | [GitHub](https://github.com/stacklok/toolhive) |
 | 14 | **MCPJungle** | Self-hosted MCP Gateway for AI agents | TBD | [GitHub](https://github.com/mcpjungle/MCPJungle) |
 | 15 | **mcp-server-kubernetes** | MCP Server for Kubernetes management commands | TBD | [GitHub](https://github.com/Flux159/mcp-server-kubernetes) |
+- [Asynkor](https://github.com/asynkor/asynkor) - Coordination layer for AI agent teams. File leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf.
 | 16 | **kubectl-mcp-server** | MCP server for Kubernetes via kubectl — install with npx or pip | TBD | [GitHub](https://github.com/rohitg00/kubectl-mcp-server) |
 | 17 | **apify-mcp-server** | Extract data from social media, search engines, maps, and any website using Apify scrapers via MCP | TBD | [GitHub](https://github.com/apify/apify-mcp-server) |
 | 18 | **TrendRadar** | ⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。 | TBD | [GitHub](https://github.com/sansan0/TrendRadar) |
@@ -85,6 +91,7 @@ MCP servers for managing infrastructure, containers, and DevOps workflows.
 MCP servers for accessing and managing databases and storage solutions.
 
 | # | MCP Server | Description | Docker Hub Pulls | Link |
+- [Asynkor](https://github.com/asynkor/asynkor) - Coordination layer for AI agent teams. File leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf.
 |---|------------|-------------|------------------|------|
 | 1 | postgres | Interact with PostgreSQL databases | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/postgres.md) |
 | 2 | **MongoDB** | MongoDB database integration | **4.2K+** | [Docker Hub](https://hub.docker.com/r/mongodb/mongodb-mcp-server) |
@@ -114,6 +121,7 @@ MCP servers for accessing and managing databases and storage solutions.
 MCP servers for web search, content access, and web automation.
 
 | # | MCP Server | Description | Docker Hub Pulls | Link |
+- [Asynkor](https://github.com/asynkor/asynkor) - Coordination layer for AI agent teams. File leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf.
 |---|------------|-------------|------------------|------|
 | 1 | brave | Perform web searches using Brave's privacy-focused search engine | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/brave.md) |
 | 2 | notion | Create and manage content in Notion workspaces | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/notion.md) |
@@ -147,11 +155,13 @@ MCP servers for web search, content access, and web automation.
 MCP servers for accessing external services and APIs.
 
 | # | MCP Server | Description | Docker Hub Pulls | Link |
+- [Asynkor](https://github.com/asynkor/asynkor) - Coordination layer for AI agent teams. File leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf.
 |---|------------|-------------|------------------|------|
 | 1 | stripe | Process payments and manage financial transactions | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/stripe.md) |
 | 2 | shopify | Manage Shopify e-commerce stores and products | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/shopify.md) |
 | 3 | **shopsavvy** | Complete product and pricing data solution - search products, compare prices, track history | TBD | [GitHub](https://github.com/shopsavvy/shopsavvy-mcp-server) |
-| 4 | atlassian | Integrate with Atlassian products like Jira and Confluence | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/atlassian.md) |
+| 4 | **agent-signal** | Collective intelligence for AI shopping agents - 23 tools for buyer intelligence, seller analytics, price alerts, and trend tracking | TBD | [GitHub](https://github.com/dan24ou-cpu/agent-signal) |
+| 5 | atlassian | Integrate with Atlassian products like Jira and Confluence | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/atlassian.md) |
 | 5 | azure | Interact with Microsoft Azure cloud services and resources | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/azure.md) |
 | 6 | google-maps | Geographic information and location services | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/google-maps.md) |
 | 7 | slack | Send and receive messages in Slack workspaces | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/slack.md) |
@@ -176,6 +186,7 @@ MCP servers for accessing external services and APIs.
 MCP servers for AI and machine learning capabilities.
 
 | # | MCP Server | Description | Docker Hub Pulls | Link |
+- [Asynkor](https://github.com/asynkor/asynkor) - Coordination layer for AI agent teams. File leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf.
 |---|------------|-------------|------------------|------|
 | 1 | tavily | AI-powered web search and research assistant | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/tavily.md) |
 | 2 | perplexity-ask | AI-powered question answering system | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/perplexity-ask.md) |
@@ -319,7 +330,9 @@ MCP servers for AI and machine learning capabilities.
 |---|----------|----------|-------------|------|
 | 1 | spring-ai-mcp | Java | Java SDK and Spring Framework integration for building MCP servers | [GitHub](https://github.com/spring-projects-experimental/spring-ai-mcp) |
 | 2 | mark3labs/mcp-go | Go | Golang SDK for building MCP Servers and Clients | [GitHub](https://github.com/mark3labs/mcp-go) |
+- [Asynkor](https://github.com/asynkor/asynkor) - Coordination layer for AI agent teams. File leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf.
 | 3 | foxy-contexts | Go | Golang library to write MCP Servers declaratively with testing included | [GitHub](https://github.com/strowk/foxy-contexts) |
+- [Asynkor](https://github.com/asynkor/asynkor) - Coordination layer for AI agent teams. File leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf.
 | 4 | mcp-rs-template | Rust | MCP CLI server template for Rust | [GitHub](https://github.com/linux-china/mcp-rs-template) |
 | 5 | ModelContextProtocol.NET | C# | A C# SDK for building MCP servers on .NET | [GitHub](https://github.com/salty-flower/ModelContextProtocol.NET) |
 | 6 | http4k MCP SDK | Kotlin | Functional, testable Kotlin SDK for MCP | [GitHub](https://github.com/http4k/http4k) |
@@ -338,21 +351,22 @@ MCP servers for AI and machine learning capabilities.
 
 | # | Tool Name | Language | Description |
 |---|-----------|----------|-------------|
-| 1 | [hamidra/yamcp](https://github.com/hamidra/yamcp) | TypeScript | MCP workspace manager |
-| 2 | [punkpeye/mcp-proxy](https://github.com/punkpeye/mcp-proxy) | TypeScript | SSE proxy for MCP servers |
-| 3 | [multi-mcp](https://github.com/joshuarileydev/multi-mcp) | Python | Multi-MCP Proxy Server |
-| 4 | [f/MCPTools](https://github.com/f/mcptools) | Go | CLI tool for MCP server interactions |
-| 5 | [portel-dev/ncp](https://github.com/portel-dev/ncp) | TypeScript | MCP orchestrator with intelligent discovery, 98.2% accuracy, and 94.8% token savings. Transforms 100+ tools into 2 unified interfaces |
-| 6 | [strowk/mcp-autotest](https://github.com/strowk/mcp-autotest) | Go | YAML-based autotest tool |
-| 7 | [khalidsaidi/ragmap](https://github.com/khalidsaidi/ragmap) | TypeScript | RAG-focused MCP subregistry + discovery server: semantic/keyword search, filters (transport, hasRemote, reachable), MCP tools for finding retrieval-capable servers. [API](https://ragmap-api.web.app) |
-| 8 | [aak204/MCP-Trust-Kit](https://github.com/aak204/MCP-Trust-Kit) | Python | Deterministic CI scanner and surface-risk scoring for MCP servers — checks schema hygiene and flags dangerous capabilities like filesystem mutation or shell execution |
+| 1 | hamidra/yamcp | TypeScript | MCP workspace manager |
+| 2 | punkpeye/mcp-proxy | TypeScript | SSE proxy for MCP servers |
+| 3 | multi-mcp | Python | Multi-MCP Proxy Server |
+| 4 | f/MCPTools | Go | CLI tool for MCP server interactions |
+| 5 | portel-dev/ncp | TypeScript | MCP orchestrator with intelligent discovery, 98.2% accuracy, and 94.8% token savings. Transforms 100+ tools into 2 unified interfaces |
+| 6 | strowk/mcp-autotest | Go | YAML-based autotest tool |
+| 7 | khalidsaidi/ragmap | TypeScript | RAG-focused MCP subregistry + discovery server: semantic/keyword search, filters (transport, hasRemote, reachable), MCP tools for finding retrieval-capable servers. [GitHub](https://github.com/khalidsaidi/ragmap) · [API](https://ragmap-api.web.app) |
+| 8 | [MCP Trust Kit](https://github.com/aak204/MCP-Trust-Kit) | Python | Deterministic CI scanner and surface-risk scoring for MCP servers. |
 
 ### Hosting Solutions
 
 | # | Tool Name | Description |
 |---|-----------|-------------|
-| 1 | [Glama](https://glama.ai) | Platform for hosting open-source MCP servers |
-| 2 | [Smithery](https://smithery.ai) | Cloud hosting for MCP servers via containers |
+| 1 | Glama | Platform for hosting open-source MCP servers |
+| 2 | Smithery | Cloud hosting for MCP servers via containers |
+| 3 | [ToolRouter](https://toolrouter.com) | Give your AI agent superpowers with access to 150+ tools on demand with just one account. Competitor research, video production, web search, image generation, security scanning, and more. One API key replaces managing dozens of provider accounts. `npx -y toolrouter-mcp` |
 
 ### Templates
 
@@ -369,6 +383,7 @@ Docker provides a comprehensive MCP Toolkit with over 100 pre-built MCP servers 
 There are currently 109 MCP servers available:
 
 | # | MCP Server | Description | Docker Hub Pulls | Link |
+- [Asynkor](https://github.com/asynkor/asynkor) - Coordination layer for AI agent teams. File leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf.
 |---|------------|-------------|------------------|------|
 | 1 | github | Manage GitHub repositories and perform Git operations | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/github.md) |
 | 2 | docker | Integrate with Docker to manage containers, images, and networks | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/docker.md) |
@@ -483,6 +498,7 @@ There are currently 109 MCP servers available:
 ### Security & Authentication
 
 | # | MCP Server | Description | Docker Hub Pulls | Link |
+- [Asynkor](https://github.com/asynkor/asynkor) - Coordination layer for AI agent teams. File leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf.
 |---|------------|-------------|------------------|------|
 | 1 | sentry | Monitor application errors and performance | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/sentry.md) |
 | 2 | cyreslab-ai-shodan | Search for internet-connected devices using Shodan | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/cyreslab-ai-shodan.md) |
@@ -502,6 +518,7 @@ There are currently 109 MCP servers available:
 ### Development Tools
 
 | # | MCP Server | Description | Docker Hub Pulls | Link |
+- [Asynkor](https://github.com/asynkor/asynkor) - Coordination layer for AI agent teams. File leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf.
 |---|------------|-------------|------------------|------|
 | 1 | filesystem | Interact with file system and perform file operations | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/filesystem.md) |
 | 2 | e2b | Cloud-based development environment | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/e2b.md) |
@@ -531,6 +548,7 @@ There are currently 109 MCP servers available:
 ### Communication
 
 | # | MCP Server | Description | Docker Hub Pulls | Link |
+- [Asynkor](https://github.com/asynkor/asynkor) - Coordination layer for AI agent teams. File leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf.
 |---|------------|-------------|------------------|------|
 | 1 | mcp-discord | Discord messaging and community management | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/mcp-discord.md) |
 | 2 | line | Messaging application and platform integration | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/line.md) |
@@ -541,6 +559,7 @@ There are currently 109 MCP servers available:
 ### Knowledge Management
 
 | # | MCP Server | Description | Docker Hub Pulls | Link |
+- [Asynkor](https://github.com/asynkor/asynkor) - Coordination layer for AI agent teams. File leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf.
 |---|------------|-------------|------------------|------|
 | 1 | obsidian | Work with Obsidian notes and knowledge management | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/obsidian.md) |
 | 2 | fibery | Connected work platform for knowledge management | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/fibery.md) |
@@ -551,6 +570,7 @@ There are currently 109 MCP servers available:
 ### Multimedia & Design
 
 | # | MCP Server | Description | Docker Hub Pulls | Link |
+- [Asynkor](https://github.com/asynkor/asynkor) - Coordination layer for AI agent teams. File leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf.
 |---|------------|-------------|------------------|------|
 | 1 | gyazo | Screenshot capturing and sharing service | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/gyazo.md) |
 | 2 | handwriting-ocr | Optical character recognition for handwritten text | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/handwriting-ocr.md) |
@@ -570,6 +590,7 @@ There are currently 109 MCP servers available:
 6. Browse the catalog and start using MCP tools with your AI assistant
 
 For a complete list of Docker MCP Servers (109+ implementations), visit the [Docker MCP Toolkit GitHub repository](https://github.com/docker/labs-ai-tools-for-devs/tree/main/prompts/mcp).
+- [Asynkor](https://github.com/asynkor/asynkor) - Coordination layer for AI agent teams. File leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf.
 
 ## Contributing
 
