@@ -1,12 +1,12 @@
-name: Update MCP Servers
+name: Discover New MCP Tools
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Run daily at midnight UTC
+    - cron: '0 0 * * 1'  # Run weekly on Monday at midnight UTC
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
-  update-mcp-servers:
+  discover-mcp-tools:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -14,208 +14,234 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          node-version: '18'
+          python-version: '3.11'
 
       - name: Install dependencies
-        run: npm install axios cheerio
+        run: pip install requests
 
-      - name: Create .github directory if not exists
-        run: mkdir -p .github/scripts
-
-      - name: Create update script
+      - name: Discover new MCP tools from GitHub
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          cat > .github/scripts/update-mcp-servers.js << 'EOF'
-          const axios = require('axios');
-          const cheerio = require('cheerio');
-          const fs = require('fs');
-          const path = require('path');
+          python3 - << 'PYEOF'
+          import os
+          import re
+          import json
+          import time
+          import requests
 
-          // Function to fetch MCP servers from glama.ai
-          async function fetchMcpServers() {
-              console.log('Fetching MCP servers from glama.ai...');
-              
-              // First attempt to use API if available
-              try {
-                  const response = await axios.get('https://glama.ai/api/mcp/servers');
-                  if (response.data && Array.isArray(response.data)) {
-                      console.log(`Found ${response.data.length} servers via API`);
-                      return response.data;
-                  }
-              } catch (error) {
-                  console.log('API approach failed, falling back to web scraping');
-              }
-              
-              // Fallback to web scraping
-              try {
-                  const response = await axios.get('https://glama.ai/mcp/servers');
-                  const html = response.data;
-                  const $ = cheerio.load(html);
-                  
-                  const servers = [];
-                  
-                  // This selector might need adjustment based on the actual HTML structure
-                  $('.server-card').each((i, elem) => {
-                      const title = $(elem).find('.server-title').text().trim();
-                      const description = $(elem).find('.server-description').text().trim();
-                      const url = $(elem).find('.server-link').attr('href');
-                      
-                      if (title) {
-                          servers.push({
-                              name: title,
-                              description: description || 'No description available',
-                              url: url ? `https://glama.ai${url}` : null
-                          });
-                      }
-                  });
-                  
-                  console.log(`Found ${servers.length} servers via web scraping`);
-                  return servers;
-              } catch (error) {
-                  console.error('Error fetching MCP servers:', error);
-                  return [];
-              }
+          GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
+          README_PATH = "README.md"
+
+          headers = {
+              "Authorization": f"Bearer {GITHUB_TOKEN}",
+              "Accept": "application/vnd.github+json",
+              "X-GitHub-Api-Version": "2022-11-28",
           }
 
-          // Function to update the README.md file
-          async function updateReadme(servers) {
-              console.log('Updating README.md...');
-              
-              const readmePath = path.join(process.cwd(), 'README.md');
-              let readmeContent = fs.readFileSync(readmePath, 'utf8');
-              
-              // Extract the current server table section
-              const serverTableRegex = /(## MCP Servers\s+)([\s\S]*?)(\s+## MCP Clients)/;
-              const match = readmeContent.match(serverTableRegex);
-              
-              if (!match) {
-                  console.error('Could not find the MCP Servers section in README.md');
-                  return false;
+          def search_github(query, per_page=30):
+              """Search GitHub repositories and return a list of results."""
+              url = "https://api.github.com/search/repositories"
+              params = {
+                  "q": query,
+                  "sort": "stars",
+                  "order": "desc",
+                  "per_page": per_page,
               }
-              
-              // Keep the existing categories and their descriptions
-              let currentContent = match[2];
-              const categoryRegex = /### (.+)\s+([\s\S]*?)(?=\s+\| # \| MCP Server)/g;
-              const categories = [];
-              let categoryMatch;
-              
-              while ((categoryMatch = categoryRegex.exec(currentContent)) !== null) {
-                  categories.push({
-                      name: categoryMatch[1],
-                      description: categoryMatch[2].trim()
-                  });
-              }
-              
-              // Generate new content with updated servers
-              let newContent = '';
-              
-              for (const category of categories) {
-                  newContent += `### ${category.name}\n\n${category.description}\n\n`;
-                  newContent += '| # | MCP Server | Description | Docker Hub Pulls | Link |\n';
-                  newContent += '|---|------------|-------------|-----------------|------|\n';
-                  
-                  // Filter servers for this category (this is a simplistic approach)
-                  // In a real implementation, you'd need a way to categorize the servers
-                  const categoryServers = servers.filter(server => 
-                      server.name.toLowerCase().includes(category.name.toLowerCase()) ||
-                      server.description.toLowerCase().includes(category.name.toLowerCase())
-                  ).slice(0, 5); // Limit to 5 servers per category for simplicity
-                  
-                  categoryServers.forEach((server, index) => {
-                      const dockerHubPulls = 'TBD'; // This would require additional API calls to get
-                      const link = server.url ? `[GitHub](${server.url})` : 'TBD';
-                      
-                      newContent += `| ${index + 1} | ${server.name} | ${server.description} | ${dockerHubPulls} | ${link} |\n`;
-                  });
-                  
-                  // If we didn't find any servers for this category, keep the existing ones
-                  if (categoryServers.length === 0) {
-                      const tableRegex = new RegExp(`### ${category.name}\\s+${category.description}\\s+(\\| # \\| MCP Server.*?\\n)((?:\\|.*?\\|\\n)+)`, 's');
-                      const tableMatch = currentContent.match(tableRegex);
-                      
-                      if (tableMatch) {
-                          newContent += tableMatch[1] + tableMatch[2];
-                      }
-                  }
-                  
-                  newContent += '\n';
-              }
-              
-              // Replace the old content with the new content
-              const updatedReadmeContent = readmeContent.replace(serverTableRegex, `$1${newContent}$3`);
-              
-              // Write the updated content back to the README.md file
-              fs.writeFileSync(readmePath, updatedReadmeContent, 'utf8');
-              
-              console.log('README.md updated successfully');
-              return true;
-          }
+              try:
+                  resp = requests.get(url, headers=headers, params=params, timeout=30)
+                  resp.raise_for_status()
+                  return resp.json().get("items", [])
+              except Exception as e:
+                  print(f"Warning: search failed for '{query}': {e}")
+                  return []
 
-          // Main function
-          async function main() {
-              try {
-                  const servers = await fetchMcpServers();
-                  
-                  if (servers.length === 0) {
-                      console.log('No servers found, exiting');
-                      process.exit(1);
-                  }
-                  
-                  const updated = await updateReadme(servers);
-                  
-                  if (!updated) {
-                      console.log('Failed to update README.md, exiting');
-                      process.exit(1);
-                  }
-                  
-                  console.log('Update completed successfully');
-              } catch (error) {
-                  console.error('Error in main function:', error);
-                  process.exit(1);
-              }
-          }
+          def extract_existing_urls(readme_content):
+              """Extract all GitHub repo URLs already referenced in the README."""
+              pattern = r'https://github\.com/([\w.-]+/[\w.-]+)/?'
+              matches = re.findall(pattern, readme_content)
+              return {m.lower().rstrip('/') for m in matches}
 
-          // Run the main function
-          main();
-          EOF
+          def categorize_repo(repo):
+              """Return a category name based on repo topics and description."""
+              topics = [t.lower() for t in repo.get("topics", [])]
+              description = (repo.get("description") or "").lower()
+              name = repo.get("name", "").lower()
 
-      - name: Run update script
-        run: node .github/scripts/update-mcp-servers.js
+              combined = " ".join(topics) + " " + description + " " + name
+
+              if any(kw in combined for kw in ["database", "postgres", "mysql", "sqlite", "mongo", "redis", "storage", "db"]):
+                  return "Database & Storage"
+              if any(kw in combined for kw in ["devops", "kubernetes", "docker", "terraform", "ci", "cd", "infrastructure", "k8s", "helm"]):
+                  return "DevOps & Infrastructure"
+              if any(kw in combined for kw in ["web", "browser", "crawl", "scrape", "search", "content"]):
+                  return "Web & Content"
+              if any(kw in combined for kw in ["auth", "security", "crypto", "vault", "secret"]):
+                  return "Security & Authentication"
+              if any(kw in combined for kw in ["ai", "ml", "llm", "machine learning", "openai", "anthropic", "embedding"]):
+                  return "AI & Machine Learning"
+              if any(kw in combined for kw in ["slack", "discord", "email", "chat", "messaging", "communication", "telegram"]):
+                  return "Communication"
+              if any(kw in combined for kw in ["stripe", "shopify", "payment", "api", "integration", "webhook"]):
+                  return "Integrations & APIs"
+              if any(kw in combined for kw in ["note", "wiki", "knowledge", "obsidian", "notion"]):
+                  return "Knowledge Management"
+              if any(kw in combined for kw in ["image", "video", "audio", "media", "design", "photo"]):
+                  return "Multimedia & Design"
+              return "Development Tools"
+
+          def find_section_end(lines, section_name):
+              """Find the last table row line index within the given section."""
+              in_section = False
+              last_row_idx = -1
+              for i, line in enumerate(lines):
+                  if line.strip().startswith("### ") and section_name in line:
+                      in_section = True
+                      continue
+                  if in_section:
+                      if line.strip().startswith("### ") or line.strip().startswith("## "):
+                          break
+                      if line.strip().startswith("|") and not line.strip().startswith("|---|") and line.count("|") >= 4:
+                          last_row_idx = i
+              return last_row_idx
+
+          def current_row_count(lines, section_name):
+              """Count data rows (not header/separator) in the section's table."""
+              in_section = False
+              count = 0
+              for line in lines:
+                  if line.strip().startswith("### ") and section_name in line:
+                      in_section = True
+                      continue
+                  if in_section:
+                      if line.strip().startswith("### ") or line.strip().startswith("## "):
+                          break
+                      stripped = line.strip()
+                      if stripped.startswith("|") and not stripped.startswith("|---|") and not stripped.startswith("| #") and stripped.count("|") >= 4:
+                          count += 1
+              return count
+
+          # --- Main logic ---
+          with open(README_PATH, "r", encoding="utf-8") as f:
+              readme = f.read()
+
+          existing_urls = extract_existing_urls(readme)
+          print(f"Found {len(existing_urls)} existing GitHub repo references in README.")
+
+          # Search GitHub for MCP server repositories
+          queries = [
+              "topic:mcp-server",
+              "topic:model-context-protocol",
+              "mcp-server in:name stars:>10",
+          ]
+
+          candidates = {}
+          for q in queries:
+              results = search_github(q, per_page=50)
+              for repo in results:
+                  full_name = repo.get("full_name", "")
+                  if full_name and full_name.lower() not in candidates:
+                      candidates[full_name.lower()] = repo
+              time.sleep(2)
+
+          print(f"Found {len(candidates)} candidate repos from GitHub search.")
+
+          # Filter to repos not already in the README
+          new_repos = []
+          for key, repo in candidates.items():
+              repo_path = repo["full_name"].lower()
+              if repo_path not in existing_urls:
+                  new_repos.append(repo)
+
+          print(f"Found {len(new_repos)} new repos not yet in README.")
+
+          if not new_repos:
+              print("No new tools found. Exiting.")
+              exit(0)
+
+          # Group new repos by category
+          by_category = {}
+          for repo in new_repos:
+              cat = categorize_repo(repo)
+              by_category.setdefault(cat, []).append(repo)
+
+          # Insert new rows into README sections
+          lines = readme.splitlines(keepends=True)
+          added = 0
+
+          for category, repos in by_category.items():
+              for repo in repos:
+                  name = repo.get("name", "")
+                  description = (repo.get("description") or "No description available.").replace("|", "&#124;")
+                  url = repo.get("html_url", "")
+                  stars = repo.get("stargazers_count", 0)
+
+                  # Skip if description is empty/unhelpful
+                  if not description or description == "No description available.":
+                      continue
+
+                  insert_idx = find_section_end(lines, category)
+                  if insert_idx == -1:
+                      print(f"  Section '{category}' not found, skipping {name}")
+                      continue
+
+                  row_num = current_row_count(lines, category) + 1
+                  new_row = f"| {row_num} | **{name}** | {description} | TBD | [GitHub]({url}) |\n"
+                  lines.insert(insert_idx + 1, new_row)
+                  print(f"  Added [{category}] {name} ({stars}⭐)")
+                  added += 1
+
+          if added == 0:
+              print("No rows inserted (all filtered out). Exiting.")
+              exit(0)
+
+          with open(README_PATH, "w", encoding="utf-8") as f:
+              f.writelines(lines)
+
+          print(f"README.md updated with {added} new tools.")
+          PYEOF
 
       - name: Check for changes
         id: check_changes
         run: |
-          git diff --quiet README.md || echo "has_changes=true" >> $GITHUB_OUTPUT
+          if git diff --quiet README.md; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
 
       - name: Create Pull Request
-        if: steps.check_changes.outputs.has_changes == 'true'
-        uses: peter-evans/create-pull-request@v5
+        if: steps.check_changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v6
         with:
-          commit-message: "chore: update MCP servers from glama.ai"
-          title: "Update MCP Servers from glama.ai"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "feat: add newly discovered MCP tools from GitHub"
+          title: "🔍 Add newly discovered MCP tools from GitHub"
           body: |
-            This PR automatically updates the MCP servers list from glama.ai.
-            
-            - Fetched latest MCP servers
-            - Updated README.md with new information
-            
-            Auto-generated by GitHub Actions.
-          branch: update-mcp-servers
+            ## 🔍 Automated MCP Tool Discovery
+
+            This PR was automatically generated by the weekly GitHub repository scan.
+
+            ### How it works
+            - Searches GitHub for repositories with topics `mcp-server` and `model-context-protocol`
+            - Also searches for repos with "mcp-server" in their name with 10+ stars
+            - Filters out repositories already listed in the README
+            - Categorises new repos and appends them to the relevant sections
+
+            ### Review checklist
+            - [ ] Verify each new entry is a genuine MCP server/tool
+            - [ ] Check descriptions are accurate
+            - [ ] Confirm links are correct
+            - [ ] Adjust categories if needed
+
+            Auto-generated by GitHub Actions — please review before merging.
+          branch: auto/discover-mcp-tools
           base: main
-          labels: automation, mcp-update
+          labels: automation,mcp-update
           delete-branch: true
-          
-      - name: Auto-merge if minor update
-        if: steps.check_changes.outputs.has_changes == 'true'
-        run: |
-          PR_NUMBER=$(gh pr list --head update-mcp-servers --json number --jq .[0].number)
-          if [ -n "$PR_NUMBER" ]; then
-            echo "Auto-merging PR #$PR_NUMBER"
-            gh pr merge $PR_NUMBER --auto --merge
-          fi
-        env:
-          GH_TOKEN: ${{ github.token }}
+
