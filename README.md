@@ -272,14 +272,14 @@ MCP servers for AI and machine learning capabilities.
 
 | # | Tool Name | Language | Description |
 |---|-----------|----------|-------------|
-| 1 | [hamidra/yamcp](https://github.com/hamidra/yamcp) | TypeScript | MCP workspace manager |
-| 2 | [punkpeye/mcp-proxy](https://github.com/punkpeye/mcp-proxy) | TypeScript | SSE proxy for MCP servers |
-| 3 | [multi-mcp](https://github.com/joshuarileydev/multi-mcp) | Python | Multi-MCP Proxy Server |
-| 4 | [f/MCPTools](https://github.com/f/mcptools) | Go | CLI tool for MCP server interactions |
-| 5 | [portel-dev/ncp](https://github.com/portel-dev/ncp) | TypeScript | MCP orchestrator with intelligent discovery, 98.2% accuracy, and 94.8% token savings. Transforms 100+ tools into 2 unified interfaces |
-| 6 | [strowk/mcp-autotest](https://github.com/strowk/mcp-autotest) | Go | YAML-based autotest tool |
-| 7 | [khalidsaidi/ragmap](https://github.com/khalidsaidi/ragmap) | TypeScript | RAG-focused MCP subregistry + discovery server: semantic/keyword search, filters (transport, hasRemote, reachable), MCP tools for finding retrieval-capable servers. [API](https://ragmap-api.web.app) |
-| 8 | [aak204/MCP-Trust-Kit](https://github.com/aak204/MCP-Trust-Kit) | Python | Deterministic CI scanner and surface-risk scoring for MCP servers — checks schema hygiene and flags dangerous capabilities like filesystem mutation or shell execution |
+| 1 | hamidra/yamcp | TypeScript | MCP workspace manager |
+| 2 | punkpeye/mcp-proxy | TypeScript | SSE proxy for MCP servers |
+| 3 | multi-mcp | Python | Multi-MCP Proxy Server |
+| 4 | f/MCPTools | Go | CLI tool for MCP server interactions |
+| 5 | portel-dev/ncp | TypeScript | MCP orchestrator with intelligent discovery, 98.2% accuracy, and 94.8% token savings. Transforms 100+ tools into 2 unified interfaces |
+| 6 | strowk/mcp-autotest | Go | YAML-based autotest tool |
+| 7 | khalidsaidi/ragmap | TypeScript | RAG-focused MCP subregistry + discovery server: semantic/keyword search, filters (transport, hasRemote, reachable), MCP tools for finding retrieval-capable servers. [GitHub](https://github.com/khalidsaidi/ragmap) · [API](https://ragmap-api.web.app) |
+| 8 | [MCP Trust Kit](https://github.com/aak204/MCP-Trust-Kit) | Python | Deterministic CI scanner and surface-risk scoring for MCP servers. |
 
 ### Hosting Solutions
 
