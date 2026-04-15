@@ -126,15 +126,7 @@ MCP servers for accessing external services and APIs.
 | 11 | resend | Email delivery and management service | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/resend.md) |
 | 12 | **x402engine-mcp** | 51 pay-per-call APIs for AI agents — LLMs, image/video generation, code execution, TTS, transcription, crypto data, wallet analytics, web scraping, and IPFS via HTTP 402 micropayments | TBD | [GitHub](https://github.com/agentc22/x402engine-mcp) |
 | 13 | **mcp-api-bridge-lite** | Free REST API to MCP bridge — connect any REST API to AI assistants with simple YAML configuration, supporting GET, POST, PUT, DELETE with authentication | TBD | [GitHub](https://github.com/tiranmoskovitch-dev/mcp-api-bridge-lite) |
-| 14 | **lightning-wallet-mcp** | Give AI agents a Bitcoin wallet with Lightning Network payments and L402 support | TBD | [GitHub](https://github.com/lightningfaucet/lightning-wallet-mcp) |
-| 15 | **WritBase** | MCP-native task management for AI agent fleets | TBD | [GitHub](https://github.com/Writbase/writbase) |
-| 16 | **agent-signal** | Collective intelligence for AI shopping agents — buyer intelligence, seller analytics, price alerts, and session logging | TBD | [GitHub](https://github.com/dan24ou-cpu/agent-signal) |
-| 17 | **dexpaprika-mcp** | Real-time DEX data across multiple blockchains with pool, token, OHLCV, and trade data. Free, no API key | TBD | [GitHub](https://github.com/coinpaprika/dexpaprika-mcp) |
-| 18 | **coinpaprika-mcp** | Crypto market data for thousands of coins and exchanges — tickers, OHLCV, historical prices. Free, no API key | TBD | [GitHub](https://github.com/coinpaprika/coinpaprika-mcp) |
-| 19 | **nutrient-dws-mcp-server** | MCP server for Nutrient Document Web Services API — convert, merge, redact, sign, OCR, watermark, and extract documents | TBD | [GitHub](https://github.com/PSPDFKit/nutrient-dws-mcp-server) |
-| 20 | **n8n-mcp-server** | MCP server for interacting with the n8n workflow automation API | TBD | [GitHub](https://github.com/leonardsellem/n8n-mcp-server) |
-| 21 | **Gmail-MCP-Server** | MCP server for Gmail integration — read, search, send, and manage emails in Claude Desktop | TBD | [GitHub](https://github.com/jasonsum/Gmail-MCP-Server) |
-| 22 | **MRC Data** | China's apparel supply chain data infrastructure for AI agents — 1,040+ suppliers, 351 lab-tested fabrics, 173 industrial clusters with AATCC / ISO / GB lab test data | TBD | [GitHub](https://github.com/meacheal-ai/mrc-data) |
+| 14 | nutrient-dws-mcp-server | MCP server for Nutrient Document Web Services API (convert, merge, redact, sign, OCR, watermark, extract) | TBD | [GitHub](https://github.com/PSPDFKit/nutrient-dws-mcp-server) |
 
 ### AI & Machine Learning
 
