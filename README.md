@@ -141,6 +141,7 @@ MCP servers for web search, content access, and web automation.
 | 24 | **mcp-server-browserbase** | Allow LLMs to control a browser with Browserbase and Stagehand | TBD | [GitHub](https://github.com/browserbase/mcp-server-browserbase) |
 | 25 | **shadcn-ui-mcp-server** | A mcp server to allow LLMS gain context about shadcn ui component structure,usage and installation,compaitable with react,svelte 5,vue & React Native | TBD | [GitHub](https://github.com/Jpisnice/shadcn-ui-mcp-server) |
 | 26 | **duckduckgo-mcp-server** | A Model Context Protocol (MCP) server that provides web search capabilities through DuckDuckGo, with additional features for content fetching and parsing. | TBD | [GitHub](https://github.com/nickclyde/duckduckgo-mcp-server) |
+| 27 | **browser-use-mcp-server** | Browse the web, directly from Cursor etc. | TBD | [GitHub](https://github.com/kontext-security/browser-use-mcp-server) |
 
 ### Integrations & APIs
 
@@ -234,6 +235,9 @@ MCP servers for AI and machine learning capabilities.
 | 54 | **jupyter-mcp-server** | 🪐 🔧 Model Context Protocol (MCP) Server for Jupyter. | TBD | [GitHub](https://github.com/datalayer/jupyter-mcp-server) |
 | 55 | **douyin-mcp-server** | 提取抖音无水印视频链接，视频文案，douyin-mcp-server，mcp，claude skill，支持龙虾 | TBD | [GitHub](https://github.com/yzfly/douyin-mcp-server) |
 | 56 | **openapi-mcp-server** | Allow AI to wade through complex OpenAPIs using Simple Language | TBD | [GitHub](https://github.com/janwilmake/openapi-mcp-server) |
+| 57 | **mcp-language-server** | mcp-language-server gives MCP enabled clients access semantic tools like get definition, references, rename, and diagnostics. | TBD | [GitHub](https://github.com/isaacphi/mcp-language-server) |
+| 58 | **Office-Word-MCP-Server** | A Model Context Protocol (MCP) server for creating, reading, and manipulating Microsoft Word documents. This server enables AI assistants to work with Word documents through a standardized interface, providing rich document editing capabilities. | TBD | [GitHub](https://github.com/GongRzhe/Office-Word-MCP-Server) |
+| 59 | **MODULAR-RAG-MCP-SERVER** | A modular RAG (Retrieval-Augmented Generation) system with MCP Server architecture. Using Skill to make AI follow each step of the spec and complete the code 100% by AI. | TBD | [GitHub](https://github.com/jerry-ai-dev/MODULAR-RAG-MCP-SERVER) |
 
 ## MCP Clients
 
@@ -511,6 +515,19 @@ There are currently 109 MCP servers available:
 | 5 | desktop-commander | Control desktop applications and perform system operations | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/desktop-commander.md) |
 | 6 | **Roundtable** | **Zero-configuration MCP server that unifies multiple AI coding assistants (Claude Code, Cursor, GPT-4) for enhanced development workflows** | **Production Ready** | [GitHub](https://github.com/askbudi/roundtable) |
 | 7 | **Asynkor** | Coordination layer for AI agent teams — file leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf | TBD | [GitHub](https://github.com/asynkor/asynkor) |
+| 8 | **n8n-mcp** | A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you  | TBD | [GitHub](https://github.com/czlonkowski/n8n-mcp) |
+| 9 | **xiaohongshu-mcp** | MCP for xiaohongshu.com | TBD | [GitHub](https://github.com/xpzouying/xiaohongshu-mcp) |
+| 10 | **Awesome-MCP-ZH** | MCP 资源精选， MCP指南，Claude MCP，MCP Servers, MCP Clients | TBD | [GitHub](https://github.com/yzfly/Awesome-MCP-ZH) |
+| 11 | **XcodeBuildMCP** | A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects. | TBD | [GitHub](https://github.com/getsentry/XcodeBuildMCP) |
+| 12 | **fast-agent** | Code, Build and Evaluate agents - excellent Model and Skills/MCP/ACP Support | TBD | [GitHub](https://github.com/evalstate/fast-agent) |
+| 13 | **memory-bank-mcp** | A Model Context Protocol (MCP) server implementation for remote memory bank management, inspired by Cline Memory Bank. | TBD | [GitHub](https://github.com/alioshr/memory-bank-mcp) |
+| 14 | **awesome-mcp-servers** | A curated list of Model Context Protocol (MCP) servers | TBD | [GitHub](https://github.com/wong2/awesome-mcp-servers) |
+| 15 | **Office-PowerPoint-MCP-Server** | A MCP (Model Context Protocol) server for PowerPoint manipulation using python-pptx. This server provides tools for creating, editing, and manipulating PowerPoint presentations through the MCP protocol. | TBD | [GitHub](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) |
+| 16 | **mcp-server-guide** | A guide on how to use the Figma MCP server | TBD | [GitHub](https://github.com/figma/mcp-server-guide) |
+| 17 | **drawio-mcp-server** | Draw.io Model Context Protocol (MCP) Server | TBD | [GitHub](https://github.com/lgazo/drawio-mcp-server) |
+| 18 | **awesome-remote-mcp-servers** | Remote MCP Servers | TBD | [GitHub](https://github.com/jaw9c/awesome-remote-mcp-servers) |
+| 19 | **excel-mcp-server** | A Model Context Protocol (MCP) server that reads and writes MS Excel data | TBD | [GitHub](https://github.com/negokaz/excel-mcp-server) |
+| 20 | **server** | Core PHP implementation for the Model Context Protocol (MCP) server | TBD | [GitHub](https://github.com/php-mcp/server) |
 
 ### Communication
 
