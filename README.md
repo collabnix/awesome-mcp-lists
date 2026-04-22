@@ -283,6 +283,7 @@ MCP servers for AI and machine learning capabilities.
 | 1 | [Claude Web](https://claude.ai) | Web interface for Claude with MCP support | Web |
 | 2 | [Glama AI](https://glama.ai) | Web-based multi-model client with MCP | Web |
 | 3 | [Phind](https://www.phind.com) | Developer-focused search with MCP | Web |
+| 4 | [Ontheia](https://ontheia.ai) | Self-hosted, open-source AI agent platform with native MCP support. Multi-provider, GDPR by design. | Web, Linux, MacOS, Windows |
 
 ## MCP Toolkits
 
