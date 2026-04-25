@@ -503,6 +503,7 @@ There are currently 109 MCP servers available:
 | 12 | **osaurus** | Own your AI. The native macOS harness for AI agents -- any model, persistent memory, autonomous execution, cryptographic identity. Built in Swift. Fully offline. Open source. | TBD | [GitHub](https://github.com/osaurus-ai/osaurus) |
 | 13 | **ENScan_GO** | 一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。支持MCP接入 | TBD | [GitHub](https://github.com/wgpsec/ENScan_GO) |
 | 14 | **Gmail-MCP-Server** | A Model Context Protocol (MCP) server for Gmail integration in Claude Desktop with auto authentication support. This server enables AI assistants to manage Gmail through natural language interactions. | TBD | [GitHub](https://github.com/GongRzhe/Gmail-MCP-Server) |
+| 16 | **enigmagent-mcp** | Local MCP server that resolves `{{PLACEHOLDER}}` references at runtime, keeping configuration values out of LLM prompts and conversation logs. AES-256-GCM authenticated encryption with Argon2id key derivation, MIT licensed, runs via `npx`. Listed in [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers). | TBD | [GitHub](https://github.com/Agnuxo1/enigmagent-mcp) |
 
 ### Development Tools
 
