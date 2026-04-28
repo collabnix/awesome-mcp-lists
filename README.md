@@ -79,6 +79,7 @@ MCP servers for managing infrastructure, containers, and DevOps workflows.
 | 33 | **kubernetes-mcp-server** | Model Context Protocol (MCP) server for Kubernetes and OpenShift | TBD | [GitHub](https://github.com/containers/kubernetes-mcp-server) |
 | 34 | **terraform-mcp-server** | The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development. | TBD | [GitHub](https://github.com/hashicorp/terraform-mcp-server) |
 | 35 | **awesome-devops-mcp-servers** | A curated list of awesome MCP servers focused on DevOps tools and capabilities. | TBD | [GitHub](https://github.com/rohitg00/awesome-devops-mcp-servers) |
+| 36 | **kc-agent (KubeStellar Console)** | MCP server exposing multi-cluster Kubernetes resources — pods, deployments, services, nodes, and events — across all kubeconfig contexts via a single WebSocket endpoint. Part of KubeStellar Console, an AI-powered multi-cluster Kubernetes dashboard. | TBD | [GitHub](https://github.com/kubestellar/console) |
 
 ### Database & Storage
 
