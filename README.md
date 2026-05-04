@@ -79,6 +79,7 @@ MCP servers for managing infrastructure, containers, and DevOps workflows.
 | 33 | **kubernetes-mcp-server** | Model Context Protocol (MCP) server for Kubernetes and OpenShift | TBD | [GitHub](https://github.com/containers/kubernetes-mcp-server) |
 | 34 | **terraform-mcp-server** | The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development. | TBD | [GitHub](https://github.com/hashicorp/terraform-mcp-server) |
 | 35 | **awesome-devops-mcp-servers** | A curated list of awesome MCP servers focused on DevOps tools and capabilities. | TBD | [GitHub](https://github.com/rohitg00/awesome-devops-mcp-servers) |
+| 36 | **KiCAD-MCP-Server** | KiCAD MCP is a Model Context Protocol (MCP) implementation that enables Large Language Models (LLMs) like Claude to directly interact with KiCAD for printed circuit board design. | TBD | [GitHub](https://github.com/mixelpixx/KiCAD-MCP-Server) |
 
 ### Database & Storage
 
@@ -142,6 +143,7 @@ MCP servers for web search, content access, and web automation.
 | 25 | **shadcn-ui-mcp-server** | A mcp server to allow LLMS gain context about shadcn ui component structure,usage and installation,compaitable with react,svelte 5,vue & React Native | TBD | [GitHub](https://github.com/Jpisnice/shadcn-ui-mcp-server) |
 | 26 | **duckduckgo-mcp-server** | A Model Context Protocol (MCP) server that provides web search capabilities through DuckDuckGo, with additional features for content fetching and parsing. | TBD | [GitHub](https://github.com/nickclyde/duckduckgo-mcp-server) |
 | 27 | **browser-use-mcp-server** | Browse the web, directly from Cursor etc. | TBD | [GitHub](https://github.com/kontext-security/browser-use-mcp-server) |
+| 28 | **openagent** | ⚡️next-generation personal AI assistant powered by LLM, RAG and agent loops, supporting computer-use, browser-use and coding agent, demo: https://demo.openagentai.org | TBD | [GitHub](https://github.com/the-open-agent/openagent) |
 
 ### Integrations & APIs
 
@@ -238,6 +240,9 @@ MCP servers for AI and machine learning capabilities.
 | 57 | **mcp-language-server** | mcp-language-server gives MCP enabled clients access semantic tools like get definition, references, rename, and diagnostics. | TBD | [GitHub](https://github.com/isaacphi/mcp-language-server) |
 | 58 | **Office-Word-MCP-Server** | A Model Context Protocol (MCP) server for creating, reading, and manipulating Microsoft Word documents. This server enables AI assistants to work with Word documents through a standardized interface, providing rich document editing capabilities. | TBD | [GitHub](https://github.com/GongRzhe/Office-Word-MCP-Server) |
 | 59 | **MODULAR-RAG-MCP-SERVER** | A modular RAG (Retrieval-Augmented Generation) system with MCP Server architecture. Using Skill to make AI follow each step of the spec and complete the code 100% by AI. | TBD | [GitHub](https://github.com/jerry-ai-dev/MODULAR-RAG-MCP-SERVER) |
+| 60 | **lemonade** | Lemonade helps users discover and run local AI apps by serving optimized LLMs right from their own GPUs and NPUs. Join our discord: https://discord.gg/5xXzkMu8Zk | TBD | [GitHub](https://github.com/lemonade-sdk/lemonade) |
+| 61 | **MeiGen-AI-Design-MCP** | Supports GPT Image 2, Nanobanana & ComfyUI, with a 1,400+ prompt library, carefully crafted hooks and a multi-task orchestration system | TBD | [GitHub](https://github.com/jau123/MeiGen-AI-Design-MCP) |
+| 62 | **cocos-mcp-server** | 一款全面的、便捷的cocos creator AI MCP服务插件，适用于3.8.0以上cocos版本，一键安装，一键启动。A comprehensive and convenient cocos creator AI MCP service plug-in, suitable for cocos versions above 3.8.0, one-click installation and one-click start. | TBD | [GitHub](https://github.com/DaxianLee/cocos-mcp-server) |
 
 ## MCP Clients
 
