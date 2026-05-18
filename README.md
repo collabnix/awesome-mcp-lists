@@ -175,6 +175,7 @@ MCP servers for accessing external services and APIs.
 | 21 | **Gmail-MCP-Server** | MCP server for Gmail integration — read, search, send, and manage emails in Claude Desktop | TBD | [GitHub](https://github.com/jasonsum/Gmail-MCP-Server) |
 | 22 | **short-video-maker** | Creates short videos for TikTok, Instagram Reels, and YouTube Shorts using the Model Context Protocol (MCP) and a REST API. | TBD | [GitHub](https://github.com/gyoridavid/short-video-maker) |
 | 24 | **mcp-notion-server** | A Model Context Protocol server for connecting Notion to MCP-compatible clients | TBD | [GitHub](https://github.com/suekou/mcp-notion-server) |
+| 25 | **dpx-mcp** | Settlement protocol MCP server for institutional cross-border USDC transactions on Base mainnet. 14 tools: Stability Oracle (macro, FX, ESG, climate, supply chain, earth systems), ESG scoring, FX quotes, Verification of Payee, and settlement execution. x402 pay-per-call. MiCA-aligned. | TBD | [GitHub](https://github.com/untitledfinancial/dpx-mcp) |
 
 ### AI & Machine Learning
 
