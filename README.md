@@ -80,6 +80,7 @@ MCP servers for managing infrastructure, containers, and DevOps workflows.
 | 34 | **terraform-mcp-server** | The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development. | TBD | [GitHub](https://github.com/hashicorp/terraform-mcp-server) |
 | 35 | **awesome-devops-mcp-servers** | A curated list of awesome MCP servers focused on DevOps tools and capabilities. | TBD | [GitHub](https://github.com/rohitg00/awesome-devops-mcp-servers) |
 | 36 | **KiCAD-MCP-Server** | KiCAD MCP is a Model Context Protocol (MCP) implementation that enables Large Language Models (LLMs) like Claude to directly interact with KiCAD for printed circuit board design. | TBD | [GitHub](https://github.com/mixelpixx/KiCAD-MCP-Server) |
+| 37 | **awesome-agentic-ai-zh** | A structured, trilingual (繁中 / 简中 / English) learning roadmap for agentic AI — from LLM basics to multi-agent systems. 8 stages · 145+ curated projects · hands-on exercises. 中文 AI agent 學習地圖。 | TBD | [GitHub](https://github.com/WenyuChiou/awesome-agentic-ai-zh) |
 
 ### Database & Storage
 
@@ -144,6 +145,8 @@ MCP servers for web search, content access, and web automation.
 | 26 | **duckduckgo-mcp-server** | A Model Context Protocol (MCP) server that provides web search capabilities through DuckDuckGo, with additional features for content fetching and parsing. | TBD | [GitHub](https://github.com/nickclyde/duckduckgo-mcp-server) |
 | 27 | **browser-use-mcp-server** | Browse the web, directly from Cursor etc. | TBD | [GitHub](https://github.com/kontext-security/browser-use-mcp-server) |
 | 28 | **openagent** | ⚡️next-generation personal AI assistant powered by LLM, RAG and agent loops, supporting computer-use, browser-use and coding agent, demo: https://demo.openagentai.org | TBD | [GitHub](https://github.com/the-open-agent/openagent) |
+| 29 | **QuantDinger** | AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data, and multi-agent research.vibe-trading ,trading-agents,ai-trader,ai-trading | TBD | [GitHub](https://github.com/brokermr810/QuantDinger) |
+| 30 | **semble** | Fast and Accurate Code Search for Agents. Uses ~98% fewer tokens than grep+read | TBD | [GitHub](https://github.com/MinishLab/semble) |
 
 ### Integrations & APIs
 
