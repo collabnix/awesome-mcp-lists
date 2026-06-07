@@ -536,6 +536,7 @@ There are currently 109 MCP servers available:
 | 18 | **awesome-remote-mcp-servers** | Remote MCP Servers | TBD | [GitHub](https://github.com/jaw9c/awesome-remote-mcp-servers) |
 | 19 | **excel-mcp-server** | A Model Context Protocol (MCP) server that reads and writes MS Excel data | TBD | [GitHub](https://github.com/negokaz/excel-mcp-server) |
 | 20 | **server** | Core PHP implementation for the Model Context Protocol (MCP) server | TBD | [GitHub](https://github.com/php-mcp/server) |
+| 21 | **gadgethumans-api-hub-mcp** | 334 free developer tools: QR codes, passwords, UUIDs, hashes, Base64, JSON, color converter, email verification, IP geolocation, timestamps, plus 300+ calculators, text analysis, color tools, readability, domain, code and financial tools. MCP server at `uvx gadgethumans-api-hub-mcp`. Free, no API key required. | TBD | [GitHub](https://github.com/scotia1973-bot/gadgethumans-api-hub-mcp) |
 
 ### Communication
 
