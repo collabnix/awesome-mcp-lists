@@ -170,6 +170,7 @@ MCP servers for accessing external services and APIs.
 | 16 | **agent-signal** | Collective intelligence for AI shopping agents — buyer intelligence, seller analytics, price alerts, and session logging | TBD | [GitHub](https://github.com/dan24ou-cpu/agent-signal) |
 | 17 | **dexpaprika-mcp** | Real-time DEX data across multiple blockchains with pool, token, OHLCV, and trade data. Free, no API key | TBD | [GitHub](https://github.com/coinpaprika/dexpaprika-mcp) |
 | 18 | **coinpaprika-mcp** | Crypto market data for thousands of coins and exchanges — tickers, OHLCV, historical prices. Free, no API key | TBD | [GitHub](https://github.com/coinpaprika/coinpaprika-mcp) |
+| 19 | **TWZRD Agent Intel** | Solana-native trust scoring and x402 payment receipt MCP server for AI agents — free preflight, paid signed V5 trust receipt. Streamable-HTTP transport | TBD | [GitHub](https://intel.twzrd.xyz) |
 | 19 | **nutrient-dws-mcp-server** | MCP server for Nutrient Document Web Services API — convert, merge, redact, sign, OCR, watermark, and extract documents | TBD | [GitHub](https://github.com/PSPDFKit/nutrient-dws-mcp-server) |
 | 20 | **n8n-mcp-server** | MCP server for interacting with the n8n workflow automation API | TBD | [GitHub](https://github.com/leonardsellem/n8n-mcp-server) |
 | 21 | **Gmail-MCP-Server** | MCP server for Gmail integration — read, search, send, and manage emails in Claude Desktop | TBD | [GitHub](https://github.com/jasonsum/Gmail-MCP-Server) |
