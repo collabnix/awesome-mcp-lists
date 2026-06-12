@@ -178,6 +178,7 @@ MCP servers for accessing external services and APIs.
 | 22 | **short-video-maker** | Creates short videos for TikTok, Instagram Reels, and YouTube Shorts using the Model Context Protocol (MCP) and a REST API. | TBD | [GitHub](https://github.com/gyoridavid/short-video-maker) |
 | 23 | **Sanka MCP Server** | Hosted remote MCP server for Sanka API, connecting AI agents to CRM and back-office workflows. | TBD | [GitHub](https://github.com/sankaHQ/sanka-mcp) |
 | 24 | **mcp-notion-server** | A Model Context Protocol server for connecting Notion to MCP-compatible clients | TBD | [GitHub](https://github.com/suekou/mcp-notion-server) |
+| 25 | **dpx-mcp** | Settlement protocol MCP server for institutional cross-border USDC transactions on Base mainnet. 14 tools: Stability Oracle (macro, FX, ESG, climate, supply chain, earth systems), ESG scoring, FX quotes, Verification of Payee, and settlement execution. x402 pay-per-call. MiCA-aligned. | TBD | [GitHub](https://github.com/untitledfinancial/dpx-mcp) |
 
 ### AI & Machine Learning
 
