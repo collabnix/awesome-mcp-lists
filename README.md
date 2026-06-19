@@ -562,6 +562,7 @@ There are currently 109 MCP servers available:
 | 3 | context7 | Provide contextual information for enhanced AI conversations | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/context7.md) |
 | 4 | atlas-docs | Access MongoDB Atlas documentation and best practices | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/atlas-docs.md) |
 | 5 | **knowledge-rag** | Local RAG system via MCP — hybrid search (semantic + BM25 + RRF), cross-encoder reranking, markdown-aware chunking, 12 MCP tools. Zero external servers | TBD | [GitHub](https://github.com/lyonzin/knowledge-rag) |
+| 6 | **screenpipe** | 24/7 local screen and mic recording; MCP server indexes OCR, accessibility, and audio transcripts so agents can search what you've seen, said, or heard. Works with Ollama. | TBD | [GitHub](https://github.com/screenpipe/screenpipe) |
 
 ### Multimedia & Design
 
