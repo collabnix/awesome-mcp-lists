@@ -250,6 +250,7 @@ MCP servers for AI and machine learning capabilities.
 | 62 | **google-meta-ads-ga4-mcp** | MCP server for Google Ads, Meta Ads & GA4 — works with ChatGPT, Claude, Cursor, n8n, Windsurf & more. 250+ tools for campaign management, analytics & optimization. | TBD | [GitHub](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp) |
 | 63 | **cocos-mcp-server** | 一款全面的、便捷的cocos creator AI MCP服务插件，适用于3.8.0以上cocos版本，一键安装，一键启动。A comprehensive and convenient cocos creator AI MCP service plug-in, suitable for cocos versions above 3.8.0, one-click installation and one-click start. | TBD | [GitHub](https://github.com/DaxianLee/cocos-mcp-server) |
 | 64 | **RunAPI** | MCP server for model discovery and AI image, video, music/audio, text-to-speech, and LLM jobs via RunAPI | TBD | [GitHub](https://github.com/runapi-ai/mcp) |
+| 65 | **NotFair** | Open-source Claude Code skills for SEO, GEO, Google Ads, and Meta Ads — connects to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP | TBD | [GitHub](https://github.com/nowork-studio/NotFair) |
 
 ## MCP Clients
 
