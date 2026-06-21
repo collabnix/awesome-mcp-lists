@@ -330,6 +330,7 @@ MCP servers for AI and machine learning capabilities.
 | 3 | FEGIS | Python | A semantic programming framework for LLMs with MCP support | [GitHub](https://github.com/p-funk/FEGIS) |
 | 4 | langchain-mcp | Python | LangChain integration for MCP | [GitHub](https://github.com/langchain-ai/langchain-mcp) |
 | 5 | solana-agent-kit | TypeScript | Solana MCP SDK for blockchain agent development | [GitHub](https://github.com/sendaifun/solana-agent-kit) |
+| 6 | EGC | TypeScript | Persistent cross-session memory MCP server for 13+ AI coding tools. SQLite-backed state survives context resets. | [GitHub](https://github.com/Fmarzochi/EGC) |
 
 ## Language-Specific SDKs
 
