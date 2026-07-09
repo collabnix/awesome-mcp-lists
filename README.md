@@ -146,6 +146,7 @@ MCP servers for web search, content access, and web automation.
 | 27 | **browser-use-mcp-server** | Browse the web, directly from Cursor etc. | TBD | [GitHub](https://github.com/kontext-security/browser-use-mcp-server) |
 | 28 | **openagent** | ⚡️next-generation personal AI assistant powered by LLM, RAG and agent loops, supporting computer-use, browser-use and coding agent, demo: https://demo.openagentai.org | TBD | [GitHub](https://github.com/the-open-agent/openagent) |
 | 29 | **Xquik MCP Server** | X/Twitter data extraction, account monitoring, webhooks, and API exploration via MCP | TBD | [GitHub](https://github.com/Xquik-dev/x-twitter-scraper) |
+| 30 | **kaitoInfra/twitterapi-io-mcp-server** | Twitter/X data API for AI agents via MCP — tweet search with full operators, profiles, threads, real-time WebSocket streaming, trending topics. Hosted endpoint mcp.twitterapi.io/mcp ([twitterapi.io](https://twitterapi.io)) | TBD | [GitHub](https://github.com/kaitoInfra/twitterapi-io-mcp-server) |
 
 ### Integrations & APIs
 
@@ -157,6 +158,7 @@ MCP servers for accessing external services and APIs.
 | 2 | shopify | Manage Shopify e-commerce stores and products | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/shopify.md) |
 | 3 | **shopsavvy** | Complete product and pricing data solution - search products, compare prices, track history | TBD | [GitHub](https://github.com/shopsavvy/shopsavvy-mcp-server) |
 | 4 | **agent-signal** | Collective intelligence for AI shopping agents - 23 tools for buyer intelligence, seller analytics, price alerts, and trend tracking | TBD | [GitHub](https://github.com/dan24ou-cpu/agent-signal) |
+| 5 | **buywhere-mcp** | Real-time product search and price comparison across Singapore and SEA merchants (Lazada, Shopee, FairPrice, etc.) | 2,000+ weekly npm downloads | [GitHub](https://github.com/BuyWhere/buywhere-mcp) |
 | 5 | atlassian | Integrate with Atlassian products like Jira and Confluence | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/atlassian.md) |
 | 5 | azure | Interact with Microsoft Azure cloud services and resources | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/azure.md) |
 | 6 | google-maps | Geographic information and location services | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/google-maps.md) |
@@ -331,6 +333,7 @@ MCP servers for AI and machine learning capabilities.
 | 3 | FEGIS | Python | A semantic programming framework for LLMs with MCP support | [GitHub](https://github.com/p-funk/FEGIS) |
 | 4 | langchain-mcp | Python | LangChain integration for MCP | [GitHub](https://github.com/langchain-ai/langchain-mcp) |
 | 5 | solana-agent-kit | TypeScript | Solana MCP SDK for blockchain agent development | [GitHub](https://github.com/sendaifun/solana-agent-kit) |
+| 6 | EGC | TypeScript | Persistent cross-session memory MCP server for 13+ AI coding tools. SQLite-backed state survives context resets. | [GitHub](https://github.com/Fmarzochi/EGC) |
 
 ## Language-Specific SDKs
 
