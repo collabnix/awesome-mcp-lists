@@ -81,6 +81,7 @@ MCP servers for managing infrastructure, containers, and DevOps workflows.
 | 34 | **terraform-mcp-server** | The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development. | TBD | [GitHub](https://github.com/hashicorp/terraform-mcp-server) |
 | 35 | **awesome-devops-mcp-servers** | A curated list of awesome MCP servers focused on DevOps tools and capabilities. | TBD | [GitHub](https://github.com/rohitg00/awesome-devops-mcp-servers) |
 | 36 | **KiCAD-MCP-Server** | KiCAD MCP is a Model Context Protocol (MCP) implementation that enables Large Language Models (LLMs) like Claude to directly interact with KiCAD for printed circuit board design. | TBD | [GitHub](https://github.com/mixelpixx/KiCAD-MCP-Server) |
+| 37 | **Find MCP** | Search 17,000+ MCP servers from the official MCP registry - remote Streamable HTTP (catalog.agentage.io/mcp, no auth for search) or stdio (npx @agentage/find-mcp) | TBD | [GitHub](https://github.com/agentage/find-mcp) |
 
 ### Database & Storage
 
