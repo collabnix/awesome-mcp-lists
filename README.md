@@ -159,7 +159,7 @@ MCP servers for accessing external services and APIs.
 | 2 | shopify | Manage Shopify e-commerce stores and products | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/shopify.md) |
 | 3 | **shopsavvy** | Complete product and pricing data solution - search products, compare prices, track history | TBD | [GitHub](https://github.com/shopsavvy/shopsavvy-mcp-server) |
 | 4 | **agent-signal** | Collective intelligence for AI shopping agents - 23 tools for buyer intelligence, seller analytics, price alerts, and trend tracking | TBD | [GitHub](https://github.com/dan24ou-cpu/agent-signal) |
-| 5 | **buywhere-mcp** | Real-time product search and price comparison across Singapore and SEA merchants (Lazada, Shopee, FairPrice, etc.) | 2,000+ weekly npm downloads | [GitHub](https://github.com/BuyWhere/buywhere-mcp) |
+| 5 | **buywhere-mcp** | Real-time product search and price comparison across Singapore and SEA merchants (Lazada, Shopee, FairPrice, etc.) | 2,000+ weekly npm downloads | [GitHub](https://github.com/BuyWhere/buywhere-mcp?utm_source=awesome-mcp-lists&utm_medium=referral&utm_campaign=june30_25k&utm_content=awesome-mcp-lists) |
 | 5 | atlassian | Integrate with Atlassian products like Jira and Confluence | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/atlassian.md) |
 | 5 | azure | Interact with Microsoft Azure cloud services and resources | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/azure.md) |
 | 6 | google-maps | Geographic information and location services | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/google-maps.md) |
