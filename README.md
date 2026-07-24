@@ -267,6 +267,7 @@ MCP servers for AI and machine learning capabilities.
 | 4 | **[Cline](https://github.com/cline/cline)** | Terminal-based chat client with MCP support | Windows, macOS, Linux |
 | 5 | **[MetaMCP](https://github.com/metatool-ai/metatool-app)** | Unified middleware MCP client | Windows, macOS, Linux |
 | 6 | **[Continue.dev](https://github.com/continuedev/continue)** | AI coding assistant for IDEs | VS Code, JetBrains |
+| 7 | **[MCPlato](https://mcplato.com/)** | Local-first desktop AI workspace with workspace-scoped MCP configuration and permission-aware tool use | Windows, macOS |
 
 
 ### Mobile Applications
