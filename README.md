@@ -37,6 +37,7 @@ A comprehensive curated list of containerised MCP Servers, Clients and toolkits.
   - [Templates](#templates)
 
 ## Containerised MCP Servers
+- [Helium MCP](https://github.com/connerlambden/helium-mcp) — Real-time news with 37-dimension bias scoring, ML options pricing, and live market data. [Interactive demo](https://connerlambden.github.io/helium-news-explorer/) · [REST API](https://heliumtrades.com/mcp-page/)
 
 ### DevOps & Infrastructure
 
@@ -80,6 +81,7 @@ MCP servers for managing infrastructure, containers, and DevOps workflows.
 | 34 | **terraform-mcp-server** | The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development. | TBD | [GitHub](https://github.com/hashicorp/terraform-mcp-server) |
 | 35 | **awesome-devops-mcp-servers** | A curated list of awesome MCP servers focused on DevOps tools and capabilities. | TBD | [GitHub](https://github.com/rohitg00/awesome-devops-mcp-servers) |
 | 36 | **KiCAD-MCP-Server** | KiCAD MCP is a Model Context Protocol (MCP) implementation that enables Large Language Models (LLMs) like Claude to directly interact with KiCAD for printed circuit board design. | TBD | [GitHub](https://github.com/mixelpixx/KiCAD-MCP-Server) |
+| 37 | **Find MCP** | Search 17,000+ MCP servers from the official MCP registry - remote Streamable HTTP (catalog.agentage.io/mcp, no auth for search) or stdio (npx @agentage/find-mcp) | TBD | [GitHub](https://github.com/agentage/find-mcp) |
 
 ### Database & Storage
 
@@ -144,6 +146,8 @@ MCP servers for web search, content access, and web automation.
 | 26 | **duckduckgo-mcp-server** | A Model Context Protocol (MCP) server that provides web search capabilities through DuckDuckGo, with additional features for content fetching and parsing. | TBD | [GitHub](https://github.com/nickclyde/duckduckgo-mcp-server) |
 | 27 | **browser-use-mcp-server** | Browse the web, directly from Cursor etc. | TBD | [GitHub](https://github.com/kontext-security/browser-use-mcp-server) |
 | 28 | **openagent** | ⚡️next-generation personal AI assistant powered by LLM, RAG and agent loops, supporting computer-use, browser-use and coding agent, demo: https://demo.openagentai.org | TBD | [GitHub](https://github.com/the-open-agent/openagent) |
+| 29 | **Xquik MCP Server** | X/Twitter data extraction, account monitoring, webhooks, and API exploration via MCP | TBD | [GitHub](https://github.com/Xquik-dev/x-twitter-scraper) |
+| 30 | **kaitoInfra/twitterapi-io-mcp-server** | Twitter/X data API for AI agents via MCP — tweet search with full operators, profiles, threads, real-time WebSocket streaming, trending topics. Hosted endpoint mcp.twitterapi.io/mcp ([twitterapi.io](https://twitterapi.io)) | TBD | [GitHub](https://github.com/kaitoInfra/twitterapi-io-mcp-server) |
 
 ### Integrations & APIs
 
@@ -156,6 +160,7 @@ MCP servers for accessing external services and APIs.
 | 3 | **Packrift MCP** | Remote MCP server for packaging supplies: product search, live pricing, inventory, package-fit recommendations, shipping estimates, and cart URLs | TBD | [GitHub](https://github.com/Packrift/packrift-mcp) |
 | 3 | **shopsavvy** | Complete product and pricing data solution - search products, compare prices, track history | TBD | [GitHub](https://github.com/shopsavvy/shopsavvy-mcp-server) |
 | 4 | **agent-signal** | Collective intelligence for AI shopping agents - 23 tools for buyer intelligence, seller analytics, price alerts, and trend tracking | TBD | [GitHub](https://github.com/dan24ou-cpu/agent-signal) |
+| 5 | **buywhere-mcp** | Real-time product search and price comparison across Singapore and SEA merchants (Lazada, Shopee, FairPrice, etc.) | 2,000+ weekly npm downloads | [GitHub](https://github.com/BuyWhere/buywhere-mcp?utm_source=awesome-mcp-lists&utm_medium=referral&utm_campaign=june30_25k&utm_content=awesome-mcp-lists) |
 | 5 | atlassian | Integrate with Atlassian products like Jira and Confluence | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/atlassian.md) |
 | 5 | azure | Interact with Microsoft Azure cloud services and resources | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/azure.md) |
 | 6 | google-maps | Geographic information and location services | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/google-maps.md) |
@@ -171,11 +176,14 @@ MCP servers for accessing external services and APIs.
 | 16 | **agent-signal** | Collective intelligence for AI shopping agents — buyer intelligence, seller analytics, price alerts, and session logging | TBD | [GitHub](https://github.com/dan24ou-cpu/agent-signal) |
 | 17 | **dexpaprika-mcp** | Real-time DEX data across multiple blockchains with pool, token, OHLCV, and trade data. Free, no API key | TBD | [GitHub](https://github.com/coinpaprika/dexpaprika-mcp) |
 | 18 | **coinpaprika-mcp** | Crypto market data for thousands of coins and exchanges — tickers, OHLCV, historical prices. Free, no API key | TBD | [GitHub](https://github.com/coinpaprika/coinpaprika-mcp) |
+| 19 | **TWZRD Agent Intel** | Solana-native trust scoring and x402 payment receipt MCP server for AI agents — free preflight, paid signed V5 trust receipt. Streamable-HTTP transport | TBD | [GitHub](https://intel.twzrd.xyz) |
 | 19 | **nutrient-dws-mcp-server** | MCP server for Nutrient Document Web Services API — convert, merge, redact, sign, OCR, watermark, and extract documents | TBD | [GitHub](https://github.com/PSPDFKit/nutrient-dws-mcp-server) |
 | 20 | **n8n-mcp-server** | MCP server for interacting with the n8n workflow automation API | TBD | [GitHub](https://github.com/leonardsellem/n8n-mcp-server) |
 | 21 | **Gmail-MCP-Server** | MCP server for Gmail integration — read, search, send, and manage emails in Claude Desktop | TBD | [GitHub](https://github.com/jasonsum/Gmail-MCP-Server) |
 | 22 | **short-video-maker** | Creates short videos for TikTok, Instagram Reels, and YouTube Shorts using the Model Context Protocol (MCP) and a REST API. | TBD | [GitHub](https://github.com/gyoridavid/short-video-maker) |
+| 23 | **Sanka MCP Server** | Hosted remote MCP server for Sanka API, connecting AI agents to CRM and back-office workflows. | TBD | [GitHub](https://github.com/sankaHQ/sanka-mcp) |
 | 24 | **mcp-notion-server** | A Model Context Protocol server for connecting Notion to MCP-compatible clients | TBD | [GitHub](https://github.com/suekou/mcp-notion-server) |
+| 25 | **dpx-mcp** | Settlement protocol MCP server for institutional cross-border USDC transactions on Base mainnet. 14 tools: Stability Oracle (macro, FX, ESG, climate, supply chain, earth systems), ESG scoring, FX quotes, Verification of Payee, and settlement execution. x402 pay-per-call. MiCA-aligned. | TBD | [GitHub](https://github.com/untitledfinancial/dpx-mcp) |
 
 ### AI & Machine Learning
 
@@ -246,6 +254,7 @@ MCP servers for AI and machine learning capabilities.
 | 61 | **MeiGen-AI-Design-MCP** | Supports GPT Image 2, Nanobanana & ComfyUI, with a 1,400+ prompt library, carefully crafted hooks and a multi-task orchestration system | TBD | [GitHub](https://github.com/jau123/MeiGen-AI-Design-MCP) |
 | 62 | **google-meta-ads-ga4-mcp** | MCP server for Google Ads, Meta Ads & GA4 — works with ChatGPT, Claude, Cursor, n8n, Windsurf & more. 250+ tools for campaign management, analytics & optimization. | TBD | [GitHub](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp) |
 | 63 | **cocos-mcp-server** | 一款全面的、便捷的cocos creator AI MCP服务插件，适用于3.8.0以上cocos版本，一键安装，一键启动。A comprehensive and convenient cocos creator AI MCP service plug-in, suitable for cocos versions above 3.8.0, one-click installation and one-click start. | TBD | [GitHub](https://github.com/DaxianLee/cocos-mcp-server) |
+| 64 | **RunAPI** | MCP server for model discovery and AI image, video, music/audio, text-to-speech, and LLM jobs via RunAPI | TBD | [GitHub](https://github.com/runapi-ai/mcp) |
 
 ## MCP Clients
 
@@ -259,6 +268,7 @@ MCP servers for AI and machine learning capabilities.
 | 4 | **[Cline](https://github.com/cline/cline)** | Terminal-based chat client with MCP support | Windows, macOS, Linux |
 | 5 | **[MetaMCP](https://github.com/metatool-ai/metatool-app)** | Unified middleware MCP client | Windows, macOS, Linux |
 | 6 | **[Continue.dev](https://github.com/continuedev/continue)** | AI coding assistant for IDEs | VS Code, JetBrains |
+| 7 | **[MCPlato](https://mcplato.com/)** | Local-first desktop AI workspace with workspace-scoped MCP configuration and permission-aware tool use | Windows, macOS |
 
 
 ### Mobile Applications
@@ -326,6 +336,7 @@ MCP servers for AI and machine learning capabilities.
 | 3 | FEGIS | Python | A semantic programming framework for LLMs with MCP support | [GitHub](https://github.com/p-funk/FEGIS) |
 | 4 | langchain-mcp | Python | LangChain integration for MCP | [GitHub](https://github.com/langchain-ai/langchain-mcp) |
 | 5 | solana-agent-kit | TypeScript | Solana MCP SDK for blockchain agent development | [GitHub](https://github.com/sendaifun/solana-agent-kit) |
+| 6 | EGC | TypeScript | Persistent cross-session memory MCP server for 13+ AI coding tools. SQLite-backed state survives context resets. | [GitHub](https://github.com/Fmarzochi/EGC) |
 
 ## Language-Specific SDKs
 
@@ -537,6 +548,7 @@ There are currently 109 MCP servers available:
 | 18 | **awesome-remote-mcp-servers** | Remote MCP Servers | TBD | [GitHub](https://github.com/jaw9c/awesome-remote-mcp-servers) |
 | 19 | **excel-mcp-server** | A Model Context Protocol (MCP) server that reads and writes MS Excel data | TBD | [GitHub](https://github.com/negokaz/excel-mcp-server) |
 | 20 | **server** | Core PHP implementation for the Model Context Protocol (MCP) server | TBD | [GitHub](https://github.com/php-mcp/server) |
+| 21 | **gadgethumans-api-hub-mcp** | 334 free developer tools: QR codes, passwords, UUIDs, hashes, Base64, JSON, color converter, email verification, IP geolocation, timestamps, plus 300+ calculators, text analysis, color tools, readability, domain, code and financial tools. MCP server at `uvx gadgethumans-api-hub-mcp`. Free, no API key required. | TBD | [GitHub](https://github.com/scotia1973-bot/gadgethumans-api-hub-mcp) |
 
 ### Communication
 
@@ -557,6 +569,7 @@ There are currently 109 MCP servers available:
 | 3 | context7 | Provide contextual information for enhanced AI conversations | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/context7.md) |
 | 4 | atlas-docs | Access MongoDB Atlas documentation and best practices | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/atlas-docs.md) |
 | 5 | **knowledge-rag** | Local RAG system via MCP — hybrid search (semantic + BM25 + RRF), cross-encoder reranking, markdown-aware chunking, 12 MCP tools. Zero external servers | TBD | [GitHub](https://github.com/lyonzin/knowledge-rag) |
+| 6 | **screenpipe** | 24/7 local screen and mic recording; MCP server indexes OCR, accessibility, and audio transcripts so agents can search what you've seen, said, or heard. Works with Ollama. | TBD | [GitHub](https://github.com/screenpipe/screenpipe) |
 
 ### Multimedia & Design
 
