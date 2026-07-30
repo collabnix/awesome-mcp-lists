@@ -292,6 +292,7 @@ MCP servers for AI and machine learning capabilities.
 | 1 | [Claude CLI](https://docs.anthropic.com/en/docs/claude-code/overview) | Command-line interface for Claude with MCP | Windows, macOS, Linux |
 | 2 | [MCP CLI](https://github.com/wong2/mcp-cli) | General MCP client for command line | Windows, macOS, Linux |
 | 3 | [mark3labs/mcphost](https://github.com/mark3labs/mcphost) | CLI host for MCP interactions | Windows, macOS, Linux |
+- [Trends MCP](https://github.com/trendsmcp-ai/Trends-MCP) - Live trend data across 25+ platforms (Google, YouTube, TikTok, Reddit, Amazon, news sentiment, app downloads, more). MCP server + REST API. [Free tier](https://trendsmcp.ai) (100 req/mo).
 
 ### Web Applications
 
