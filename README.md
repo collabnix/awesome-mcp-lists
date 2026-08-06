@@ -389,7 +389,7 @@ MCP servers for AI and machine learning capabilities.
 
 Docker provides a comprehensive MCP Toolkit with over 100 pre-built MCP servers that are ready to use with Claude and other MCP clients.
 
-There are currently 109 MCP servers available:
+There are currently 110 MCP servers available:
 
 | # | MCP Server | Description | Docker Hub Pulls | Link |
 |---|------------|-------------|------------------|------|
@@ -580,6 +580,7 @@ There are currently 109 MCP servers available:
 | 4 | youtube_transcript | YouTube video transcript extraction | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/youtube_transcript.md) |
 | 5 | speech-ai | Speech AI with pronunciation assessment, text-to-speech, and speech-to-text | TBD | [GitHub](https://github.com/fasuizu-br/speech-ai-examples) |
 | 6 | **Prompt to Asset** | MCP server that generates production-ready visual assets (app icons, favicons, OG images) across 30+ image generation models | TBD | [GitHub](https://github.com/MohamedAbdallah-14/prompt-to-asset) |
+| 7 | **OrkasVideoStudio** | Local-first MCP toolkit for agent-driven video composition, editing, generation, and automatic assembly | TBD | [GitHub](https://github.com/Orkas-AI/Orkas-VideoStudio) |
 
 
 
