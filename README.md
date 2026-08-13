@@ -583,6 +583,7 @@ There are currently 109 MCP servers available:
 | 5 | speech-ai | Speech AI with pronunciation assessment, text-to-speech, and speech-to-text | TBD | [GitHub](https://github.com/fasuizu-br/speech-ai-examples) |
 | 6 | **Prompt to Asset** | MCP server that generates production-ready visual assets (app icons, favicons, OG images) across 30+ image generation models | TBD | [GitHub](https://github.com/MohamedAbdallah-14/prompt-to-asset) |
 | 7 | **AI Applyd** | ATS resume scoring, job-description analysis, interview prep, cover letters, resume building and auto-apply that submits on the employer's own hiring system | TBD | [GitHub](https://github.com/whateverneveranywhere/aiapplyd-mcp) |
+| 8 | **YouTube Transcript MCP** | MCP server for YouTube transcripts, video and channel search, channel browsing, and playlist extraction, returned as clean JSON or markdown for Claude, ChatGPT and other MCP clients | TBD | [GitHub](https://github.com/ZeroPointRepo/youtube-mcp) |
 
 
 
