@@ -369,6 +369,7 @@ MCP servers for AI and machine learning capabilities.
 | 4 | f/MCPTools | Go | CLI tool for MCP server interactions |
 | 5 | portel-dev/ncp | TypeScript | MCP orchestrator with intelligent discovery, 98.2% accuracy, and 94.8% token savings. Transforms 100+ tools into 2 unified interfaces. [GitHub](https://github.com/portel-dev/ncp) |
 | 6 | strowk/mcp-autotest | Go | YAML-based autotest tool |
+| 7 | [MCP Lens](https://github.com/labmimors/dsh-mcp-lens) | TypeScript | DeepSeek Harness plugin that exposes configured MCP catalogs through two model-facing interfaces with allow/deny policy gates and lazy connections |
 
 ### Hosting Solutions
 
