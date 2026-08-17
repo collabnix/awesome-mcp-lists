@@ -268,7 +268,8 @@ MCP servers for AI and machine learning capabilities.
 | 5 | **[MetaMCP](https://github.com/metatool-ai/metatool-app)** | Unified middleware MCP client | Windows, macOS, Linux |
 | 6 | **[Continue.dev](https://github.com/continuedev/continue)** | AI coding assistant for IDEs | VS Code, JetBrains |
 | 7 | **[MCPlato](https://mcplato.com/)** | Local-first desktop AI workspace with workspace-scoped MCP configuration and permission-aware tool use | Windows, macOS |
-
+| 8 | **[KyttoMCP](https://kytto.jakubhecht.sk/)** | Local control panel that manages MCP server configuration across Claude Desktop, Claude
+  Code, Cursor, VS Code and Codex from one matrix | Windows, macOS |
 
 ### Mobile Applications
 
