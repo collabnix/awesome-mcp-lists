@@ -358,6 +358,7 @@ MCP servers for AI and machine learning capabilities.
 | 3 | [mclenhard/mcp-evals](https://github.com/mclenhard/mcp-evals) | Multiple | Package for running evaluations |
 | 4 | [Typewise/mcp-chaos-rig](https://github.com/Typewise/mcp-chaos-rig) | TypeScript | Fault injection server for testing MCP clients against auth failures, disappearing tools, flaky responses, and token expiry |
 | 5 | [MCP Config Doctor fixtures](https://github.com/supoju/mcp-config-doctor-fixtures) | Config fixtures | Redaction-safe Codex, Gemini CLI, and VS Code MCP client fixtures for validator tests and bug reports |
+| 6 | [Agent QA](https://github.com/vostride/agent-qa) | TypeScript | Local stdio MCP server for natural-language web and mobile regression tests with retained execution evidence |
 
 ### Utilities
 
