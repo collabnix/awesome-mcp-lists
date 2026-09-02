@@ -561,6 +561,7 @@ There are currently 109 MCP servers available:
 | 3 | tweetbinder | Twitter/X analytics and social media insights | TBD | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/tweetbinder.md) |
 | 4 | **supabase-mcp-server** | Query MCP enables end-to-end management of Supabase via chat interface: read & write query executions, management API support, automatic migration versioning, access to logs and much more. | TBD | [GitHub](https://github.com/alexander-zuev/supabase-mcp-server) |
 | 5 | **mcp-server-chatsum** | Query and Summarize your chat messages. | TBD | [GitHub](https://github.com/chatmcp/mcp-server-chatsum) |
+| 6 | **BulkPublish** | Create, adapt, schedule, publish, and analyze social media content across connected channels through a hosted Streamable HTTP MCP server or local npm package. | TBD | [Docs](https://app.bulkpublish.com/docs) |
 
 ### Knowledge Management
 
