@@ -82,6 +82,7 @@ MCP servers for managing infrastructure, containers, and DevOps workflows.
 | 35 | **awesome-devops-mcp-servers** | A curated list of awesome MCP servers focused on DevOps tools and capabilities. | TBD | [GitHub](https://github.com/rohitg00/awesome-devops-mcp-servers) |
 | 36 | **KiCAD-MCP-Server** | KiCAD MCP is a Model Context Protocol (MCP) implementation that enables Large Language Models (LLMs) like Claude to directly interact with KiCAD for printed circuit board design. | TBD | [GitHub](https://github.com/mixelpixx/KiCAD-MCP-Server) |
 | 37 | **Find MCP** | Search 17,000+ MCP servers from the official MCP registry - remote Streamable HTTP (catalog.agentage.io/mcp, no auth for search) or stdio (npx @agentage/find-mcp) | TBD | [GitHub](https://github.com/agentage/find-mcp) |
+| 38 | **SandBase Harness** | Local-first MCP bridge and agent runtime for governed sessions, approvals, credentials, audit/replay, and sandboxed execution through local, Docker, Kubernetes, or self-hosted worker backends | TBD | [GitHub](https://github.com/sandbaseai/sandbase-harness) |
 
 ### Database & Storage
 
