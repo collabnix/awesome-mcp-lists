@@ -97,6 +97,8 @@ MCP servers for managing infrastructure, containers, and DevOps workflows.
 | 50 | **matlab-mcp-server** | Run MATLAB® using AI applications with the official MATLAB MCP Server from MathWorks®. This MCP server for MATLAB supports a wide range of coding agents like Claude Code® and Visual Studio® Code. | [GitHub](https://github.com/matlab/matlab-mcp-server) |
 | 51 | **cve-mcp-server** | Production-grade MCP server giving Claude 27 security intelligence tools across 21 APIs — CVE lookup, EPSS scoring, CISA KEV, MITRE ATT&CK, Shodan, VirusTotal, and more. | [GitHub](https://github.com/mukul975/cve-mcp-server) |
 
+| 52 | **Cohesivity** | cohesivity.ai offers free agent native backend services. Anonymous account (no-signup) to get started through MCP or API. Hosting, postgres, email, storage, containers, LLMs, voice and third-party APIs. Includes free tiers and 5 USD/mo in AI and Search credits. Top-ups through x402. | [GitHub](https://github.com/cohesivity-org/cohesivity-plugin) |
+
 ### Database & Storage
 
 MCP servers for accessing and managing databases and storage solutions.
