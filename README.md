@@ -212,6 +212,7 @@ MCP servers for accessing external services and APIs.
 | 29 | **dpx-mcp** | Settlement protocol MCP server for institutional cross-border USDC transactions on Base mainnet. 14 tools: Stability Oracle (macro, FX, ESG, climate, supply chain, earth systems), ESG scoring, FX quotes, Verification of Payee, and settlement execution. x402 pay-per-call. MiCA-aligned. | [GitHub](https://github.com/untitledfinancial/dpx-mcp) |
 | 30 | **apistatuscheck-mcp-server** | Live and historical availability for 285 public APIs and developer platforms across 29 categories — tell a third-party outage apart from a bug in your own code. 8 tools: status, uptime history, incident history, reliability ranking. Hosted Streamable HTTP, no API key. | [GitHub](https://github.com/shibley/apistatuscheck-mcp-server) |
 | 31 | **ParlayAPI** | Sports odds and player props with your own API key and account allowances; build from the repository Dockerfile | [GitHub](https://github.com/JacobiusMakes/parlay-api-mcp) |
+| 32 | **searchlink-lite** | Read-only Google Search Console for agents. 8 tools: site overview against the previous period with biggest drops and gains, any breakdown by query, page, country, device or date, opportunity finding (high impressions with low CTR, positions 8 to 20, pages losing clicks), URL inspection, sitemaps, on-page checks, and Google ranking update history. Runs locally with your own Google service account, no API key to buy | [GitHub](https://github.com/GlobalMatchHub/searchlink-lite) |
 
 ### AI & Machine Learning
 
