@@ -594,6 +594,7 @@ There are currently 110 MCP servers available:
 | 20 | **server** | Core PHP implementation for the Model Context Protocol (MCP) server | [GitHub](https://github.com/php-mcp/server) |
 | 21 | **gadgethumans-api-hub-mcp** | 334 free developer tools: QR codes, passwords, UUIDs, hashes, Base64, JSON, color converter, email verification, IP geolocation, timestamps, plus 300+ calculators, text analysis, color tools, readability, domain, code and financial tools. MCP server at `uvx gadgethumans-api-hub-mcp`. Free, no API key required. | [GitHub](https://github.com/scotia1973-bot/gadgethumans-api-hub-mcp) |
 | 22 | **mcp-server** | MCP Server for Burp | [GitHub](https://github.com/PortSwigger/mcp-server) |
+| 23 | **Keelen** | Hosted Streamable HTTP MCP server for steering an AI coding agent for GitHub: submit requests, inspect roadmaps, and review pull requests. Public endpoint: `https://keelen.ai/mcp`; signup and email verification are tokenless, while workspace tools require a bearer key. The repository contains setup documentation; the hosted backend is proprietary. | [GitHub](https://github.com/jamie7893/keelen-mcp) |
 
 ### Communication
 
