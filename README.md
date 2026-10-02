@@ -212,6 +212,7 @@ MCP servers for accessing external services and APIs.
 | 29 | **dpx-mcp** | Settlement protocol MCP server for institutional cross-border USDC transactions on Base mainnet. 14 tools: Stability Oracle (macro, FX, ESG, climate, supply chain, earth systems), ESG scoring, FX quotes, Verification of Payee, and settlement execution. x402 pay-per-call. MiCA-aligned. | [GitHub](https://github.com/untitledfinancial/dpx-mcp) |
 | 30 | **apistatuscheck-mcp-server** | Live and historical availability for 285 public APIs and developer platforms across 29 categories — tell a third-party outage apart from a bug in your own code. 8 tools: status, uptime history, incident history, reliability ranking. Hosted Streamable HTTP, no API key. | [GitHub](https://github.com/shibley/apistatuscheck-mcp-server) |
 | 31 | **ParlayAPI** | Sports odds and player props with your own API key and account allowances; build from the repository Dockerfile | [GitHub](https://github.com/JacobiusMakes/parlay-api-mcp) |
+| 32 | **Fast GST Refund** | Hosted Streamable HTTP MCP with five free tools for Indian service-export GST refund checklists, cited guides, upload-error guidance and anonymous receipt-allocation checks. No authentication. | [GitHub](https://github.com/syllogismos/fast-gst-refund-mcp) |
 
 ### AI & Machine Learning
 
