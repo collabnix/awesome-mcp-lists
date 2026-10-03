@@ -218,6 +218,7 @@ MCP servers for accessing external services and APIs.
 | 32 | **Unfetch** | Hosted Google Ads MCP server for campaign, spend, conversion, and search-term reporting, with Google Analytics, Google Search Console, keyword research, and web research; OAuth and read-only account access. [Setup](https://unfetch.com/plugin) | [GitHub](https://github.com/unfetch-com/agent-plugin) |
 | 33 | **GrowSurf** | Build and manage GrowSurf referral and affiliate programs through AI assistants. Hosted OAuth or local stdio; includes a Dockerfile. | [GitHub](https://github.com/growsurf/growsurf-mcp) |
 | 34 | **Influence MCP** | Hosted Streamable HTTP MCP for drafting, reviewing, scheduling and publishing social posts, and checking post status; OAuth or scoped bearer key; Influence account required | [GitHub](https://github.com/influence-so/influence-mcp) |
+| 35 | **Adrio** | AI media buyer for Meta ads. Hosted Streamable HTTP MCP to brief Spark, Adrio's creative agent, for static and video ad creatives, launch them to Facebook and Instagram, research competitor ads, and manage brand angles and audiences; OAuth 2.1 sign-in, Adrio account required | [Docs](https://adrio.ai/docs/mcp) |
 
 ### AI & Machine Learning
 
