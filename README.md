@@ -644,6 +644,7 @@ There are currently 110 MCP servers available:
 | 9 | **YouTube Transcript MCP** | MCP server for YouTube transcripts, video and channel search, channel browsing, and playlist extraction, returned as clean JSON or markdown for Claude, ChatGPT and other MCP clients | [GitHub](https://github.com/ZeroPointRepo/youtube-mcp) |
 | 10 | **Magic Hour** | Hosted MCP server for generating and editing video, images, and audio through 44 Magic Hour API tools | [GitHub](https://github.com/magichourhq/magic-hour-mcp) |
 | 11 | **BulkTranscripts** | Hosted MCP server for YouTube transcripts of a single video, a whole channel or a playlist, with YouTube and in-channel search, channel and playlist listings, and new-upload tracking | [GitHub](https://github.com/pratie/bulktranscripts-mcp) |
+| 12 | **Speak AI** | Hosted MCP server (also on npm as @speakai/mcp-server) for transcribing, analyzing and scoring meetings, sales calls and media in 100+ languages, with search and AI chat over recordings; 107 tools; OAuth or API key; Speak AI account required | [GitHub](https://github.com/speakai/speakai-mcp) |
 
 
 
