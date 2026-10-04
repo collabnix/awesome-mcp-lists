@@ -98,6 +98,7 @@ MCP servers for managing infrastructure, containers, and DevOps workflows.
 | 50 | **matlab-mcp-server** | Run MATLAB® using AI applications with the official MATLAB MCP Server from MathWorks®. This MCP server for MATLAB supports a wide range of coding agents like Claude Code® and Visual Studio® Code. | [GitHub](https://github.com/matlab/matlab-mcp-server) |
 | 51 | **cve-mcp-server** | Production-grade MCP server giving Claude 27 security intelligence tools across 21 APIs — CVE lookup, EPSS scoring, CISA KEV, MITRE ATT&CK, Shodan, VirusTotal, and more. | [GitHub](https://github.com/mukul975/cve-mcp-server) |
 | 52 | **Cohesivity** | cohesivity.ai offers free agent native backend services. Anonymous account (no-signup) to get started through MCP or API. Hosting, postgres, email, storage, containers, LLMs, voice and third-party APIs. Includes free tiers and 5 USD/mo in AI and Search credits. Top-ups through x402. | [GitHub](https://github.com/cohesivity-org/cohesivity-plugin) |
+| 53 | **Croncool** | Hosted OAuth MCP for scheduled jobs, execution history, workflows, webhook health and confirmed run-now actions. | [Config](https://github.com/croncool/claude-plugin) · [Docs](https://www.cron.cool/developers/#mcp) |
 
 ### Database & Storage
 
@@ -178,6 +179,7 @@ MCP servers for web search, content access, and web automation.
 | 38 | **anysearch-mcp-server** | Unified real-time search MCP server supporting general web search, vertical domain search, parallel batch search, and full-page URL content extraction. | [GitHub](https://github.com/anysearch-ai/anysearch-mcp-server) |
 | 39 | **Statsnet** | Background check any company in the world: registration, executives, courts and finances. Remote MCP `https://statsnet.co/mcp` · Registry `io.github.usenetstate/statsnet` | [GitHub](https://github.com/usenetstate/statsnet-mcp) |
 | 40 | **QuanticData MCP** | Hosted Streamable HTTP MCP for web search, page scraping to Markdown, crawl and URL map, and ready-made site collectors; OAuth 2.1 or API key. Remote MCP `https://api.quanticdata.io/mcp` · Registry `io.github.quantumproxies/quanticdata-mcp`; includes a Dockerfile | [GitHub](https://github.com/quantumproxies/quanticdata-mcp-server) |
+| 41 | **Polyblog** | Hosted OAuth MCP for multilingual blog articles, topic planning, translation and confirmed publishing changes. | [Config](https://github.com/polyblog-io/claude-plugin) · [Docs](https://www.polyblog.io/developers/#mcp) |
 
 ### Integrations & APIs
 
@@ -220,6 +222,14 @@ MCP servers for accessing external services and APIs.
 | 33 | **GrowSurf** | Build and manage GrowSurf referral and affiliate programs through AI assistants. Hosted OAuth or local stdio; includes a Dockerfile. | [GitHub](https://github.com/growsurf/growsurf-mcp) |
 | 34 | **Influence MCP** | Hosted Streamable HTTP MCP for drafting, reviewing, scheduling and publishing social posts, and checking post status; OAuth or scoped bearer key; Influence account required | [GitHub](https://github.com/influence-so/influence-mcp) |
 | 35 | **Dwellir** | Hosted Streamable HTTP MCP for read-only blockchain RPC queries across 150+ networks, Hyperliquid market data, short WebSocket samples, and Dwellir usage and API key management; OAuth, no API key in client config | [GitHub](https://github.com/dwellir-public/dwellir-skill) |
+| 36 | **AppSkyline** | Hosted OAuth MCP for app-store keyword rankings, reviews and store listings. | [Config](https://github.com/appskyline/claude-plugin) · [Docs](https://www.appskyline.com/developers/#claude-mcp) |
+| 37 | **HairDora** | Read-only hosted OAuth MCP for salon availability, appointments, clients, services, quotes and payment status. | [Config](https://github.com/hairdora/claude-plugin) · [Docs](https://www.hairdora.com/developers/#mcp) |
+| 38 | **DodoDentist** | Read-only hosted OAuth MCP for dental-clinic metadata, free slots, dentist display names, treatment catalog prices and aggregate schedules. | [Config](https://github.com/dododentist/claude-plugin) · [Docs](https://www.dododentist.com/developers/#mcp) |
+| 39 | **DoctoFam** | Read-only hosted OAuth MCP for clinic metadata, free slots, doctor display names, rooms, service prices and aggregate schedules. | [Config](https://github.com/doctofam/claude-plugin) · [Docs](https://www.doctofam.com/developers/#mcp) |
+| 40 | **Veterical** | Read-only hosted OAuth MCP for veterinary-clinic metadata, free slots, vet display names, numeric service pricing and aggregate schedules and payments. | [Config](https://github.com/veterical/claude-plugin) · [Docs](https://www.veterical.com/developers/#mcp) |
+| 41 | **GymFlexa** | Read-only hosted OAuth MCP for gym configuration, free slots, service catalogs and aggregate schedules and payment totals. | [Config](https://github.com/gymflexa/claude-plugin) · [Docs](https://www.gymflexa.com/developers/#mcp) |
+| 42 | **Hotelumo** | Read-only hosted OAuth MCP for hotel room availability, rates, housekeeping, room status and aggregate stay schedules. | [Config](https://github.com/hotelumo/claude-plugin) · [Docs](https://www.hotelumo.com/developers/#mcp) |
+| 43 | **InvoiceVista** | Read-only hosted OAuth MCP for businesses, product catalogs and aggregate revenue, receivables and quote-pipeline summaries. | [Config](https://github.com/invoicevista/claude-plugin) · [Docs](https://www.invoicevista.com/developers/#mcp) |
 
 ### AI & Machine Learning
 
@@ -603,6 +613,7 @@ There are currently 110 MCP servers available:
 | 21 | **gadgethumans-api-hub-mcp** | 334 free developer tools: QR codes, passwords, UUIDs, hashes, Base64, JSON, color converter, email verification, IP geolocation, timestamps, plus 300+ calculators, text analysis, color tools, readability, domain, code and financial tools. MCP server at `uvx gadgethumans-api-hub-mcp`. Free, no API key required. | [GitHub](https://github.com/scotia1973-bot/gadgethumans-api-hub-mcp) |
 | 22 | **mcp-server** | MCP Server for Burp | [GitHub](https://github.com/PortSwigger/mcp-server) |
 | 23 | **mcp-office-suite** | One MCP server for a whole freelance back office: proxies 31 sibling servers (invoicing, quotes, time tracking, expenses, bank-statement reconciliation, spreadsheets, PDF, DOCX, kanban) behind a single config entry. Runs locally, data stays in JSON on disk, Dockerfile in the repo root. | [GitHub](https://github.com/theluckystrike/mcp-office-suite) |
+| 24 | **Multilocale** | Hosted OAuth MCP for translation projects, phrases, locales, missing-translation audits and dictionary exports. | [Config](https://github.com/multilocale/claude-plugin) · [Docs](https://www.multilocale.com/integrations/mcp-server/) |
 
 ### Communication
 
@@ -615,6 +626,8 @@ There are currently 110 MCP servers available:
 | 5 | **mcp-server-chatsum** | Query and Summarize your chat messages. | [GitHub](https://github.com/chatmcp/mcp-server-chatsum) |
 | 6 | **BulkPublish** | Create, adapt, schedule, publish, and analyze social media content across connected channels through a hosted Streamable HTTP MCP server or local npm package. | [Docs](https://app.bulkpublish.com/docs) |
 | 7 | **Skysay** | Manage voice agents, phone numbers, calls, SMS and campaigns through a hosted Streamable HTTP MCP server with OAuth or scoped API keys. | [Docs](https://skysay.ai/docs/mcp) |
+| 8 | **Supovia** | Hosted OAuth MCP for support conversation summaries, help-center documents, approved replies and resolution state. | [Config](https://github.com/supovia/claude-plugin) · [Docs](https://www.supovia.com/developers/#mcp) |
+| 9 | **Wapiworld** | Hosted OAuth MCP for WhatsApp sender connections, status, webhooks and confirmed text-message sending. | [Config](https://github.com/wapiworld/claude-plugin) · [Docs](https://app.wapiworld.com/developers#mcp) |
 
 ### Knowledge Management
 
@@ -644,6 +657,8 @@ There are currently 110 MCP servers available:
 | 9 | **YouTube Transcript MCP** | MCP server for YouTube transcripts, video and channel search, channel browsing, and playlist extraction, returned as clean JSON or markdown for Claude, ChatGPT and other MCP clients | [GitHub](https://github.com/ZeroPointRepo/youtube-mcp) |
 | 10 | **Magic Hour** | Hosted MCP server for generating and editing video, images, and audio through 44 Magic Hour API tools | [GitHub](https://github.com/magichourhq/magic-hour-mcp) |
 | 11 | **BulkTranscripts** | Hosted MCP server for YouTube transcripts of a single video, a whole channel or a playlist, with YouTube and in-channel search, channel and playlist listings, and new-upload tracking | [GitHub](https://github.com/pratie/bulktranscripts-mcp) |
+| 12 | **Tutorializer** | Hosted OAuth MCP for video tutorial definitions, rendered outputs, voiceovers and pronunciation rules. | [Config](https://github.com/tutorializer/claude-plugin) · [Docs](https://www.tutorializer.com/developers/#mcp) |
+| 13 | **Imagelato** | Hosted OAuth MCP for image-processing presets, projects, processed batches and webhook delivery health. | [Config](https://github.com/imagelato/claude-plugin) · [Docs](https://www.imagelato.com/developers/#claude-mcp) |
 
 
 
