@@ -220,6 +220,7 @@ MCP servers for accessing external services and APIs.
 | 33 | **GrowSurf** | Build and manage GrowSurf referral and affiliate programs through AI assistants. Hosted OAuth or local stdio; includes a Dockerfile. | [GitHub](https://github.com/growsurf/growsurf-mcp) |
 | 34 | **Influence MCP** | Hosted Streamable HTTP MCP for drafting, reviewing, scheduling and publishing social posts, and checking post status; OAuth or scoped bearer key; Influence account required | [GitHub](https://github.com/influence-so/influence-mcp) |
 | 35 | **Dwellir** | Hosted Streamable HTTP MCP for read-only blockchain RPC queries across 150+ networks, Hyperliquid market data, short WebSocket samples, and Dwellir usage and API key management; OAuth, no API key in client config | [GitHub](https://github.com/dwellir-public/dwellir-skill) |
+| 36 | **AgentoolRank** | Hosted Streamable HTTP MCP (`https://agentoolrank.com/api/mcp`) for searching open-source AI agent tools and MCP servers ranked by live GitHub activity, refreshed daily, with alternatives for any tool; read-only search needs no API key | [GitHub](https://github.com/agent-gigmole/agentoolrank-mcp) |
 
 ### AI & Machine Learning
 
