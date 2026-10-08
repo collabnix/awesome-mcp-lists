@@ -131,6 +131,7 @@ MCP servers for accessing and managing databases and storage solutions.
 | 24 | **prest** | PostgreSQL ➕ REST, low-code, simplify and accelerate development, ⚡ instant, realtime, high-performance on any Postgres application, existing or new, MCP server | [GitHub](https://github.com/prest/prest) |
 | 25 | **GoNavi** | High-performance multi-data-source database client — ~30MB, AI & MCP ready, zero Electron bloat. &#124; 高性能多数据源数据库客户端：约 30MB，AI 与 MCP 就绪，告别 Electron 膨胀。 | [GitHub](https://github.com/Syngnat/GoNavi) |
 | 26 | **x64dbg-mcp-server** | x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built with Zig — zero dependencies, single-binary output, cros | [GitHub](https://github.com/duty1g/x64dbg-mcp-server) |
+| 27 | **Prisma MCP Server** | Official hosted MCP server (Streamable HTTP, sign in with a Prisma account) for managing Prisma Postgres databases, running SQL, and managing Prisma Compute deployments and Object Storage | [Docs](https://www.prisma.io/docs/ai/tools/mcp-server) |
 
 ### Web & Content
 
