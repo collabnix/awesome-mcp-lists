@@ -317,6 +317,7 @@ MCP servers for AI and machine learning capabilities.
 | 7 | **[MCPlato](https://mcplato.com/)** | Local-first desktop AI workspace with workspace-scoped MCP configuration and permission-aware tool use | Windows, macOS |
 | 8 | **[KyttoMCP](https://kytto.jakubhecht.sk/)** | Local control panel that manages MCP server configuration across Claude Desktop, Claude
   Code, Cursor, VS Code and Codex from one matrix | Windows, macOS |
+| 9 | **[vixl](https://github.com/vixl-ai/vixl)** | Local-first Tauri desktop coding agent with BYOK, Ollama / OpenAI-compatible hosts, and MCP (stdio/http/sse) | Windows, macOS, Linux |
 
 ### Mobile Applications
 
