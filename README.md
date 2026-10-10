@@ -616,6 +616,7 @@ There are currently 110 MCP servers available:
 | 5 | **mcp-server-chatsum** | Query and Summarize your chat messages. | [GitHub](https://github.com/chatmcp/mcp-server-chatsum) |
 | 6 | **BulkPublish** | Create, adapt, schedule, publish, and analyze social media content across connected channels through a hosted Streamable HTTP MCP server or local npm package. | [Docs](https://app.bulkpublish.com/docs) |
 | 7 | **Skysay** | Manage voice agents, phone numbers, calls, SMS and campaigns through a hosted Streamable HTTP MCP server with OAuth or scoped API keys. | [Docs](https://skysay.ai/docs/mcp) |
+| 8 | **HeyReagent** | Read your own LinkedIn inbox, send messages and connection invitations, and search people through a hosted Streamable HTTP MCP server with OAuth; each kind of action has a daily limit per account. | [GitHub](https://github.com/linglistack/heyreagent-linkedin-mcp) |
 
 ### Knowledge Management
 
