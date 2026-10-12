@@ -221,6 +221,7 @@ MCP servers for accessing external services and APIs.
 | 34 | **Influence MCP** | Hosted Streamable HTTP MCP for drafting, reviewing, scheduling and publishing social posts, and checking post status; OAuth or scoped bearer key; Influence account required | [GitHub](https://github.com/influence-so/influence-mcp) |
 | 35 | **Dwellir** | Hosted Streamable HTTP MCP for read-only blockchain RPC queries across 150+ networks, Hyperliquid market data, short WebSocket samples, and Dwellir usage and API key management; OAuth, no API key in client config | [GitHub](https://github.com/dwellir-public/dwellir-skill) |
 | 36 | **Datacircle** | Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup. Hosted Streamable HTTP MCP; OAuth 2.1 or API key. Remote MCP `https://api.datacircle.dev/mcp` · Registry `dev.datacircle/datacircle` | [Docs](https://docs.datacircle.dev/mcp-server) |
+| 37 | **looot** | Hosted Streamable HTTP MCP with one API key and prepaid balance for about 2,500 data endpoints from 90+ providers: work email, phone, company enrichment, Google SERP, web pages; OAuth 2.1 or bearer key, pay per call | [GitHub](https://github.com/loootai/looot-mcp) |
 
 ### AI & Machine Learning
 
