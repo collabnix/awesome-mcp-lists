@@ -420,6 +420,7 @@ MCP servers for AI and machine learning capabilities.
 | 5 | portel-dev/ncp | TypeScript | MCP orchestrator with intelligent discovery, 98.2% accuracy, and 94.8% token savings. Transforms 100+ tools into 2 unified interfaces. [GitHub](https://github.com/portel-dev/ncp) |
 | 6 | strowk/mcp-autotest | Go | YAML-based autotest tool |
 | 7 | [MCP Lens](https://github.com/labmimors/dsh-mcp-lens) | TypeScript | DeepSeek Harness plugin that exposes configured MCP catalogs through two model-facing interfaces with allow/deny policy gates and lazy connections |
+| 8 | [Omega MCP Router](https://github.com/Omega-JS-Stack/omega/tree/main/packages/mcp-router) | JavaScript | Stdio MCP proxy that fronts many upstream servers behind one connection, serves tool schemas from a disk cache, starts each upstream only on its first call, and lets a session switch upstreams on and off |
 
 ### Hosting Solutions
 
