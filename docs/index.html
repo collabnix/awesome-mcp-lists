@@ -1,1187 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MCP Portal - Model Context Protocol Hub</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Awesome MCP Lists — browse & search containerised MCP servers, clients & toolkits</title>
+<meta name="description" content="A searchable directory of 480+ containerised Model Context Protocol (MCP) servers, clients, and toolkits — curated by the community." />
+<style>
+  :root {
+    --bg: #0e1016;
+    --bg-soft: #161a24;
+    --card: #1b2130;
+    --card-hover: #222a3d;
+    --border: #2a3142;
+    --text: #e6e9f0;
+    --muted: #9aa4b8;
+    --accent: #7c8cff;
+    --accent-2: #4ad6c4;
+    --radius: 14px;
+    --shadow: 0 8px 30px rgba(0,0,0,.35);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background: radial-gradient(1200px 600px at 70% -10%, #23305c 0%, transparent 60%), var(--bg);
+    color: var(--text);
+    line-height: 1.55;
+    min-height: 100vh;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: 1240px; margin: 0 auto; padding: 0 20px; }
+
+  header.hero { padding: 56px 0 28px; text-align: center; }
+  .eyebrow {
+    display: inline-block; font-size: 13px; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--accent-2); border: 1px solid var(--border); border-radius: 999px;
+    padding: 6px 14px; margin-bottom: 18px; background: var(--bg-soft);
+  }
+  h1 { font-size: clamp(2rem, 4vw, 3rem); line-height: 1.1; letter-spacing: -.02em; }
+  h1 .grad { background: linear-gradient(90deg, var(--accent), var(--accent-2)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .tagline { color: var(--muted); font-size: 1.12rem; max-width: 720px; margin: 16px auto 0; }
+
+  .stats { display: flex; justify-content: center; gap: 14px; flex-wrap: wrap; margin: 28px 0 8px; }
+  .stat { background: var(--bg-soft); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 22px; min-width: 120px; }
+  .stat b { display: block; font-size: 1.7rem; background: linear-gradient(90deg,var(--accent),var(--accent-2)); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .stat span { color: var(--muted); font-size: .85rem; }
+
+  .cta { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin-top: 22px; }
+  .btn { padding: 11px 20px; border-radius: 10px; font-weight: 600; border: 1px solid var(--border); background: var(--bg-soft); color: var(--text); cursor: pointer; }
+  .btn.primary { background: linear-gradient(90deg,var(--accent),#6d7bff); border-color: transparent; color: #0d1020; }
+  .btn:hover { text-decoration: none; border-color: var(--accent); }
+
+  .controls { position: sticky; top: 0; z-index: 20; background: rgba(14,16,22,.82); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); padding: 14px 0; margin-top: 26px; }
+  .tabs { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; margin-bottom: 12px; }
+  .tab { padding: 9px 16px; border-radius: 999px; border: 1px solid var(--border); background: var(--bg-soft); color: var(--muted); cursor: pointer; font-weight: 600; font-size: .92rem; }
+  .tab.active { color: #0d1020; background: linear-gradient(90deg,var(--accent),var(--accent-2)); border-color: transparent; }
+  .tab:hover:not(.active) { color: var(--text); border-color: var(--accent); }
+  .search { display: flex; justify-content: center; }
+  .search input { width: min(680px, 100%); padding: 13px 18px; border-radius: 12px; border: 1px solid var(--border); background: var(--card); color: var(--text); font-size: 1rem; }
+  .search input:focus { outline: none; border-color: var(--accent); }
+
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; margin: 16px 0 4px; }
+  .chip { font-size: .82rem; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--border); background: var(--bg-soft); color: var(--muted); cursor: pointer; }
+  .chip.active { background: var(--card-hover); color: var(--text); border-color: var(--accent); }
+
+  main { padding: 10px 0 60px; }
+  .meta { text-align: center; color: var(--muted); font-size: .9rem; margin: 14px 0 22px; }
+  .cat { margin: 26px 0 12px; display: flex; align-items: baseline; gap: 10px; }
+  .cat h2 { font-size: 1.15rem; letter-spacing: -.01em; }
+  .cat .n { color: var(--muted); font-size: .85rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 16px 14px; display: flex; flex-direction: column; gap: 8px; transition: transform .12s ease, border-color .12s ease, background .12s ease; }
+  .card:hover { transform: translateY(-2px); border-color: var(--accent); background: var(--card-hover); }
+  .card h3 { font-size: 1.02rem; word-break: break-word; }
+  .card p { color: var(--muted); font-size: .9rem; flex: 1; }
+  .card .foot { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 4px; }
+  .card .host { font-size: .74rem; color: var(--muted); background: var(--bg-soft); border: 1px solid var(--border); border-radius: 6px; padding: 2px 8px; }
+  .card .open { font-size: .82rem; font-weight: 600; }
+  .empty { text-align: center; color: var(--muted); padding: 60px 0; }
+
+  footer { border-top: 1px solid var(--border); padding: 28px 0 50px; color: var(--muted); font-size: .9rem; text-align: center; }
+  footer a { color: var(--accent-2); }
+</style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="logo">
-                <div class="logo-icon"></div>
-                <h1>MCP Portal</h1>
-                <p class="tagline">Your Gateway to Model Context Protocol</p>
-                <p class="intro-text">Discover a comprehensive collection of MCP servers, clients, and development tools. Learn how to build and integrate with the Model Context Protocol ecosystem.</p>
-            </div>
-            
-            <div class="stats">
-                <div class="stat">
-                    <div class="stat-number">109</div>
-                    <div class="stat-label">MCP Servers</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number">16</div>
-                    <div class="stat-label">Clients</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number">22</div>
-                    <div class="stat-label">Dev Tools</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number">100%</div>
-                    <div class="stat-label">Open Source</div>
-                </div>
-            </div>
-
-            <div class="nav-tabs">
-                <div class="tab active" onclick="showSection('servers')">MCP Servers</div>
-                <div class="tab" onclick="showSection('clients')">Clients</div>
-                <div class="tab" onclick="showSection('tools')">Development Tools</div>
-                <div class="tab" onclick="window.open('learn.html', '_blank')">📚 Learn MCP</div>
-                <div class="tab" onclick="showSection('about')">About</div>
-            </div>
-        </header>
-
-        <!-- MCP Servers Section -->
-        <div id="servers" class="content-section active">
-            <div class="docker-highlight">
-                <h3>🐳 Docker MCP Toolkit</h3>
-                <p>Get instant access to 109 pre-built MCP servers via Docker Desktop Extension</p>
-            </div>
-
-            <div class="search-filter-bar">
-                <input type="text" class="search-bar" placeholder="Search MCP servers..." onkeyup="filterItems(this.value, 'server-card')">
-                <select class="category-filter" onchange="filterByCategory(this.value, 'server-card')">
-                    <option value="">All Categories</option>
-                    <option value="devops">DevOps & Infrastructure</option>
-                    <option value="database">Database & Storage</option>
-                    <option value="web">Web & Search</option>
-                    <option value="api">External APIs</option>
-                    <option value="ai">AI & ML</option>
-                </select>
-            </div>
-            
-            <div class="category-section">
-                <h3 class="category-title">🔧 DevOps & Infrastructure</h3>
-                <div class="server-grid">
-                    <div class="server-card" data-category="devops">
-                        <div class="server-icon">GH</div>
-                        <div class="server-title">GitHub</div>
-                        <div class="server-description">Manage GitHub repositories and perform Git operations</div>
-                        <div class="server-tags">
-                            <span class="tag">Git</span>
-                            <span class="tag">Repository</span>
-                            <span class="tag">DevOps</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/github.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-
-                    <div class="server-card" data-category="devops">
-                        <div class="server-icon">🐳</div>
-                        <div class="server-title">Docker</div>
-                        <div class="server-description">Manage Docker containers and images</div>
-                        <div class="server-tags">
-                            <span class="tag">Containers</span>
-                            <span class="tag">Docker</span>
-                            <span class="tag">Infrastructure</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/docker.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-
-                    <div class="server-card" data-category="devops">
-                        <div class="server-icon">K8</div>
-                        <div class="server-title">Kubernetes</div>
-                        <div class="server-description">Orchestrate containerized applications with Kubernetes</div>
-                        <div class="server-tags">
-                            <span class="tag">Kubernetes</span>
-                            <span class="tag">Orchestration</span>
-                            <span class="tag">Cloud</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/kubernetes.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-
-                    <div class="server-card" data-category="devops">
-                        <div class="server-icon">GL</div>
-                        <div class="server-title">GitLab</div>
-                        <div class="server-description">Integrate with GitLab for CI/CD and repository management</div>
-                        <div class="server-tags">
-                            <span class="tag">GitLab</span>
-                            <span class="tag">CI/CD</span>
-                            <span class="tag">DevOps</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/gitlab.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-
-                    <div class="server-card" data-category="devops">
-                        <div class="server-icon">CI</div>
-                        <div class="server-title">CircleCI</div>
-                        <div class="server-description">Continuous integration and deployment with CircleCI</div>
-                        <div class="server-tags">
-                            <span class="tag">CI/CD</span>
-                            <span class="tag">Automation</span>
-                            <span class="tag">Testing</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/circleci.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-
-                    <div class="server-card" data-category="devops">
-                        <div class="server-icon">HK</div>
-                        <div class="server-title">Heroku</div>
-                        <div class="server-description">Deploy and manage applications on Heroku platform</div>
-                        <div class="server-tags">
-                            <span class="tag">Platform</span>
-                            <span class="tag">Deployment</span>
-                            <span class="tag">Cloud</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/heroku.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="category-section">
-                <h3 class="category-title">🗄️ Database & Storage</h3>
-                <div class="server-grid">
-                    <div class="server-card" data-category="database">
-                        <div class="server-icon">PG</div>
-                        <div class="server-title">PostgreSQL</div>
-                        <div class="server-description">Interact with PostgreSQL databases</div>
-                        <div class="server-tags">
-                            <span class="tag">PostgreSQL</span>
-                            <span class="tag">Database</span>
-                            <span class="tag">SQL</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/postgres.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-
-                    <div class="server-card" data-category="database">
-                        <div class="server-icon">RD</div>
-                        <div class="server-title">Redis</div>
-                        <div class="server-description">Cache and session management with Redis</div>
-                        <div class="server-tags">
-                            <span class="tag">Redis</span>
-                            <span class="tag">Cache</span>
-                            <span class="tag">Memory</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/redis.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-
-                    <div class="server-card" data-category="database">
-                        <div class="server-icon">ES</div>
-                        <div class="server-title">Elasticsearch</div>
-                        <div class="server-description">Search and analytics with Elasticsearch</div>
-                        <div class="server-tags">
-                            <span class="tag">Search</span>
-                            <span class="tag">Analytics</span>
-                            <span class="tag">Elasticsearch</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/elasticsearch.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-
-                    <div class="server-card" data-category="database">
-                        <div class="server-icon">N4</div>
-                        <div class="server-title">Neo4j</div>
-                        <div class="server-description">Graph database operations with Neo4j</div>
-                        <div class="server-tags">
-                            <span class="tag">Graph DB</span>
-                            <span class="tag">Neo4j</span>
-                            <span class="tag">Cypher</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/neo4j-server.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-
-                    <div class="server-card" data-category="database">
-                        <div class="server-icon">CH</div>
-                        <div class="server-title">Chroma</div>
-                        <div class="server-description">Vector database for AI embeddings and similarity search</div>
-                        <div class="server-tags">
-                            <span class="tag">Vector DB</span>
-                            <span class="tag">Embeddings</span>
-                            <span class="tag">AI</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/chroma.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-
-                    <div class="server-card" data-category="database">
-                        <div class="server-icon">NE</div>
-                        <div class="server-title">Neon</div>
-                        <div class="server-description">Serverless PostgreSQL platform integration</div>
-                        <div class="server-tags">
-                            <span class="tag">Serverless</span>
-                            <span class="tag">PostgreSQL</span>
-                            <span class="tag">Cloud</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/neon.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="category-section">
-                <h3 class="category-title">🌐 Web & Search</h3>
-                <div class="server-grid">
-                    <div class="server-card" data-category="web">
-                        <div class="server-icon">BR</div>
-                        <div class="server-title">Brave Search</div>
-                        <div class="server-description">Perform web searches using Brave's privacy-focused search engine</div>
-                        <div class="server-tags">
-                            <span class="tag">Search</span>
-                            <span class="tag">Privacy</span>
-                            <span class="tag">Web</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/brave.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-
-                    <div class="server-card" data-category="web">
-                        <div class="server-icon">NT</div>
-                        <div class="server-title">Notion</div>
-                        <div class="server-description">Access and manage Notion pages and databases</div>
-                        <div class="server-tags">
-                            <span class="tag">Notion</span>
-                            <span class="tag">Productivity</span>
-                            <span class="tag">Notes</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/notion.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-
-                    <div class="server-card" data-category="web">
-                        <div class="server-icon">PP</div>
-                        <div class="server-title">Puppeteer</div>
-                        <div class="server-description">Web scraping and automation with Puppeteer</div>
-                        <div class="server-tags">
-                            <span class="tag">Automation</span>
-                            <span class="tag">Scraping</span>
-                            <span class="tag">Browser</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/puppeteer.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-
-                    <div class="server-card" data-category="web">
-                        <div class="server-icon">FC</div>
-                        <div class="server-title">Firecrawl</div>
-                        <div class="server-description">Advanced web scraping and content extraction</div>
-                        <div class="server-tags">
-                            <span class="tag">Scraping</span>
-                            <span class="tag">Content</span>
-                            <span class="tag">Extraction</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/firecrawl.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-
-                    <div class="server-card" data-category="web">
-                        <div class="server-icon">DD</div>
-                        <div class="server-title">DuckDuckGo</div>
-                        <div class="server-description">Privacy-focused web search with DuckDuckGo</div>
-                        <div class="server-tags">
-                            <span class="tag">Search</span>
-                            <span class="tag">Privacy</span>
-                            <span class="tag">Anonymous</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/duckduckgo.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-
-                    <div class="server-card" data-category="web">
-                        <div class="server-icon">WK</div>
-                        <div class="server-title">Wikipedia</div>
-                        <div class="server-description">Access Wikipedia content and knowledge base</div>
-                        <div class="server-tags">
-                            <span class="tag">Knowledge</span>
-                            <span class="tag">Encyclopedia</span>
-                            <span class="tag">Research</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/wikipedia-mcp.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="category-section">
-                <h3 class="category-title">🔌 External APIs</h3>
-                <div class="server-grid">
-                    <div class="server-card" data-category="api">
-                        <div class="server-icon">💳</div>
-                        <div class="server-title">Stripe</div>
-                        <div class="server-description">Process payments and manage financial transactions</div>
-                        <div class="server-tags">
-                            <span class="tag">Payments</span>
-                            <span class="tag">Financial</span>
-                            <span class="tag">E-commerce</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/stripe.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-
-                    <div class="server-card" data-category="api">
-                        <div class="server-icon">SH</div>
-                        <div class="server-title">Shopify</div>
-                        <div class="server-description">Manage Shopify stores and e-commerce operations</div>
-                        <div class="server-tags">
-                            <span class="tag">E-commerce</span>
-                            <span class="tag">Shopify</span>
-                            <span class="tag">Store</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/shopify.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-
-                    <div class="server-card" data-category="api">
-                        <div class="server-icon">AT</div>
-                        <div class="server-title">Atlassian</div>
-                        <div class="server-description">Integrate with Jira, Confluence, and other Atlassian tools</div>
-                        <div class="server-tags">
-                            <span class="tag">Project Management</span>
-                            <span class="tag">Atlassian</span>
-                            <span class="tag">Collaboration</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/atlassian.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-
-                    <div class="server-card" data-category="api">
-                        <div class="server-icon">AZ</div>
-                        <div class="server-title">Azure</div>
-                        <div class="server-description">Manage Microsoft Azure cloud resources</div>
-                        <div class="server-tags">
-                            <span class="tag">Cloud</span>
-                            <span class="tag">Azure</span>
-                            <span class="tag">Microsoft</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/azure.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-
-                    <div class="server-card" data-category="api">
-                        <div class="server-icon">SL</div>
-                        <div class="server-title">Slack</div>
-                        <div class="server-description">Integrate with Slack for team communication and automation</div>
-                        <div class="server-tags">
-                            <span class="tag">Communication</span>
-                            <span class="tag">Team</span>
-                            <span class="tag">Messaging</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/slack.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-
-                    <div class="server-card" data-category="api">
-                        <div class="server-icon">GD</div>
-                        <div class="server-title">Google Drive</div>
-                        <div class="server-description">Access and manage Google Drive files and folders</div>
-                        <div class="server-tags">
-                            <span class="tag">Storage</span>
-                            <span class="tag">Files</span>
-                            <span class="tag">Google</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/gdrive.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="category-section">
-                <h3 class="category-title">🤖 AI & Machine Learning</h3>
-                <div class="server-grid">
-                    <div class="server-card" data-category="ai">
-                        <div class="server-icon">TV</div>
-                        <div class="server-title">Tavily</div>
-                        <div class="server-description">AI-powered web search and research assistant</div>
-                        <div class="server-tags">
-                            <span class="tag">AI Search</span>
-                            <span class="tag">Research</span>
-                            <span class="tag">Assistant</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/tavily.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-
-                    <div class="server-card" data-category="ai">
-                        <div class="server-icon">PX</div>
-                        <div class="server-title">Perplexity</div>
-                        <div class="server-description">Advanced AI search and question answering</div>
-                        <div class="server-tags">
-                            <span class="tag">AI</span>
-                            <span class="tag">Search</span>
-                            <span class="tag">Q&A</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/perplexity-ask.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-
-                    <div class="server-card" data-category="ai">
-                        <div class="server-icon">11</div>
-                        <div class="server-title">ElevenLabs</div>
-                        <div class="server-description">AI voice synthesis and text-to-speech</div>
-                        <div class="server-tags">
-                            <span class="tag">Voice</span>
-                            <span class="tag">TTS</span>
-                            <span class="tag">AI Audio</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/elevenlabs.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-
-                    <div class="server-card" data-category="ai">
-                        <div class="server-icon">WA</div>
-                        <div class="server-title">Wolfram Alpha</div>
-                        <div class="server-description">Computational intelligence and mathematical computation</div>
-                        <div class="server-tags">
-                            <span class="tag">Math</span>
-                            <span class="tag">Computation</span>
-                            <span class="tag">Knowledge</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/wolfram-alpha.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-
-                    <div class="server-card" data-category="ai">
-                        <div class="server-icon">EA</div>
-                        <div class="server-title">EverArt</div>
-                        <div class="server-description">AI-powered art generation and creative tools</div>
-                        <div class="server-tags">
-                            <span class="tag">Art</span>
-                            <span class="tag">Generation</span>
-                            <span class="tag">Creative</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/everart.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-
-                    <div class="server-card" data-category="ai">
-                        <div class="server-icon">EX</div>
-                        <div class="server-title">Exa</div>
-                        <div class="server-description">AI-powered search for finding high-quality content</div>
-                        <div class="server-tags">
-                            <span class="tag">AI Search</span>
-                            <span class="tag">Content</span>
-                            <span class="tag">Quality</span>
-                        </div>
-                        <a href="https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/exa.md" class="server-link" target="_blank">View Details →</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Clients Section -->
-        <div id="clients" class="content-section">
-            <div class="search-filter-bar">
-                <input type="text" class="search-bar" placeholder="Search MCP clients..." onkeyup="filterItems(this.value, 'tool-card')">
-            </div>
-
-            <div class="category-section">
-                <h3 class="category-title">🖥️ Desktop Clients</h3>
-                <div class="tools-grid">
-                    <div class="tool-card">
-                        <div class="tool-icon">CL</div>
-                        <div class="server-title">Claude Desktop</div>
-                        <div class="server-description">Official Claude client with native MCP support</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">Windows</span>
-                            <span class="platform-badge">macOS</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">CR</div>
-                        <div class="server-title">Cursor AI</div>
-                        <div class="server-description">Code editor with AI assistant and MCP support</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">Windows</span>
-                            <span class="platform-badge">macOS</span>
-                            <span class="platform-badge">Linux</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">WS</div>
-                        <div class="server-title">Windsurf</div>
-                        <div class="server-description">AI browser with MCP integration</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">macOS</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">CN</div>
-                        <div class="server-title">Cline</div>
-                        <div class="server-description">Terminal-based chat client with MCP support</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">Windows</span>
-                            <span class="platform-badge">macOS</span>
-                            <span class="platform-badge">Linux</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">MM</div>
-                        <div class="server-title">MetaMCP</div>
-                        <div class="server-description">Unified middleware MCP client</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">Windows</span>
-                            <span class="platform-badge">macOS</span>
-                            <span class="platform-badge">Linux</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="category-section">
-                <h3 class="category-title">📱 Mobile Clients</h3>
-                <div class="tools-grid">
-                    <div class="tool-card">
-                        <div class="tool-icon">CM</div>
-                        <div class="server-title">Claude Mobile</div>
-                        <div class="server-description">Mobile Claude client with MCP support</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">iOS</span>
-                            <span class="platform-badge">Android</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">AI</div>
-                        <div class="server-title">AI Assistant</div>
-                        <div class="server-description">Multi-model mobile client with MCP</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">iOS</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="category-section">
-                <h3 class="category-title">🌐 Web Clients</h3>
-                <div class="tools-grid">
-                    <div class="tool-card">
-                        <div class="tool-icon">CW</div>
-                        <div class="server-title">Claude Web</div>
-                        <div class="server-description">Web interface for Claude with MCP support</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">Web Browser</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">GL</div>
-                        <div class="server-title">Glama AI</div>
-                        <div class="server-description">Web-based multi-model client with MCP</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">Web Browser</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">PH</div>
-                        <div class="server-title">Phind</div>
-                        <div class="server-description">Developer-focused search with MCP</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">Web Browser</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="category-section">
-                <h3 class="category-title">🖥️ IDE Extensions</h3>
-                <div class="tools-grid">
-                    <div class="tool-card">
-                        <div class="tool-icon">VS</div>
-                        <div class="server-title">VS Code AI Assistant</div>
-                        <div class="server-description">VS Code extension with MCP support</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">VS Code</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">JB</div>
-                        <div class="server-title">JetBrains AI Assistant</div>
-                        <div class="server-description">JetBrains IDE extension with MCP</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">JetBrains IDEs</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">CP</div>
-                        <div class="server-title">GitHub Copilot Chat</div>
-                        <div class="server-description">GitHub's AI assistant with MCP capabilities</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">VS Code</span>
-                            <span class="platform-badge">Visual Studio</span>
-                            <span class="platform-badge">JetBrains</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="category-section">
-                <h3 class="category-title">⌨️ Command Line</h3>
-                <div class="tools-grid">
-                    <div class="tool-card">
-                        <div class="tool-icon">CLI</div>
-                        <div class="server-title">Claude CLI</div>
-                        <div class="server-description">Command-line interface for Claude with MCP</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">Windows</span>
-                            <span class="platform-badge">macOS</span>
-                            <span class="platform-badge">Linux</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">MC</div>
-                        <div class="server-title">MCP CLI</div>
-                        <div class="server-description">General MCP client for command line</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">Windows</span>
-                            <span class="platform-badge">macOS</span>
-                            <span class="platform-badge">Linux</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">MH</div>
-                        <div class="server-title">MCPHost</div>
-                        <div class="server-description">CLI host for MCP interactions</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">Windows</span>
-                            <span class="platform-badge">macOS</span>
-                            <span class="platform-badge">Linux</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Development Tools Section -->
-        <div id="tools" class="content-section">
-            <div class="search-filter-bar">
-                <input type="text" class="search-bar" placeholder="Search development tools..." onkeyup="filterItems(this.value, 'tool-card')">
-            </div>
-
-            <div class="category-section">
-                <h3 class="category-title">🛠️ Frameworks & Libraries</h3>
-                <div class="tools-grid">
-                    <div class="tool-card">
-                        <div class="tool-icon">FM</div>
-                        <div class="server-title">FastMCP</div>
-                        <div class="server-description">High-level framework for building MCP servers</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">TypeScript</span>
-                            <span class="platform-badge">Python</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">LM</div>
-                        <div class="server-title">LiteMCP</div>
-                        <div class="server-description">Lightweight MCP server framework</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">TypeScript</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">MU</div>
-                        <div class="server-title">mcp-use</div>
-                        <div class="server-description">Library to connect LLMs to MCP servers</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">Python</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">LC</div>
-                        <div class="server-title">LangChain MCP</div>
-                        <div class="server-description">LangChain integration for MCP</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">Python</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="category-section">
-                <h3 class="category-title">🤖 Agent Frameworks</h3>
-                <div class="tools-grid">
-                    <div class="tool-card">
-                        <div class="tool-icon">AG</div>
-                        <div class="server-title">MCP Agent</div>
-                        <div class="server-description">Build agents with MCP servers</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">TypeScript</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">GP</div>
-                        <div class="server-title">GPT Computer Assistant</div>
-                        <div class="server-description">Framework for AI agents</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">Python</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">FG</div>
-                        <div class="server-title">FEGIS</div>
-                        <div class="server-description">Interactive agent framework</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">Python</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="category-section">
-                <h3 class="category-title">🧪 Testing & Debugging</h3>
-                <div class="tools-grid">
-                    <div class="tool-card">
-                        <div class="tool-icon">IN</div>
-                        <div class="server-title">MCP Inspector</div>
-                        <div class="server-description">Official UI for testing MCP servers</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">TypeScript</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">CLI</div>
-                        <div class="server-title">MCP CLI</div>
-                        <div class="server-description">Command line inspector for testing</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">Multiple</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">EV</div>
-                        <div class="server-title">MCP Evals</div>
-                        <div class="server-description">Package for running evaluations</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">Multiple</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">AT</div>
-                        <div class="server-title">MCP Autotest</div>
-                        <div class="server-description">YAML-based autotest tool</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">Go</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="category-section">
-                <h3 class="category-title">🔧 Development Tools</h3>
-                <div class="tools-grid">
-                    <div class="tool-card">
-                        <div class="tool-icon">YA</div>
-                        <div class="server-title">YAMCP</div>
-                        <div class="server-description">MCP workspace manager</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">TypeScript</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">PX</div>
-                        <div class="server-title">MCP Proxy</div>
-                        <div class="server-description">SSE proxy for MCP servers</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">TypeScript</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">MP</div>
-                        <div class="server-title">Multi-MCP</div>
-                        <div class="server-description">Multi-MCP Proxy Server</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">Python</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">MT</div>
-                        <div class="server-title">MCPTools</div>
-                        <div class="server-description">CLI tool for MCP server interactions</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">Go</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="category-section">
-                <h3 class="category-title">🚀 Project Templates</h3>
-                <div class="tools-grid">
-                    <div class="tool-card">
-                        <div class="tool-icon">TP</div>
-                        <div class="server-title">Template MCP Server</div>
-                        <div class="server-description">CLI tool for new MCP servers</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">TypeScript</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">CT</div>
-                        <div class="server-title">Create MCP TS</div>
-                        <div class="server-description">MCP server creator with templates</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">TypeScript</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">FB</div>
-                        <div class="server-title">FastMCP Boilerplate</div>
-                        <div class="server-description">MCP server built with FastMCP</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">TypeScript</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">DT</div>
-                        <div class="server-title">Dart MCP Template</div>
-                        <div class="server-description">Template for Dart MCP servers</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">Dart</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">RB</div>
-                        <div class="server-title">Rails MCP Boilerplate</div>
-                        <div class="server-description">Rails template for paid MCP servers</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">Ruby</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="category-section">
-                <h3 class="category-title">☁️ Hosting & Infrastructure</h3>
-                <div class="tools-grid">
-                    <div class="tool-card">
-                        <div class="tool-icon">GM</div>
-                        <div class="server-title">Glama</div>
-                        <div class="server-description">Platform for hosting open-source MCP servers</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">Cloud Platform</span>
-                        </div>
-                    </div>
-
-                    <div class="tool-card">
-                        <div class="tool-icon">SM</div>
-                        <div class="server-title">Smithery</div>
-                        <div class="server-description">Cloud hosting for MCP servers via containers</div>
-                        <div class="platform-badges">
-                            <span class="platform-badge">Cloud Platform</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Learn MCP Section -->
-        <div id="course" class="content-section">
-            <div class="course-section">
-                <h2>Learn Model Context Protocol</h2>
-                <div class="course-grid">
-                    <div class="course-card">
-                        <span class="difficulty beginner">Beginner</span>
-                        <h3>Introduction to MCP</h3>
-                        <ul>
-                            <li>What is Model Context Protocol?</li>
-                            <li>Understanding the MCP architecture</li>
-                            <li>Core concepts: servers, clients, and resources</li>
-                            <li>Setting up your first MCP connection</li>
-                            <li>Basic MCP operations and tools</li>
-                        </ul>
-                        <p><strong>Duration:</strong> 2-3 hours</p>
-                        <p><strong>Prerequisites:</strong> Basic understanding of APIs and software development</p>
-                    </div>
-
-                    <div class="course-card">
-                        <span class="difficulty beginner">Beginner</span>
-                        <h3>MCP Client Setup</h3>
-                        <ul>
-                            <li>Installing Claude Desktop with MCP</li>
-                            <li>Configuring MCP servers</li>
-                            <li>Managing MCP connections</li>
-                            <li>Troubleshooting common issues</li>
-                            <li>Best practices for client configuration</li>
-                        </ul>
-                        <p><strong>Duration:</strong> 1-2 hours</p>
-                        <p><strong>Prerequisites:</strong> None</p>
-                    </div>
-
-                    <div class="course-card">
-                        <span class="difficulty intermediate">Intermediate</span>
-                        <h3>Building Your First MCP Server</h3>
-                        <ul>
-                            <li>MCP server architecture and components</li>
-                            <li>Setting up development environment</li>
-                            <li>Creating resources and tools</li>
-                            <li>Implementing MCP protocol handlers</li>
-                            <li>Testing and debugging MCP servers</li>
-                        </ul>
-                        <p><strong>Duration:</strong> 4-6 hours</p>
-                        <p><strong>Prerequisites:</strong> JavaScript/TypeScript or Python knowledge</p>
-                    </div>
-
-                    <div class="course-card">
-                        <span class="difficulty intermediate">Intermediate</span>
-                        <h3>MCP with Databases</h3>
-                        <ul>
-                            <li>Connecting to PostgreSQL, MySQL, and MongoDB</li>
-                            <li>Implementing database operations</li>
-                            <li>Query optimization and security</li>
-                            <li>Real-time data synchronization</li>
-                            <li>Error handling and recovery</li>
-                        </ul>
-                        <p><strong>Duration:</strong> 3-4 hours</p>
-                        <p><strong>Prerequisites:</strong> Database fundamentals, SQL knowledge</p>
-                    </div>
-
-                    <div class="course-card">
-                        <span class="difficulty intermediate">Intermediate</span>
-                        <h3>Web Integration with MCP</h3>
-                        <ul>
-                            <li>Building web scraping MCP servers</li>
-                            <li>API integration patterns</li>
-                            <li>Authentication and authorization</li>
-                            <li>Rate limiting and caching strategies</li>
-                            <li>Webhook handling and real-time updates</li>
-                        </ul>
-                        <p><strong>Duration:</strong> 3-5 hours</p>
-                        <p><strong>Prerequisites:</strong> HTTP/REST APIs, web development basics</p>
-                    </div>
-
-                    <div class="course-card">
-                        <span class="difficulty intermediate">Intermediate</span>
-                        <h3>MCP Security & Authentication</h3>
-                        <ul>
-                            <li>Implementing secure MCP connections</li>
-                            <li>Authentication strategies and best practices</li>
-                            <li>Authorization and access control</li>
-                            <li>Data encryption and privacy protection</li>
-                            <li>Security auditing and compliance</li>
-                        </ul>
-                        <p><strong>Duration:</strong> 2-3 hours</p>
-                        <p><strong>Prerequisites:</strong> Security fundamentals, encryption basics</p>
-                    </div>
-
-                    <div class="course-card">
-                        <span class="difficulty advanced">Advanced</span>
-                        <h3>Enterprise MCP Architecture</h3>
-                        <ul>
-                            <li>Scaling MCP servers for enterprise use</li>
-                            <li>Security best practices and compliance</li>
-                            <li>Load balancing and high availability</li>
-                            <li>Monitoring and observability</li>
-                            <li>Performance optimization techniques</li>
-                        </ul>
-                        <p><strong>Duration:</strong> 6-8 hours</p>
-                        <p><strong>Prerequisites:</strong> System architecture, DevOps experience</p>
-                    </div>
-
-                    <div class="course-card">
-                        <span class="difficulty advanced">Advanced</span>
-                        <h3>MCP Protocol Deep Dive</h3>
-                        <ul>
-                            <li>Understanding the MCP specification</li>
-                            <li>Custom protocol extensions</li>
-                            <li>Advanced message handling</li>
-                            <li>Protocol optimization and performance</li>
-                            <li>Contributing to MCP development</li>
-                        </ul>
-                        <p><strong>Duration:</strong> 5-7 hours</p>
-                        <p><strong>Prerequisites:</strong> Advanced programming, protocol design knowledge</p>
-                    </div>
-
-                    <div class="course-card">
-                        <span class="difficulty advanced">Advanced</span>
-                        <h3>AI Integration Patterns</h3>
-                        <ul>
-                            <li>Integrating MCP with AI models</li>
-                            <li>Building AI-powered MCP tools</li>
-                            <li>Context management and memory</li>
-                            <li>Multi-modal MCP implementations</li>
-                            <li>Advanced AI workflow patterns</li>
-                        </ul>
-                        <p><strong>Duration:</strong> 4-6 hours</p>
-                        <p><strong>Prerequisites:</strong> AI/ML fundamentals, LLM experience</p>
-                    </div>
-
-                    <div class="course-card">
-                        <span class="difficulty advanced">Advanced</span>
-                        <h3>Custom MCP Framework Development</h3>
-                        <ul>
-                            <li>Building your own MCP framework</li>
-                            <li>Advanced protocol handling</li>
-                            <li>Performance optimization techniques</li>
-                            <li>Framework architecture design</li>
-                            <li>Open source contribution strategies</li>
-                        </ul>
-                        <p><strong>Duration:</strong> 8-10 hours</p>
-                        <p><strong>Prerequisites:</strong> Expert-level programming, framework design experience</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="course-section">
-                <h2>Learning Resources</h2>
-                <div class="course-grid">
-                    <div class="course-card">
-                        <h3>📚 Official Documentation</h3>
-                        <ul>
-                            <li>MCP Specification and Protocol Guide</li>
-                            <li>Server Development Documentation</li>
-                            <li>Client Integration Guidelines</li>
-                            <li>API Reference and Examples</li>
-                        </ul>
-                        <a href="https://modelcontextprotocol.io" class="server-link" target="_blank">Read Documentation →</a>
-                    </div>
-
-                    <div class="course-card">
-                        <h3>💻 Code Examples</h3>
-                        <ul>
-                            <li>Sample MCP server implementations</li>
-                            <li>Client integration examples</li>
-                            <li>Real-world use case demonstrations</li>
-                            <li>Best practice code patterns</li>
-                        </ul>
-                        <a href="https://github.com/modelcontextprotocol" class="server-link" target="_blank">Browse Examples →</a>
-                    </div>
-
-                    <div class="course-card">
-                        <h3>🎥 Video Tutorials</h3>
-                        <ul>
-                            <li>Introduction to MCP video series</li>
-                            <li>Step-by-step implementation guides</li>
-                            <li>Advanced architecture walkthroughs</li>
-                            <li>Community showcase sessions</li>
-                        </ul>
-                        <a href="#" class="server-link" target="_blank">Watch Videos →</a>
-                    </div>
-
-                    <div class="course-card">
-                        <h3>🤝 Community Support</h3>
-                        <ul>
-                            <li>Discord community for real-time help</li>
-                            <li>GitHub discussions and issues</li>
-                            <li>Stack Overflow Q&A</li>
-                            <li>Regular community office hours</li>
-                        </ul>
-                        <a href="#" class="server-link" target="_blank">Join Community →</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- About Section -->
-        <div id="about" class="content-section">
-            <div class="course-section">
-                <h2>About Model Context Protocol</h2>
-                <div class="course-grid">
-                    <div class="course-card">
-                        <h3>What is MCP?</h3>
-                        <p>Model Context Protocol (MCP) is an open standard for connecting AI assistants to external data sources and tools. It enables seamless integration between AI models and various services, databases, APIs, and applications.</p>
-                        <p>MCP provides a standardized way for AI systems to:</p>
-                        <ul>
-                            <li>Access external data sources</li>
-                            <li>Execute tools and functions</li>
-                            <li>Maintain context across interactions</li>
-                            <li>Integrate with existing workflows</li>
-                        </ul>
-                    </div>
-
-                    <div class="course-card">
-                        <h3>Key Benefits</h3>
-                        <ul>
-                            <li><strong>Standardization:</strong> Common protocol for AI tool integration</li>
-                            <li><strong>Security:</strong> Controlled access to sensitive resources</li>
-                            <li><strong>Flexibility:</strong> Support for diverse data sources and tools</li>
-                            <li><strong>Scalability:</strong> Enterprise-ready architecture</li>
-                            <li><strong>Open Source:</strong> Community-driven development</li>
-                            <li><strong>Interoperability:</strong> Works across different AI platforms</li>
-                        </ul>
-                    </div>
-
-                    <div class="course-card">
-                        <h3>Getting Started</h3>
-                        <p>Ready to start with MCP? Here's your roadmap:</p>
-                        <ul>
-                            <li>1. Install a compatible MCP client (Claude Desktop recommended)</li>
-                            <li>2. Browse the MCP servers catalog</li>
-                            <li>3. Configure your first MCP server</li>
-                            <li>4. Start the "Learn MCP" course</li>
-                            <li>5. Join the MCP community</li>
-                            <li>6. Build your first custom MCP server</li>
-                        </ul>
-                    </div>
-
-                    <div class="course-card">
-                        <h3>Use Cases</h3>
-                        <p>MCP enables powerful AI integrations across various domains:</p>
-                        <ul>
-                            <li><strong>Development:</strong> Code analysis, debugging, deployment automation</li>
-                            <li><strong>Data Analysis:</strong> Database queries, report generation, visualization</li>
-                            <li><strong>Content:</strong> Document processing, web scraping, content management</li>
-                            <li><strong>Business:</strong> CRM integration, e-commerce automation, analytics</li>
-                            <li><strong>Research:</strong> Data collection, analysis, knowledge management</li>
-                        </ul>
-                    </div>
-
-                    <div class="course-card">
-                        <h3>Architecture Overview</h3>
-                        <p>MCP follows a client-server architecture:</p>
-                        <ul>
-                            <li><strong>MCP Clients:</strong> AI assistants that consume MCP services</li>
-                            <li><strong>MCP Servers:</strong> Services that expose tools and resources</li>
-                            <li><strong>Protocol:</strong> Standardized communication layer</li>
-                            <li><strong>Transport:</strong> Various connection methods (stdio, HTTP, WebSockets)</li>
-                            <li><strong>Security:</strong> Authentication and authorization mechanisms</li>
-                        </ul>
-                    </div>
-
-                    <div class="course-card">
-                        <h3>Community & Support</h3>
-                        <p>Join the growing MCP community:</p>
-                        <ul>
-                            <li><strong>GitHub:</strong> Contribute to MCP development and report issues</li>
-                            <li><strong>Discord:</strong> Chat with other developers and get real-time help</li>
-                            <li><strong>Documentation:</strong> Comprehensive guides and API references</li>
-                            <li><strong>Examples:</strong> Real-world MCP implementations and tutorials</li>
-                            <li><strong>Forums:</strong> Get help and share knowledge with the community</li>
-                            <li><strong>Office Hours:</strong> Regular community Q&A sessions</li>
-                        </ul>
-                    </div>
-
-                    <div class="course-card">
-                        <h3>Contributing</h3>
-                        <p>Help grow the MCP ecosystem:</p>
-                        <ul>
-                            <li><strong>Submit MCP Servers:</strong> Add your server to the registry</li>
-                            <li><strong>Improve Documentation:</strong> Help others learn MCP</li>
-                            <li><strong>Report Issues:</strong> Help identify and fix problems</li>
-                            <li><strong>Share Use Cases:</strong> Inspire others with your implementations</li>
-                            <li><strong>Contribute Code:</strong> Enhance MCP tools and frameworks</li>
-                        </ul>
-                        <a href="https://github.com/collabnix/awesome-mcp-lists/blob/main/CONTRIBUTING.md" class="server-link" target="_blank">Contribution Guidelines →</a>
-                    </div>
-
-                    <div class="course-card">
-                        <h3>Future Roadmap</h3>
-                        <p>Exciting developments ahead for MCP:</p>
-                        <ul>
-                            <li><strong>Enhanced Security:</strong> Advanced authentication and encryption</li>
-                            <li><strong>Performance:</strong> Optimized protocol and caching mechanisms</li>
-                            <li><strong>Ecosystem:</strong> More clients, servers, and integrations</li>
-                            <li><strong>Standards:</strong> Industry adoption and standardization</li>
-                            <li><strong>Tools:</strong> Better development and debugging tools</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <header class="hero">
+    <div class="wrap">
+      <span class="eyebrow">Model Context Protocol</span>
+      <h1>Awesome <span class="grad">MCP Lists</span></h1>
+      <p class="tagline">A curated, community-driven directory of <b>containerised MCP servers, clients, and toolkits</b> — the building blocks that connect AI assistants to real tools and data.</p>
+      <div class="stats" id="stats"></div>
+      <div class="cta">
+        <a class="btn primary" href="https://github.com/collabnix/awesome-mcp-lists" target="_blank" rel="noopener">⭐ Star on GitHub</a>
+        <a class="btn" href="https://github.com/collabnix/awesome-mcp-lists/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">➕ Add a project</a>
+        <a class="btn" href="learn.html">📚 Learn MCP</a>
+      </div>
     </div>
+  </header>
 
-    <script src="script.js"></script>
+  <div class="controls">
+    <div class="wrap">
+      <nav class="tabs" id="tabs"></nav>
+      <div class="search">
+        <input id="search" type="search" placeholder="Search by name or description…" autocomplete="off" />
+      </div>
+      <div class="chips" id="chips"></div>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <div class="meta" id="meta"></div>
+    <div id="results"></div>
+  </main>
+
+  <footer class="wrap">
+    <p>Built by the <a href="https://collabnix.com" target="_blank" rel="noopener">Collabnix</a> community · Data generated from the
+      <a href="https://github.com/collabnix/awesome-mcp-lists/blob/main/README.md" target="_blank" rel="noopener">README</a> ·
+      <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 1.0</a></p>
+    <p style="margin-top:8px">Missing something? <a href="https://github.com/collabnix/awesome-mcp-lists/issues/new/choose" target="_blank" rel="noopener">Suggest an MCP project →</a></p>
+  </footer>
+
+<script>
+const GROUPS = [
+  { key: "servers",  label: "🧩 Servers" },
+  { key: "clients",  label: "💻 Clients" },
+  { key: "toolkits", label: "🧰 Toolkits & SDKs" },
+  { key: "docker",   label: "🐳 Docker MCP Toolkit" },
+];
+const STAT_LABELS = { total: "projects", servers: "servers", clients: "clients", toolkits: "toolkits" };
+
+let DATA = null;
+let activeGroup = "servers";
+let activeCat = "";
+let query = "";
+
+const $ = (id) => document.getElementById(id);
+
+function hostOf(url) {
+  try { return new URL(url).hostname.replace(/^www\./, ""); } catch { return ""; }
+}
+
+function renderStats() {
+  const c = DATA.counts;
+  const order = ["total", "servers", "clients", "toolkits"];
+  $("stats").innerHTML = order.map((k) =>
+    `<div class="stat"><b>${c[k] ?? 0}+</b><span>${STAT_LABELS[k]}</span></div>`
+  ).join("");
+}
+
+function renderTabs() {
+  $("tabs").innerHTML = GROUPS.map((g) => {
+    const n = (DATA.groups[g.key] || []).length;
+    return `<button class="tab ${g.key === activeGroup ? "active" : ""}" data-g="${g.key}">${g.label} <span style="opacity:.7">${n}</span></button>`;
+  }).join("");
+  $("tabs").querySelectorAll(".tab").forEach((b) =>
+    b.addEventListener("click", () => { activeGroup = b.dataset.g; activeCat = ""; render(); })
+  );
+}
+
+function renderChips() {
+  const items = DATA.groups[activeGroup] || [];
+  const cats = [...new Set(items.map((i) => i.category))];
+  const chip = (val, label, active) =>
+    `<button class="chip ${active ? "active" : ""}" data-c="${val.replace(/"/g, "&quot;")}">${label}</button>`;
+  $("chips").innerHTML =
+    chip("", "All", activeCat === "") +
+    cats.map((c) => chip(c, c, activeCat === c)).join("");
+  $("chips").querySelectorAll(".chip").forEach((b) =>
+    b.addEventListener("click", () => { activeCat = b.dataset.c; render(); })
+  );
+}
+
+function renderResults() {
+  const q = query.trim().toLowerCase();
+  let items = DATA.groups[activeGroup] || [];
+  if (activeCat) items = items.filter((i) => i.category === activeCat);
+  if (q) items = items.filter((i) =>
+    i.name.toLowerCase().includes(q) || (i.description || "").toLowerCase().includes(q)
+  );
+
+  $("meta").textContent = `Showing ${items.length} ${items.length === 1 ? "entry" : "entries"}` +
+    (activeCat ? ` in ${activeCat}` : "") + (q ? ` matching “${query}”` : "");
+
+  if (!items.length) { $("results").innerHTML = `<div class="empty">No matches. Try a different search.</div>`; return; }
+
+  const byCat = {};
+  for (const it of items) (byCat[it.category] ||= []).push(it);
+
+  $("results").innerHTML = Object.entries(byCat).map(([cat, list]) => `
+    <section class="cat-block">
+      <div class="cat"><h2>${esc(cat)}</h2><span class="n">${list.length}</span></div>
+      <div class="grid">
+        ${list.map(cardHtml).join("")}
+      </div>
+    </section>`).join("");
+}
+
+function esc(s) { return (s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+
+function cardHtml(it) {
+  const host = hostOf(it.url);
+  const title = it.url
+    ? `<a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.name)}</a>`
+    : esc(it.name);
+  return `<article class="card">
+    <h3>${title}</h3>
+    <p>${esc(it.description) || "No description provided."}</p>
+    <div class="foot">
+      ${host ? `<span class="host">${esc(host)}</span>` : "<span></span>"}
+      ${it.url ? `<a class="open" href="${esc(it.url)}" target="_blank" rel="noopener">Open ↗</a>` : ""}
+    </div>
+  </article>`;
+}
+
+function render() { renderTabs(); renderChips(); renderResults(); }
+
+let t;
+function onSearch(e) { query = e.target.value; clearTimeout(t); t = setTimeout(renderResults, 120); }
+
+async function init() {
+  try {
+    const res = await fetch("data/servers.json", { cache: "no-cache" });
+    DATA = await res.json();
+  } catch (err) {
+    $("results").innerHTML = `<div class="empty">Couldn't load the directory data.<br>
+      Browse the full list on <a href="https://github.com/collabnix/awesome-mcp-lists#readme">GitHub</a>.</div>`;
+    return;
+  }
+  renderStats();
+  render();
+  $("search").addEventListener("input", onSearch);
+}
+init();
+</script>
 </body>
 </html>
