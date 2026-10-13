@@ -1,0 +1,48 @@
+name: Sync stats & site data
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+  schedule:
+    - cron: "0 6 * * 1"   # weekly, Monday 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-readme
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    # Don't loop on the bot's own commit.
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Recompute stats banner
+        run: python3 scripts/update_stats.py
+
+      - name: Rebuild website data from README
+        run: python3 scripts/build_site_data.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet README.md docs/data/servers.json; then
+            echo "README stats and site data already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md docs/data/servers.json
+          git commit -m "chore: sync stats banner & website data [skip ci]"
+          git push
