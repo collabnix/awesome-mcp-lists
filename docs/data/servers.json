@@ -4,8 +4,8 @@
     "servers": 375,
     "clients": 21,
     "toolkits": 45,
-    "docker": 195,
-    "total": 636
+    "docker": 196,
+    "total": 637
   },
   "groups": {
     "servers": [
@@ -3703,6 +3703,12 @@
         "name": "ContextStream",
         "description": "Shared project context for AI agents across Cursor, Claude Code, Codex, Grok, and other MCP clients. Hosted MCP at `io.contextstream/mcp`. Benchmarks",
         "url": "https://contextstream.io/benchmarks",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "Paste MCP",
+        "description": "Official local MCP server for Paste, the Mac clipboard manager. Search clipboard history, use copied items as context, and save output to pinboards",
+        "url": "https://github.com/pasteapp/paste-mcp",
         "category": "Knowledge Management"
       },
       {
