@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Contribution guide
+    url: https://github.com/collabnix/awesome-mcp-lists/blob/main/CONTRIBUTING.md
+    about: How to add or edit an entry yourself (fastest way to get listed).
+  - name: 💬 Collabnix Community
+    url: https://launchpass.com/collabnix
+    about: Ask questions and chat with the Collabnix community on Slack.
+  - name: 🧩 Model Context Protocol docs
+    url: https://modelcontextprotocol.io
+    about: Learn what MCP is and how to build servers and clients.
