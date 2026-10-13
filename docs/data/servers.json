@@ -1,0 +1,3800 @@
+{
+  "generated": true,
+  "counts": {
+    "servers": 374,
+    "clients": 21,
+    "toolkits": 44,
+    "docker": 191,
+    "total": 630
+  },
+  "groups": {
+    "servers": [
+      {
+        "name": "github",
+        "description": "Manage GitHub repositories and perform Git operations",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/github.md",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "docker",
+        "description": "Integrate with Docker to manage containers, images, and networks",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/docker.md",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "kubernetes",
+        "description": "Orchestrate and manage containerized applications with Kubernetes",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/kubernetes.md",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "gitlab",
+        "description": "Interact with GitLab repositories and CI/CD pipelines",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/gitlab.md",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "circleci",
+        "description": "Manage CI/CD pipelines and workflows in CircleCI",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/circleci.md",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "AWS Comprehensive",
+        "description": "Complete AWS service integration suite (20+ services)",
+        "url": "https://github.com/awslabs/mcp",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "Terraform",
+        "description": "Infrastructure as Code management",
+        "url": "https://hub.docker.com/r/hashicorp/terraform-mcp-server",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "pulumi",
+        "description": "Infrastructure as code platform",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/pulumi.md",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "heroku",
+        "description": "Cloud platform as a service (PaaS)",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/heroku.md",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "jetbrains",
+        "description": "Integrate with JetBrains IDEs and tools",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/jetbrains.md",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "github-mcp-server",
+        "description": "GitHub's official MCP server for repository and workflow management",
+        "url": "https://github.com/github/github-mcp-server",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "mcp-context-forge",
+        "description": "AI Gateway, registry, and proxy for MCP, A2A, and REST/gRPC APIs with unified endpoint and centralized discovery",
+        "url": "https://github.com/IBM/mcp-context-forge",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "toolhive",
+        "description": "Enterprise-grade platform for running and managing MCP servers",
+        "url": "https://github.com/stacklok/toolhive",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "MCPJungle",
+        "description": "Self-hosted MCP Gateway for AI agents",
+        "url": "https://github.com/mcpjungle/MCPJungle",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "mcp-server-kubernetes",
+        "description": "MCP Server for Kubernetes management commands",
+        "url": "https://github.com/Flux159/mcp-server-kubernetes",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "kubectl-mcp-server",
+        "description": "MCP server for Kubernetes via kubectl - install with npx or pip",
+        "url": "https://github.com/rohitg00/kubectl-mcp-server",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "apify-mcp-server",
+        "description": "Extract data from social media, search engines, maps, and any website using Apify scrapers via MCP",
+        "url": "https://github.com/apify/apify-mcp-server",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "TrendRadar",
+        "description": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。",
+        "url": "https://github.com/sansan0/TrendRadar",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "nginx-ui",
+        "description": "Yet another WebUI for Nginx",
+        "url": "https://github.com/0xJacky/nginx-ui",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "Dark-Moon",
+        "description": "Open source (GPL-3.0) autonomous AI penetration testing platform and MCP host that orchestrates offensive tools across web, API, Active Directory and Kubernetes, with proof of exploitation and a local Privacy Gateway.",
+        "url": "https://github.com/ASCIT31/Dark-Moon",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "hexstrike-ai",
+        "description": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities.",
+        "url": "https://github.com/0x4m4/hexstrike-ai",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "firecrawl-mcp-server",
+        "description": "🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients.",
+        "url": "https://github.com/firecrawl/firecrawl-mcp-server",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "csharp-sdk",
+        "description": "The official C# SDK for Model Context Protocol servers and clients. Maintained in collaboration with Microsoft.",
+        "url": "https://github.com/modelcontextprotocol/csharp-sdk",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "kubefwd",
+        "description": "Bulk port forwarding Kubernetes services for local development.",
+        "url": "https://github.com/txn2/kubefwd",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "bifrost",
+        "description": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
+        "url": "https://github.com/maximhq/bifrost",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "metamcp",
+        "description": "MCP Aggregator, Orchestrator, Middleware, Gateway in one docker",
+        "url": "https://github.com/metatool-ai/metamcp",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "Unity-MCP",
+        "description": "AI Skills, MCP Tools, and CLI for Unity Engine. Full AI develop and test loop. Use cli for quick setup. Efficient token usage, advanced tools. Any C# method may be turned into a tool by a single line. Works with Claude Code, Gemini, Copilot, Cursor and any other absolutely for free.",
+        "url": "https://github.com/IvanMurzak/Unity-MCP",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "holaOS",
+        "description": "The agent environment for long-horizon work, continuity, and self-evolution.",
+        "url": "https://github.com/holaboss-ai/holaOS",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "minima",
+        "description": "On-premises conversational RAG with configurable containers",
+        "url": "https://github.com/dmayboroda/minima",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "scira-mcp-chat",
+        "description": "A minimalistic MCP client with a good feature set.",
+        "url": "https://github.com/zaidmukaddam/scira-mcp-chat",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "context-space",
+        "description": "Ultimate Context Engineering Infrastructure, starting from MCPs and Integrations",
+        "url": "https://github.com/context-space/context-space",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "notion-mcp-server",
+        "description": "Official Notion MCP Server",
+        "url": "https://github.com/makenotion/notion-mcp-server",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "mcp-server",
+        "description": "An MCP server for interacting with the Financial Datasets stock market API.",
+        "url": "https://github.com/financial-datasets/mcp-server",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "kubernetes-mcp-server",
+        "description": "Model Context Protocol (MCP) server for Kubernetes and OpenShift",
+        "url": "https://github.com/containers/kubernetes-mcp-server",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "terraform-mcp-server",
+        "description": "The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development.",
+        "url": "https://github.com/hashicorp/terraform-mcp-server",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "awesome-devops-mcp-servers",
+        "description": "A curated list of awesome MCP servers focused on DevOps tools and capabilities.",
+        "url": "https://github.com/rohitg00/awesome-devops-mcp-servers",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "KiCAD-MCP-Server",
+        "description": "KiCAD MCP is a Model Context Protocol (MCP) implementation that enables Large Language Models (LLMs) like Claude to directly interact with KiCAD for printed circuit board design.",
+        "url": "https://github.com/mixelpixx/KiCAD-MCP-Server",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "Find MCP",
+        "description": "Search 17,000+ MCP servers from the official MCP registry - remote Streamable HTTP (catalog.agentage.io/mcp, no auth for search) or stdio (npx @agentage/find-mcp)",
+        "url": "https://github.com/agentage/find-mcp",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "SandBase Harness",
+        "description": "Local-first MCP bridge and agent runtime for governed sessions, approvals, credentials, audit/replay, and sandboxed execution through local, Docker, Kubernetes, or self-hosted worker backends",
+        "url": "https://github.com/sandbaseai/sandbase-harness",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "worldmonitor",
+        "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+        "url": "https://github.com/koala73/worldmonitor",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "python-sdk",
+        "description": "The official Python SDK for Model Context Protocol servers and clients",
+        "url": "https://github.com/modelcontextprotocol/python-sdk",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "typescript-sdk",
+        "description": "The official TypeScript SDK for Model Context Protocol servers and clients",
+        "url": "https://github.com/modelcontextprotocol/typescript-sdk",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "openstatus",
+        "description": "🫖 Status page with uptime monitoring & API monitoring as code   🫖",
+        "url": "https://github.com/openstatusHQ/openstatus",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "ha-mcp",
+        "description": "The Unofficial and Awesome Home Assistant MCP Server",
+        "url": "https://github.com/homeassistant-ai/ha-mcp",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "ghidra-mcp",
+        "description": "Ghidra MCP Server - 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker deployment.",
+        "url": "https://github.com/bethington/ghidra-mcp",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "radar",
+        "description": "The missing open-source Kubernetes UI with a built-in MCP server for AI agents. See what's broken, why, and what changed. Issues, Topology, event timeline, Helm, GitOps, live service traffic, and cluster audits - all in one Go binary.",
+        "url": "https://github.com/skyhook-io/radar",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "jcodemunch-mcp",
+        "description": "Cut AI token costs 95%+ on code exploration. The leading MCP server for precise, symbol-level GitHub code retrieval via tree-sitter AST. Works with Claude Code, Cursor & any MCP client. 313B+ tokens saved.",
+        "url": "https://github.com/jgravelle/jcodemunch-mcp",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "AssetOpsBench",
+        "description": "AssetOpsBench - Industry 4.0: A unified benchmark and framework for building, orchestrating, and evaluating domain-specific AI agents for Industry 4.0 asset operations and maintenance, with 460+ scenarios, 5 specialist agents (IoT, FMSR, TSFM, Work Order,...), and multi-agent orchestration blueprints (MetaAgent, AgentHive) over MCP.",
+        "url": "https://github.com/IBM/AssetOpsBench",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "arc-kit",
+        "description": "The Enterprise Architecture Governance Harness - strategy, architecture, delivery, and assurance using AI coding assistants",
+        "url": "https://github.com/tractorjuice/arc-kit",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "matlab-mcp-server",
+        "description": "Run MATLAB® using AI applications with the official MATLAB MCP Server from MathWorks®. This MCP server for MATLAB supports a wide range of coding agents like Claude Code® and Visual Studio® Code.",
+        "url": "https://github.com/matlab/matlab-mcp-server",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "cve-mcp-server",
+        "description": "Production-grade MCP server giving Claude 27 security intelligence tools across 21 APIs - CVE lookup, EPSS scoring, CISA KEV, MITRE ATT&CK, Shodan, VirusTotal, and more.",
+        "url": "https://github.com/mukul975/cve-mcp-server",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "Cohesivity",
+        "description": "cohesivity.ai offers free agent native backend services. Anonymous account (no-signup) to get started through MCP or API. Hosting, postgres, email, storage, containers, LLMs, voice and third-party APIs. Includes free tiers and 5 USD/mo in AI and Search credits. Top-ups through x402.",
+        "url": "https://github.com/cohesivity-org/cohesivity-plugin",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "docker-android",
+        "description": "Android in docker solution with noVNC supported, video recording, mcp server and AI-agent",
+        "url": "https://github.com/budtmo/docker-android",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "drawio-skill",
+        "description": "Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports.",
+        "url": "https://github.com/Agents365-ai/drawio-skill",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "Graft",
+        "description": "Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase.",
+        "url": "https://github.com/trailhq/Graft",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "mcp-for-blender",
+        "description": "Community plugin to control Blender 3D with any LLM of your choice. Not affiliated with the official Blender Foundation.",
+        "url": "https://github.com/ahujasid/mcp-for-blender",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "tyk",
+        "description": "Open Source API and AI Gateway supporting REST, GraphQL, TCP, gRPC and MCP (Model Context Protocol)",
+        "url": "https://github.com/TykTechnologies/tyk",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "zotero-mcp",
+        "description": "Zotero MCP: Connects your Zotero research library with Claude and other AI assistants via the Model Context Protocol to discuss papers, get summaries, analyze citations, and more.",
+        "url": "https://github.com/54yyyu/zotero-mcp",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "wslmanager",
+        "description": "GUI for the Windows Subsystem for Linux - and native Linux/macOS VMs on Mac. Install, back up, move and configure distros without CLI flags; AI assistant with tools, MCP server for agents, remote WSL over SSH.",
+        "url": "https://github.com/bostrot/wslmanager",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "atlassian-mcp-server",
+        "description": "Official remote MCP server for Atlassian. Securely connect Jira, Confluence, Jira Service Management, Bitbucket, and Compass to Claude, ChatGPT, Cursor, VS Code, and other AI tools using OAuth 2.1 or API tokens.",
+        "url": "https://github.com/atlassian/atlassian-mcp-server",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "SolidPing",
+        "description": "Self-hostable uptime monitor with a built-in MCP server: create, run and diagnose checks across 43 types, read results and incidents, manage status pages and maintenance windows. Remote (OAuth 2.1) or stdio.",
+        "url": "https://github.com/fclairamb/solidping",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "Croncool",
+        "description": "Hosted OAuth MCP for scheduled jobs, execution history, workflows, webhook health and confirmed run-now actions.",
+        "url": "https://github.com/croncool/claude-plugin",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "postgres",
+        "description": "Interact with PostgreSQL databases",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/postgres.md",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "MongoDB",
+        "description": "MongoDB database integration",
+        "url": "https://hub.docker.com/r/mongodb/mongodb-mcp-server",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "redis",
+        "description": "Interact with Redis in-memory data structure store",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/redis.md",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "elasticsearch",
+        "description": "Search, analyze, and visualize data with Elasticsearch",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/elasticsearch.md",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "chroma",
+        "description": "Interact with Chroma vector database for embeddings and retrieval",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/chroma.md",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "neo4j-server",
+        "description": "Graph database server management",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/neo4j-server.md",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "astra-db",
+        "description": "Interact with DataStax Astra DB, a cloud-native Cassandra database",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/astra-db.md",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "neon",
+        "description": "Serverless PostgreSQL database service",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/neon.md",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "Supabase",
+        "description": "Open source Firebase alternative",
+        "url": "https://github.com/supabase/mcp-server-supabase",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "tembo",
+        "description": "Enhanced PostgreSQL database platform",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/tembo.md",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "mcp-database-connector-lite",
+        "description": "Free, open-source SQLite MCP server with query execution, schema inspection, and data manipulation",
+        "url": "https://github.com/tiranmoskovitch-dev/mcp-database-connector-lite",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "mysql_mcp_server",
+        "description": "MCP server that enables secure interaction with MySQL databases",
+        "url": "https://github.com/designcomputer/mysql_mcp_server",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "mcp-server-mysql",
+        "description": "Read-only MCP server for MySQL - inspect schemas and execute read-only queries",
+        "url": "https://github.com/benborla/mcp-server-mysql",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "mcp-server-qdrant",
+        "description": "Official Qdrant MCP server implementation for vector database integration",
+        "url": "https://github.com/qdrant/mcp-server-qdrant",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "mcp-memory-service",
+        "description": "Open-source persistent memory for AI agent pipelines (LangGraph, CrewAI, AutoGen) and Claude",
+        "url": "https://github.com/doobidoo/mcp-memory-service",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "XHS-Downloader",
+        "description": "小红书（XiaoHongShu、RedNote）链接提取/作品采集工具：提取账号发布、收藏、点赞、专辑作品链接；提取搜索结果作品、用户链接；采集小红书作品信息；提取小红书作品下载地址；下载小红书作品文件",
+        "url": "https://github.com/JoeanAmier/XHS-Downloader",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "lamda",
+        "description": "The most powerful Android RPA agent framework, next generation mobile automation.",
+        "url": "https://github.com/firerpa/lamda",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "context-mode",
+        "description": "Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 12 platforms",
+        "url": "https://github.com/mksglu/context-mode",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "httprunner",
+        "description": "HttpRunner 是一款开源的 API/UI 测试框架，简单易用，功能强大，具有丰富的插件化机制和高度的可扩展能力。",
+        "url": "https://github.com/httprunner/httprunner",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "codebase-memory-mcp",
+        "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph - average repo in milliseconds. 66 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+        "url": "https://github.com/DeusData/codebase-memory-mcp",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "awesome-openclaw",
+        "description": "A curated list of OpenClaw resources, tools, skills, tutorials & articles. OpenClaw (formerly Moltbot / Clawdbot) - open-source self-hosted AI agent for WhatsApp, Telegram, Discord & 50+ integrations.",
+        "url": "https://github.com/SamurAIGPT/awesome-openclaw",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "mongodb-mcp-server",
+        "description": "A Model Context Protocol server to connect to MongoDB databases and MongoDB Atlas Clusters.",
+        "url": "https://github.com/mongodb-js/mongodb-mcp-server",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "whodb",
+        "description": "Where data access meets operational intelligence",
+        "url": "https://github.com/clidey/whodb",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "prest",
+        "description": "PostgreSQL ➕ REST, low-code, simplify and accelerate development, ⚡ instant, realtime, high-performance on any Postgres application, existing or new, MCP server",
+        "url": "https://github.com/prest/prest",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "GoNavi",
+        "description": "High-performance multi-data-source database client - ~30MB, AI & MCP ready, zero Electron bloat. | 高性能多数据源数据库客户端：约 30MB，AI 与 MCP 就绪，告别 Electron 膨胀。",
+        "url": "https://github.com/Syngnat/GoNavi",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "x64dbg-mcp-server",
+        "description": "x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built with Zig - zero dependencies, single-binary output, cros",
+        "url": "https://github.com/duty1g/x64dbg-mcp-server",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "Douyin_TikTok_Download_API",
+        "description": "🚀 抖音、TikTok 数据采集与无水印视频下载 API，自托管，支持 MCP 调用与 Docker 一键部署。| Self-hosted TikTok & Douyin scraper and no-watermark video downloader - async REST API, MCP server, CLI and web console for posts, profiles, comments and playlists. Self-healing identity pool, PostgreSQL archive, one docker compose up.",
+        "url": "https://github.com/Evil0ctal/Douyin_TikTok_Download_API",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "Prisma MCP Server",
+        "description": "Official hosted MCP server (Streamable HTTP, sign in with a Prisma account) for managing Prisma Postgres databases, running SQL, and managing Prisma Compute deployments and Object Storage",
+        "url": "https://www.prisma.io/docs/ai/tools/mcp-server",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "brave",
+        "description": "Perform web searches using Brave's privacy-focused search engine",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/brave.md",
+        "category": "Web & Content"
+      },
+      {
+        "name": "notion",
+        "description": "Create and manage content in Notion workspaces",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/notion.md",
+        "category": "Web & Content"
+      },
+      {
+        "name": "puppeteer",
+        "description": "Automate browser interactions and scrape web content",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/puppeteer.md",
+        "category": "Web & Content"
+      },
+      {
+        "name": "duckduckgo",
+        "description": "Privacy-focused web search engine",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/duckduckgo.md",
+        "category": "Web & Content"
+      },
+      {
+        "name": "firecrawl",
+        "description": "Web crawling and content extraction tool",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/firecrawl.md",
+        "category": "Web & Content"
+      },
+      {
+        "name": "ContextWire",
+        "description": "Free search API for AI agents with multi-engine support, multiple search profiles, and a remote MCP server (streamable-http). 1,000 free queries/month",
+        "url": "https://github.com/keptlive/contextwire-mcp",
+        "category": "Web & Content"
+      },
+      {
+        "name": "exa-mcp-server",
+        "description": "Official Exa MCP server for web search and web crawling",
+        "url": "https://github.com/exa-labs/exa-mcp-server",
+        "category": "Web & Content"
+      },
+      {
+        "name": "browser-tools-mcp",
+        "description": "Monitor browser logs and console directly from Cursor and other MCP-compatible IDEs",
+        "url": "https://github.com/AgentDeskAI/browser-tools-mcp",
+        "category": "Web & Content"
+      },
+      {
+        "name": "apple-docs-mcp",
+        "description": "MCP server for Apple Developer Documentation - search iOS/macOS/SwiftUI/UIKit docs, WWDC videos, and code examples",
+        "url": "https://github.com/kimsungwhee/apple-docs-mcp",
+        "category": "Web & Content"
+      },
+      {
+        "name": "arxiv-mcp-server",
+        "description": "MCP server for searching and analyzing arXiv papers",
+        "url": "https://github.com/blazickjp/arxiv-mcp-server",
+        "category": "Web & Content"
+      },
+      {
+        "name": "linkedin-mcp-server",
+        "description": "MCP server for accessing LinkedIn profiles, companies, jobs, and performing job searches",
+        "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
+        "category": "Web & Content"
+      },
+      {
+        "name": "browser-use-mcp-server",
+        "description": "MCP server for browser automation - browse the web directly from Cursor and other AI assistants",
+        "url": "https://github.com/kontext-dev/browser-use-mcp-server",
+        "category": "Web & Content"
+      },
+      {
+        "name": "chrome-devtools-mcp",
+        "description": "Chrome DevTools MCP server for coding agents - inspect pages, capture logs, and debug",
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+        "category": "Web & Content"
+      },
+      {
+        "name": "google_workspace_mcp",
+        "description": "Control Gmail, Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, and Drive with AI via MCP",
+        "url": "https://github.com/taylorwilsdon/google_workspace_mcp",
+        "category": "Web & Content"
+      },
+      {
+        "name": "Scrapling",
+        "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+        "url": "https://github.com/D4Vinci/Scrapling",
+        "category": "Web & Content"
+      },
+      {
+        "name": "UI-TARS-desktop",
+        "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+        "url": "https://github.com/bytedance/UI-TARS-desktop",
+        "category": "Web & Content"
+      },
+      {
+        "name": "gpt-researcher",
+        "description": "An autonomous agent that conducts deep research on any data using any LLM providers",
+        "url": "https://github.com/assafelovic/gpt-researcher",
+        "category": "Web & Content"
+      },
+      {
+        "name": "Skill_Seekers",
+        "description": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection",
+        "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
+        "category": "Web & Content"
+      },
+      {
+        "name": "Auto-claude-code-research-in-sleep",
+        "description": "ARIS ⚔️ (Auto-Research-In-Sleep) - Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in - works with Claude Code, Codex, OpenClaw, or any LLM agent.",
+        "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+        "category": "Web & Content"
+      },
+      {
+        "name": "mcp",
+        "description": "Browser MCP is a Model Context Provider (MCP) server that allows AI applications to control your browser",
+        "url": "https://github.com/BrowserMCP/mcp",
+        "category": "Web & Content"
+      },
+      {
+        "name": "deep-research",
+        "description": "Use any LLMs (Large Language Models) for Deep Research. Support SSE API and MCP server.",
+        "url": "https://github.com/u14app/deep-research",
+        "category": "Web & Content"
+      },
+      {
+        "name": "mcpo",
+        "description": "A simple, secure MCP-to-OpenAPI proxy server",
+        "url": "https://github.com/open-webui/mcpo",
+        "category": "Web & Content"
+      },
+      {
+        "name": "grafbase",
+        "description": "The Grafbase GraphQL Federation Gateway",
+        "url": "https://github.com/grafbase/grafbase",
+        "category": "Web & Content"
+      },
+      {
+        "name": "mcp-server-browserbase",
+        "description": "Allow LLMs to control a browser with Browserbase and Stagehand",
+        "url": "https://github.com/browserbase/mcp-server-browserbase",
+        "category": "Web & Content"
+      },
+      {
+        "name": "shadcn-ui-mcp-server",
+        "description": "A mcp server to allow LLMS gain context about shadcn ui component structure,usage and installation,compaitable with react,svelte 5,vue & React Native",
+        "url": "https://github.com/Jpisnice/shadcn-ui-mcp-server",
+        "category": "Web & Content"
+      },
+      {
+        "name": "duckduckgo-mcp-server",
+        "description": "A Model Context Protocol (MCP) server that provides web search capabilities through DuckDuckGo, with additional features for content fetching and parsing.",
+        "url": "https://github.com/nickclyde/duckduckgo-mcp-server",
+        "category": "Web & Content"
+      },
+      {
+        "name": "browser-use-mcp-server",
+        "description": "Browse the web, directly from Cursor etc.",
+        "url": "https://github.com/kontext-security/browser-use-mcp-server",
+        "category": "Web & Content"
+      },
+      {
+        "name": "openagent",
+        "description": "⚡️next-generation personal AI assistant powered by LLM, RAG and agent loops, supporting computer-use, browser-use and coding agent, demo: https://demo.openagentai.org",
+        "url": "https://github.com/the-open-agent/openagent",
+        "category": "Web & Content"
+      },
+      {
+        "name": "Xquik MCP Server",
+        "description": "X/Twitter data extraction, account monitoring, webhooks, and API exploration via MCP",
+        "url": "https://github.com/Xquik-dev/x-twitter-scraper",
+        "category": "Web & Content"
+      },
+      {
+        "name": "kaitoInfra/twitterapi-io-mcp-server",
+        "description": "Twitter/X data API for AI agents via MCP - tweet search with full operators, profiles, threads, real-time WebSocket streaming, trending topics. Hosted endpoint mcp.twitterapi.io/mcp (twitterapi.io)",
+        "url": "https://twitterapi.io",
+        "category": "Web & Content"
+      },
+      {
+        "name": "QuantDinger",
+        "description": "AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data, and multi-agent research.vibe-trading ,trading-agents,ai-trader,ai-trading",
+        "url": "https://github.com/OpenByteInc/QuantDinger",
+        "category": "Web & Content"
+      },
+      {
+        "name": "semble",
+        "description": "Fast and Accurate Code Search for Agents. Uses 99% fewer tokens than grep+read",
+        "url": "https://github.com/MinishLab/semble",
+        "category": "Web & Content"
+      },
+      {
+        "name": "nanobot",
+        "description": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps",
+        "url": "https://github.com/HKUDS/nanobot",
+        "category": "Web & Content"
+      },
+      {
+        "name": "magic-mcp",
+        "description": "It's like v0, but in your Cursor / Claude Code / Windsurf: search 10,000+ React/Tailwind components, generate new UI with AI, and publish your own - right from your editor. Magic MCP is now the 21st MCP; this package keeps old configs working. Setup: 21st.dev/mcp",
+        "url": "https://github.com/21st-dev/magic-mcp",
+        "category": "Web & Content"
+      },
+      {
+        "name": "wigolo",
+        "description": "The go-to web for your AI coding agent - local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
+        "url": "https://github.com/KnockOutEZ/wigolo",
+        "category": "Web & Content"
+      },
+      {
+        "name": "stealth-browser-mcp",
+        "description": "The only browser automation that bypasses anti-bot systems. AI writes network hooks, clones UIs pixel-perfect via simple chat.",
+        "url": "https://github.com/vibheksoni/stealth-browser-mcp",
+        "category": "Web & Content"
+      },
+      {
+        "name": "video-search-and-summarization",
+        "description": "NVIDIA AI Blueprint for video search and summarization (VSS) is a GPU-accelerated reference architecture for building video analytics agents with real-time verified alerts, visual Q&A, and automated reporting. The VSS Blueprint uses vision language models (VLMs) such as NVIDIA Cosmos, LLMs such as NVIDIA Nemotron, RAG, and NVIDIA NIMs.",
+        "url": "https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization",
+        "category": "Web & Content"
+      },
+      {
+        "name": "anysearch-mcp-server",
+        "description": "Unified real-time search MCP server supporting general web search, vertical domain search, parallel batch search, and full-page URL content extraction.",
+        "url": "https://github.com/anysearch-ai/anysearch-mcp-server",
+        "category": "Web & Content"
+      },
+      {
+        "name": "Statsnet",
+        "description": "Background check any company in the world: registration, executives, courts and finances. Remote MCP `https://statsnet.co/mcp` · Registry `io.github.usenetstate/statsnet`",
+        "url": "https://github.com/usenetstate/statsnet-mcp",
+        "category": "Web & Content"
+      },
+      {
+        "name": "QuanticData MCP",
+        "description": "Hosted Streamable HTTP MCP for web search, page scraping to Markdown, crawl and URL map, and ready-made site collectors; OAuth 2.1 or API key. Remote MCP `https://api.quanticdata.io/mcp` · Registry `io.github.quantumproxies/quanticdata-mcp`; includes a Dockerfile",
+        "url": "https://github.com/quantumproxies/quanticdata-mcp-server",
+        "category": "Web & Content"
+      },
+      {
+        "name": "waha",
+        "description": "WAHA - WhatsApp HTTP API (REST API) that you can configure in a click! Multiple engines: WEBJS (browser based), NOWEB (websocket nodejs), GOWS (websocket go), WPP (browser)",
+        "url": "https://github.com/devlikeapro/waha",
+        "category": "Web & Content"
+      },
+      {
+        "name": "google-ads-meta-ads-mcp",
+        "description": "Google Ads MCP server + Meta Ads MCP (Facebook Ads MCP) + GA4 + Search Console in one hosted remote MCP for Claude, ChatGPT, Cursor & n8n: 250+ tools, OAuth login, no API keys, approval-gated writes, free. By Ryze AI.",
+        "url": "https://github.com/irinabuht12-oss/google-ads-meta-ads-mcp",
+        "category": "Web & Content"
+      },
+      {
+        "name": "vexa",
+        "description": "Open-source meeting transcription API for Google Meet, Microsoft Teams & Zoom. Auto-join bots, real-time WebSocket transcripts, MCP server for AI agents. Self-host or use hosted SaaS.",
+        "url": "https://github.com/Vexa-ai/vexa",
+        "category": "Web & Content"
+      },
+      {
+        "name": "invisible_playwright_mcp",
+        "description": "Playwright MCP server undetected by anti-bots and captchas: AI agent browses the web on anti-detect stealth Firefox, Python, undetected browser automation, scraping, computer use.",
+        "url": "https://github.com/feder-cr/invisible_playwright_mcp",
+        "category": "Web & Content"
+      },
+      {
+        "name": "Apple Docs 2.0 MCP",
+        "description": "Apple developer documentation, Human Interface Guidelines and 1,700 WWDC sessions (2014–2026) with code for coding agents; search with developer.apple.com's own results and an offline index of 336,629 pages. Local stdio via `npx -y apple-docs-2.0-mcp` · Registry `io.github.mishafyi/apple-docs-2.0-mcp`",
+        "url": "https://github.com/mishafyi/Apple-Docs-2.0-MCP",
+        "category": "Web & Content"
+      },
+      {
+        "name": "Polyblog",
+        "description": "Hosted OAuth MCP for multilingual blog articles, topic planning, translation and confirmed publishing changes.",
+        "url": "https://github.com/polyblog-io/claude-plugin",
+        "category": "Web & Content"
+      },
+      {
+        "name": "naia GEO Autopilot",
+        "description": "Run GEO analyses, read AI visibility reports, generate content, and manage execution plans with Naia. Hosted Streamable HTTP with OAuth or API key; npm stdio bridge available.",
+        "url": "https://naia.today",
+        "category": "Web & Content"
+      },
+      {
+        "name": "PDF to MD",
+        "description": "Convert PDFs and scans to Markdown, export Markdown to PDF, and check account usage through a hosted Streamable HTTP MCP server with Bearer API-key authentication.",
+        "url": "https://pdf-to-md.app/developers",
+        "category": "Web & Content"
+      },
+      {
+        "name": "chucho",
+        "description": "Hosted vacation rental search with public photos, property details, and direct host booking links. English/Spanish; Streamable HTTP; free, no auth. Endpoint: `https://chucho.ai/chatgpt/mcp`",
+        "url": "https://chucho.ai/chatgpt/",
+        "category": "Web & Content"
+      },
+      {
+        "name": "stripe",
+        "description": "Process payments and manage financial transactions",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/stripe.md",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "shopify",
+        "description": "Manage Shopify e-commerce stores and products",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/shopify.md",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Packrift MCP",
+        "description": "Remote MCP server for packaging supplies: product search, live pricing, inventory, package-fit recommendations, shipping estimates, and cart URLs",
+        "url": "https://github.com/Packrift/packrift-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "shopsavvy",
+        "description": "Complete product and pricing data solution - search products, compare prices, track history",
+        "url": "https://github.com/shopsavvy/shopsavvy-mcp-server",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "agent-signal",
+        "description": "Collective intelligence for AI shopping agents - 23 tools for buyer intelligence, seller analytics, price alerts, and trend tracking",
+        "url": "https://github.com/dan24ou-cpu/agent-signal",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "buywhere-mcp",
+        "description": "Real-time product search and price comparison across Singapore and SEA merchants (Lazada, Shopee, FairPrice, etc.)",
+        "url": "https://github.com/BuyWhere/buywhere-mcp?utm_source=awesome-mcp-lists&utm_medium=referral&utm_campaign=june30_25k&utm_content=awesome-mcp-lists",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "atlassian",
+        "description": "Integrate with Atlassian products like Jira and Confluence",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/atlassian.md",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "azure",
+        "description": "Interact with Microsoft Azure cloud services and resources",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/azure.md",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "google-maps",
+        "description": "Geographic information and location services",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/google-maps.md",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "slack",
+        "description": "Send and receive messages in Slack workspaces",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/slack.md",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "gdrive",
+        "description": "Access and manage files in Google Drive",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/gdrive.md",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "box",
+        "description": "Manage files and folders in Box cloud storage",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/box.md",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "razorpay",
+        "description": "Payment gateway and financial services platform",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/razorpay.md",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "resend",
+        "description": "Email delivery and management service",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/resend.md",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "x402engine-mcp",
+        "description": "Connects agents to 108 x402 pay-per-call APIs: 72 LLMs plus image/video, web, code, crypto, audio, travel, and IPFS; supports Base, Solana, and MegaETH",
+        "url": "https://github.com/agentc22/x402engine-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "mcp-api-bridge-lite",
+        "description": "Free REST API to MCP bridge - connect any REST API to AI assistants with simple YAML configuration, supporting GET, POST, PUT, DELETE with authentication",
+        "url": "https://github.com/tiranmoskovitch-dev/mcp-api-bridge-lite",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "lightning-wallet-mcp",
+        "description": "Give AI agents a Bitcoin wallet with Lightning Network payments and L402 support",
+        "url": "https://github.com/lightningfaucet/lightning-wallet-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "WritBase",
+        "description": "MCP-native task management for AI agent fleets",
+        "url": "https://github.com/Writbase/writbase",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "agent-signal",
+        "description": "Collective intelligence for AI shopping agents - buyer intelligence, seller analytics, price alerts, and session logging",
+        "url": "https://github.com/dan24ou-cpu/agent-signal",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "dexpaprika-mcp",
+        "description": "Real-time DEX data across multiple blockchains with pool, token, OHLCV, and trade data. Free, no API key",
+        "url": "https://github.com/coinpaprika/dexpaprika-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "coinpaprika-mcp",
+        "description": "Crypto market data for thousands of coins and exchanges - tickers, OHLCV, historical prices. Free, no API key",
+        "url": "https://github.com/coinpaprika/coinpaprika-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "TWZRD Agent Intel",
+        "description": "Solana-native trust scoring and x402 payment receipt MCP server for AI agents - free preflight, paid signed V5 trust receipt. Streamable-HTTP transport",
+        "url": "https://intel.twzrd.xyz",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "nutrient-dws-mcp-server",
+        "description": "MCP server for Nutrient Document Web Services API - convert, merge, redact, sign, OCR, watermark, and extract documents",
+        "url": "https://github.com/PSPDFKit/nutrient-dws-mcp-server",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "n8n-mcp-server",
+        "description": "MCP server for interacting with the n8n workflow automation API",
+        "url": "https://github.com/leonardsellem/n8n-mcp-server",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Gmail-MCP-Server",
+        "description": "MCP server for Gmail integration - read, search, send, and manage emails in Claude Desktop",
+        "url": "https://github.com/jasonsum/Gmail-MCP-Server",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "short-video-maker",
+        "description": "Creates short videos for TikTok, Instagram Reels, and YouTube Shorts using the Model Context Protocol (MCP) and a REST API.",
+        "url": "https://github.com/gyoridavid/short-video-maker",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Sanka MCP Server",
+        "description": "Hosted remote MCP server for Sanka API, connecting AI agents to CRM and back-office workflows.",
+        "url": "https://github.com/sankaHQ/sanka-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "mcp-notion-server",
+        "description": "A Model Context Protocol server for connecting Notion to MCP-compatible clients",
+        "url": "https://github.com/suekou/mcp-notion-server",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "dpx-mcp",
+        "description": "Settlement protocol MCP server for institutional cross-border USDC transactions on Base mainnet. 14 tools: Stability Oracle (macro, FX, ESG, climate, supply chain, earth systems), ESG scoring, FX quotes, Verification of Payee, and settlement execution. x402 pay-per-call. MiCA-aligned.",
+        "url": "https://github.com/untitledfinancial/dpx-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "apistatuscheck-mcp-server",
+        "description": "Live and historical availability for 285 public APIs and developer platforms across 29 categories - tell a third-party outage apart from a bug in your own code. 8 tools: status, uptime history, incident history, reliability ranking. Hosted Streamable HTTP, no API key.",
+        "url": "https://github.com/shibley/apistatuscheck-mcp-server",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "ParlayAPI",
+        "description": "Sports odds and player props with your own API key and account allowances; build from the repository Dockerfile",
+        "url": "https://github.com/JacobiusMakes/parlay-api-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Unfetch",
+        "description": "Hosted Google Ads MCP server for campaign, spend, conversion, and search-term reporting, with Google Analytics, Google Search Console, keyword research, and web research; OAuth and read-only account access. Setup",
+        "url": "https://unfetch.com/plugin",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "GrowSurf",
+        "description": "Build and manage GrowSurf referral and affiliate programs through AI assistants. Hosted OAuth or local stdio; includes a Dockerfile.",
+        "url": "https://github.com/growsurf/growsurf-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Influence",
+        "description": "Hosted Streamable HTTP MCP for social drafts and review, approved scheduling and publishing, and saved account/post Insights. OAuth or scoped bearer key; paid Influence account with a seven-day, card-required trial. Setup",
+        "url": "https://github.com/influence-so/influence-mcp#connection",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Dwellir",
+        "description": "Hosted Streamable HTTP MCP for read-only blockchain RPC queries across 150+ networks, Hyperliquid market data, short WebSocket samples, and Dwellir usage and API key management; OAuth, no API key in client config",
+        "url": "https://github.com/dwellir-public/dwellir-skill",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Datacircle",
+        "description": "Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup. Hosted Streamable HTTP MCP; OAuth 2.1 or API key. Remote MCP `https://api.datacircle.dev/mcp` · Registry `dev.datacircle/datacircle`",
+        "url": "https://docs.datacircle.dev/mcp-server",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "concat",
+        "description": "⭐ Concat: The truly free, and open-source cross-platform CapCut replacement. Supports MCPs & API.",
+        "url": "https://github.com/jub0t/concat",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "looot",
+        "description": "Hosted Streamable HTTP MCP with one API key and prepaid balance for about 2,500 data endpoints from 90+ providers: work email, phone, company enrichment, Google SERP, web pages; OAuth 2.1 or bearer key, pay per call",
+        "url": "https://github.com/loootai/looot-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Plazmi",
+        "description": "Homemaking world for AI agents: move into a little house on a floating island, keep it on a real UTC clock, meet neighbours, send your human a postcard. Hosted Streamable HTTP MCP, no auth. Remote MCP `https://plazmi.gg/mcp` · Registry `gg.plazmi/plazmi`",
+        "url": "https://plazmi.gg/SKILL.md",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Invokely",
+        "description": "Hosted Streamable HTTP MCP for official statistics across the U.S., EU, Spain, and World Bank coverage. Search indicators and places, retrieve values and time series, compare places, and rank regions. Every value includes a period, unit, and source citation. Main endpoint: `https://invokely.ai/mcp` (OAuth or API key); anonymous trial: `https://invokely.ai/mcp/trial` (25 calls/day/IP).",
+        "url": "https://invokely.ai/docs/",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "DC Hub",
+        "description": "Hosted Streamable HTTP MCP for data-center site selection: mapped power, grid, gas and fiber assets, 300+ markets scored daily, live US ISO grid feeds and a capacity marketplace. 94 tools; free tier needs no key. Endpoint: https://dchub.cloud/mcp",
+        "url": "https://github.com/azmartone67/dchub-mcp-server",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "BankBridge",
+        "description": "Read-only access to US bank accounts, credit card transactions and investment holdings for AI agents: spending, subscriptions, cashflow. Hosted Streamable HTTP MCP; OAuth 2.1 or API key; paid subscription per connected bank. Remote MCP `https://bankbridge.money/api/mcp` · Registry `money.bankbridge/server`",
+        "url": "https://github.com/bankbridge-money/bankbridge-plugin",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Unusual Whales MCP",
+        "description": "Official Unusual Whales MCP server: options flow, dark pool prints, congressional trades, Greek exposure, volatility, futures and prediction markets. Hosted Streamable HTTP at `https://api.unusualwhales.com/api/mcp` with an Unusual Whales API key as a bearer token, or local stdio via `npx -y @unusualwhales/mcp`",
+        "url": "https://github.com/unusual-whales/unusual-whales-official-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "ZenMode",
+        "description": "Hosted Streamable HTTP MCP for LinkedIn outreach: read campaigns, contacts and conversation history, add or remove leads, and change campaign targeting; OAuth or API key; ZenMode plan required (Practitioner and above)",
+        "url": "https://github.com/zenmode87/zenmode-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Cryptowisser News",
+        "description": "Up-to-date crypto news from Cryptowisser's newsroom: the latest headlines, news on any coin, company or person, this week's biggest stories and full articles, all with source links. Hosted Streamable HTTP, no auth: `https://www.cryptowisser.com/mcp/server`",
+        "url": "https://github.com/cryptowisser-com/cryptowisser-news-plugin",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "App Store Tracker",
+        "description": "Hosted remote MCP server (Streamable HTTP, API key via Bearer token) for iOS App Store chart rankings, app details, reviews, keywords and revenue estimates.",
+        "url": "https://www.appstoretracker.com/mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Debriefing",
+        "description": "Competitive intelligence for B2B teams: tracked competitors, evidence-backed signals, digests and battlecards; 41 tools, 4 public with no sign-in; OAuth 2.1 or API key. Remote MCP `https://debriefing.io/mcp` · Registry `io.debriefing/debriefing`",
+        "url": "https://github.com/0xrome/debriefing-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "StockDrifts",
+        "description": "Rated US 13F funds with average buy prices, company KPIs, Japanese large-shareholder filings and Korean insider trades. 32 read-only tools, API key. Remote MCP `https://mcp.stockdrifts.io/mcp/` · Registry `io.stockdrifts/mcp`",
+        "url": "https://github.com/Stockdrifts/stockdrifts-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "SkyAccess",
+        "description": "Search 5,000+ live empty leg flights, get charter price estimates and booking links. No account or API key. Hosted Streamable HTTP MCP `https://mcp.skyaccess.com/mcp` · Registry `com.skyaccess/skyaccess`",
+        "url": "https://github.com/sky-access/skyaccess-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Desk by Ouroboros Apps",
+        "description": "Customer support policy for assistants: approved support answers, refund rules, and escalation limits read before replying; unapproved promises go to human review. Hosted Streamable HTTP MCP `https://desk-mcp-continuity2.vercel.app/mcp` with OAuth; includes a Dockerfile. Docs · Ouroboros Apps",
+        "url": "https://ouroborosapps.com/docs/desk",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Claim by Ouroboros Apps",
+        "description": "Brand claims and marketing copy compliance: approved claims, offers, proof, brand voice, and banned phrases, with a check that rejects copy inventing a guarantee or discount. Hosted Streamable HTTP MCP `https://claim-continuity2.vercel.app/mcp` with OAuth; includes a Dockerfile. Docs · Ouroboros Apps",
+        "url": "https://ouroborosapps.com/docs/claim",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Rank by Ouroboros Apps",
+        "description": "SEO rankings from Google Search Console, read-only: top queries and pages, traffic trends, period comparisons, quick wins, dropped pages, and URL inspection. Hosted Streamable HTTP MCP `https://rank.ouroborosapps.com/mcp` with OAuth; includes a Dockerfile. Docs · Ouroboros Apps",
+        "url": "https://ouroborosapps.com/docs/rank",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Scope by Ouroboros Apps",
+        "description": "Freelance scope of work: approved scope, rates, deadlines, and change orders, so an assistant cannot promise work or discounts that were not approved. Hosted Streamable HTTP MCP `https://scope-continuity2.vercel.app/mcp` with OAuth; includes a Dockerfile. Docs · Ouroboros Apps",
+        "url": "https://ouroborosapps.com/docs/scope",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Milestone by Ouroboros Apps",
+        "description": "Freelance project milestones: approved milestones, deliverables, and acceptance criteria; a milestone is only done when the saved criteria are met. Hosted Streamable HTTP MCP `https://milestone-continuity2.vercel.app/mcp` with OAuth; includes a Dockerfile. Docs · Ouroboros Apps",
+        "url": "https://ouroborosapps.com/docs/milestone",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Invoice by Ouroboros Apps",
+        "description": "Freelance invoice records: approved invoice line items, quantities, agreed rates, due dates, and late terms; invoice changes need explicit approval. Hosted Streamable HTTP MCP `https://invoice-continuity2.vercel.app/mcp` with OAuth; includes a Dockerfile. Docs · Ouroboros Apps",
+        "url": "https://ouroborosapps.com/docs/invoice",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Deposit by Ouroboros Apps",
+        "description": "Freelance deposit and payment schedule: approved deposits, payment dates, and client wording; deposit waivers and date changes need approval. Hosted Streamable HTTP MCP `https://deposit-continuity2.vercel.app/mcp` with OAuth; includes a Dockerfile. Docs · Ouroboros Apps",
+        "url": "https://ouroborosapps.com/docs/deposit",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Papers by Ouroboros Apps",
+        "description": "Research paper search with real citations from OpenAlex, Semantic Scholar, PubMed, Crossref, and arXiv: find papers, fetch abstracts, follow citations, and format references. Hosted Streamable HTTP MCP `https://papers-mcp.vercel.app/mcp` with OAuth; includes a Dockerfile. Docs · Ouroboros Apps",
+        "url": "https://ouroborosapps.com/docs/papers",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Patent by Ouroboros Apps",
+        "description": "USPTO patent search and prior art lookup: search public patent records, fetch a patent, list citations, and run a prior-art search. Not legal advice. Hosted coverage is USPTO only. Hosted Streamable HTTP MCP `https://patent-mcp.vercel.app/mcp` with OAuth; includes a Dockerfile. Docs · Ouroboros Apps",
+        "url": "https://ouroborosapps.com/docs/patent",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Invompt",
+        "description": "Hosted remote MCP that turns AI-host work into invoices, quotes, and estimates you review before send; works inside Claude, ChatGPT, or Cursor. Guest access or OAuth at `https://mcp.invompt.com/mcp`",
+        "url": "https://github.com/Invompt/invompt-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Productify",
+        "description": "Hosted Streamable HTTP MCP that creates Printify products from chat, with listings written in your shop's voice. Nothing is created, published or edited until you approve a preview; OAuth sign-in, Productify account required. Remote MCP `https://www.useproductify.com/api/mcp`",
+        "url": "https://www.useproductify.com/printify-chatgpt-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "AppSkyline",
+        "description": "Hosted OAuth MCP for app-store keyword rankings, reviews and store listings.",
+        "url": "https://github.com/appskyline/claude-plugin",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "HairDora",
+        "description": "Read-only hosted OAuth MCP for salon availability, appointments, clients, services, quotes and payment status.",
+        "url": "https://github.com/hairdora/claude-plugin",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "DodoDentist",
+        "description": "Read-only hosted OAuth MCP for dental-clinic metadata, free slots, dentist display names, treatment catalog prices and aggregate schedules.",
+        "url": "https://github.com/dododentist/claude-plugin",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "DoctoFam",
+        "description": "Read-only hosted OAuth MCP for clinic metadata, free slots, doctor display names, rooms, service prices and aggregate schedules.",
+        "url": "https://github.com/doctofam/claude-plugin",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Veterical",
+        "description": "Read-only hosted OAuth MCP for veterinary-clinic metadata, free slots, vet display names, numeric service pricing and aggregate schedules and payments.",
+        "url": "https://github.com/veterical/claude-plugin",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "GymFlexa",
+        "description": "Read-only hosted OAuth MCP for gym configuration, free slots, service catalogs and aggregate schedules and payment totals.",
+        "url": "https://github.com/gymflexa/claude-plugin",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Hotelumo",
+        "description": "Read-only hosted OAuth MCP for hotel room availability, rates, housekeeping, room status and aggregate stay schedules.",
+        "url": "https://github.com/hotelumo/claude-plugin",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "InvoiceVista",
+        "description": "Read-only hosted OAuth MCP for businesses, product catalogs and aggregate revenue, receivables and quote-pipeline summaries.",
+        "url": "https://github.com/invoicevista/claude-plugin",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Quantral",
+        "description": "Stock sentiment for US and Korean stocks: 0-100 signal scores from tracked X, Reddit, Substack and Naver accounts plus Congress trades and insider buys, the posts behind each score, monthly recaps, and rule-based model portfolios tracked against the S&P 500. Hosted Streamable HTTP MCP `https://app.quantral.com/api/mcp`, 8 read-only tools, OAuth; Quantral subscription required. Registry `com.quantral/sentiment`",
+        "url": "https://quantral.com/mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "AgentoolRank",
+        "description": "Hosted Streamable HTTP MCP (`https://agentoolrank.com/api/mcp`) for searching open-source AI agent tools and MCP servers ranked by live GitHub activity, refreshed daily, with alternatives for any tool; read-only search needs no API key",
+        "url": "https://github.com/agent-gigmole/agentoolrank-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "QuerySail",
+        "description": "Hosted Streamable HTTP MCP for read-only Google Search Console data: search performance by query, page, country, device and date, period comparisons, URL inspection and sitemaps; OAuth, no API key. Remote MCP `https://mcp.querysail.com/gsc/mcp` · Registry `com.querysail/gsc`",
+        "url": "https://github.com/querysail/querysail-gsc",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "QuerySail Google Analytics",
+        "description": "Hosted Streamable HTTP MCP for read-only Google Analytics 4 data: reports by channel, source, page, country, device and event, period comparisons, realtime users and custom dimensions and metrics; OAuth, no API key. Remote MCP `https://mcp.querysail.com/ga4/mcp` · Registry `com.querysail/ga4`",
+        "url": "https://github.com/querysail/querysail-ga4",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "GovContractScout MCP",
+        "description": "MCP server exposing GovContractScout's US state & local government contracts API - search contracts, get details, NAICS lookup, and AI match scoring for AI agents. npm: `govcontractscout-mcp`",
+        "url": "https://github.com/govcontractscout/govcontractscout-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "crawlgraph",
+        "description": "Common Crawl backlink research, competitor gap analysis, and outreach-target discovery with a CrawlGraph API key; build the stdio server from the repository Dockerfile",
+        "url": "https://github.com/pucilpet/crawlgraph-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Soxoa MCP portfolio",
+        "description": "Eleven first-party hosted Streamable HTTP MCP connections with scoped workflow skills; OAuth where required.",
+        "url": "https://github.com/johnarndt/soxoa-mcp-portfolio",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Midpoint Card Prices",
+        "description": "Read-only trading card market data: raw and PSA/CGC/BGS graded prices for 1.5M+ Pokémon, Magic, Yu-Gi-Oh! and sports cards, grading ROI, price history and 30-day movers. Hosted at https://mcp.cardcenteringtool.com/mcp, no API key",
+        "url": "https://github.com/kolourr/midpoint-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Influence MCP",
+        "description": "Hosted Streamable HTTP MCP for drafting, reviewing, scheduling and publishing social posts, and checking post status; OAuth or scoped bearer key; Influence account required",
+        "url": "https://github.com/influence-so/influence-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Adrio",
+        "description": "AI media buyer for Meta ads. Hosted Streamable HTTP MCP to brief Spark, Adrio's creative agent, for static and video ad creatives, launch them to Facebook and Instagram, research competitor ads, and manage brand angles and audiences; OAuth 2.1 sign-in, Adrio account required",
+        "url": "https://adrio.ai/docs/mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "UGC VZ",
+        "description": "Query a creator directory for the German-speaking market: filter UGC creators by topic or city, open public profiles, and file a brand contact request answered by e-mail. Hosted Streamable HTTP without an account or key; npm stdio bridge in the repo",
+        "url": "https://github.com/ugcvz/ugc-vz-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "LogNorm",
+        "description": "Hosted Streamable HTTP MCP server that hands a site's SEO/GEO growth backlog (site audits, fixes, content drafts, AI-visibility tracking) to Claude Code, Codex and Cursor; OAuth 2.1, no API keys; LogNorm account required (free plan). Website",
+        "url": "https://lognorm.com",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Floatout",
+        "description": "Floatout's public, read-only MCP server. Look up Floatout plans and pricing, read Floatout guides on launching a Hyperliquid perps and prediction market DEX, and query Floatout's Hyperliquid builder-fee research. Hosted Streamable HTTP at https://floatout.xyz/api/mcp, no auth",
+        "url": "https://floatout.xyz",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Soundcheck Instant Quotes",
+        "description": "Live-event quoting for businesses that sell live event services (hosted public MCP, no auth)",
+        "url": "https://github.com/soundchecklive/soundcheck-plugin",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "PumpGTM",
+        "description": "Hosted remote MCP server (Streamable HTTP, OAuth) that finds buyers, runs LinkedIn, email and X outreach from your own accounts, and hands replies back to a human. Endpoint `https://mcp.pumpgtm.com/mcp`",
+        "url": "https://github.com/pumpgtm/pumpgtm-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Fast GST Refund",
+        "description": "Indian service-export GST refund guidance, record validation and Statement 3/Annexure B JSON; free checks, OAuth for paid downloads over Streamable HTTP.",
+        "url": "https://github.com/syllogismos/fast-gst-refund-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "tavily",
+        "description": "AI-powered web search and research assistant",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/tavily.md",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "perplexity-ask",
+        "description": "AI-powered question answering system",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/perplexity-ask.md",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "elevenlabs",
+        "description": "AI voice generation and text-to-speech",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/elevenlabs.md",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "wolfram-alpha",
+        "description": "Computational knowledge engine",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/wolfram-alpha.md",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "everart",
+        "description": "AI art generation and manipulation",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/everart.md",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "OpenAI Compatible",
+        "description": "Any OpenAI SDK compatible API",
+        "url": "https://github.com/imbactbulletz/any-chat-completions-mcp",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "Amazon Bedrock",
+        "description": "AWS AI services integration",
+        "url": "https://github.com/awslabs/mcp",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "Amazon Nova Canvas",
+        "description": "AI image generation platform",
+        "url": "https://github.com/awslabs/mcp",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "Roundtable",
+        "description": "Multi-model AI debate platform - GPT-4o, Claude, Gemini & 200+ models discuss, then synthesize insight",
+        "url": "https://github.com/deadpixel/roundtable-dashboard",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "excel-mcp-server",
+        "description": "MCP server for reading and writing Microsoft Excel data",
+        "url": "https://github.com/haris-musa/excel-mcp-server",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "jupyter-mcp-server",
+        "description": "MCP server for Jupyter notebooks - run code, manage kernels, and inspect outputs",
+        "url": "https://github.com/dsp-ant/jupyter-mcp-server",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "mcp-server-chart",
+        "description": "Visualization MCP server with 25+ chart types using Ant Design Charts",
+        "url": "https://github.com/antvis/mcp-server-chart",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "gemini-mcp-tool",
+        "description": "MCP server that lets AI assistants interact with Google Gemini CLI for additional AI capabilities",
+        "url": "https://github.com/jamubc/gemini-mcp-tool",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "ida-pro-mcp",
+        "description": "AI-powered reverse engineering assistant that bridges IDA Pro with language models",
+        "url": "https://github.com/mrexodia/ida-pro-mcp",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "n8n",
+        "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+        "url": "https://github.com/n8n-io/n8n",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "gemini-cli",
+        "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+        "url": "https://github.com/google-gemini/gemini-cli",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "context7",
+        "description": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
+        "url": "https://github.com/upstash/context7",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "ruflo",
+        "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+        "url": "https://github.com/ruvnet/ruflo",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "serena",
+        "description": "A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities  - the IDE for your agent",
+        "url": "https://github.com/oraios/serena",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "activepieces",
+        "description": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
+        "url": "https://github.com/activepieces/activepieces",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "MaxKB",
+        "description": "🔥 MaxKB is an open-source platform for building enterprise-grade agents.  强大易用的开源企业级智能体平台。",
+        "url": "https://github.com/1Panel-dev/MaxKB",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "nuclear",
+        "description": "Streaming music player that finds free music for you",
+        "url": "https://github.com/nukeop/nuclear",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "trigger.dev",
+        "description": "Trigger.dev – build and deploy fully‑managed AI agents and workflows",
+        "url": "https://github.com/triggerdotdev/trigger.dev",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "OpenMetadata",
+        "description": "OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team collaboration.",
+        "url": "https://github.com/open-metadata/OpenMetadata",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "mcp-use",
+        "description": "The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude & MCP Servers for AI Agents.",
+        "url": "https://github.com/mcp-use/mcp-use",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "xiaozhi-esp32-server",
+        "description": "本项目为xiaozhi-esp32提供后端服务，帮助您快速搭建ESP32设备控制服务器。Backend service for xiaozhi-esp32, helps you quickly build an ESP32 device control server.",
+        "url": "https://github.com/xinnan-tech/xiaozhi-esp32-server",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "Viper",
+        "description": "Adversary simulation and Red teaming platform with AI",
+        "url": "https://github.com/FunnyWolf/Viper",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "fastmcp",
+        "description": "🚀 The fast, Pythonic way to build MCP servers and clients.",
+        "url": "https://github.com/PrefectHQ/fastmcp",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "unity-mcp",
+        "description": "Unity MCP acts as a bridge, allowing AI assistants (like Claude, Cursor) to interact directly with your Unity Editor via a local MCP (Model Context Protocol) Client. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity.",
+        "url": "https://github.com/CoplayDev/unity-mcp",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "Upsonic",
+        "description": "Agent Framework For Fintech and Banks",
+        "url": "https://github.com/Upsonic/Upsonic",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "cursor-talk-to-figma-mcp",
+        "description": "TalkToFigma: MCP integration between AI Agent (Cursor, Claude Code) and Figma, allowing Agentic AI to communicate with Figma for reading designs and modifying them programmatically.",
+        "url": "https://github.com/grab/cursor-talk-to-figma-mcp",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "awesome-mcp-servers",
+        "description": "Awesome MCP Servers - A curated list of Model Context Protocol servers",
+        "url": "https://github.com/appcypher/awesome-mcp-servers",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "5ire",
+        "description": "5ire is a cross-platform desktop AI assistant, MCP client. It compatible with major service providers,  supports local knowledge base and  tools via model context protocol servers .",
+        "url": "https://github.com/nanbingxyz/5ire",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "casibase",
+        "description": "⚡️AI Cloud OS: Open-source enterprise-level AI knowledge base and MCP (model-context-protocol)/A2A (agent-to-agent) management platform with admin UI, user management and Single-Sign-On⚡️, supports ChatGPT, Claude, Llama, Ollama, HuggingFace, etc., chat bot demo: https://ai.casibase.com, admin UI demo: https://ai-admin.casibase.com",
+        "url": "https://github.com/casibase/casibase",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "markdownify-mcp",
+        "description": "A Model Context Protocol server for converting almost anything to Markdown",
+        "url": "https://github.com/zcaceres/markdownify-mcp",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "generative-ai",
+        "description": "Comprehensive resources on Generative AI, including a detailed roadmap, projects, use cases, interview preparation, and coding preparation.",
+        "url": "https://github.com/genieincodebottle/generative-ai",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "mcphub.nvim",
+        "description": "An MCP client for Neovim that seamlessly integrates MCP servers into your editing workflow with an intuitive interface for managing, testing, and using MCP servers with your favorite chat plugins.",
+        "url": "https://github.com/ravitemer/mcphub.nvim",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "jadx-ai-mcp",
+        "description": "Plugin for JADX to integrate MCP server",
+        "url": "https://github.com/zinja-coder/jadx-ai-mcp",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "pilot-shell",
+        "description": "Make Claude Code production-ready - spec-driven plans, enforced quality gates, persistent knowledge",
+        "url": "https://github.com/maxritter/pilot-shell",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "mcp-unity",
+        "description": "Model Context Protocol (MCP) plugin to connect with Unity Editor - designed for Cursor, Claude Code, Codex, Windsurf and other IDEs",
+        "url": "https://github.com/CoderGamester/mcp-unity",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "code-mode",
+        "description": "🔌 Plug-and-play library to enable agents to call MCP and UTCP tools via code execution.",
+        "url": "https://github.com/universal-tool-calling-protocol/code-mode",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "korean-law-mcp",
+        "description": "국가법령정보MCP | 법제처 41개 API → 14개 MCP 도구. 법령·판례·조례·조약을 AI로 검색·조회·분석 | 41 Korean legal APIs → 14 MCP tools",
+        "url": "https://github.com/chrisryugj/korean-law-mcp",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "nerve",
+        "description": "The Simple Agent Development Kit.",
+        "url": "https://github.com/evilsocket/nerve",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "tuui",
+        "description": "A desktop MCP client designed as a tool unitary utility integration, accelerating AI adoption through the Model Context Protocol (MCP) and enabling cross-vendor LLM API orchestration.",
+        "url": "https://github.com/AI-QL/tuui",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "MassGen",
+        "description": "🚀 MassGen is an open-source multi-agent scaling system that runs in your terminal, autonomously orchestrating frontier models and agents to collaborate, reason, and produce high-quality results. | Join us on Discord: discord.massgen.ai",
+        "url": "https://github.com/massgen/MassGen",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "MCP-Bridge",
+        "description": "A middleware to provide an openAI compatible endpoint that can call MCP tools",
+        "url": "https://github.com/SecretiveShell/MCP-Bridge",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "arcade-mcp",
+        "description": "The best way to create, deploy, and share MCP Servers",
+        "url": "https://github.com/ArcadeAI/arcade-mcp",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "awesome-mcp-servers",
+        "description": "A collection of MCP servers.",
+        "url": "https://github.com/punkpeye/awesome-mcp-servers",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "pal-mcp-server",
+        "description": "The power of Claude Code / GeminiCLI / CodexCLI + [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / Custom Model / All Of The Above] working as one.",
+        "url": "https://github.com/BeehiveInnovations/pal-mcp-server",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "slack-mcp-server",
+        "description": "The most powerful MCP Slack Server with no permission requirements, Apps support, GovSlack, DMs, Group DMs and smart history fetch logic.",
+        "url": "https://github.com/korotovsky/slack-mcp-server",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "docs-mcp-server",
+        "description": "Grounded Docs MCP Server: Open-Source Alternative to Context7, Nia, and Ref.Tools",
+        "url": "https://github.com/arabold/docs-mcp-server",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "ros-mcp-server",
+        "description": "Connect AI models like Claude & GPT with robots using MCP and ROS.",
+        "url": "https://github.com/robotmcp/ros-mcp-server",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "Awesome-MCP-Servers",
+        "description": "A curated list of Model Context Protocol (MCP) servers",
+        "url": "https://github.com/YuzeHao2023/Awesome-MCP-Servers",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "jupyter-mcp-server",
+        "description": "🪐 🔧 Model Context Protocol (MCP) Server for Jupyter.",
+        "url": "https://github.com/datalayer/jupyter-mcp-server",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "douyin-mcp-server",
+        "description": "提取抖音无水印视频链接，视频文案，douyin-mcp-server，mcp，claude skill，支持龙虾",
+        "url": "https://github.com/yzfly/douyin-mcp-server",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "openapi-mcp-server",
+        "description": "Allow AI to wade through complex OpenAPIs using Simple Language",
+        "url": "https://github.com/janwilmake/openapi-mcp-server",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "mcp-language-server",
+        "description": "mcp-language-server gives MCP enabled clients access semantic tools like get definition, references, rename, and diagnostics.",
+        "url": "https://github.com/isaacphi/mcp-language-server",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "Office-Word-MCP-Server",
+        "description": "A Model Context Protocol (MCP) server for creating, reading, and manipulating Microsoft Word documents. This server enables AI assistants to work with Word documents through a standardized interface, providing rich document editing capabilities.",
+        "url": "https://github.com/GongRzhe/Office-Word-MCP-Server",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "MODULAR-RAG-MCP-SERVER",
+        "description": "A modular RAG (Retrieval-Augmented Generation) system with MCP Server architecture. Using Skill to make AI follow each step of the spec and complete the code 100% by AI.",
+        "url": "https://github.com/jerry-ai-dev/MODULAR-RAG-MCP-SERVER",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "lemonade",
+        "description": "Lemonade helps users discover and run local AI apps by serving optimized LLMs right from their own GPUs and NPUs. Join our discord: https://discord.gg/5xXzkMu8Zk",
+        "url": "https://github.com/lemonade-sdk/lemonade",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "MeiGen-AI-Design-MCP",
+        "description": "Supports GPT Image 2, Nanobanana & ComfyUI, with a 1,400+ prompt library, carefully crafted hooks and a multi-task orchestration system",
+        "url": "https://github.com/jau123/MeiGen-AI-Design-MCP",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "google-meta-ads-ga4-mcp",
+        "description": "MCP server for Google Ads, Meta Ads & GA4 - works with ChatGPT, Claude, Cursor, n8n, Windsurf & more. 250+ tools for campaign management, analytics & optimization.",
+        "url": "https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "cocos-mcp-server",
+        "description": "一款全面的、便捷的cocos creator AI MCP服务插件，适用于3.8.0以上cocos版本，一键安装，一键启动。A comprehensive and convenient cocos creator AI MCP service plug-in, suitable for cocos versions above 3.8.0, one-click installation and one-click start.",
+        "url": "https://github.com/DaxianLee/cocos-mcp-server",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "RunAPI",
+        "description": "MCP server for model discovery and AI image, video, music/audio, text-to-speech, and LLM jobs via RunAPI",
+        "url": "https://github.com/runapi-ai/mcp",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "NotFair",
+        "description": "Open-source Claude Code skills for SEO, GEO, Google Ads, and Meta Ads - connects to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP",
+        "url": "https://github.com/nowork-studio/NotFair",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "reactive-resume",
+        "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
+        "url": "https://github.com/amruthpillai/reactive-resume",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "FunASR",
+        "description": "Open-source speech recognition toolkit for training, inference, streaming ASR, VAD, punctuation, speaker diarization pipelines, and OpenAI-compatible/MCP serving.",
+        "url": "https://github.com/modelscope/FunASR",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "unstract",
+        "description": "LLM-Driven Extraction of Unstructured Data - Built for API Deployments & ETL Pipeline Workflows",
+        "url": "https://github.com/Zipstack/unstract",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "blender-mcp",
+        "description": "Community plugin to control Blender 3D with any LLM of your choice",
+        "url": "https://github.com/ahujasid/blender-mcp",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "awesome-agentic-ai-zh",
+        "description": "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with 240+ curated resources and hands-on examples. 中文 AI agent 學習地圖。",
+        "url": "https://github.com/WenyuChiou/awesome-agentic-ai-zh",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "ableton-mcp",
+        "description": "🎵 Control Ableton Live with Claude AI - create tracks, arrange clips & compose music via MCP",
+        "url": "https://github.com/ahujasid/ableton-mcp",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "nitrostack",
+        "description": "The full-stack TypeScript framework to build, test, and deploy production-ready MCP servers and AI-native apps.",
+        "url": "https://github.com/nitrocloudofficial/nitrostack",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "open-codex-computer-use",
+        "description": "👾 Open Computer Use – Open-Source Alternative to Codex Computer Use",
+        "url": "https://github.com/iFurySt/open-codex-computer-use",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "reactive-resume",
+        "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
+        "url": "https://github.com/reactive-resume/reactive-resume",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "editor",
+        "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.",
+        "url": "https://github.com/pascalorg/editor",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "rea",
+        "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+        "url": "https://github.com/morluto/rea",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "sentry",
+        "description": "Monitor application errors and performance",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/sentry.md",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "cyreslab-ai-shodan",
+        "description": "Search for internet-connected devices using Shodan",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/cyreslab-ai-shodan.md",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "descope",
+        "description": "Implement secure user authentication and authorization",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/descope.md",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "armor-crypto",
+        "description": "Secure encryption and decryption tools for sensitive data",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/armor-crypto.md",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "VirusTotal",
+        "description": "File and URL security analysis",
+        "url": "https://github.com/skydeckai/virustotal-mcp-server",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "risken",
+        "description": "Security risk management platform",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/risken.md",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "Agent Module",
+        "description": "EU AI Act compliance logic for autonomous agents - risk classification, prohibited practices, transparency obligations, GDPR data protection. Free 24hr trial, self-provisioned via MCP",
+        "url": "https://github.com/AgentModule/mcp",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "damn-vulnerable-MCP-server",
+        "description": "Intentionally vulnerable MCP server for security research, training, and CTF exercises",
+        "url": "https://github.com/harishsg993010/damn-vulnerable-MCP-server",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "operant-mcp",
+        "description": "Open-source MCP server with 51 security testing tools for pentesting, vulnerability scanning, and security auditing",
+        "url": "https://github.com/operantlabs/operant-mcp",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "mcp-for-beginners",
+        "description": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration.",
+        "url": "https://github.com/microsoft/mcp-for-beginners",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "fastapi_mcp",
+        "description": "Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!",
+        "url": "https://github.com/tadata-org/fastapi_mcp",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "klavis",
+        "description": "Klavis AI:  MCP integration platforms that let AI agents use tools reliably at any scale",
+        "url": "https://github.com/Klavis-AI/klavis",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "osaurus",
+        "description": "Own your AI. The native macOS harness for AI agents -- any model, persistent memory, autonomous execution, cryptographic identity. Built in Swift. Fully offline. Open source.",
+        "url": "https://github.com/osaurus-ai/osaurus",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "ENScan_GO",
+        "description": "一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。支持MCP接入",
+        "url": "https://github.com/wgpsec/ENScan_GO",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "Gmail-MCP-Server",
+        "description": "A Model Context Protocol (MCP) server for Gmail integration in Claude Desktop with auto authentication support. This server enables AI assistants to manage Gmail through natural language interactions.",
+        "url": "https://github.com/GongRzhe/Gmail-MCP-Server",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "open-connector",
+        "description": "Open-source auth gateway connecting 1000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
+        "url": "https://github.com/oomol-lab/open-connector",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "tradingview-mcp",
+        "description": "TradingView MCP server - real-time market data, technical analysis, screeners & backtesting for Claude, ChatGPT, Cursor & any MCP client. Stocks, crypto, forex & futures across global exchanges. Hosted or self-host.",
+        "url": "https://github.com/atilaahmettaner/tradingview-mcp",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "codex-with-chatgpt",
+        "description": "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
+        "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "filesystem",
+        "description": "Interact with file system and perform file operations",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/filesystem.md",
+        "category": "Development Tools"
+      },
+      {
+        "name": "e2b",
+        "description": "Cloud-based development environment",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/e2b.md",
+        "category": "Development Tools"
+      },
+      {
+        "name": "octomind",
+        "description": "Automated testing and quality assurance platform",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/octomind.md",
+        "category": "Development Tools"
+      },
+      {
+        "name": "openapi-schema",
+        "description": "API definition and documentation standard",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/openapi-schema.md",
+        "category": "Development Tools"
+      },
+      {
+        "name": "desktop-commander",
+        "description": "Control desktop applications and perform system operations",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/desktop-commander.md",
+        "category": "Development Tools"
+      },
+      {
+        "name": "Roundtable",
+        "description": "Zero-configuration MCP server that unifies multiple AI coding assistants (Claude Code, Cursor, GPT-4) for enhanced development workflows",
+        "url": "https://github.com/askbudi/roundtable",
+        "category": "Development Tools"
+      },
+      {
+        "name": "Asynkor",
+        "description": "Coordination layer for AI agent teams - file leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf",
+        "url": "https://github.com/asynkor/asynkor",
+        "category": "Development Tools"
+      },
+      {
+        "name": "n8n-mcp",
+        "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you",
+        "url": "https://github.com/czlonkowski/n8n-mcp",
+        "category": "Development Tools"
+      },
+      {
+        "name": "xiaohongshu-mcp",
+        "description": "MCP for xiaohongshu.com",
+        "url": "https://github.com/xpzouying/xiaohongshu-mcp",
+        "category": "Development Tools"
+      },
+      {
+        "name": "Awesome-MCP-ZH",
+        "description": "MCP 资源精选， MCP指南，Claude MCP，MCP Servers, MCP Clients",
+        "url": "https://github.com/yzfly/Awesome-MCP-ZH",
+        "category": "Development Tools"
+      },
+      {
+        "name": "XcodeBuildMCP",
+        "description": "A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.",
+        "url": "https://github.com/getsentry/XcodeBuildMCP",
+        "category": "Development Tools"
+      },
+      {
+        "name": "fast-agent",
+        "description": "Code, Build and Evaluate agents - excellent Model and Skills/MCP/ACP Support",
+        "url": "https://github.com/evalstate/fast-agent",
+        "category": "Development Tools"
+      },
+      {
+        "name": "memory-bank-mcp",
+        "description": "A Model Context Protocol (MCP) server implementation for remote memory bank management, inspired by Cline Memory Bank.",
+        "url": "https://github.com/alioshr/memory-bank-mcp",
+        "category": "Development Tools"
+      },
+      {
+        "name": "awesome-mcp-servers",
+        "description": "A curated list of Model Context Protocol (MCP) servers",
+        "url": "https://github.com/wong2/awesome-mcp-servers",
+        "category": "Development Tools"
+      },
+      {
+        "name": "Office-PowerPoint-MCP-Server",
+        "description": "A MCP (Model Context Protocol) server for PowerPoint manipulation using python-pptx. This server provides tools for creating, editing, and manipulating PowerPoint presentations through the MCP protocol.",
+        "url": "https://github.com/GongRzhe/Office-PowerPoint-MCP-Server",
+        "category": "Development Tools"
+      },
+      {
+        "name": "mcp-server-guide",
+        "description": "A guide on how to use the Figma MCP server",
+        "url": "https://github.com/figma/mcp-server-guide",
+        "category": "Development Tools"
+      },
+      {
+        "name": "drawio-mcp-server",
+        "description": "Draw.io Model Context Protocol (MCP) Server",
+        "url": "https://github.com/lgazo/drawio-mcp-server",
+        "category": "Development Tools"
+      },
+      {
+        "name": "awesome-remote-mcp-servers",
+        "description": "Remote MCP Servers",
+        "url": "https://github.com/jaw9c/awesome-remote-mcp-servers",
+        "category": "Development Tools"
+      },
+      {
+        "name": "excel-mcp-server",
+        "description": "A Model Context Protocol (MCP) server that reads and writes MS Excel data",
+        "url": "https://github.com/negokaz/excel-mcp-server",
+        "category": "Development Tools"
+      },
+      {
+        "name": "server",
+        "description": "Core PHP implementation for the Model Context Protocol (MCP) server",
+        "url": "https://github.com/php-mcp/server",
+        "category": "Development Tools"
+      },
+      {
+        "name": "gadgethumans-api-hub-mcp",
+        "description": "334 free developer tools: QR codes, passwords, UUIDs, hashes, Base64, JSON, color converter, email verification, IP geolocation, timestamps, plus 300+ calculators, text analysis, color tools, readability, domain, code and financial tools. MCP server at `uvx gadgethumans-api-hub-mcp`. Free, no API key required.",
+        "url": "https://github.com/scotia1973-bot/gadgethumans-api-hub-mcp",
+        "category": "Development Tools"
+      },
+      {
+        "name": "mcp-server",
+        "description": "MCP Server for Burp",
+        "url": "https://github.com/PortSwigger/mcp-server",
+        "category": "Development Tools"
+      },
+      {
+        "name": "mcp-office-suite",
+        "description": "One MCP server for a whole freelance back office: proxies 31 sibling servers (invoicing, quotes, time tracking, expenses, bank-statement reconciliation, spreadsheets, PDF, DOCX, kanban) behind a single config entry. Runs locally, data stays in JSON on disk, Dockerfile in the repo root.",
+        "url": "https://github.com/theluckystrike/mcp-office-suite",
+        "category": "Development Tools"
+      },
+      {
+        "name": "MobileBuildMCP",
+        "description": "A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.",
+        "url": "https://github.com/getsentry/MobileBuildMCP",
+        "category": "Development Tools"
+      },
+      {
+        "name": "OtaKit",
+        "description": "Over-the-air updates for Capacitor apps, as a hosted Streamable HTTP MCP (OAuth) and a local stdio server (`npx -y @otakit/cli@latest mcp`): inspect the project, check native compatibility, upload web bundles, publish releases after human approval, control staged rollouts, read rollout health and revert",
+        "url": "https://otakit.app",
+        "category": "Development Tools"
+      },
+      {
+        "name": "NoMac",
+        "description": "Hosted Streamable HTTP MCP that gives agents a real cloud Mac with Xcode by the minute: start a macOS VM, run xcodebuild and Simulator commands, move files, open the desktop for a human, manage TestFlight and App Store Connect, then stop it; OAuth, no API key in client config",
+        "url": "https://nomac.app",
+        "category": "Development Tools"
+      },
+      {
+        "name": "mcp-discord",
+        "description": "Discord messaging and community management",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/mcp-discord.md",
+        "category": "Communication"
+      },
+      {
+        "name": "line",
+        "description": "Messaging application and platform integration",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/line.md",
+        "category": "Communication"
+      },
+      {
+        "name": "tweetbinder",
+        "description": "Twitter/X analytics and social media insights",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/tweetbinder.md",
+        "category": "Communication"
+      },
+      {
+        "name": "supabase-mcp-server",
+        "description": "Query MCP enables end-to-end management of Supabase via chat interface: read & write query executions, management API support, automatic migration versioning, access to logs and much more.",
+        "url": "https://github.com/alexander-zuev/supabase-mcp-server",
+        "category": "Communication"
+      },
+      {
+        "name": "mcp-server-chatsum",
+        "description": "Query and Summarize your chat messages.",
+        "url": "https://github.com/chatmcp/mcp-server-chatsum",
+        "category": "Communication"
+      },
+      {
+        "name": "BulkPublish",
+        "description": "Create, adapt, schedule, publish, and analyze social media content across connected channels through a hosted Streamable HTTP MCP server or local npm package.",
+        "url": "https://app.bulkpublish.com/docs",
+        "category": "Communication"
+      },
+      {
+        "name": "Skysay",
+        "description": "Manage voice agents, phone numbers, calls, SMS and campaigns through a hosted Streamable HTTP MCP server with OAuth or scoped API keys.",
+        "url": "https://skysay.ai/docs/mcp",
+        "category": "Communication"
+      },
+      {
+        "name": "HeyReagent",
+        "description": "Read your own LinkedIn inbox, send messages and connection invitations, and search people through a hosted Streamable HTTP MCP server with OAuth; each kind of action has a daily limit per account.",
+        "url": "https://github.com/linglistack/heyreagent-linkedin-mcp",
+        "category": "Communication"
+      },
+      {
+        "name": "telegram-archive-mcp",
+        "description": "MCP server for any Telegram-Archive instance: search messages, browse chats and read archived Telegram history. Docker image `drumsergio/telegram-archive-mcp`.",
+        "url": "https://github.com/GeiserX/telegram-archive-mcp",
+        "category": "Communication"
+      },
+      {
+        "name": "obsidian",
+        "description": "Work with Obsidian notes and knowledge management",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/obsidian.md",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "fibery",
+        "description": "Connected work platform for knowledge management",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/fibery.md",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "context7",
+        "description": "Provide contextual information for enhanced AI conversations",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/context7.md",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "atlas-docs",
+        "description": "Access MongoDB Atlas documentation and best practices",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/atlas-docs.md",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "knowledge-rag",
+        "description": "Local RAG for Claude Code via MCP (hybrid search + reranking + markdown-aware chunking, zero external servers). PyPI: `pip install knowledge-rag` (Lyon, MIT).",
+        "url": "https://github.com/lyonzin/knowledge-rag",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "screenpipe",
+        "description": "24/7 local screen and mic recording; MCP server indexes OCR, accessibility, and audio transcripts so agents can search what you've seen, said, or heard. Works with Ollama.",
+        "url": "https://github.com/screenpipe/screenpipe",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "Hexis",
+        "description": "Git-backed platform for skills, tools, and context for AI agents, with review workflows, role-based access, encrypted secrets, and remote MCP access.",
+        "url": "https://github.com/Bevel-Software/Hexis",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "mnemoverse/mcp-memory-server",
+        "description": "Persistent memory for AI agents over MCP. Hosted remote endpoint mcp.mnemoverse.com/mcp with OAuth sign-in, or run it locally with `npx -y @mnemoverse/mcp-memory-server` and an API key. Recall is re-ranked by feedback on whether a recalled memory helped.",
+        "url": "https://github.com/mnemoverse/mcp-memory-server",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "Continuity by Ouroboros Apps",
+        "description": "Story continuity for fiction writers: a series bible and novel memory that keeps characters, places, timelines, and plot facts consistent across chats. Hosted Streamable HTTP MCP `https://continuitywriter.com/mcp` with OAuth; includes a Dockerfile. Site · Ouroboros Apps",
+        "url": "https://continuitywriter.com",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "gyazo",
+        "description": "Screenshot capturing and sharing service",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/gyazo.md",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "handwriting-ocr",
+        "description": "Optical character recognition for handwritten text",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/handwriting-ocr.md",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "webflow",
+        "description": "Visual website design and content management system",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/webflow.md",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "youtube_transcript",
+        "description": "YouTube video transcript extraction",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/youtube_transcript.md",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "speech-ai",
+        "description": "Speech AI with pronunciation assessment, text-to-speech, and speech-to-text",
+        "url": "https://github.com/fasuizu-br/speech-ai-examples",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "Prompt to Asset",
+        "description": "MCP server that generates production-ready visual assets (app icons, favicons, OG images) across 30+ image generation models",
+        "url": "https://github.com/MohamedAbdallah-14/prompt-to-asset",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "OrkasVideoStudio",
+        "description": "Local-first MCP toolkit for agent-driven video composition, editing, generation, and automatic assembly",
+        "url": "https://github.com/Orkas-AI/Orkas-VideoStudio",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "AI Applyd",
+        "description": "ATS resume scoring, job-description analysis, interview prep, cover letters, resume building and auto-apply that submits on the employer's own hiring system",
+        "url": "https://github.com/whateverneveranywhere/aiapplyd-mcp",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "YouTube Transcript MCP",
+        "description": "MCP server for YouTube transcripts, video and channel search, channel browsing, and playlist extraction, returned as clean JSON or markdown for Claude, ChatGPT and other MCP clients",
+        "url": "https://github.com/ZeroPointRepo/youtube-mcp",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "Magic Hour",
+        "description": "Hosted MCP server for generating and editing video, images, and audio through 44 Magic Hour API tools",
+        "url": "https://github.com/magichourhq/magic-hour-mcp",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "BulkTranscripts",
+        "description": "Hosted MCP server for YouTube transcripts of a single video, a whole channel or a playlist, with YouTube and in-channel search, channel and playlist listings, and new-upload tracking",
+        "url": "https://github.com/pratie/bulktranscripts-mcp",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "GetYouTubeTranscript",
+        "description": "Hosted MCP server (Streamable HTTP, OAuth or API key) for full YouTube video transcripts, YouTube and in-channel search, channel and playlist video lists, and a channel's latest uploads",
+        "url": "https://github.com/tubeagentkit/youtube-mcp",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "Hypnothera",
+        "description": "Hosted Streamable HTTP MCP for personalized guided hypnosis audio: search a free library of ready-made sessions, create sessions and multi-day journeys from a brief the user approves, and render audio in a chosen voice; OAuth with dynamic client registration",
+        "url": "https://github.com/La-Salida/hypnothera-skill",
+        "category": "Multimedia & Design"
+      }
+    ],
+    "clients": [
+      {
+        "name": "Claude Desktop",
+        "description": "Official Claude client with native MCP support",
+        "url": "https://www.anthropic.com/claude",
+        "category": "Desktop Applications"
+      },
+      {
+        "name": "Cursor AI",
+        "description": "AI-powered code editor with MCP support",
+        "url": "https://www.cursor.com/",
+        "category": "Desktop Applications"
+      },
+      {
+        "name": "Windsurf",
+        "description": "AI browser with MCP integration",
+        "url": "https://codeium.com/windsurf",
+        "category": "Desktop Applications"
+      },
+      {
+        "name": "Cline",
+        "description": "Terminal-based chat client with MCP support",
+        "url": "https://github.com/cline/cline",
+        "category": "Desktop Applications"
+      },
+      {
+        "name": "MetaMCP",
+        "description": "Unified middleware MCP client",
+        "url": "https://github.com/metatool-ai/metatool-app",
+        "category": "Desktop Applications"
+      },
+      {
+        "name": "Continue.dev",
+        "description": "AI coding assistant for IDEs",
+        "url": "https://github.com/continuedev/continue",
+        "category": "Desktop Applications"
+      },
+      {
+        "name": "MCPlato",
+        "description": "Local-first desktop AI workspace with workspace-scoped MCP configuration and permission-aware tool use",
+        "url": "https://mcplato.com/",
+        "category": "Desktop Applications"
+      },
+      {
+        "name": "Claude Mobile",
+        "description": "Mobile Claude client with MCP support",
+        "url": "",
+        "category": "Mobile Applications"
+      },
+      {
+        "name": "AI Assistant",
+        "description": "Multi-model mobile client with MCP",
+        "url": "https://apps.apple.com/app/ai-assistant-chat-with-ai/id6737047893",
+        "category": "Mobile Applications"
+      },
+      {
+        "name": "VS Code AI Assistant",
+        "description": "VS Code extension with MCP support",
+        "url": "https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat",
+        "category": "IDE Extensions"
+      },
+      {
+        "name": "JetBrains AI Assistant",
+        "description": "JetBrains IDE extension with MCP",
+        "url": "https://www.jetbrains.com/ai/",
+        "category": "IDE Extensions"
+      },
+      {
+        "name": "GitHub Copilot Chat",
+        "description": "GitHub's AI assistant with MCP capabilities",
+        "url": "https://github.com/features/copilot",
+        "category": "IDE Extensions"
+      },
+      {
+        "name": "Claude CLI",
+        "description": "Command-line interface for Claude with MCP",
+        "url": "https://docs.anthropic.com/en/docs/claude-code/overview",
+        "category": "Command Line Tools"
+      },
+      {
+        "name": "MCP CLI",
+        "description": "General MCP client for command line",
+        "url": "https://github.com/wong2/mcp-cli",
+        "category": "Command Line Tools"
+      },
+      {
+        "name": "mark3labs/mcphost",
+        "description": "CLI host for MCP interactions",
+        "url": "https://github.com/mark3labs/mcphost",
+        "category": "Command Line Tools"
+      },
+      {
+        "name": "Xenon",
+        "description": "Verifiable AI coding agent (evidence hash chain, hallucination gate), MCP client",
+        "url": "https://github.com/xianyu-sheng/Xenon",
+        "category": "Command Line Tools"
+      },
+      {
+        "name": "Claude Web",
+        "description": "Web interface for Claude with MCP support",
+        "url": "https://claude.ai",
+        "category": "Web Applications"
+      },
+      {
+        "name": "Glama AI",
+        "description": "Web-based multi-model client with MCP",
+        "url": "https://glama.ai",
+        "category": "Web Applications"
+      },
+      {
+        "name": "Phind",
+        "description": "Developer-focused search with MCP",
+        "url": "https://www.phind.com",
+        "category": "Web Applications"
+      },
+      {
+        "name": "Ontheia",
+        "description": "Self-hosted, open-source AI agent platform with native MCP support. Multi-provider, GDPR by design.",
+        "url": "https://ontheia.ai",
+        "category": "Web Applications"
+      },
+      {
+        "name": "FLUJO",
+        "description": "Local-first visual AI agent builder and MCP client with server management, tool inspection, multi-model chat, and Docker deployment",
+        "url": "https://github.com/mario-andreschak/FLUJO",
+        "category": "Web Applications"
+      }
+    ],
+    "toolkits": [
+      {
+        "name": "FastMCP",
+        "description": "High-level framework for building MCP servers in TypeScript",
+        "url": "https://github.com/fastrepl/fastmcp",
+        "category": "SDKs & Libraries"
+      },
+      {
+        "name": "FastMCP (Python)",
+        "description": "High-level framework for building MCP servers in Python",
+        "url": "https://github.com/fastrepl/fastmcp-python",
+        "category": "SDKs & Libraries"
+      },
+      {
+        "name": "LiteMCP",
+        "description": "A lightweight TypeScript framework for building MCP servers",
+        "url": "https://github.com/wong2/LiteMCP",
+        "category": "SDKs & Libraries"
+      },
+      {
+        "name": "mcp-framework",
+        "description": "Fast and elegant TypeScript framework for building MCP servers",
+        "url": "https://github.com/QuantGeekDev/mcp-framework",
+        "category": "SDKs & Libraries"
+      },
+      {
+        "name": "mcp-use",
+        "description": "Open source Python library to easily connect any LLM to any MCP server",
+        "url": "https://github.com/astelmach01/mcp-use",
+        "category": "SDKs & Libraries"
+      },
+      {
+        "name": "MCP Fusion",
+        "description": "Zero-config framework for building production-ready MCP servers with auto tool discovery, multi-transport (stdio/SSE/HTTP) and Zod validation",
+        "url": "https://github.com/vinkius-labs/mcp-fusion",
+        "category": "SDKs & Libraries"
+      },
+      {
+        "name": "lastmile-ai/mcp-agent",
+        "description": "Build agents with MCP servers",
+        "url": "https://github.com/lastmile-ai/mcp-agent",
+        "category": "Frameworks"
+      },
+      {
+        "name": "mcpdotdirect/template-mcp-server",
+        "description": "CLI tool for new MCP servers",
+        "url": "https://github.com/mcpdotdirect/template-mcp-server",
+        "category": "Frameworks"
+      },
+      {
+        "name": "stephencme/create-mcp-ts",
+        "description": "MCP server creator with templates",
+        "url": "https://github.com/stephencme/create-mcp-ts",
+        "category": "Frameworks"
+      },
+      {
+        "name": "Upsonic/gpt-computer-assistant",
+        "description": "Framework for AI agents",
+        "url": "https://github.com/Upsonic/gpt-computer-assistant",
+        "category": "Frameworks"
+      },
+      {
+        "name": "p-funk/FEGIS",
+        "description": "Interactive agent framework",
+        "url": "https://github.com/p-funk/FEGIS",
+        "category": "Frameworks"
+      },
+      {
+        "name": "modelcontextprotocol/inspector",
+        "description": "Official UI for testing MCP servers",
+        "url": "https://github.com/modelcontextprotocol/inspector",
+        "category": "Testing Tools"
+      },
+      {
+        "name": "wong2/mcp-cli",
+        "description": "Command line inspector for testing",
+        "url": "https://github.com/wong2/mcp-cli",
+        "category": "Testing Tools"
+      },
+      {
+        "name": "mclenhard/mcp-evals",
+        "description": "Package for running evaluations",
+        "url": "https://github.com/mclenhard/mcp-evals",
+        "category": "Testing Tools"
+      },
+      {
+        "name": "Typewise/mcp-chaos-rig",
+        "description": "Fault injection server for testing MCP clients against auth failures, disappearing tools, flaky responses, and token expiry",
+        "url": "https://github.com/Typewise/mcp-chaos-rig",
+        "category": "Testing Tools"
+      },
+      {
+        "name": "MCP Config Doctor fixtures",
+        "description": "Redaction-safe Codex, Gemini CLI, and VS Code MCP client fixtures for validator tests and bug reports",
+        "url": "https://github.com/supoju/mcp-config-doctor-fixtures",
+        "category": "Testing Tools"
+      },
+      {
+        "name": "Agent QA",
+        "description": "Local stdio MCP server for natural-language web and mobile regression tests with retained execution evidence",
+        "url": "https://github.com/vostride/agent-qa",
+        "category": "Testing Tools"
+      },
+      {
+        "name": "hamidra/yamcp",
+        "description": "MCP workspace manager",
+        "url": "",
+        "category": "Utilities"
+      },
+      {
+        "name": "punkpeye/mcp-proxy",
+        "description": "SSE proxy for MCP servers",
+        "url": "",
+        "category": "Utilities"
+      },
+      {
+        "name": "multi-mcp",
+        "description": "Multi-MCP Proxy Server",
+        "url": "",
+        "category": "Utilities"
+      },
+      {
+        "name": "f/MCPTools",
+        "description": "CLI tool for MCP server interactions",
+        "url": "",
+        "category": "Utilities"
+      },
+      {
+        "name": "portel-dev/ncp",
+        "description": "MCP orchestrator with intelligent discovery, 98.2% accuracy, and 94.8% token savings. Transforms 100+ tools into 2 unified interfaces. GitHub",
+        "url": "https://github.com/portel-dev/ncp",
+        "category": "Utilities"
+      },
+      {
+        "name": "strowk/mcp-autotest",
+        "description": "YAML-based autotest tool",
+        "url": "",
+        "category": "Utilities"
+      },
+      {
+        "name": "MCP Lens",
+        "description": "DeepSeek Harness plugin that exposes configured MCP catalogs through two model-facing interfaces with allow/deny policy gates and lazy connections",
+        "url": "https://github.com/labmimors/dsh-mcp-lens",
+        "category": "Utilities"
+      },
+      {
+        "name": "Omega MCP Router",
+        "description": "Stdio MCP proxy that fronts many upstream servers behind one connection, serves tool schemas from a disk cache, starts each upstream only on its first call, and lets a session switch upstreams on and off",
+        "url": "https://github.com/Omega-JS-Stack/omega/tree/main/packages/mcp-router",
+        "category": "Utilities"
+      },
+      {
+        "name": "Glama",
+        "description": "Platform for hosting open-source MCP servers",
+        "url": "",
+        "category": "Hosting Solutions"
+      },
+      {
+        "name": "Smithery",
+        "description": "Cloud hosting for MCP servers via containers",
+        "url": "",
+        "category": "Hosting Solutions"
+      },
+      {
+        "name": "ToolRouter",
+        "description": "Give your AI agent superpowers with access to 150+ tools on demand with just one account. Competitor research, video production, web search, image generation, security scanning, and more. One API key replaces managing dozens of provider accounts. `npx -y toolrouter-mcp`",
+        "url": "https://toolrouter.com",
+        "category": "Hosting Solutions"
+      },
+      {
+        "name": "fastmcp-boilerplate",
+        "description": "MCP server built with FastMCP",
+        "url": "",
+        "category": "Templates"
+      },
+      {
+        "name": "dart-mcp-server-template",
+        "description": "Template for Dart MCP servers",
+        "url": "",
+        "category": "Templates"
+      },
+      {
+        "name": "rails-mcp-startup-boilerplate",
+        "description": "Rails template for paid MCP servers",
+        "url": "",
+        "category": "Templates"
+      },
+      {
+        "name": "mcp-agent",
+        "description": "Build effective agents with MCP servers using simple, composable patterns",
+        "url": "https://github.com/lastmile-ai/mcp-agent",
+        "category": "Agent Development Frameworks"
+      },
+      {
+        "name": "gpt-computer-assistant",
+        "description": "Framework to build vertical AI agent with MCP integration",
+        "url": "https://github.com/Upsonic/gpt-computer-assistant",
+        "category": "Agent Development Frameworks"
+      },
+      {
+        "name": "FEGIS",
+        "description": "A semantic programming framework for LLMs with MCP support",
+        "url": "https://github.com/p-funk/FEGIS",
+        "category": "Agent Development Frameworks"
+      },
+      {
+        "name": "langchain-mcp",
+        "description": "LangChain integration for MCP",
+        "url": "https://github.com/langchain-ai/langchain-mcp",
+        "category": "Agent Development Frameworks"
+      },
+      {
+        "name": "solana-agent-kit",
+        "description": "Solana MCP SDK for blockchain agent development",
+        "url": "https://github.com/sendaifun/solana-agent-kit",
+        "category": "Agent Development Frameworks"
+      },
+      {
+        "name": "EGC",
+        "description": "Persistent cross-session memory MCP server for 13+ AI coding tools. SQLite-backed state survives context resets.",
+        "url": "https://github.com/Fmarzochi/EGC",
+        "category": "Agent Development Frameworks"
+      },
+      {
+        "name": "spring-ai-mcp",
+        "description": "Java SDK and Spring Framework integration for building MCP servers",
+        "url": "https://github.com/spring-projects-experimental/spring-ai-mcp",
+        "category": "Language-Specific SDKs"
+      },
+      {
+        "name": "mark3labs/mcp-go",
+        "description": "Golang SDK for building MCP Servers and Clients",
+        "url": "https://github.com/mark3labs/mcp-go",
+        "category": "Language-Specific SDKs"
+      },
+      {
+        "name": "foxy-contexts",
+        "description": "Golang library to write MCP Servers declaratively with testing included",
+        "url": "https://github.com/strowk/foxy-contexts",
+        "category": "Language-Specific SDKs"
+      },
+      {
+        "name": "mcp-rs-template",
+        "description": "MCP CLI server template for Rust",
+        "url": "https://github.com/linux-china/mcp-rs-template",
+        "category": "Language-Specific SDKs"
+      },
+      {
+        "name": "ModelContextProtocol.NET",
+        "description": "A C# SDK for building MCP servers on .NET",
+        "url": "https://github.com/salty-flower/ModelContextProtocol.NET",
+        "category": "Language-Specific SDKs"
+      },
+      {
+        "name": "http4k MCP SDK",
+        "description": "Functional, testable Kotlin SDK for MCP",
+        "url": "https://github.com/http4k/http4k",
+        "category": "Language-Specific SDKs"
+      },
+      {
+        "name": "mcpc",
+        "description": "Modern C SDK for building MCP servers/clients",
+        "url": "https://github.com/micl2e2/mcpc",
+        "category": "Language-Specific SDKs"
+      }
+    ],
+    "docker": [
+      {
+        "name": "github",
+        "description": "Manage GitHub repositories and perform Git operations",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/github.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "docker",
+        "description": "Integrate with Docker to manage containers, images, and networks",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/docker.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "kubernetes",
+        "description": "Orchestrate and manage containerized applications with Kubernetes",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/kubernetes.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "puppeteer",
+        "description": "Automate browser interactions and scrape web content",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/puppeteer.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "stripe",
+        "description": "Process payments and manage financial transactions",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/stripe.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "slack",
+        "description": "Send and receive messages in Slack workspaces",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/slack.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "postgres",
+        "description": "Interact with PostgreSQL databases",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/postgres.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "redis",
+        "description": "Interact with Redis in-memory data structure store",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/redis.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "brave",
+        "description": "Perform web searches using Brave's privacy-focused search engine",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/brave.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "notion",
+        "description": "Create and manage content in Notion workspaces",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/notion.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "elasticsearch",
+        "description": "Search, analyze, and visualize data with Elasticsearch",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/elasticsearch.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "gitlab",
+        "description": "Interact with GitLab repositories and CI/CD pipelines",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/gitlab.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "azure",
+        "description": "Interact with Microsoft Azure cloud services and resources",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/azure.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "gdrive",
+        "description": "Access and manage files in Google Drive",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/gdrive.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "grafana",
+        "description": "Create and manage Grafana dashboards and visualizations",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/grafana.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "obsidian",
+        "description": "Work with Obsidian notes and knowledge management",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/obsidian.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "atlassian",
+        "description": "Integrate with Atlassian products like Jira and Confluence",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/atlassian.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "tavily",
+        "description": "AI-powered web search and research assistant",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/tavily.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "shopify",
+        "description": "Manage Shopify e-commerce stores and products",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/shopify.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "sentry",
+        "description": "Monitor application errors and performance",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/sentry.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "302_sandbox",
+        "description": "A sandbox environment for testing HTTP redirects and status codes",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/302_sandbox.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "3d-printer",
+        "description": "Control and monitor 3D printers with slice file management",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/3d-printer.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "armor-crypto",
+        "description": "Secure encryption and decryption tools for sensitive data",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/armor-crypto.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "astra-db",
+        "description": "Interact with DataStax Astra DB, a cloud-native Cassandra database",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/astra-db.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "atlas-docs",
+        "description": "Access MongoDB Atlas documentation and best practices",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/atlas-docs.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "audiense-insights",
+        "description": "Access audience analytics and marketing insights data",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/audiense-insights.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "aws-kb-retrieval-server",
+        "description": "Retrieve information from AWS Knowledge Bases",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/aws-kb-retrieval-server.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "barryyip0625-mcp-discord",
+        "description": "Communicate with Discord servers and channels",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/barryyip0625-mcp-discord.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "basic-memory",
+        "description": "Simple memory persistence for AI conversations",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/basic-memory.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "bitrefill",
+        "description": "Purchase gift cards and mobile refills with cryptocurrency",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/bitrefill.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "box",
+        "description": "Manage files and folders in Box cloud storage",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/box.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "chroma",
+        "description": "Interact with Chroma vector database for embeddings and retrieval",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/chroma.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "circleci",
+        "description": "Manage CI/CD pipelines and workflows in CircleCI",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/circleci.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "context7",
+        "description": "Provide contextual information for enhanced AI conversations",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/context7.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "cyreslab-ai-shodan",
+        "description": "Search for internet-connected devices using Shodan",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/cyreslab-ai-shodan.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "dappier",
+        "description": "Access real-time data from trusted sources across multiple domains",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/dappier.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "dart",
+        "description": "Manage projects and tasks in Dart project management tool",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/dart.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "databutton",
+        "description": "Build and deploy data apps with Python and Streamlit",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/databutton.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "descope",
+        "description": "Implement secure user authentication and authorization",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/descope.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "desktop-commander",
+        "description": "Control desktop applications and perform system operations",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/desktop-commander.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "devhub-cms",
+        "description": "Manage content with DevHub CMS",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/devhub-cms.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "doit",
+        "description": "Task management and productivity tool",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/doit.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "duckduckgo",
+        "description": "Privacy-focused web search engine",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/duckduckgo.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "e2b",
+        "description": "Cloud-based development environment",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/e2b.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "edubase",
+        "description": "Education management platform",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/edubase.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "elevenlabs",
+        "description": "AI voice generation and text-to-speech",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/elevenlabs.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "everart",
+        "description": "AI art generation and manipulation",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/everart.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "exa",
+        "description": "Advanced replacement for the traditional ls command",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/exa.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "fetch",
+        "description": "Web content retrieval tool",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/fetch.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "fibery",
+        "description": "Connected work platform for knowledge management",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/fibery.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "filesystem",
+        "description": "Interact with file system and perform file operations",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/filesystem.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "firecrawl",
+        "description": "Web crawling and content extraction tool",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/firecrawl.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "flexprice",
+        "description": "Dynamic pricing solution for businesses",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/flexprice.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "github-chat",
+        "description": "GitHub discussions and collaboration integration",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/github-chat.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "github-official",
+        "description": "Official GitHub API integration",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/github-official.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "glif",
+        "description": "Blockchain and crypto management platform",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/glif.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "google-maps",
+        "description": "Geographic information and location services",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/google-maps.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "gyazo",
+        "description": "Screenshot capturing and sharing service",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/gyazo.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "hackle",
+        "description": "Feature flag and experiment management platform",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/hackle.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "handwriting-ocr",
+        "description": "Optical character recognition for handwritten text",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/handwriting-ocr.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "heroku",
+        "description": "Cloud platform as a service (PaaS)",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/heroku.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "husqvarna-automower",
+        "description": "Control and monitor Husqvarna robotic lawn mowers",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/husqvarna-automower.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "hyperbrowser",
+        "description": "Advanced web browsing and automation tool",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/hyperbrowser.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "hyperspell",
+        "description": "AI-powered grammar and spelling checking",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/hyperspell.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "iaptic",
+        "description": "Subscription and payment management tool",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/iaptic.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "jetbrains",
+        "description": "Integrate with JetBrains IDEs and tools",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/jetbrains.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "kagisearch",
+        "description": "Neural search engine for web content",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/kagisearch.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "kong",
+        "description": "API gateway and service mesh platform",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/kong.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "lara",
+        "description": "AI-powered content research and writing assistant",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/lara.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "line",
+        "description": "Messaging application and platform integration",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/line.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "mcp-discord",
+        "description": "Discord messaging and community management",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/mcp-discord.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "mcp-notion-server",
+        "description": "Notion workspace integration and management",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/mcp-notion-server.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "multiversx-mx",
+        "description": "Blockchain infrastructure and smart contract platform",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/multiversx-mx.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "neo4j-cloud-aura-api",
+        "description": "Managed graph database cloud service",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/neo4j-cloud-aura-api.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "neo4j-cypher",
+        "description": "Graph database query language and integration",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/neo4j-cypher.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "neo4j-memory",
+        "description": "In-memory storage for Neo4j operations",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/neo4j-memory.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "neo4j-server",
+        "description": "Graph database server management",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/neo4j-server.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "neon",
+        "description": "Serverless PostgreSQL database service",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/neon.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "neondatabase-labs",
+        "description": "Experimental features for Neon database",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/neondatabase-labs.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "octomind",
+        "description": "Automated testing and quality assurance platform",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/octomind.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "openapi-schema",
+        "description": "API definition and documentation standard",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/openapi-schema.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "opik",
+        "description": "Advanced image processing and generation",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/opik.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "osp_marketing_tools",
+        "description": "Online marketing and promotion tools",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/osp_marketing_tools.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "oxylabs",
+        "description": "Web scraping and data extraction tools",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/oxylabs.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "perplexity-ask",
+        "description": "AI-powered question answering system",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/perplexity-ask.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "playwright",
+        "description": "Browser automation and testing framework",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/playwright.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "postgresql",
+        "description": "Object-relational database system",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/postgresql.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "pulumi",
+        "description": "Infrastructure as code platform",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/pulumi.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "razorpay",
+        "description": "Payment gateway and financial services platform",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/razorpay.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "redis-cloud",
+        "description": "Managed Redis database service",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/redis-cloud.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "resend",
+        "description": "Email delivery and management service",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/resend.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "risken",
+        "description": "Security risk management platform",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/risken.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "scrapegraph",
+        "description": "Web scraping and data visualization",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/scrapegraph.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "scrapezy",
+        "description": "Automated web scraping and data extraction",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/scrapezy.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "smithery-cli",
+        "description": "Command-line interface for Smithery platform",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/smithery-cli.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "tembo",
+        "description": "Enhanced PostgreSQL database platform",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/tembo.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "time",
+        "description": "Time management and tracking utilities",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/time.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "triplewhale",
+        "description": "E-commerce analytics and marketing platform",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/triplewhale.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "tweetbinder",
+        "description": "Twitter/X analytics and social media insights",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/tweetbinder.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "v-3-discordmcp",
+        "description": "Discord messaging and community management",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/v-3-discordmcp.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "veyrax",
+        "description": "Web application security and testing platform",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/veyrax.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "webflow",
+        "description": "Visual website design and content management system",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/webflow.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "wikipedia-mcp",
+        "description": "Wikipedia knowledge retrieval",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/wikipedia-mcp.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "wolfram-alpha",
+        "description": "Computational knowledge engine",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/wolfram-alpha.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "youtube_transcript",
+        "description": "YouTube video transcript extraction",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/youtube_transcript.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "docker",
+        "description": "Manage Docker containers, images, and Docker Hub",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/docker.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "github",
+        "description": "Manage GitHub repositories and perform Git operations",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/github.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "kubernetes",
+        "description": "Orchestrate and manage containerized applications",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/kubernetes.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "postgresql",
+        "description": "Interact with PostgreSQL databases",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/postgresql.md",
+        "category": "Docker MCP Toolkit"
+      },
+      {
+        "name": "sentry",
+        "description": "Monitor application errors and performance",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/sentry.md",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "cyreslab-ai-shodan",
+        "description": "Search for internet-connected devices using Shodan",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/cyreslab-ai-shodan.md",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "descope",
+        "description": "Implement secure user authentication and authorization",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/descope.md",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "armor-crypto",
+        "description": "Secure encryption and decryption tools for sensitive data",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/armor-crypto.md",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "VirusTotal",
+        "description": "File and URL security analysis",
+        "url": "https://github.com/skydeckai/virustotal-mcp-server",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "risken",
+        "description": "Security risk management platform",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/risken.md",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "Agent Module",
+        "description": "EU AI Act compliance logic for autonomous agents - risk classification, prohibited practices, transparency obligations, GDPR data protection. Free 24hr trial, self-provisioned via MCP",
+        "url": "https://github.com/AgentModule/mcp",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "damn-vulnerable-MCP-server",
+        "description": "Intentionally vulnerable MCP server for security research, training, and CTF exercises",
+        "url": "https://github.com/harishsg993010/damn-vulnerable-MCP-server",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "operant-mcp",
+        "description": "Open-source MCP server with 51 security testing tools for pentesting, vulnerability scanning, and security auditing",
+        "url": "https://github.com/operantlabs/operant-mcp",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "mcp-for-beginners",
+        "description": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration.",
+        "url": "https://github.com/microsoft/mcp-for-beginners",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "fastapi_mcp",
+        "description": "Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!",
+        "url": "https://github.com/tadata-org/fastapi_mcp",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "klavis",
+        "description": "Klavis AI:  MCP integration platforms that let AI agents use tools reliably at any scale",
+        "url": "https://github.com/Klavis-AI/klavis",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "osaurus",
+        "description": "Own your AI. The native macOS harness for AI agents -- any model, persistent memory, autonomous execution, cryptographic identity. Built in Swift. Fully offline. Open source.",
+        "url": "https://github.com/osaurus-ai/osaurus",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "ENScan_GO",
+        "description": "一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。支持MCP接入",
+        "url": "https://github.com/wgpsec/ENScan_GO",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "Gmail-MCP-Server",
+        "description": "A Model Context Protocol (MCP) server for Gmail integration in Claude Desktop with auto authentication support. This server enables AI assistants to manage Gmail through natural language interactions.",
+        "url": "https://github.com/GongRzhe/Gmail-MCP-Server",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "open-connector",
+        "description": "Open-source auth gateway connecting 1000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
+        "url": "https://github.com/oomol-lab/open-connector",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "tradingview-mcp",
+        "description": "TradingView MCP server - real-time market data, technical analysis, screeners & backtesting for Claude, ChatGPT, Cursor & any MCP client. Stocks, crypto, forex & futures across global exchanges. Hosted or self-host.",
+        "url": "https://github.com/atilaahmettaner/tradingview-mcp",
+        "category": "Security & Authentication"
+      },
+      {
+        "name": "filesystem",
+        "description": "Interact with file system and perform file operations",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/filesystem.md",
+        "category": "Development Tools"
+      },
+      {
+        "name": "e2b",
+        "description": "Cloud-based development environment",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/e2b.md",
+        "category": "Development Tools"
+      },
+      {
+        "name": "octomind",
+        "description": "Automated testing and quality assurance platform",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/octomind.md",
+        "category": "Development Tools"
+      },
+      {
+        "name": "openapi-schema",
+        "description": "API definition and documentation standard",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/openapi-schema.md",
+        "category": "Development Tools"
+      },
+      {
+        "name": "desktop-commander",
+        "description": "Control desktop applications and perform system operations",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/desktop-commander.md",
+        "category": "Development Tools"
+      },
+      {
+        "name": "Roundtable",
+        "description": "Zero-configuration MCP server that unifies multiple AI coding assistants (Claude Code, Cursor, GPT-4) for enhanced development workflows",
+        "url": "https://github.com/askbudi/roundtable",
+        "category": "Development Tools"
+      },
+      {
+        "name": "Asynkor",
+        "description": "Coordination layer for AI agent teams - file leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf",
+        "url": "https://github.com/asynkor/asynkor",
+        "category": "Development Tools"
+      },
+      {
+        "name": "n8n-mcp",
+        "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you",
+        "url": "https://github.com/czlonkowski/n8n-mcp",
+        "category": "Development Tools"
+      },
+      {
+        "name": "xiaohongshu-mcp",
+        "description": "MCP for xiaohongshu.com",
+        "url": "https://github.com/xpzouying/xiaohongshu-mcp",
+        "category": "Development Tools"
+      },
+      {
+        "name": "Awesome-MCP-ZH",
+        "description": "MCP 资源精选， MCP指南，Claude MCP，MCP Servers, MCP Clients",
+        "url": "https://github.com/yzfly/Awesome-MCP-ZH",
+        "category": "Development Tools"
+      },
+      {
+        "name": "XcodeBuildMCP",
+        "description": "A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.",
+        "url": "https://github.com/getsentry/XcodeBuildMCP",
+        "category": "Development Tools"
+      },
+      {
+        "name": "fast-agent",
+        "description": "Code, Build and Evaluate agents - excellent Model and Skills/MCP/ACP Support",
+        "url": "https://github.com/evalstate/fast-agent",
+        "category": "Development Tools"
+      },
+      {
+        "name": "memory-bank-mcp",
+        "description": "A Model Context Protocol (MCP) server implementation for remote memory bank management, inspired by Cline Memory Bank.",
+        "url": "https://github.com/alioshr/memory-bank-mcp",
+        "category": "Development Tools"
+      },
+      {
+        "name": "awesome-mcp-servers",
+        "description": "A curated list of Model Context Protocol (MCP) servers",
+        "url": "https://github.com/wong2/awesome-mcp-servers",
+        "category": "Development Tools"
+      },
+      {
+        "name": "Office-PowerPoint-MCP-Server",
+        "description": "A MCP (Model Context Protocol) server for PowerPoint manipulation using python-pptx. This server provides tools for creating, editing, and manipulating PowerPoint presentations through the MCP protocol.",
+        "url": "https://github.com/GongRzhe/Office-PowerPoint-MCP-Server",
+        "category": "Development Tools"
+      },
+      {
+        "name": "mcp-server-guide",
+        "description": "A guide on how to use the Figma MCP server",
+        "url": "https://github.com/figma/mcp-server-guide",
+        "category": "Development Tools"
+      },
+      {
+        "name": "drawio-mcp-server",
+        "description": "Draw.io Model Context Protocol (MCP) Server",
+        "url": "https://github.com/lgazo/drawio-mcp-server",
+        "category": "Development Tools"
+      },
+      {
+        "name": "awesome-remote-mcp-servers",
+        "description": "Remote MCP Servers",
+        "url": "https://github.com/jaw9c/awesome-remote-mcp-servers",
+        "category": "Development Tools"
+      },
+      {
+        "name": "excel-mcp-server",
+        "description": "A Model Context Protocol (MCP) server that reads and writes MS Excel data",
+        "url": "https://github.com/negokaz/excel-mcp-server",
+        "category": "Development Tools"
+      },
+      {
+        "name": "server",
+        "description": "Core PHP implementation for the Model Context Protocol (MCP) server",
+        "url": "https://github.com/php-mcp/server",
+        "category": "Development Tools"
+      },
+      {
+        "name": "gadgethumans-api-hub-mcp",
+        "description": "334 free developer tools: QR codes, passwords, UUIDs, hashes, Base64, JSON, color converter, email verification, IP geolocation, timestamps, plus 300+ calculators, text analysis, color tools, readability, domain, code and financial tools. MCP server at `uvx gadgethumans-api-hub-mcp`. Free, no API key required.",
+        "url": "https://github.com/scotia1973-bot/gadgethumans-api-hub-mcp",
+        "category": "Development Tools"
+      },
+      {
+        "name": "mcp-server",
+        "description": "MCP Server for Burp",
+        "url": "https://github.com/PortSwigger/mcp-server",
+        "category": "Development Tools"
+      },
+      {
+        "name": "mcp-office-suite",
+        "description": "One MCP server for a whole freelance back office: proxies 31 sibling servers (invoicing, quotes, time tracking, expenses, bank-statement reconciliation, spreadsheets, PDF, DOCX, kanban) behind a single config entry. Runs locally, data stays in JSON on disk, Dockerfile in the repo root.",
+        "url": "https://github.com/theluckystrike/mcp-office-suite",
+        "category": "Development Tools"
+      },
+      {
+        "name": "Multilocale",
+        "description": "Hosted OAuth MCP for translation projects, phrases, locales, missing-translation audits and dictionary exports.",
+        "url": "https://github.com/multilocale/claude-plugin",
+        "category": "Development Tools"
+      },
+      {
+        "name": "Asynkor",
+        "description": "Coordination layer for AI agent teams — file leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf",
+        "url": "https://github.com/asynkor/asynkor",
+        "category": "Development Tools"
+      },
+      {
+        "name": "Dabloons",
+        "description": "Bounty board where AI agents hire other agents for PR reviews, bug repros, install checks and site walkthroughs, or work bounties to earn dabloons. Hosted Streamable HTTP MCP server with OAuth, 14 tools.",
+        "url": "https://github.com/randall-inc/dabloons",
+        "category": "Development Tools"
+      },
+      {
+        "name": "mcp-discord",
+        "description": "Discord messaging and community management",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/mcp-discord.md",
+        "category": "Communication"
+      },
+      {
+        "name": "line",
+        "description": "Messaging application and platform integration",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/line.md",
+        "category": "Communication"
+      },
+      {
+        "name": "tweetbinder",
+        "description": "Twitter/X analytics and social media insights",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/tweetbinder.md",
+        "category": "Communication"
+      },
+      {
+        "name": "supabase-mcp-server",
+        "description": "Query MCP enables end-to-end management of Supabase via chat interface: read & write query executions, management API support, automatic migration versioning, access to logs and much more.",
+        "url": "https://github.com/alexander-zuev/supabase-mcp-server",
+        "category": "Communication"
+      },
+      {
+        "name": "mcp-server-chatsum",
+        "description": "Query and Summarize your chat messages.",
+        "url": "https://github.com/chatmcp/mcp-server-chatsum",
+        "category": "Communication"
+      },
+      {
+        "name": "BulkPublish",
+        "description": "Create, adapt, schedule, publish, and analyze social media content across connected channels through a hosted Streamable HTTP MCP server or local npm package.",
+        "url": "https://app.bulkpublish.com/docs",
+        "category": "Communication"
+      },
+      {
+        "name": "Skysay",
+        "description": "Manage voice agents, phone numbers, calls, SMS and campaigns through a hosted Streamable HTTP MCP server with OAuth or scoped API keys.",
+        "url": "https://skysay.ai/docs/mcp",
+        "category": "Communication"
+      },
+      {
+        "name": "Supovia",
+        "description": "Hosted OAuth MCP for support conversation summaries, help-center documents, approved replies and resolution state.",
+        "url": "https://github.com/supovia/claude-plugin",
+        "category": "Communication"
+      },
+      {
+        "name": "Wapiworld",
+        "description": "Hosted OAuth MCP for WhatsApp sender connections, status, webhooks and confirmed text-message sending.",
+        "url": "https://github.com/wapiworld/claude-plugin",
+        "category": "Communication"
+      },
+      {
+        "name": "Fluxmail",
+        "description": "Self-hosted email for Gmail, Outlook, Exchange, and IMAP/SMTP: search, read, draft, send, schedule, and organize mail with per-client permissions.",
+        "url": "https://github.com/churichard/fluxmail",
+        "category": "Communication"
+      },
+      {
+        "name": "obsidian",
+        "description": "Work with Obsidian notes and knowledge management",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/obsidian.md",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "fibery",
+        "description": "Connected work platform for knowledge management",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/fibery.md",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "context7",
+        "description": "Provide contextual information for enhanced AI conversations",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/context7.md",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "atlas-docs",
+        "description": "Access MongoDB Atlas documentation and best practices",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/atlas-docs.md",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "knowledge-rag",
+        "description": "Local RAG system via MCP - hybrid search (semantic + BM25 + RRF), cross-encoder reranking, markdown-aware chunking, 12 MCP tools. Zero external servers",
+        "url": "https://github.com/lyonzin/knowledge-rag",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "screenpipe",
+        "description": "24/7 local screen and mic recording; MCP server indexes OCR, accessibility, and audio transcripts so agents can search what you've seen, said, or heard. Works with Ollama.",
+        "url": "https://github.com/screenpipe/screenpipe",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "Hexis",
+        "description": "Git-backed platform for skills, tools, and context for AI agents, with review workflows, role-based access, encrypted secrets, and remote MCP access.",
+        "url": "https://github.com/Bevel-Software/Hexis",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "mnemoverse/mcp-memory-server",
+        "description": "Persistent memory for AI agents over MCP. Hosted remote endpoint mcp.mnemoverse.com/mcp with OAuth sign-in, or run it locally with `npx -y @mnemoverse/mcp-memory-server` and an API key. Recall is re-ranked by feedback on whether a recalled memory helped.",
+        "url": "https://github.com/mnemoverse/mcp-memory-server",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "gyazo",
+        "description": "Screenshot capturing and sharing service",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/gyazo.md",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "handwriting-ocr",
+        "description": "Optical character recognition for handwritten text",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/handwriting-ocr.md",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "webflow",
+        "description": "Visual website design and content management system",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/webflow.md",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "youtube_transcript",
+        "description": "YouTube video transcript extraction",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/youtube_transcript.md",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "speech-ai",
+        "description": "Speech AI with pronunciation assessment, text-to-speech, and speech-to-text",
+        "url": "https://github.com/fasuizu-br/speech-ai-examples",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "Prompt to Asset",
+        "description": "MCP server that generates production-ready visual assets (app icons, favicons, OG images) across 30+ image generation models",
+        "url": "https://github.com/MohamedAbdallah-14/prompt-to-asset",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "OrkasVideoStudio",
+        "description": "Local-first MCP toolkit for agent-driven video composition, editing, generation, and automatic assembly",
+        "url": "https://github.com/Orkas-AI/Orkas-VideoStudio",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "AI Applyd",
+        "description": "ATS resume scoring, job-description analysis, interview prep, cover letters, resume building and auto-apply that submits on the employer's own hiring system",
+        "url": "https://github.com/whateverneveranywhere/aiapplyd-mcp",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "YouTube Transcript MCP",
+        "description": "MCP server for YouTube transcripts, video and channel search, channel browsing, and playlist extraction, returned as clean JSON or markdown for Claude, ChatGPT and other MCP clients",
+        "url": "https://github.com/ZeroPointRepo/youtube-mcp",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "Magic Hour",
+        "description": "Hosted MCP server for generating and editing video, images, and audio through 44 Magic Hour API tools",
+        "url": "https://github.com/magichourhq/magic-hour-mcp",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "BulkTranscripts",
+        "description": "Hosted MCP server for YouTube transcripts of a single video, a whole channel or a playlist, with YouTube and in-channel search, channel and playlist listings, and new-upload tracking",
+        "url": "https://github.com/pratie/bulktranscripts-mcp",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "Tutorializer",
+        "description": "Hosted OAuth MCP for video tutorial definitions, rendered outputs, voiceovers and pronunciation rules.",
+        "url": "https://github.com/tutorializer/claude-plugin",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "Imagelato",
+        "description": "Hosted OAuth MCP for image-processing presets, projects, processed batches and webhook delivery health.",
+        "url": "https://github.com/imagelato/claude-plugin",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "decodx",
+        "description": "Hosted Streamable HTTP MCP server (OAuth 2.1) that turns a website or brief into a narrated product video - MP4 plus captions, chapters and a written guide - from Claude and other MCP clients; endpoint `https://api.decodx.ai/mcp`",
+        "url": "https://github.com/decodx-ai/claude-plugin",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "VidTL",
+        "description": "Hosted Streamable HTTP MCP for VidTL, a browser video editor: cut and arrange clips, edit by transcript, subtitles, audio cleanup, effects, motion graphics, stock media and export, applied live in the user's open editor session; OAuth with dynamic client registration; VidTL Pro plan required",
+        "url": "https://vidtl.com/video-editor-mcp-cli/",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "PodcastsToText",
+        "description": "Hosted MCP server (OAuth) that transcribes Spotify, Apple Podcasts, YouTube and TikTok links or audio files with speaker labels and timestamps, then generates show notes, chapters and translations",
+        "url": "https://github.com/marstyl99/podcaststotext-agent",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "Speak AI",
+        "description": "Hosted MCP server (also on npm as @speakai/mcp-server) for transcribing, analyzing and scoring meetings, sales calls and media in 100+ languages, with search and AI chat over recordings; 107 tools; OAuth or API key; Speak AI account required",
+        "url": "https://github.com/speakai/speakai-mcp",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "MagicPixel",
+        "description": "Hosted MCP server for AI pixel art: generate sprites, variants and new facing directions, browse and buy community marketplace assets, and manage your MagicPixel library. Remote endpoint https://magicpixel.art/mcp with OAuth sign-in",
+        "url": "https://magicpixel.art/guides/connect",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "Kuro",
+        "description": "Hosted MCP server for creating AI images, video clips, voice-overs, music and editable storyboard films",
+        "url": "https://github.com/meetkuro/kuro-mcp",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "CompressGIF",
+        "description": "Compress GIFs from HTTPS URLs, poll compression jobs, and check credit usage over Streamable HTTP with API key authentication.",
+        "url": "https://compressgif.net/docs",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "KitCut",
+        "description": "Hosted remote MCP server (OAuth) that makes narrated, scored animated films from a chat: from an idea or a video template (event and speaker promos, invitations), with series projects and YouTube publishing",
+        "url": "https://kitcut.ai/docs/assistants",
+        "category": "Multimedia & Design"
+      }
+    ]
+  }
+}
