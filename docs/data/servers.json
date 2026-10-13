@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 359,
+    "servers": 360,
     "clients": 21,
     "toolkits": 44,
     "docker": 180,
-    "total": 604
+    "total": 605
   },
   "groups": {
     "servers": [
@@ -1255,6 +1255,12 @@
         "name": "QuerySail Google Analytics",
         "description": "Hosted Streamable HTTP MCP for read-only Google Analytics 4 data: reports by channel, source, page, country, device and event, period comparisons, realtime users and custom dimensions and metrics; OAuth, no API key. Remote MCP `https://mcp.querysail.com/ga4/mcp` · Registry `com.querysail/ga4`",
         "url": "https://github.com/querysail/querysail-ga4",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "GovContractScout MCP",
+        "description": "MCP server exposing GovContractScout's US state & local government contracts API — search contracts, get details, NAICS lookup, and AI match scoring for AI agents. npm: `govcontractscout-mcp`",
+        "url": "https://github.com/govcontractscout/govcontractscout-mcp",
         "category": "Integrations & APIs"
       },
       {
