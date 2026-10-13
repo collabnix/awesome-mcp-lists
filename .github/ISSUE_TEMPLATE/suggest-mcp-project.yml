@@ -1,0 +1,76 @@
+name: "➕ Suggest an MCP project"
+description: "Suggest an MCP server, client, or toolkit to add to the list."
+title: "[Suggestion]: <project name>"
+labels: ["suggestion", "mcp-entry"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a project! 🙌
+        Prefer to add it yourself? Editing the README directly is faster —
+        see [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md). Otherwise fill this in
+        and a maintainer will add it.
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+      placeholder: "e.g. my-awesome-mcp-server"
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: "GitHub repo, docs site, or package page."
+      placeholder: "https://github.com/you/your-project"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of project is it?
+      options:
+        - MCP Server
+        - MCP Client
+        - SDK / Framework / Toolkit
+        - Template / Utility
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Suggested category
+      description: "e.g. DevOps & Infrastructure, Database & Storage, AI & ML, Communication…"
+      placeholder: "AI & Machine Learning"
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: "One concise sentence describing what it does."
+      placeholder: "Exposes your FastAPI endpoints as MCP tools, with auth."
+    validations:
+      required: true
+  - type: dropdown
+    id: runnable
+    attributes:
+      label: How can it be run?
+      multiple: true
+      options:
+        - Docker
+        - npx
+        - uvx
+        - pip
+        - Hosted / remote endpoint
+        - Other
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: This project isn't already in the list (I searched the README).
+          required: true
+        - label: The link works and points to the project itself.
+          required: true
+        - label: It genuinely implements or supports the Model Context Protocol.
+          required: true
