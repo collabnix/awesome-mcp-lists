@@ -1,0 +1,33 @@
+name: "🔗 Report a broken or outdated entry"
+description: "Report a dead link, renamed project, or inaccurate description."
+title: "[Fix]: <entry name>"
+labels: ["fix", "needs-triage"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Which entry?
+      description: "The name of the entry as it appears in the README."
+      placeholder: "e.g. firecrawl-mcp-server"
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What's wrong?
+      options:
+        - Dead / broken link
+        - Project moved or was renamed
+        - Description is inaccurate or outdated
+        - Duplicate entry
+        - Project is abandoned / archived
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: "What should change? Include the correct link or wording if you have it."
+    validations:
+      required: true
