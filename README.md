@@ -132,6 +132,7 @@ MCP servers for managing infrastructure, containers, and DevOps workflows.
 | 63 | **pdf-merge-split-stamp** | Merge, split, extract, rotate, reorder and stamp PDF pages from your AI chat, all offline. Deterministic, with no upload and no cloud dependency. | [GitHub](https://github.com/theluckystrike/mcp-servers/tree/main/servers/pdf) |
 | 64 | **invoice-pdf-billing** | Create PDF invoices from your AI chat: clients, numbering, VAT, overdue reports. All data is local, so billing data never leaves the host. | [GitHub](https://github.com/theluckystrike/mcp-servers/tree/main/servers/invoice) |
 | 65 | **time-tracker-timesheet** | Track billable time from your AI chat: timers, entries, reports, CSV export. All data stays local, useful for freelancers and consultancies billing hours. | [GitHub](https://github.com/theluckystrike/mcp-servers/tree/main/servers/time-tracker) |
+| 66 | **spinnaker-mcp** | MCP server for any Spinnaker instance through the Gate API: 37 tools for applications, pipelines, executions, deployment strategies and infrastructure, with a read-only toolset. Docker image `drumsergio/spinnaker-mcp`. | [GitHub](https://github.com/GeiserX/spinnaker-mcp) |
 
 ### Database & Storage
 
