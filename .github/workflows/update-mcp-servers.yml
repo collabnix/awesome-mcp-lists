@@ -191,7 +191,7 @@ jobs:
                       continue
 
                   row_num = current_row_count(lines, category) + 1
-                  new_row = f"| {row_num} | **{name}** | {description} | TBD | [GitHub]({url}) |\n"
+                  new_row = f"| {row_num} | **{name}** | {description} | [GitHub]({url}) |\n"
                   lines.insert(insert_idx + 1, new_row)
                   print(f"  Added [{category}] {name} ({stars}⭐)")
                   added += 1
