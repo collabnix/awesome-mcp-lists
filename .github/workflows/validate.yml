@@ -1,0 +1,40 @@
+name: Validate entries
+
+on:
+  pull_request:
+    paths:
+      - "README.md"
+      - "scripts/validate_readme.py"
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate README table entries
+        run: python3 scripts/validate_readme.py
+
+      - name: Check for broken relative links
+        run: |
+          # Fail if the README references files that don't exist in the repo.
+          miss=0
+          for f in CONTRIBUTING.md LICENSE; do
+            if grep -q "($f)" README.md && [ ! -f "$f" ]; then
+              echo "::error::README links to $f but the file is missing."
+              miss=1
+            fi
+          done
+          exit $miss
