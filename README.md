@@ -480,6 +480,7 @@ MCP servers for AI and machine learning capabilities.
 | 7 | **Hexis** | Git-backed platform for skills, tools, and context for AI agents, with review workflows, role-based access, encrypted secrets, and remote MCP access. | [GitHub](https://github.com/Bevel-Software/Hexis) |
 | 8 | **mnemoverse/mcp-memory-server** | Persistent memory for AI agents over MCP. Hosted remote endpoint mcp.mnemoverse.com/mcp with OAuth sign-in, or run it locally with `npx -y @mnemoverse/mcp-memory-server` and an API key. Recall is re-ranked by feedback on whether a recalled memory helped. | [GitHub](https://github.com/mnemoverse/mcp-memory-server) |
 | 9 | **Continuity by Ouroboros Apps** | Story continuity for fiction writers: a series bible and novel memory that keeps characters, places, timelines, and plot facts consistent across chats. Hosted Streamable HTTP MCP `https://continuitywriter.com/mcp` with OAuth; includes a Dockerfile. [Site](https://continuitywriter.com) · [Ouroboros Apps](https://ouroborosapps.com) | [GitHub](https://github.com/LAHutchins91/continuity-mcp) |
+| 10 | **Whisper Memos** | Official hosted Streamable HTTP MCP server with OAuth for the Whisper Memos iPhone and Apple Watch voice memo app: list and read memo transcripts and summaries, list labels, view account details, and delete memos. | [Config](https://github.com/whispermemos/whisper-memos-plugin) · [Docs](https://whispermemos.com/mcp) |
 
 ### Multimedia & Design
 
