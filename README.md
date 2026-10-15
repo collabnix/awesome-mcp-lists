@@ -315,6 +315,7 @@ MCP servers for accessing external services and APIs.
 | 83 | **PumpGTM** | Hosted remote MCP server (Streamable HTTP, OAuth) that finds buyers, runs LinkedIn, email and X outreach from your own accounts, and hands replies back to a human. Endpoint `https://mcp.pumpgtm.com/mcp` | [GitHub](https://github.com/pumpgtm/pumpgtm-mcp) |
 | 84 | **Fast GST Refund** | Indian service-export GST refund guidance, record validation and Statement 3/Annexure B JSON; free checks, OAuth for paid downloads over Streamable HTTP. | [GitHub](https://github.com/syllogismos/fast-gst-refund-mcp) |
 | 85 | **TableJourney** | Free remote MCP server and REST API for food travel data in 214 cities: verified restaurants, food festivals with resolved dates, day plans, and bookable food tours | [GitHub](https://github.com/lewismvaughan/tablejourney-mcp) |
+| 86 | **Openpath** | Open directory of real-world listings for agents: live jobs from employers' own job boards (Austin, TX and remote) with Apply links, and Austin-area local businesses. Hosted Streamable HTTP at https://openpath.sh/mcp/search, no auth | [Docs](https://openpath.sh/docs/connect) |
 
 ### AI & Machine Learning
 
