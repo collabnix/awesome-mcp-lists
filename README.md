@@ -223,6 +223,7 @@ MCP servers for web search, content access, and web automation.
 | 47 | **naia GEO Autopilot** | Run GEO analyses, read AI visibility reports, generate content, and manage execution plans with [Naia](https://naia.today). Hosted Streamable HTTP with OAuth or API key; npm stdio bridge available. | [GitHub](https://github.com/arielvdl/naia-mcp-server) |
 | 48 | **PDF to MD** | Convert PDFs and scans to Markdown, export Markdown to PDF, and check account usage through a hosted Streamable HTTP MCP server with Bearer API-key authentication. | [Docs](https://pdf-to-md.app/developers) |
 | 49 | **chucho** | Hosted vacation rental search with public photos, property details, and direct host booking links. English/Spanish; Streamable HTTP; free, no auth. Endpoint: `https://chucho.ai/chatgpt/mcp` | [Website](https://chucho.ai/chatgpt/) |
+| 50 | **google-hotels-mcp** | MCP server for Google Hotels, Google Vacation Rentals, and the hotel price calendar — search hotels and rentals by city or map area, cross-OTA rates (Booking.com / Expedia / Agoda / Vrbo), and 3-month daily price calendars via three Apify actors. Python stdio, free install via `uvx`. | [GitHub](https://github.com/huynhtanan/google-hotels-mcp) |
 
 ### Integrations & APIs
 
