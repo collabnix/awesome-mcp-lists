@@ -315,6 +315,7 @@ MCP servers for accessing external services and APIs.
 | 83 | **PumpGTM** | Hosted remote MCP server (Streamable HTTP, OAuth) that finds buyers, runs LinkedIn, email and X outreach from your own accounts, and hands replies back to a human. Endpoint `https://mcp.pumpgtm.com/mcp` | [GitHub](https://github.com/pumpgtm/pumpgtm-mcp) |
 | 84 | **Fast GST Refund** | Indian service-export GST refund guidance, record validation and Statement 3/Annexure B JSON; free checks, OAuth for paid downloads over Streamable HTTP. | [GitHub](https://github.com/syllogismos/fast-gst-refund-mcp) |
 | 85 | **TableJourney** | Free remote MCP server and REST API for food travel data in 214 cities: verified restaurants, food festivals with resolved dates, day plans, and bookable food tours | [GitHub](https://github.com/lewismvaughan/tablejourney-mcp) |
+| 86 | **CareJobs.Now** | Free hosted read-only Streamable HTTP MCP server for US healthcare jobs: search 170,000+ open jobs read daily from hospitals' and health systems' career sites, get job details, posted pay by kind of job, employers, states; no auth, no API key. Endpoint `https://carejobs.now/api/mcp` | [GitHub](https://github.com/yumaheymans/carejobs-mcp) |
 
 ### AI & Machine Learning
 
