@@ -480,6 +480,7 @@ MCP servers for AI and machine learning capabilities.
 | 7 | **Hexis** | Git-backed platform for skills, tools, and context for AI agents, with review workflows, role-based access, encrypted secrets, and remote MCP access. | [GitHub](https://github.com/Bevel-Software/Hexis) |
 | 8 | **mnemoverse/mcp-memory-server** | Persistent memory for AI agents over MCP. Hosted remote endpoint mcp.mnemoverse.com/mcp with OAuth sign-in, or run it locally with `npx -y @mnemoverse/mcp-memory-server` and an API key. Recall is re-ranked by feedback on whether a recalled memory helped. | [GitHub](https://github.com/mnemoverse/mcp-memory-server) |
 | 9 | **Continuity by Ouroboros Apps** | Story continuity for fiction writers: a series bible and novel memory that keeps characters, places, timelines, and plot facts consistent across chats. Hosted Streamable HTTP MCP `https://continuitywriter.com/mcp` with OAuth; includes a Dockerfile. [Site](https://continuitywriter.com) · [Ouroboros Apps](https://ouroborosapps.com) | [GitHub](https://github.com/LAHutchins91/continuity-mcp) |
+| 10 | **Selvedge** | Local SQLite decision memory for coding agents, with MCP tools to save and retrieve rationale, rejected approaches, and entity history. | [GitHub](https://github.com/masondelan/selvedge) |
 
 ### Multimedia & Design
 
