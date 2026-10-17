@@ -315,6 +315,7 @@ MCP servers for accessing external services and APIs.
 | 83 | **PumpGTM** | Hosted remote MCP server (Streamable HTTP, OAuth) that finds buyers, runs LinkedIn, email and X outreach from your own accounts, and hands replies back to a human. Endpoint `https://mcp.pumpgtm.com/mcp` | [GitHub](https://github.com/pumpgtm/pumpgtm-mcp) |
 | 84 | **Fast GST Refund** | Indian service-export GST refund guidance, record validation and Statement 3/Annexure B JSON; free checks, OAuth for paid downloads over Streamable HTTP. | [GitHub](https://github.com/syllogismos/fast-gst-refund-mcp) |
 | 85 | **TableJourney** | Free remote MCP server and REST API for food travel data in 214 cities: verified restaurants, food festivals with resolved dates, day plans, and bookable food tours | [GitHub](https://github.com/lewismvaughan/tablejourney-mcp) |
+| 86 | **BacklinkGenie** | Hosted remote MCP server (Streamable HTTP, OAuth 2.1 or API key) for link-building outreach: list and approve pitches to editors, read and answer replies, import posts to pitch, and check which backlinks are live | [GitHub](https://github.com/nikunjness/backlinkgenie-mcp) |
 
 ### AI & Machine Learning
 
