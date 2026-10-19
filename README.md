@@ -475,6 +475,7 @@ MCP servers for AI and machine learning capabilities.
 | 7 | **Skysay** | Manage voice agents, phone numbers, calls, SMS and campaigns through a hosted Streamable HTTP MCP server with OAuth or scoped API keys. | [Docs](https://skysay.ai/docs/mcp) |
 | 8 | **HeyReagent** | Read your own LinkedIn inbox, send messages and connection invitations, and search people through a hosted Streamable HTTP MCP server with OAuth; each kind of action has a daily limit per account. | [GitHub](https://github.com/linglistack/heyreagent-linkedin-mcp) |
 | 9 | **telegram-archive-mcp** | MCP server for any Telegram-Archive instance: search messages, browse chats and read archived Telegram history. Docker image `drumsergio/telegram-archive-mcp`. | [GitHub](https://github.com/GeiserX/telegram-archive-mcp) |
+| 10 | **Quibbly** | LinkedIn inbox for AI assistants, synced by the Quibbly Chrome extension: read conversations and connections, see who watched your videos, set follow-ups and notes, and draft replies you send with one click; never sends on its own. Hosted Streamable HTTP at `https://server.quibbly.co/mcp`, OAuth 2.1 or personal access token. Registry `co.quibbly/linkedin-inbox` | [GitHub](https://github.com/Scriptify-Inc/linkedin-mcp) |
 
 ### Knowledge Management
 
