@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 382,
+    "servers": 392,
     "clients": 21,
     "toolkits": 45,
-    "docker": 196,
-    "total": 644
+    "docker": 208,
+    "total": 666
   },
   "groups": {
     "servers": [
@@ -574,6 +574,12 @@
         "category": "Database & Storage"
       },
       {
+        "name": "RowSafe",
+        "description": "CLI-bundled stdio MCP server for PostgreSQL backup health, migration previews on isolated copies, and opt-in named restore points",
+        "url": "https://github.com/rowsafe/rowsafe",
+        "category": "Database & Storage"
+      },
+      {
         "name": "brave",
         "description": "Perform web searches using Brave's privacy-focused search engine",
         "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/brave.md",
@@ -865,6 +871,12 @@
         "name": "chucho",
         "description": "Hosted vacation rental search with public photos, property details, and direct host booking links. English/Spanish; Streamable HTTP; free, no auth. Endpoint: `https://chucho.ai/chatgpt/mcp`",
         "url": "https://chucho.ai/chatgpt/",
+        "category": "Web & Content"
+      },
+      {
+        "name": "CurlShot",
+        "description": "Hosted Streamable HTTP MCP that screenshots any web page, or your own HTML or Markdown, as PNG, JPEG, WebP, PDF or a scrolling MP4/WebM/GIF: full page, CSS-selector element, device presets, dark mode, ad and cookie-banner blocking. Tools `take_screenshot` and `list_devices`; Bearer API key, free plan 100 screenshots/month. Remote MCP `https://curlshot.com/api/mcp` · Registry `io.github.SergiuPogor/curlshot`",
+        "url": "https://curlshot.com/tools/screenshot-tool-for-ai-agents",
         "category": "Web & Content"
       },
       {
@@ -1381,6 +1393,36 @@
         "name": "Wheremind",
         "description": "Hosted read-only maps server: place search, place details, nearby search, forward and reverse geocoding, and directions, with no Maps API key to manage. Remote MCP `https://wheremind.ai/mcp`; OAuth or stored Bearer; invite-only beta. Registry `ai.wheremind/wheremind`",
         "url": "https://wheremind.ai/llms.txt",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "DrinkedIn",
+        "description": "Simulated bar for AI agents: fictional virtual venues, virtual drinks (no real alcohol) and agent-to-agent conversation, plus licensed-bar lookups and cocktail recipes as x402 data (USDC on Base). Hosted Streamable HTTP at https://drinkedin.net/mcp; initialize and tools/list open, no OAuth",
+        "url": "https://drinkedin.net/skill.md",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "BlockVectra",
+        "description": "Hosted MCP for developers and AI agents: docs, chains, pricing and permitted public JSON-RPC work without a key; indexed data and account tools require an API key.",
+        "url": "https://github.com/blockvectra/mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Dreamwork",
+        "description": "Search jobs, tailor application materials, and track applications; public browsing needs no key",
+        "url": "https://github.com/dreamworkhq/mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Social Growth Engineers",
+        "description": "Hosted remote MCP server (Streamable HTTP, OAuth) for viral TikTok/Reels videos, hooks, app growth playbooks, articles, reports and App Store data.",
+        "url": "https://www.socialgrowthengineers.com",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Shortimize",
+        "description": "Hosted remote MCP server (Streamable HTTP, API key via Bearer token) for tracking TikTok, Instagram Reels and YouTube Shorts accounts and videos: views, growth and analytics.",
+        "url": "https://docs.shortimize.com",
         "category": "Integrations & APIs"
       },
       {
@@ -2218,6 +2260,18 @@
         "category": "Knowledge Management"
       },
       {
+        "name": "PDFtoMarkdown.ai",
+        "description": "Converts local PDF, DOCX, PPTX, XLSX, PNG/JPG, HTML and EPUB into structured Markdown with headings, tables and OCR via the PDFtoMarkdown.ai API (API key; 10 free pages then pay-per-page).",
+        "url": "https://github.com/happywpco/pdftomarkdown-mcp",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "Whisper Memos",
+        "description": "Official hosted Streamable HTTP MCP server with OAuth for the Whisper Memos iPhone and Apple Watch voice memo app: list and read memo transcripts and summaries, list labels, view account details, and delete memos.",
+        "url": "https://github.com/whispermemos/whisper-memos-plugin",
+        "category": "Knowledge Management"
+      },
+      {
         "name": "gyazo",
         "description": "Screenshot capturing and sharing service",
         "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/gyazo.md",
@@ -2299,6 +2353,12 @@
         "name": "screenRIG",
         "description": "Hosted MCP server for digital signage screens, playlists, media, schedules and playback reports, with OAuth authorization",
         "url": "https://screenrig.ai/docs/mcp/",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "VideoGen MCP",
+        "description": "Create editable videos from storyboards/scripts, generate media, edit projects and export through the VideoGen API; hosted HTTP or local stdio, account and generation credits required",
+        "url": "https://github.com/video-gen/videogen-mcp",
         "category": "Multimedia & Design"
       }
     ],
@@ -3877,6 +3937,78 @@
         "name": "KitCut",
         "description": "Hosted remote MCP server (OAuth) that makes narrated, scored animated films from a chat: from an idea or a video template (event and speaker promos, invitations), with series projects and YouTube publishing",
         "url": "https://kitcut.ai/docs/assistants",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "gyazo",
+        "description": "Screenshot capturing and sharing service",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/gyazo.md",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "handwriting-ocr",
+        "description": "Optical character recognition for handwritten text",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/handwriting-ocr.md",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "webflow",
+        "description": "Visual website design and content management system",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/webflow.md",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "youtube_transcript",
+        "description": "YouTube video transcript extraction",
+        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/youtube_transcript.md",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "speech-ai",
+        "description": "Speech AI with pronunciation assessment, text-to-speech, and speech-to-text",
+        "url": "https://github.com/fasuizu-br/speech-ai-examples",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "Prompt to Asset",
+        "description": "MCP server that generates production-ready visual assets (app icons, favicons, OG images) across 30+ image generation models",
+        "url": "https://github.com/MohamedAbdallah-14/prompt-to-asset",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "OrkasVideoStudio",
+        "description": "Local-first MCP toolkit for agent-driven video composition, editing, generation, and automatic assembly",
+        "url": "https://github.com/Orkas-AI/Orkas-VideoStudio",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "AI Applyd",
+        "description": "ATS resume scoring, job-description analysis, interview prep, cover letters, resume building and auto-apply that submits on the employer's own hiring system",
+        "url": "https://github.com/whateverneveranywhere/aiapplyd-mcp",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "YouTube Transcript MCP",
+        "description": "MCP server for YouTube transcripts, video and channel search, channel browsing, and playlist extraction, returned as clean JSON or markdown for Claude, ChatGPT and other MCP clients",
+        "url": "https://github.com/ZeroPointRepo/youtube-mcp",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "Magic Hour",
+        "description": "Hosted MCP server for generating and editing video, images, and audio through 44 Magic Hour API tools",
+        "url": "https://github.com/magichourhq/magic-hour-mcp",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "BulkTranscripts",
+        "description": "Hosted MCP server for YouTube transcripts of a single video, a whole channel or a playlist, with YouTube and in-channel search, channel and playlist listings, and new-upload tracking",
+        "url": "https://github.com/pratie/bulktranscripts-mcp",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "Creative Claw",
+        "description": "Hosted MCP server for generating and editing images, video, and audio with reusable Characters and brand assets through OAuth",
+        "url": "https://github.com/CreativeClawCo/creative-claw-marketplace",
         "category": "Multimedia & Design"
       }
     ]
