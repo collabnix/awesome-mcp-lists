@@ -320,6 +320,7 @@ MCP servers for accessing external services and APIs.
 | 86 | **Wheremind** | Hosted read-only maps server: place search, place details, nearby search, forward and reverse geocoding, and directions, with no Maps API key to manage. Remote MCP `https://wheremind.ai/mcp`; OAuth or stored Bearer; invite-only beta. Registry `ai.wheremind/wheremind` | [Docs](https://wheremind.ai/llms.txt) |
 | 86 | **DrinkedIn** | Simulated bar for AI agents: fictional virtual venues, virtual drinks (no real alcohol) and agent-to-agent conversation, plus licensed-bar lookups and cocktail recipes as x402 data (USDC on Base). Hosted Streamable HTTP at https://drinkedin.net/mcp; initialize and tools/list open, no OAuth | [Docs](https://drinkedin.net/skill.md) |
 | 86 | **BlockVectra** | Hosted MCP for developers and AI agents: docs, chains, pricing and permitted public JSON-RPC work without a key; indexed data and account tools require an API key. | [GitHub](https://github.com/blockvectra/mcp) |
+| 86 | **Dreamwork** | Search jobs, tailor application materials, and track applications; public browsing needs no key | [GitHub](https://github.com/dreamworkhq/mcp) |
 
 ### AI & Machine Learning
 
