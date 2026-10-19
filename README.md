@@ -226,6 +226,7 @@ MCP servers for web search, content access, and web automation.
 | 48 | **PDF to MD** | Convert PDFs and scans to Markdown, export Markdown to PDF, and check account usage through a hosted Streamable HTTP MCP server with Bearer API-key authentication. | [Docs](https://pdf-to-md.app/developers) |
 | 49 | **chucho** | Hosted vacation rental search with public photos, property details, and direct host booking links. English/Spanish; Streamable HTTP; free, no auth. Endpoint: `https://chucho.ai/chatgpt/mcp` | [Website](https://chucho.ai/chatgpt/) |
 | 50 | **CurlShot** | Hosted Streamable HTTP MCP that screenshots any web page, or your own HTML or Markdown, as PNG, JPEG, WebP, PDF or a scrolling MP4/WebM/GIF: full page, CSS-selector element, device presets, dark mode, ad and cookie-banner blocking. Tools `take_screenshot` and `list_devices`; Bearer API key, free plan 100 screenshots/month. Remote MCP `https://curlshot.com/api/mcp` · Registry `io.github.SergiuPogor/curlshot` | [Docs](https://curlshot.com/tools/screenshot-tool-for-ai-agents) |
+| 51 | **AI观潮 News MCP** | Curated AI news, daily briefs, trending stories and an LLM leaderboard; summaries in Chinese with source links. Hosted Streamable HTTP with a personal Bearer token (free daily quota, then points); 9 tools. Remote MCP `https://aiguanchao.com/mcp` | [Docs](https://aiguanchao.com/en/agent) |
 
 ### Integrations & APIs
 
