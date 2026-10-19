@@ -491,6 +491,7 @@ MCP servers for AI and machine learning capabilities.
 | 9 | **Continuity by Ouroboros Apps** | Story continuity for fiction writers: a series bible and novel memory that keeps characters, places, timelines, and plot facts consistent across chats. Hosted Streamable HTTP MCP `https://continuitywriter.com/mcp` with OAuth; includes a Dockerfile. [Site](https://continuitywriter.com) · [Ouroboros Apps](https://ouroborosapps.com) | [GitHub](https://github.com/LAHutchins91/continuity-mcp) |
 | 10 | **StatOrigin** | Hosted, read-only remote MCP server (no auth) to search sourced industry statistics; each record carries its publisher, source document and source sentence | [Docs](https://statorigin.org/docs/mcp) |
 | 10 | **PDFtoMarkdown.ai** | Converts local PDF, DOCX, PPTX, XLSX, PNG/JPG, HTML and EPUB into structured Markdown with headings, tables and OCR via the PDFtoMarkdown.ai API (API key; 10 free pages then pay-per-page). | [GitHub](https://github.com/happywpco/pdftomarkdown-mcp) |
+| 10 | **Whisper Memos** | Official hosted Streamable HTTP MCP server with OAuth for the Whisper Memos iPhone and Apple Watch voice memo app: list and read memo transcripts and summaries, list labels, view account details, and delete memos. | [Config](https://github.com/whispermemos/whisper-memos-plugin) · [Docs](https://whispermemos.com/mcp) |
 
 ### Multimedia & Design
 
