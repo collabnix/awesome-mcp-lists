@@ -224,6 +224,7 @@ MCP servers for web search, content access, and web automation.
 | 47 | **naia GEO Autopilot** | Run GEO analyses, read AI visibility reports, generate content, and manage execution plans with [Naia](https://naia.today). Hosted Streamable HTTP with OAuth or API key; npm stdio bridge available. | [GitHub](https://github.com/arielvdl/naia-mcp-server) |
 | 48 | **PDF to MD** | Convert PDFs and scans to Markdown, export Markdown to PDF, and check account usage through a hosted Streamable HTTP MCP server with Bearer API-key authentication. | [Docs](https://pdf-to-md.app/developers) |
 | 49 | **chucho** | Hosted vacation rental search with public photos, property details, and direct host booking links. English/Spanish; Streamable HTTP; free, no auth. Endpoint: `https://chucho.ai/chatgpt/mcp` | [Website](https://chucho.ai/chatgpt/) |
+| 50 | **CurlShot** | Hosted Streamable HTTP MCP that screenshots any web page, or your own HTML or Markdown, as PNG, JPEG, WebP, PDF or a scrolling MP4/WebM/GIF: full page, CSS-selector element, device presets, dark mode, ad and cookie-banner blocking. Tools `take_screenshot` and `list_devices`; Bearer API key, free plan 100 screenshots/month. Remote MCP `https://curlshot.com/api/mcp` · Registry `io.github.SergiuPogor/curlshot` | [Docs](https://curlshot.com/tools/screenshot-tool-for-ai-agents) |
 
 ### Integrations & APIs
 
