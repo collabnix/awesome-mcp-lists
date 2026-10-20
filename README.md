@@ -475,6 +475,7 @@ MCP servers for AI and machine learning capabilities.
 | 7 | **Skysay** | Manage voice agents, phone numbers, calls, SMS and campaigns through a hosted Streamable HTTP MCP server with OAuth or scoped API keys. | [Docs](https://skysay.ai/docs/mcp) |
 | 8 | **HeyReagent** | Read your own LinkedIn inbox, send messages and connection invitations, and search people through a hosted Streamable HTTP MCP server with OAuth; each kind of action has a daily limit per account. | [GitHub](https://github.com/linglistack/heyreagent-linkedin-mcp) |
 | 9 | **telegram-archive-mcp** | MCP server for any Telegram-Archive instance: search messages, browse chats and read archived Telegram history. Docker image `drumsergio/telegram-archive-mcp`. | [GitHub](https://github.com/GeiserX/telegram-archive-mcp) |
+| 10 | **PlaceCall** | Places real outbound phone calls to US businesses for an agent (reservations, appointments, inquiries, quotes) through a hosted Streamable HTTP MCP server with OAuth or an API key; handles phone menus and hold, can ask the agent a question mid-call, and returns the outcome, transcript and recording. | [GitHub](https://github.com/voygr-tech/placecall) |
 
 ### Knowledge Management
 
