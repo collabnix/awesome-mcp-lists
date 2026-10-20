@@ -538,6 +538,7 @@ MCP servers for AI and machine learning capabilities.
 |---|-------------|-------------|-----------|
 | 1 | Claude Mobile | Mobile Claude client with MCP support | iOS, Android |
 | 2 | [AI Assistant](https://apps.apple.com/app/ai-assistant-chat-with-ai/id6737047893) | Multi-model mobile client with MCP | iOS |
+| 3 | **[BayesChat](https://bayeschat.xyz)** | BYOK chat client that connects to remote MCP servers over Streamable HTTP with bearer or custom header auth and runs their tools inline in the conversation | iOS, iPadOS |
 
 ### IDE Extensions
 
