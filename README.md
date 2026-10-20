@@ -324,6 +324,7 @@ MCP servers for accessing external services and APIs.
 | 86 | **Dreamwork** | Search jobs, tailor application materials, and track applications; public browsing needs no key | [GitHub](https://github.com/dreamworkhq/mcp) |
 | 86 | **Social Growth Engineers** | Hosted remote MCP server (Streamable HTTP, OAuth) for viral TikTok/Reels videos, hooks, app growth playbooks, articles, reports and App Store data. | [Docs](https://www.socialgrowthengineers.com) |
 | 87 | **Shortimize** | Hosted remote MCP server (Streamable HTTP, API key via Bearer token) for tracking TikTok, Instagram Reels and YouTube Shorts accounts and videos: views, growth and analytics. | [Docs](https://docs.shortimize.com) |
+| 88 | **Karma.Domains MCP** | Hosted Streamable HTTP MCP server for expired domain research: search 13M+ expired, auction, backorder and buy-now domains from 40 sources with Wayback Machine history, Karma Score, Ahrefs/Moz/Majestic metrics and 90+ filters, plus live WHOIS, DNS, domain age and spam-score checks; OAuth or Pro API key (Pro plan required). Remote MCP `https://mcp.karma.domains/mcp` | [Docs](https://karma.domains/en/expired-domains-mcp/) · [GitHub](https://github.com/karma-domains/expired-domains-mcp) |
 
 ### AI & Machine Learning
 
