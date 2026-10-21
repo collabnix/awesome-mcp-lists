@@ -324,6 +324,7 @@ MCP servers for accessing external services and APIs.
 | 86 | **Dreamwork** | Search jobs, tailor application materials, and track applications; public browsing needs no key | [GitHub](https://github.com/dreamworkhq/mcp) |
 | 86 | **Social Growth Engineers** | Hosted remote MCP server (Streamable HTTP, OAuth) for viral TikTok/Reels videos, hooks, app growth playbooks, articles, reports and App Store data. | [Docs](https://www.socialgrowthengineers.com) |
 | 87 | **Shortimize** | Hosted remote MCP server (Streamable HTTP, API key via Bearer token) for tracking TikTok, Instagram Reels and YouTube Shorts accounts and videos: views, growth and analytics. | [Docs](https://docs.shortimize.com) |
+| 88 | **Zaptu** | US home-service request intake for AI assistants: `request_home_service` and `request_cleaning` send a person's consented contact request (service, ZIP, name, phone) to independent local providers, `get_plumbing_call_number` returns a number the person dials themselves, plus `get_lead_status` and `list_supported_services`. Zaptu does not do the work. Hosted Streamable HTTP at `https://api.zaptu.ai/mcp`, no auth; `dry_run` validates without saving. MIT | [GitHub](https://github.com/TommyTap11/zaptu) |
 
 ### AI & Machine Learning
 
