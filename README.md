@@ -324,6 +324,7 @@ MCP servers for accessing external services and APIs.
 | 86 | **Dreamwork** | Search jobs, tailor application materials, and track applications; public browsing needs no key | [GitHub](https://github.com/dreamworkhq/mcp) |
 | 86 | **Social Growth Engineers** | Hosted remote MCP server (Streamable HTTP, OAuth) for viral TikTok/Reels videos, hooks, app growth playbooks, articles, reports and App Store data. | [Docs](https://www.socialgrowthengineers.com) |
 | 87 | **Shortimize** | Hosted remote MCP server (Streamable HTTP, API key via Bearer token) for tracking TikTok, Instagram Reels and YouTube Shorts accounts and videos: views, growth and analytics. | [Docs](https://docs.shortimize.com) |
+| 88 | **Kandle** | Lets an agent read and drive Kandle, an open-source browser charting app for crypto, stocks and forex: candles, indicator values, drawings, alerts, bar replay, scripts with strategy backtests and screenshots (26 tools). Local stdio server via `npx`; crypto data needs no API key. Registry `io.github.Kernel-Hunter/kandle` | [GitHub](https://github.com/Kernel-Hunter/kandle) |
 
 ### AI & Machine Learning
 
