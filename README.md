@@ -324,6 +324,7 @@ MCP servers for accessing external services and APIs.
 | 86 | **Dreamwork** | Search jobs, tailor application materials, and track applications; public browsing needs no key | [GitHub](https://github.com/dreamworkhq/mcp) |
 | 86 | **Social Growth Engineers** | Hosted remote MCP server (Streamable HTTP, OAuth) for viral TikTok/Reels videos, hooks, app growth playbooks, articles, reports and App Store data. | [Docs](https://www.socialgrowthengineers.com) |
 | 87 | **Shortimize** | Hosted remote MCP server (Streamable HTTP, API key via Bearer token) for tracking TikTok, Instagram Reels and YouTube Shorts accounts and videos: views, growth and analytics. | [Docs](https://docs.shortimize.com) |
+| 88 | **datawebot** | Hosted remote MCP server (Streamable HTTP, OAuth 2.1 email sign-in) with ecommerce product data for agents: product search across online shops worldwide, every seller's price for one product with direct shop links, and extraction Jobs on Amazon (10 countries) and 1,100+ Shopify stores. Endpoint `https://mcp.datawebot.com/mcp` | [GitHub](https://github.com/datawebot/datawebot-mcp) · [Docs](https://www.datawebot.com/docs/agents) |
 
 ### AI & Machine Learning
 
