@@ -133,6 +133,7 @@ MCP servers for managing infrastructure, containers, and DevOps workflows.
 | 64 | **invoice-pdf-billing** | Create PDF invoices from your AI chat: clients, numbering, VAT, overdue reports. All data is local, so billing data never leaves the host. | [GitHub](https://github.com/theluckystrike/mcp-servers/tree/main/servers/invoice) |
 | 65 | **time-tracker-timesheet** | Track billable time from your AI chat: timers, entries, reports, CSV export. All data stays local, useful for freelancers and consultancies billing hours. | [GitHub](https://github.com/theluckystrike/mcp-servers/tree/main/servers/time-tracker) |
 | 66 | **spinnaker-mcp** | MCP server for any Spinnaker instance through the Gate API: 37 tools for applications, pipelines, executions, deployment strategies and infrastructure, with a read-only toolset. Docker image `drumsergio/spinnaker-mcp`. | [GitHub](https://github.com/GeiserX/spinnaker-mcp) |
+| 67 | **deed.page** | Publish an HTML file, a static folder (tarball) or a JSON file map to a permanent `https://{slug}.deed.page/` URL, then update, roll back versions or attach a custom domain. Hosted Streamable HTTP MCP `https://deed.page/mcp` with 24 tools; no account or auth to publish, the first publish returns an owner token for updates. | [Docs](https://deed.page/docs) · [Skill](https://github.com/f-o-x11/deed-page-skill) |
 
 ### Database & Storage
 
