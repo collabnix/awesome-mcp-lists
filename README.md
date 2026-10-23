@@ -324,6 +324,7 @@ MCP servers for accessing external services and APIs.
 | 86 | **Dreamwork** | Search jobs, tailor application materials, and track applications; public browsing needs no key | [GitHub](https://github.com/dreamworkhq/mcp) |
 | 86 | **Social Growth Engineers** | Hosted remote MCP server (Streamable HTTP, OAuth) for viral TikTok/Reels videos, hooks, app growth playbooks, articles, reports and App Store data. | [Docs](https://www.socialgrowthengineers.com) |
 | 87 | **Shortimize** | Hosted remote MCP server (Streamable HTTP, API key via Bearer token) for tracking TikTok, Instagram Reels and YouTube Shorts accounts and videos: views, growth and analytics. | [Docs](https://docs.shortimize.com) |
+| 88 | **TraderWAI** | Hosted remote MCP server (Streamable HTTP, OAuth 2.1 with dynamic client registration) that lets AI clients read live charts for forex, metals, indices, energy, futures and crypto, draw analysis on them, backtest rule-based strategies on 1-minute history, and place risk-sized orders on the user's own MetaTrader 4/5, cTrader, TradeLocker, Match-Trader, Binance or Bybit account. Endpoint `https://mcp.traderwai.com`; free plan, paid plans for more executions. Registry `com.traderwai/traderwai` | [GitHub](https://github.com/leonardo-mazzitelli/traderwai-mcp) |
 
 ### AI & Machine Learning
 
