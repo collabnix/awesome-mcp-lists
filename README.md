@@ -492,6 +492,7 @@ MCP servers for AI and machine learning capabilities.
 | 10 | **StatOrigin** | Hosted, read-only remote MCP server (no auth) to search sourced industry statistics; each record carries its publisher, source document and source sentence | [Docs](https://statorigin.org/docs/mcp) |
 | 10 | **PDFtoMarkdown.ai** | Converts local PDF, DOCX, PPTX, XLSX, PNG/JPG, HTML and EPUB into structured Markdown with headings, tables and OCR via the PDFtoMarkdown.ai API (API key; 10 free pages then pay-per-page). | [GitHub](https://github.com/happywpco/pdftomarkdown-mcp) |
 | 10 | **Whisper Memos** | Official hosted Streamable HTTP MCP server with OAuth for the Whisper Memos iPhone and Apple Watch voice memo app: list and read memo transcripts and summaries, list labels, view account details, and delete memos. | [Config](https://github.com/whispermemos/whisper-memos-plugin) · [Docs](https://whispermemos.com/mcp) |
+| 11 | **Docsy** | Hosted OAuth Streamable HTTP MCP with five read-only tools to resolve libraries and retrieve current and version-specific framework/SDK documentation with canonical source links. Connect at `https://docsy.remcp.site/mcp/registry` | [GitHub](https://github.com/getremcp/docsy-plugin) |
 
 ### Multimedia & Design
 
