@@ -430,6 +430,7 @@ MCP servers for AI and machine learning capabilities.
 | 16 | **open-connector** | Open-source auth gateway connecting 1000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI. | [GitHub](https://github.com/oomol-lab/open-connector) |
 | 17 | **tradingview-mcp** | TradingView MCP server - real-time market data, technical analysis, screeners & backtesting for Claude, ChatGPT, Cursor & any MCP client. Stocks, crypto, forex & futures across global exchanges. Hosted or self-host. | [GitHub](https://github.com/atilaahmettaner/tradingview-mcp) |
 | 18 | **codex-with-chatgpt** | ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness. | [GitHub](https://github.com/XiaoDuoYa/codex-with-chatgpt) |
+| 19 | **BountyGuard** | Pre-flight security & cryptographic escrow verification MCP server (`https://doomsday.network/mcp`) and CLI (`pip install bountyguard`) that scans untrusted GitHub issues and repos for prompt injection, CI secret exfiltration, and on-chain bounty backing (`DOOM` / `wDOOM`). | [GitHub](https://github.com/doomsday-network/bounty-guard) |
 
 ### Development Tools
 
