@@ -324,6 +324,7 @@ MCP servers for accessing external services and APIs.
 | 86 | **Dreamwork** | Search jobs, tailor application materials, and track applications; public browsing needs no key | [GitHub](https://github.com/dreamworkhq/mcp) |
 | 86 | **Social Growth Engineers** | Hosted remote MCP server (Streamable HTTP, OAuth) for viral TikTok/Reels videos, hooks, app growth playbooks, articles, reports and App Store data. | [Docs](https://www.socialgrowthengineers.com) |
 | 87 | **Shortimize** | Hosted remote MCP server (Streamable HTTP, API key via Bearer token) for tracking TikTok, Instagram Reels and YouTube Shorts accounts and videos: views, growth and analytics. | [Docs](https://docs.shortimize.com) |
+| 88 | **HEY Research Lab** | Hosted read-only MCP server (Streamable HTTP, no key) that researches Robinhood Chain projects and tokens: whether a team is still shipping, what it shipped and what changed, each claim with its source. Endpoint `https://heyresearch.xyz/mcp`; also `npx -y @hey-research-lab/mcp` | [GitHub](https://github.com/hey-research-lab/hey-research-open) |
 
 ### AI & Machine Learning
 
