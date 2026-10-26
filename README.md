@@ -613,6 +613,7 @@ MCP servers for AI and machine learning capabilities.
 | 6 | strowk/mcp-autotest | Go | YAML-based autotest tool |
 | 7 | [MCP Lens](https://github.com/labmimors/dsh-mcp-lens) | TypeScript | DeepSeek Harness plugin that exposes configured MCP catalogs through two model-facing interfaces with allow/deny policy gates and lazy connections |
 | 8 | [Omega MCP Router](https://github.com/Omega-JS-Stack/omega/tree/main/packages/mcp-router) | JavaScript | Stdio MCP proxy that fronts many upstream servers behind one connection, serves tool schemas from a disk cache, starts each upstream only on its first call, and lets a session switch upstreams on and off |
+| 9 | **[Speakeasy control plane](https://github.com/speakeasy-api/gram)** | Go / TypeScript | MCP gateway with identity-based tool permissions, per-action security policies, and audit logs. |
 
 ### Hosting Solutions
 
