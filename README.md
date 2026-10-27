@@ -407,6 +407,7 @@ MCP servers for AI and machine learning capabilities.
 | 74 | **reactive-resume** | A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today! | [GitHub](https://github.com/reactive-resume/reactive-resume) |
 | 75 | **editor** | Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents. | [GitHub](https://github.com/pascalorg/editor) |
 | 76 | **rea** | Reverse engineer anything with agents, from app behavior down to native binaries. | [GitHub](https://github.com/morluto/rea) |
+| 77 | **Agent Coach (upskill.coach)** | Hosted coach for AI agents: searches a skill, MCP server, repo and prompt library where items are security-scanned (prompt injection, malicious code, secret leaks) at a pinned commit, matches them to the agent's goal, and runs daily check-ins with public keep/temporary/remove rules. 13 tools; library search needs no key. Remote MCP `https://upskill.coach/mcp` (Streamable HTTP) | [Docs](https://upskill.coach/docs/mcp) |
 
 ### Security & Authentication
 
