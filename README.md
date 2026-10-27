@@ -578,6 +578,7 @@ MCP servers for AI and machine learning capabilities.
 | 4 | mcp-framework | TypeScript | Fast and elegant TypeScript framework for building MCP servers | 400+ | [GitHub](https://github.com/QuantGeekDev/mcp-framework) |
 | 5 | mcp-use | Python | Open source Python library to easily connect any LLM to any MCP server | 350+ | [GitHub](https://github.com/astelmach01/mcp-use) |
 | 6 | MCP Fusion | TypeScript | Zero-config framework for building production-ready MCP servers with auto tool discovery, multi-transport (stdio/SSE/HTTP) and Zod validation | N/A | [GitHub](https://github.com/vinkius-labs/mcp-fusion) |
+| 7 | mcp-gatehouse | Python | Permission tiers, fail-closed approval gates and a secret-redacting JSONL audit log for MCP servers built on the official Python SDK | N/A | [GitHub](https://github.com/nickgeorgeseo/mcp-gatehouse) · [Docs](https://nickgeorgeai.com/open-source/mcp-gatehouse) |
 
 ### Frameworks
 
