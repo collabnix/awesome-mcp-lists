@@ -324,6 +324,7 @@ MCP servers for accessing external services and APIs.
 | 86 | **Dreamwork** | Search jobs, tailor application materials, and track applications; public browsing needs no key | [GitHub](https://github.com/dreamworkhq/mcp) |
 | 86 | **Social Growth Engineers** | Hosted remote MCP server (Streamable HTTP, OAuth) for viral TikTok/Reels videos, hooks, app growth playbooks, articles, reports and App Store data. | [Docs](https://www.socialgrowthengineers.com) |
 | 87 | **Shortimize** | Hosted remote MCP server (Streamable HTTP, API key via Bearer token) for tracking TikTok, Instagram Reels and YouTube Shorts accounts and videos: views, growth and analytics. | [Docs](https://docs.shortimize.com) |
+| 88 | **Scalekit** | Hosted remote MCP server (Streamable HTTP, OAuth 2.1) giving agents 600+ connectors and 35,000+ tools, each call made under the end user's own OAuth grant with scoped tool access | [Website](https://scalekit.com) · [Docs](https://docs.scalekit.com/agentkit/overview/) |
 
 ### AI & Machine Learning
 
