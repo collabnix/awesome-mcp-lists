@@ -1391,7 +1391,7 @@
       },
       {
         "name": "Wheremind",
-        "description": "Hosted read-only maps server: place search, place details, nearby search, forward and reverse geocoding, and directions, with no Maps API key to manage. Remote MCP `https://wheremind.ai/mcp`; OAuth or stored Bearer; invite-only beta. Registry `ai.wheremind/wheremind`",
+        "description": "Hosted read-only maps server: place search, place details, nearby search, forward and reverse geocoding, and directions, with no Maps API key to manage. Remote MCP `https://wheremind.ai/mcp`; OAuth or stored Bearer; free beta with open email sign-up (6-digit code). Registry `ai.wheremind/wheremind`",
         "url": "https://wheremind.ai/llms.txt",
         "category": "Integrations & APIs"
       },
