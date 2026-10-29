@@ -461,6 +461,7 @@ MCP servers for AI and machine learning capabilities.
 | 24 | **MobileBuildMCP** | A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects. | [GitHub](https://github.com/getsentry/MobileBuildMCP) |
 | 25 | **OtaKit** | Over-the-air updates for Capacitor apps, as a hosted Streamable HTTP MCP (OAuth) and a local stdio server (`npx -y @otakit/cli@latest mcp`): inspect the project, check native compatibility, upload web bundles, publish releases after human approval, control staged rollouts, read rollout health and revert | [Website](https://otakit.app) · [GitHub](https://github.com/OtaKit/otakit) |
 | 26 | **NoMac** | Hosted Streamable HTTP MCP that gives agents a real cloud Mac with Xcode by the minute: start a macOS VM, run xcodebuild and Simulator commands, move files, open the desktop for a human, manage TestFlight and App Store Connect, then stop it; OAuth, no API key in client config | [Website](https://nomac.app) |
+| 27 | **Oh My Android** | Native macOS control panel for the Android Emulator and real devices (dark mode, font scale, locale/RTL, TalkBack, GPS, layout inspector in dp) with a built-in stdio MCP server (18 tools) so Claude Code, Codex and Cursor can see and drive the emulator. Install: `brew install --cask ateymoori/tap/oh-my-android` | [GitHub](https://github.com/ateymoori/oh-my-android) |
 
 ### Communication
 
