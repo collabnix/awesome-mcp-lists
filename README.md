@@ -476,6 +476,8 @@ MCP servers for AI and machine learning capabilities.
 | 8 | **HeyReagent** | Read your own LinkedIn inbox, send messages and connection invitations, and search people through a hosted Streamable HTTP MCP server with OAuth; each kind of action has a daily limit per account. | [GitHub](https://github.com/linglistack/heyreagent-linkedin-mcp) |
 | 9 | **telegram-archive-mcp** | MCP server for any Telegram-Archive instance: search messages, browse chats and read archived Telegram history. Docker image `drumsergio/telegram-archive-mcp`. | [GitHub](https://github.com/GeiserX/telegram-archive-mcp) |
 
+| 10 | **model.tools** | Zero-auth email verification code (OTP / magic link) extractor, KV state checkpoints, webhook receiver bins, delayed HTTP wakeup timers, and URL-to-Markdown reader via hosted Streamable HTTP (`https://mcp.model.tools/mcp`) or stdio. | [GitHub](https://github.com/maceip/model-tools-mcp) |
+
 ### Knowledge Management
 
 | # | MCP Server | Description | Link |
