@@ -12,7 +12,7 @@
 [![Docker MCP](https://img.shields.io/badge/Docker-MCP-2496ED.svg?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
 
 <!-- STATS:START -->
-**📦 660+ listed projects** &nbsp;·&nbsp; **🗂️ 25+ categories** &nbsp;·&nbsp; **🐳 100+ Docker MCP Toolkit servers** &nbsp;·&nbsp; **🤝 community-curated**
+**📦 740+ listed projects** &nbsp;·&nbsp; **🗂️ 25+ categories** &nbsp;·&nbsp; **🐳 100+ Docker MCP Toolkit servers** &nbsp;·&nbsp; **🤝 community-curated**
 <!-- STATS:END -->
 
 The **[Model Context Protocol (MCP)](https://modelcontextprotocol.io)** is an open standard that lets AI assistants securely connect to external tools and data sources. This list collects the best **servers** (which expose tools and data), **clients** (apps that connect to them), and **toolkits** (SDKs, frameworks, and utilities for building your own).

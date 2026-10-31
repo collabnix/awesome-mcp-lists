@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 392,
-    "clients": 21,
-    "toolkits": 45,
-    "docker": 208,
-    "total": 666
+    "servers": 463,
+    "clients": 23,
+    "toolkits": 47,
+    "docker": 210,
+    "total": 743
   },
   "groups": {
     "servers": [
@@ -406,6 +406,36 @@
         "category": "DevOps & Infrastructure"
       },
       {
+        "name": "Trail-Code",
+        "description": "Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase.",
+        "url": "https://github.com/trailhq/Trail-Code",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "dashboard-icons",
+        "description": "3,400+ curated icons and logos for dashboards and AI agents. SVG, PNG and WEBP on a free CDN, plus an MCP server for Claude Code, Codex, ChatGPT, Cursor, Hermes and OpenClaw.",
+        "url": "https://github.com/homarr-labs/dashboard-icons",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "AiSOC",
+        "description": "Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue.",
+        "url": "https://github.com/beenuar/AiSOC",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "mcp-server-cloudflare",
+        "description": "Product specific Cloudflare MCP servers",
+        "url": "https://github.com/cloudflare/mcp-server-cloudflare",
+        "category": "DevOps & Infrastructure"
+      },
+      {
+        "name": "deed.page",
+        "description": "Publish an HTML file, a static folder (tarball) or a JSON file map to a permanent `https://{slug}.deed.page/` URL, then update, roll back versions or attach a custom domain. Hosted Streamable HTTP MCP `https://deed.page/mcp` with 24 tools; no account or auth to publish, the first publish returns an owner token for updates.",
+        "url": "https://deed.page/docs",
+        "category": "DevOps & Infrastructure"
+      },
+      {
         "name": "postgres",
         "description": "Interact with PostgreSQL databases",
         "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/postgres.md",
@@ -577,6 +607,12 @@
         "name": "RowSafe",
         "description": "CLI-bundled stdio MCP server for PostgreSQL backup health, migration previews on isolated copies, and opt-in named restore points",
         "url": "https://github.com/rowsafe/rowsafe",
+        "category": "Database & Storage"
+      },
+      {
+        "name": "nightingale",
+        "description": "Open-source, self-hosted alerting for metrics, logs, and databases. Includes a built-in AI agent and MCP server.",
+        "url": "https://github.com/ccfos/nightingale",
         "category": "Database & Storage"
       },
       {
@@ -880,6 +916,66 @@
         "category": "Web & Content"
       },
       {
+        "name": "google-hotels-mcp",
+        "description": "MCP server for Google Hotels, Google Vacation Rentals, and the hotel price calendar — search hotels and rentals by city or map area, cross-OTA rates (Booking.com / Expedia / Agoda / Vrbo), and 3-month daily price calendars via three Apify actors. Python stdio, free install via `uvx`.",
+        "url": "https://github.com/huynhtanan/google-hotels-mcp",
+        "category": "Web & Content"
+      },
+      {
+        "name": "next-ai-draw-io",
+        "description": "Draw and edit draw.io diagrams by chatting with an AI. Web app, desktop app, and an MCP server for Claude Code, Cursor, Codex and VS Code.",
+        "url": "https://github.com/DayuanJiang/next-ai-draw-io",
+        "category": "Web & Content"
+      },
+      {
+        "name": "xerj",
+        "description": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
+        "url": "https://github.com/xerj-org/xerj",
+        "category": "Web & Content"
+      },
+      {
+        "name": "appllama-skills",
+        "description": "A builder, not just a researcher. Agent skills that turn top-grossing app patterns into native-quality mobile screens.",
+        "url": "https://github.com/Appllama/appllama-skills",
+        "category": "Web & Content"
+      },
+      {
+        "name": "AI观潮 News MCP",
+        "description": "Curated AI news, daily briefs, trending stories and an LLM leaderboard; summaries in Chinese with source links. Hosted Streamable HTTP with a personal Bearer token (free daily quota, then points); 9 tools. Remote MCP `https://aiguanchao.com/mcp`",
+        "url": "https://aiguanchao.com/en/agent",
+        "category": "Web & Content"
+      },
+      {
+        "name": "Seonix SEO MCP",
+        "description": "Audits any website for technical SEO, GEO/AEO (JSON-LD, llms.txt, AI-crawler rules) and page speed, and proposes and dry-runs fixes; open-source read-only server (MIT, TypeScript) with tools `audit_site`, `speed_audit`, `propose_fixes`, `preview_fix`. Hosted Remote MCP `https://api.seonix.ai/mcp` (Streamable HTTP, Bearer key, paid plans, 36 read-only tools) · Registry `io.github.pahaa97/seonix`",
+        "url": "https://github.com/seonix-ai/seonix-mcp",
+        "category": "Web & Content"
+      },
+      {
+        "name": "FSB (Full Self Browsing)",
+        "description": "Drive your real Chrome, Edge, Brave or Arc browser from any MCP client through a local extension bridge; reads pages via DOM, selectors and ARIA instead of screenshots, with 69 tools for navigation, clicks, typing, tabs, file uploads, session replay and multi-agent tab ownership. Local stdio via `npx -y fsb-mcp-server@latest`, no API key",
+        "url": "https://github.com/fullselfbrowsing/FSB",
+        "category": "Web & Content"
+      },
+      {
+        "name": "Forever In Our Hearts",
+        "description": "Hosted, read-only MCP server (Streamable HTTP, no auth) to search public online memorials, funeral notices and partner funeral homes, with links to each page",
+        "url": "https://github.com/Forever-In-Our-Hearts/memorials-mcp-server",
+        "category": "Web & Content"
+      },
+      {
+        "name": "toolkb-mcp",
+        "description": "Local stdio server that returns YouTube transcripts and playlists, web pages as Markdown, and App Store reviews; no API key or account. Install via `npx -y github:jack-reson8/toolkb-mcp`",
+        "url": "https://github.com/jack-reson8/toolkb-mcp",
+        "category": "Web & Content"
+      },
+      {
+        "name": "BrewPage",
+        "description": "Hosted Streamable HTTP MCP to publish HTML, Markdown, files, multi-file static sites, JSON and key-value data on brewpage.app and get a shareable URL plus a manage link; free, no auth. Endpoint: `https://brewpage.app/mcp`; local: `npx -y brewpage-mcp`",
+        "url": "https://github.com/kochetkov-ma/brewpage-openapi",
+        "category": "Web & Content"
+      },
+      {
         "name": "stripe",
         "description": "Process payments and manage financial transactions",
         "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/stripe.md",
@@ -1091,8 +1187,8 @@
       },
       {
         "name": "Datacircle",
-        "description": "Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup. Hosted Streamable HTTP MCP; OAuth 2.1 or API key. Remote MCP `https://api.datacircle.dev/mcp` · Registry `dev.datacircle/datacircle`",
-        "url": "https://docs.datacircle.dev/mcp-server",
+        "description": "Datacircle lists all the GTM APIs. Our MCP server is open to anyone, with no key: add api.datacircle.dev/mcp to Claude, ChatGPT or Cursor.",
+        "url": "https://datacircle.dev/docs/mcp",
         "category": "Integrations & APIs"
       },
       {
@@ -1313,7 +1409,7 @@
       },
       {
         "name": "GovContractScout MCP",
-        "description": "MCP server exposing GovContractScout's US state & local government contracts API - search contracts, get details, NAICS lookup, and AI match scoring for AI agents. npm: `govcontractscout-mcp`",
+        "description": "MCP server for US state, local and federal government contracts: search contracts, contract detail, NAICS lookup, match scoring and win likelihood. Runs from npm (`govcontractscout-mcp`), or with no install against the hosted Streamable HTTP endpoint `https://scout.govbidportals.com/mcp`",
         "url": "https://github.com/govcontractscout/govcontractscout-mcp",
         "category": "Integrations & APIs"
       },
@@ -1423,6 +1519,144 @@
         "name": "Shortimize",
         "description": "Hosted remote MCP server (Streamable HTTP, API key via Bearer token) for tracking TikTok, Instagram Reels and YouTube Shorts accounts and videos: views, growth and analytics.",
         "url": "https://docs.shortimize.com",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "WalletFollow",
+        "description": "Hosted read-only MCP at walletfollow.ai for Hyperliquid wallet, market and copy-portfolio research with freshness and coverage information; Streamable HTTP and OAuth",
+        "url": "https://walletfollow.ai/mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "CareJobs.Now",
+        "description": "Free hosted read-only Streamable HTTP MCP server for US healthcare jobs: search 170,000+ open jobs read daily from hospitals' and health systems' career sites, get job details, posted pay by kind of job, employers, states; no auth, no API key. Endpoint `https://carejobs.now/api/mcp`",
+        "url": "https://github.com/yumaheymans/carejobs-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "AltoRank",
+        "description": "Hosted Streamable HTTP MCP server (OAuth) for open-source SEO content software: site readiness checks for search engines and AI crawlers, keyword research, Search Console data and sourced drafts into a person's review queue; no approve or publish tool. AGPL-3.0, self-hostable. Website",
+        "url": "https://altorank.co",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Appie.run",
+        "description": "Hosted Streamable HTTP MCP at `https://appie.run/mcp` with 21 tools to find Reddit threads and draft replies, track LinkedIn profiles and leads, write articles in a brand voice, update brand context, train and query website chatbots, and create trackable short links; Bearer API key, free plan with 500 credits",
+        "url": "https://github.com/appierun/appie-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "RestoSignals",
+        "description": "Finds US restaurants and bars 1-6 months before they open: liquor-license, food-permit and new-business filings fused into scored venues with owner contact. Hosted Streamable HTTP at https://api.restosignals.com/mcp; API key in `X-API-Key` (free key)",
+        "url": "https://github.com/paperandbeyond23-gif/restosignals-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "BacklinkGenie",
+        "description": "Hosted remote MCP server (Streamable HTTP, OAuth 2.1 or API key) for link-building outreach: list and approve pitches to editors, read and answer replies, import posts to pitch, and check which backlinks are live",
+        "url": "https://github.com/nikunjness/backlinkgenie-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "GSCmate",
+        "description": "Hosted read-only MCP server with Google OAuth 2.1 that lets AI agents access Google Search Console properties, search performance, sitemaps, and URL inspection data.",
+        "url": "https://gscmate.com/mcp-setup.html",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Grey Ridge x402 Data & Token Safety",
+        "description": "Hosted Streamable HTTP MCP (22 tools), no API key: Base token honeypot/swap gate, Base RPC reads, crypto prices/funding, DeFi yields, Polymarket. Pay-per-call x402 (USDC on Base), free previews. `https://x402-data-api.sigrunner.workers.dev/mcp`",
+        "url": "https://github.com/rezearcher/x402-data-api",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "rdyrct",
+        "description": "Open-source URL shortener and QR generator; create short links and QR codes and read click analytics from an MCP client connected through OAuth",
+        "url": "https://github.com/baronunread/rdyrct",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "NeverApply",
+        "description": "Hosted remote MCP server (Streamable HTTP, OAuth 2.1 with PKCE) for job seekers: search and match jobs, tailor resumes, answer screening questions, prep for interviews, and apply with your approval; 15 tools. Endpoint `https://neverapply.co/mcp`. Registry `co.neverapply/neverapply`",
+        "url": "https://neverapply.co/features/mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Warden MCP",
+        "description": "Hosted remote MCP server (Streamable HTTP; OAuth or agent key for wallet and trading tools) for Warden Token Terminal: AI agents find tokens, quote swaps and trade onchain on Base, BNB Chain, Robinhood Chain and Arc within limits the user sets.",
+        "url": "https://github.com/warden-protocol/warden-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "datawebot",
+        "description": "Hosted remote MCP server (Streamable HTTP, OAuth 2.1 email sign-in) with ecommerce product data for agents: product search across online shops worldwide, every seller's price for one product with direct shop links, and extraction Jobs on Amazon (10 countries) and 1,100+ Shopify stores. Endpoint `https://mcp.datawebot.com/mcp`",
+        "url": "https://github.com/datawebot/datawebot-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Kandle",
+        "description": "Lets an agent read and drive Kandle, an open-source browser charting app for crypto, stocks and forex: candles, indicator values, drawings, alerts, bar replay, scripts with strategy backtests and screenshots (26 tools). Local stdio server via `npx`; crypto data needs no API key. Registry `io.github.Kernel-Hunter/kandle`",
+        "url": "https://github.com/Kernel-Hunter/kandle",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "PeekPanda",
+        "description": "Hosted remote MCP server (Streamable HTTP, OAuth or API key) for iOS competitor intelligence: Meta ads, App Store keyword rankings and viral content for any iOS app.",
+        "url": "https://github.com/fdarkaou/peekpanda-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "TraderWAI",
+        "description": "Hosted remote MCP server (Streamable HTTP, OAuth 2.1 with dynamic client registration) that lets AI clients read live charts for forex, metals, indices, energy, futures and crypto, draw analysis on them, backtest rule-based strategies on 1-minute history, and place risk-sized orders on the user's own MetaTrader 4/5, cTrader, TradeLocker, Match-Trader, Binance or Bybit account. Endpoint `https://mcp.traderwai.com`; free plan, paid plans for more executions. Registry `com.traderwai/traderwai`",
+        "url": "https://github.com/leonardo-mazzitelli/traderwai-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "HEY Research Lab",
+        "description": "Hosted read-only MCP server (Streamable HTTP, no key) that researches Robinhood Chain projects and tokens: whether a team is still shipping, what it shipped and what changed, each claim with its source. Endpoint `https://heyresearch.xyz/mcp`; also `npx -y @hey-research-lab/mcp`",
+        "url": "https://github.com/hey-research-lab/hey-research-open",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "SoldFetch",
+        "description": "Hosted MCP server for eBay sold and active listings; not affiliated with eBay",
+        "url": "https://github.com/ecom-crawl/soldfetch-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Sports Odds API (BetRivers, Unibet & 22 more books)",
+        "description": "Live odds from 24 Kambi-powered sportsbooks in one call — BetRivers (12 US states + Ontario), Unibet, Paf, Svenska Spel, ATG; hosted Streamable HTTP `https://mcp.apify.com?tools=publicrecords/sports-odds-api` (Apify OAuth)",
+        "url": "https://apify.com/publicrecords/sports-odds-api",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Scalekit",
+        "description": "Hosted remote MCP server (Streamable HTTP, OAuth 2.1) giving agents 600+ connectors and 35,000+ tools, each call made under the end user's own OAuth grant with scoped tool access",
+        "url": "https://scalekit.com",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "BestPrice Shopping",
+        "description": "Read-only shopping decisions, product search, live offers, delivered totals, and price history for Greece. No BestPrice account or API key. Hosted Streamable HTTP MCP `https://mcp.bestprice.gr/mcp`",
+        "url": "https://github.com/TheBestCo/bestprice-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "TikTokAPI.io MCP Server",
+        "description": "Official zero-dependency MCP server to search TikTok videos, 1080p no-watermark streams, creator profiles, comments, and Creative Center commercial ads from Claude and Cursor (Website)",
+        "url": "https://tiktokapi.io/mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Fictura",
+        "description": "AI-native mobile app growth data layer for coding agents: hosted Streamable HTTP MCP exposes app setup, real paywall/onboarding configurations, subscription funnels, experiments, attribution and production error traces; authorized paywall/onboarding edits stay in draft. OAuth 2.1 with DCR or a scoped key via `X-API-Key`. Endpoint `https://mcp.fictura.co/mcp` · Registry `co.fictura/mcp`",
+        "url": "https://github.com/Apex-Byte-Technologies/fictura-mcp",
+        "category": "Integrations & APIs"
+      },
+      {
+        "name": "Tera Ads",
+        "description": "Hosted remote MCP server (Streamable HTTP, OAuth 2.1 with PKCE and dynamic client registration) for Meta (Facebook and Instagram) ads: read live campaigns, ad sets, ads, creatives and insights, review which campaigns lose money after Shopify returns, pause, turn on and change budgets, and create campaigns, ad sets and ads that always start paused. Each connection is read only, ask first or make changes; a pause, turn-on or budget change can be undone for 7 days. Tera Ads account required (free plan 30 calls a week). Remote MCP `https://teraads.co/mcp` · Registry `co.teraads/connect`",
+        "url": "https://github.com/Teralabsx/meta-ads-mcp",
         "category": "Integrations & APIs"
       },
       {
@@ -1882,6 +2116,30 @@
         "category": "AI & Machine Learning"
       },
       {
+        "name": "realrun-mcp",
+        "description": "Read-only remote MCP server over RealRun's independent tests of AI models on five everyday tasks: scores, a model pick and safety warnings. Hosted, no auth.",
+        "url": "https://github.com/baseledgerip/realrun-mcp",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "zerouter-mcp",
+        "description": "AI API gateway MCP for Claude, GPT, Gemini, Grok and Kimi via one OpenAI-compatible Zerouter API key: chat, compare models side by side, and look up API pricing. Runs locally via MCPB bundle or Docker",
+        "url": "https://github.com/ZerouterAI/zerouter-mcp",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "Athmex",
+        "description": "Gives Claude and ChatGPT athlete profiles, personal bests, goals, races, and weekly constraints for personalised training conversations; hosted service requiring an Athmex account and connected membership",
+        "url": "https://www.athmex.com/faq",
+        "category": "AI & Machine Learning"
+      },
+      {
+        "name": "Agent Coach (upskill.coach)",
+        "description": "Hosted coach for AI agents: searches a skill, MCP server, repo and prompt library where items are security-scanned (prompt injection, malicious code, secret leaks) at a pinned commit, matches them to the agent's goal, and runs daily check-ins with public keep/temporary/remove rules. 13 tools; library search needs no key. Remote MCP `https://upskill.coach/mcp` (Streamable HTTP)",
+        "url": "https://upskill.coach/docs/mcp",
+        "category": "AI & Machine Learning"
+      },
+      {
         "name": "sentry",
         "description": "Monitor application errors and performance",
         "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/sentry.md",
@@ -2146,6 +2404,48 @@
         "category": "Development Tools"
       },
       {
+        "name": "awesome-remote-mcp-servers",
+        "description": "A collection of remote MCP servers.",
+        "url": "https://github.com/punkpeye/awesome-remote-mcp-servers",
+        "category": "Development Tools"
+      },
+      {
+        "name": "Zeptap",
+        "description": "Mac app with a local MCP server that lets AI agents operate a real iPhone over USB and Bluetooth, for testing iOS apps on a device. Paid, first hour free.",
+        "url": "https://zeptap.com",
+        "category": "Development Tools"
+      },
+      {
+        "name": "UI Verify",
+        "description": "Hosted Streamable HTTP MCP (OAuth) for visual testing: list a pull request's changed Storybook, Playwright or Vitest screenshots, read the diffs, comment on them and accept new baselines",
+        "url": "https://uiverify.ai",
+        "category": "Development Tools"
+      },
+      {
+        "name": "ReMCP",
+        "description": "OAuth-protected remote MCP for user-paired computers supporting files, shell commands, process diagnostics, browser and desktop automation; tools can modify device state. Hosted endpoint `https://remcp.site/mcp`",
+        "url": "https://github.com/getremcp/remcp",
+        "category": "Development Tools"
+      },
+      {
+        "name": "Carbon Forge",
+        "description": "Source control and a shared record for people and agents: code, files and prose in one record on the server, read and written over MCP. Hosted Streamable HTTP endpoint `https://carbonforge.dev/api/mcp`; public workspaces read without a token, writing needs a bearer token",
+        "url": "https://carbonforge.dev/docs/p/guides/mcp-anonymous-access",
+        "category": "Development Tools"
+      },
+      {
+        "name": "Oh My Android",
+        "description": "Native macOS control panel for the Android Emulator and real devices (dark mode, font scale, locale/RTL, TalkBack, GPS, layout inspector in dp) with a built-in stdio MCP server (18 tools) so Claude Code, Codex and Cursor can see and drive the emulator. Install: `brew install --cask ateymoori/tap/oh-my-android`",
+        "url": "https://github.com/ateymoori/oh-my-android",
+        "category": "Development Tools"
+      },
+      {
+        "name": "ComputeFirst",
+        "description": "Free hosted MCP server for deterministic calculations, identifier validation and data transforms; no API key required",
+        "url": "https://computefirst.net/docs",
+        "category": "Development Tools"
+      },
+      {
         "name": "mcp-discord",
         "description": "Discord messaging and community management",
         "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/mcp-discord.md",
@@ -2197,6 +2497,48 @@
         "name": "telegram-archive-mcp",
         "description": "MCP server for any Telegram-Archive instance: search messages, browse chats and read archived Telegram history. Docker image `drumsergio/telegram-archive-mcp`.",
         "url": "https://github.com/GeiserX/telegram-archive-mcp",
+        "category": "Communication"
+      },
+      {
+        "name": "needhave",
+        "description": "Open list where agents post needs (\"I want this\") and haves (\"I have this\") and read what others posted; no offers, fees, or escrow. Hosted Streamable HTTP MCP, no auth. Remote MCP `https://needhave.io/mcp` · Registry `io.github.PrivateAISystems/needhave`",
+        "url": "https://github.com/PrivateAISystems/needhave",
+        "category": "Communication"
+      },
+      {
+        "name": "Quibbly",
+        "description": "LinkedIn inbox for AI assistants, synced by the Quibbly Chrome extension: read conversations and connections, see who watched your videos, set follow-ups and notes, and draft replies you send with one click; never sends on its own. Hosted Streamable HTTP at `https://server.quibbly.co/mcp`, OAuth 2.1 or personal access token. Registry `co.quibbly/linkedin-inbox`",
+        "url": "https://github.com/Scriptify-Inc/linkedin-mcp",
+        "category": "Communication"
+      },
+      {
+        "name": "Mysocial",
+        "description": "Read connected social content history, performance signals, and creator memory through a hosted Streamable HTTP MCP server with OAuth 2.1.",
+        "url": "https://github.com/mysocialio/mysocial-intelligence",
+        "category": "Communication"
+      },
+      {
+        "name": "PlaceCall",
+        "description": "Places real outbound phone calls to US businesses for an agent (reservations, appointments, inquiries, quotes) through a hosted Streamable HTTP MCP server with OAuth or an API key; handles phone menus and hold, can ask the agent a question mid-call, and returns the outcome, transcript and recording.",
+        "url": "https://github.com/voygr-tech/placecall",
+        "category": "Communication"
+      },
+      {
+        "name": "PodPitch",
+        "description": "Hosted MCP for public podcast discovery without an account; existing customers can connect with OAuth for campaigns, drafts, inbox replies and outreach",
+        "url": "https://github.com/PodPitch/podpitch-plugins",
+        "category": "Communication"
+      },
+      {
+        "name": "Cooper Email",
+        "description": "Give an agent its own email inbox (`username@cooperemail.com`): send, read, reply, and wait for replies or sign-up codes through a hosted Streamable HTTP MCP server with OAuth or an API key.",
+        "url": "https://cooperemail.com/docs/mcp",
+        "category": "Communication"
+      },
+      {
+        "name": "/call-me",
+        "description": "Lets an AI agent ring or text the user's iPhone and get the spoken or typed reply back as text, through a hosted Streamable HTTP MCP server with no credentials at the endpoint; the iPhone app is a paid subscription.",
+        "url": "https://github.com/radres/call-me",
         "category": "Communication"
       },
       {
@@ -2269,6 +2611,66 @@
         "name": "Whisper Memos",
         "description": "Official hosted Streamable HTTP MCP server with OAuth for the Whisper Memos iPhone and Apple Watch voice memo app: list and read memo transcripts and summaries, list labels, view account details, and delete memos.",
         "url": "https://github.com/whispermemos/whisper-memos-plugin",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "Anansi Haven",
+        "description": "Free home base for AI agents: passport, persistent memory, E2E-encrypted private storage, job board, agent directory and skills library. Hosted Streamable HTTP MCP at `https://anansi-haven.anansidata.workers.dev/mcp` (also A2A + REST); free public beta.",
+        "url": "https://github.com/kburrus64-max/anansi-haven",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "Selvedge",
+        "description": "Local SQLite decision memory for coding agents, with MCP tools to save and retrieve rationale, rejected approaches, and entity history.",
+        "url": "https://github.com/masondelan/selvedge",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "ppl",
+        "description": "Personal CRM for AI agents: look up and update contacts, log interactions, keep notes, and set reminders and tasks about the people in your life (about 120 tools). Hosted Streamable HTTP MCP `https://withppl.com/mcp` with OAuth 2.1; free beta up to 1,000 contacts. Agent setup · Sign up",
+        "url": "https://withppl.com/agents",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "Podwise",
+        "description": "Podcast knowledge for AI agents: search episodes, pull transcripts, ask questions about an episode, and export summaries and mind maps as Markdown. Hosted Streamable HTTP endpoint with Podwise sign-in (Pro or Enterprise plan required).",
+        "url": "https://github.com/hardhackerlabs/podwise-plugin",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "Koru",
+        "description": "Local stdio MCP server built into Koru, a free, open-source (MPL-2.0), local-first desktop app for notes, documents and files on Windows and macOS: search, read, create and edit documents stored on the device, no account or cloud required",
+        "url": "https://github.com/koruworks/mono",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "AgentSandboxes",
+        "description": "Hosted read-only remote MCP index of cloud sandbox providers for AI agents; endpoint `https://agentsandboxes.fyi/mcp`, no auth",
+        "url": "https://agentsandboxes.fyi",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "Agent Wallet Index",
+        "description": "Hosted read-only remote MCP index of wallets and payment rails for AI agents; endpoint `https://agentwalletindex.fyi/mcp`, no auth",
+        "url": "https://agentwalletindex.fyi",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "CreditUnions",
+        "description": "Hosted read-only remote MCP index of US credit unions with NCUA call-report data; endpoint `https://creditunions.fyi/mcp`, no auth",
+        "url": "https://creditunions.fyi",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "Docsy",
+        "description": "Hosted OAuth Streamable HTTP MCP with five read-only tools to resolve libraries and retrieve current and version-specific framework/SDK documentation with canonical source links. Connect at `https://docsy.remcp.site/mcp/registry`",
+        "url": "https://github.com/getremcp/docsy-plugin",
+        "category": "Knowledge Management"
+      },
+      {
+        "name": "Enhanciar",
+        "description": "A company brain that answers from your Slack, Gmail, Notion and Drive with the source, then drafts the reply or ticket for you to approve. Hosted Streamable HTTP MCP `https://enhanciar.in/enhanciar/mcp/` with an API key (paid plans). Tools include query, search_wiki, get_page, impact and propose_action. Site",
+        "url": "https://enhanciar.in",
         "category": "Knowledge Management"
       },
       {
@@ -2360,6 +2762,30 @@
         "description": "Create editable videos from storyboards/scripts, generate media, edit projects and export through the VideoGen API; hosted HTTP or local stdio, account and generation credits required",
         "url": "https://github.com/video-gen/videogen-mcp",
         "category": "Multimedia & Design"
+      },
+      {
+        "name": "Aria Icons",
+        "description": "Search ~1.4M open-source SVG icons and add them as SVG or React/Vue/Svelte/Solid components; remote endpoint, no auth",
+        "url": "https://github.com/LeulAria/Aria-Icons",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "Tera Studio",
+        "description": "Hosted Streamable HTTP MCP server for singers, read-only with no sign-in: looks up a song's key, tempo and range by title, or opens an MCP App that finds a song file's key and tempo or moves it to another key in the browser, without uploading the file",
+        "url": "https://terastudio.co/ai-assistants/",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "House AI",
+        "description": "Hosted Streamable HTTP MCP for interior and exterior design: redesign rooms, house exteriors and yards from a photo in 100+ styles, preview wall paint and flooring, and find furniture and decor from partner stores; OAuth 2.1 with dynamic client registration, or a personal API token as a Bearer header. Remote MCP `https://mcp.houseaiapp.com/mcp` · Registry `com.houseaiapp/house-ai`",
+        "url": "https://github.com/Apex-Byte-Technologies/house-ai-mcp",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "ReelsFarm",
+        "description": "Hosted MCP server (Streamable HTTP, OAuth or API key) for creating AI avatars, product photos, AI videos and TikTok/Instagram slideshows, then scheduling and publishing approved posts to TikTok, Instagram, YouTube and Facebook; ReelsFarm plan or trial required",
+        "url": "https://reelsfarm.com/docs/mcp",
+        "category": "Multimedia & Design"
       }
     ],
     "clients": [
@@ -2406,6 +2832,12 @@
         "category": "Desktop Applications"
       },
       {
+        "name": "Volt",
+        "description": "Open-source AI code editor on VS Code core with MCP client support; runs Claude Code, Codex, OpenCode and Kimi over ACP",
+        "url": "https://github.com/LeulAria/VOLT",
+        "category": "Desktop Applications"
+      },
+      {
         "name": "Claude Mobile",
         "description": "Mobile Claude client with MCP support",
         "url": "",
@@ -2415,6 +2847,12 @@
         "name": "AI Assistant",
         "description": "Multi-model mobile client with MCP",
         "url": "https://apps.apple.com/app/ai-assistant-chat-with-ai/id6737047893",
+        "category": "Mobile Applications"
+      },
+      {
+        "name": "BayesChat",
+        "description": "BYOK chat client that connects to remote MCP servers over Streamable HTTP with bearer or custom header auth and runs their tools inline in the conversation",
+        "url": "https://bayeschat.xyz",
         "category": "Mobile Applications"
       },
       {
@@ -2528,6 +2966,12 @@
         "category": "SDKs & Libraries"
       },
       {
+        "name": "mcp-gatehouse",
+        "description": "Permission tiers, fail-closed approval gates and a secret-redacting JSONL audit log for MCP servers built on the official Python SDK",
+        "url": "https://github.com/nickgeorgeseo/mcp-gatehouse",
+        "category": "SDKs & Libraries"
+      },
+      {
         "name": "lastmile-ai/mcp-agent",
         "description": "Build agents with MCP servers",
         "url": "https://github.com/lastmile-ai/mcp-agent",
@@ -2591,6 +3035,12 @@
         "name": "Agent QA",
         "description": "Local stdio MCP server for natural-language web and mobile regression tests with retained execution evidence",
         "url": "https://github.com/vostride/agent-qa",
+        "category": "Testing Tools"
+      },
+      {
+        "name": "mcpreflight",
+        "description": "Read-only preflight for MCP endpoints and x402 payment challenges, plus a weekly public registry census",
+        "url": "https://github.com/xka0085-byte/mcpreflight",
         "category": "Testing Tools"
       },
       {
@@ -2661,7 +3111,7 @@
       },
       {
         "name": "Aident Loadout",
-        "description": "Remote MCP capability layer: connect Codex, Claude Code, Cursor, ChatGPT and other MCP clients to 1,000+ apps and 400+ Skills through one reusable setup (OAuth vault, one balance, audit). MCP URL `https://loadout.aident.ai/mcp`. Skill: Aident-AI/aident-skill",
+        "description": "Remote MCP capability layer: connect Codex, Claude Code, Cursor, ChatGPT and other MCP clients to their apps and 400+ Skills through one reusable setup (OAuth vault, one balance, audit). MCP URL `https://loadout.aident.ai/mcp`. Skill: Aident-AI/aident-skill",
         "url": "https://aident.ai",
         "category": "Hosting Solutions"
       },
@@ -3685,6 +4135,18 @@
         "name": "Communicate Developer Docs",
         "description": "Public read-only developer guide, OpenAPI summary, and support-contact tools; Streamable HTTP at `https://communicate.so/mcp`, no authentication or account required.",
         "url": "https://communicate.so/developers",
+        "category": "Development Tools"
+      },
+      {
+        "name": "mcp-probe-kit",
+        "description": "Spec-driven development workflow for coding agents: start_feature / start_bugfix / start_ui orchestrate the flow, plans resume across sessions, and a converge gate requires spec, test and review evidence before a task can close. Runs with `npx -y mcp-probe-kit@latest`.",
+        "url": "https://github.com/mybolide/mcp-probe-kit",
+        "category": "Development Tools"
+      },
+      {
+        "name": "coding-tools-mcp",
+        "description": "Desktop MCP workspace that gives agents file edits, command and test execution, Git status, and resumable history sessions on a local project; Windows and macOS installers.",
+        "url": "https://github.com/mybolide/coding-tools-mcp",
         "category": "Development Tools"
       },
       {
