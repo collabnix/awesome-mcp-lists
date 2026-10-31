@@ -540,6 +540,7 @@ MCP servers for AI and machine learning capabilities.
 | 11 | **Koru** | Local stdio MCP server built into Koru, a free, open-source (MPL-2.0), local-first desktop app for notes, documents and files on Windows and macOS: search, read, create and edit documents stored on the device, no account or cloud required | [GitHub](https://github.com/koruworks/mono) |
 | 11 | **AgentSandboxes** | Hosted read-only remote MCP index of cloud sandbox providers for AI agents; endpoint `https://agentsandboxes.fyi/mcp`, no auth | [Site](https://agentsandboxes.fyi) · [Docs](https://agentsandboxes.fyi/developers) |
 | 11 | **Agent Wallet Index** | Hosted read-only remote MCP index of wallets and payment rails for AI agents; endpoint `https://agentwalletindex.fyi/mcp`, no auth | [Site](https://agentwalletindex.fyi) · [Docs](https://agentwalletindex.fyi/developers) |
+| 11 | **CreditUnions** | Hosted read-only remote MCP index of US credit unions with NCUA call-report data; endpoint `https://creditunions.fyi/mcp`, no auth | [Site](https://creditunions.fyi) · [Docs](https://creditunions.fyi/developers) |
 
 ### Multimedia & Design
 
