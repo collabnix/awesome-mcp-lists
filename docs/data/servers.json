@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 463,
+    "servers": 460,
     "clients": 23,
     "toolkits": 47,
-    "docker": 210,
-    "total": 743
+    "docker": 193,
+    "total": 723
   },
   "groups": {
     "servers": [
@@ -1084,12 +1084,6 @@
         "category": "Integrations & APIs"
       },
       {
-        "name": "agent-signal",
-        "description": "Collective intelligence for AI shopping agents - buyer intelligence, seller analytics, price alerts, and session logging",
-        "url": "https://github.com/dan24ou-cpu/agent-signal",
-        "category": "Integrations & APIs"
-      },
-      {
         "name": "dexpaprika-mcp",
         "description": "Real-time DEX data across multiple blockchains with pool, token, OHLCV, and trade data. Free, no API key",
         "url": "https://github.com/coinpaprika/dexpaprika-mcp",
@@ -1432,12 +1426,6 @@
         "category": "Integrations & APIs"
       },
       {
-        "name": "Influence MCP",
-        "description": "Hosted Streamable HTTP MCP for drafting, reviewing, scheduling and publishing social posts, and checking post status; OAuth or scoped bearer key; Influence account required",
-        "url": "https://github.com/influence-so/influence-mcp",
-        "category": "Integrations & APIs"
-      },
-      {
         "name": "Adrio",
         "description": "AI media buyer for Meta ads. Hosted Streamable HTTP MCP to brief Spark, Adrio's creative agent, for static and video ad creatives, launch them to Facebook and Instagram, research competitor ads, and manage brand angles and audiences; OAuth 2.1 sign-in, Adrio account required",
         "url": "https://adrio.ai/docs/mcp",
@@ -1698,12 +1686,6 @@
       {
         "name": "Amazon Bedrock",
         "description": "AWS AI services integration",
-        "url": "https://github.com/awslabs/mcp",
-        "category": "AI & Machine Learning"
-      },
-      {
-        "name": "Amazon Nova Canvas",
-        "description": "AI image generation platform",
         "url": "https://github.com/awslabs/mcp",
         "category": "AI & Machine Learning"
       },
@@ -3844,30 +3826,6 @@
         "category": "Docker MCP Toolkit"
       },
       {
-        "name": "docker",
-        "description": "Manage Docker containers, images, and Docker Hub",
-        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/docker.md",
-        "category": "Docker MCP Toolkit"
-      },
-      {
-        "name": "github",
-        "description": "Manage GitHub repositories and perform Git operations",
-        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/github.md",
-        "category": "Docker MCP Toolkit"
-      },
-      {
-        "name": "kubernetes",
-        "description": "Orchestrate and manage containerized applications",
-        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/kubernetes.md",
-        "category": "Docker MCP Toolkit"
-      },
-      {
-        "name": "postgresql",
-        "description": "Interact with PostgreSQL databases",
-        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/postgresql.md",
-        "category": "Docker MCP Toolkit"
-      },
-      {
         "name": "sentry",
         "description": "Monitor application errors and performance",
         "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/sentry.md",
@@ -4114,12 +4072,6 @@
         "category": "Development Tools"
       },
       {
-        "name": "Asynkor",
-        "description": "Coordination layer for AI agent teams — file leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf",
-        "url": "https://github.com/asynkor/asynkor",
-        "category": "Development Tools"
-      },
-      {
         "name": "Dabloons",
         "description": "Bounty board where AI agents hire other agents for PR reviews, bug repros, install checks and site walkthroughs, or work bounties to earn dabloons. Hosted Streamable HTTP MCP server with OAuth, 14 tools.",
         "url": "https://github.com/randall-inc/dabloons",
@@ -4258,12 +4210,6 @@
         "category": "Knowledge Management"
       },
       {
-        "name": "knowledge-rag",
-        "description": "Local RAG system via MCP — hybrid search (semantic + BM25 + RRF), cross-encoder reranking, markdown-aware chunking, 12 MCP tools. Zero external servers",
-        "url": "https://github.com/lyonzin/knowledge-rag",
-        "category": "Knowledge Management"
-      },
-      {
         "name": "ContextStream",
         "description": "Shared project context for AI agents across Cursor, Claude Code, Codex, Grok, and other MCP clients. Hosted MCP at `io.contextstream/mcp`. Benchmarks",
         "url": "https://contextstream.io/benchmarks",
@@ -4399,72 +4345,6 @@
         "name": "KitCut",
         "description": "Hosted remote MCP server (OAuth) that makes narrated, scored animated films from a chat: from an idea or a video template (event and speaker promos, invitations), with series projects and YouTube publishing",
         "url": "https://kitcut.ai/docs/assistants",
-        "category": "Multimedia & Design"
-      },
-      {
-        "name": "gyazo",
-        "description": "Screenshot capturing and sharing service",
-        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/gyazo.md",
-        "category": "Multimedia & Design"
-      },
-      {
-        "name": "handwriting-ocr",
-        "description": "Optical character recognition for handwritten text",
-        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/handwriting-ocr.md",
-        "category": "Multimedia & Design"
-      },
-      {
-        "name": "webflow",
-        "description": "Visual website design and content management system",
-        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/webflow.md",
-        "category": "Multimedia & Design"
-      },
-      {
-        "name": "youtube_transcript",
-        "description": "YouTube video transcript extraction",
-        "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/youtube_transcript.md",
-        "category": "Multimedia & Design"
-      },
-      {
-        "name": "speech-ai",
-        "description": "Speech AI with pronunciation assessment, text-to-speech, and speech-to-text",
-        "url": "https://github.com/fasuizu-br/speech-ai-examples",
-        "category": "Multimedia & Design"
-      },
-      {
-        "name": "Prompt to Asset",
-        "description": "MCP server that generates production-ready visual assets (app icons, favicons, OG images) across 30+ image generation models",
-        "url": "https://github.com/MohamedAbdallah-14/prompt-to-asset",
-        "category": "Multimedia & Design"
-      },
-      {
-        "name": "OrkasVideoStudio",
-        "description": "Local-first MCP toolkit for agent-driven video composition, editing, generation, and automatic assembly",
-        "url": "https://github.com/Orkas-AI/Orkas-VideoStudio",
-        "category": "Multimedia & Design"
-      },
-      {
-        "name": "GetMattered",
-        "description": "ATS resume scoring, job-description analysis, interview prep, cover letters, resume building and auto-apply that submits on the employer's own hiring system",
-        "url": "https://github.com/getmattered/getmattered-mcp",
-        "category": "Multimedia & Design"
-      },
-      {
-        "name": "YouTube Transcript MCP",
-        "description": "MCP server for YouTube transcripts, video and channel search, channel browsing, and playlist extraction, returned as clean JSON or markdown for Claude, ChatGPT and other MCP clients",
-        "url": "https://github.com/ZeroPointRepo/youtube-mcp",
-        "category": "Multimedia & Design"
-      },
-      {
-        "name": "Magic Hour",
-        "description": "Hosted MCP server for generating and editing video, images, and audio through 44 Magic Hour API tools",
-        "url": "https://github.com/magichourhq/magic-hour-mcp",
-        "category": "Multimedia & Design"
-      },
-      {
-        "name": "BulkTranscripts",
-        "description": "Hosted MCP server for YouTube transcripts of a single video, a whole channel or a playlist, with YouTube and in-channel search, channel and playlist listings, and new-upload tracking",
-        "url": "https://github.com/pratie/bulktranscripts-mcp",
         "category": "Multimedia & Design"
       },
       {
