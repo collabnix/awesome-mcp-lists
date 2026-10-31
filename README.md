@@ -342,6 +342,7 @@ MCP servers for accessing external services and APIs.
 | 86 | **BacklinkGenie** | Hosted remote MCP server (Streamable HTTP, OAuth 2.1 or API key) for link-building outreach: list and approve pitches to editors, read and answer replies, import posts to pitch, and check which backlinks are live | [GitHub](https://github.com/nikunjness/backlinkgenie-mcp) |
 | 86 | **GSCmate** | Hosted read-only MCP server with Google OAuth 2.1 that lets AI agents access Google Search Console properties, search performance, sitemaps, and URL inspection data. | [Docs](https://gscmate.com/mcp-setup.html) |
 | 88 | **Grey Ridge x402 Data & Token Safety** | Hosted Streamable HTTP MCP (22 tools), no API key: Base token honeypot/swap gate, Base RPC reads, crypto prices/funding, DeFi yields, Polymarket. Pay-per-call x402 (USDC on Base), free previews. `https://x402-data-api.sigrunner.workers.dev/mcp` | [GitHub](https://github.com/rezearcher/x402-data-api) |
+| 88 | **rdyrct** | Open-source URL shortener and QR generator; create short links and QR codes and read click analytics from an MCP client connected through OAuth | [GitHub](https://github.com/baronunread/rdyrct) |
 
 ### AI & Machine Learning
 
