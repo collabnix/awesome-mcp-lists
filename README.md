@@ -355,6 +355,7 @@ MCP servers for accessing external services and APIs.
 | 88 | **PeekPanda** | Hosted remote MCP server (Streamable HTTP, OAuth or API key) for iOS competitor intelligence: Meta ads, App Store keyword rankings and viral content for any iOS app. | [GitHub](https://github.com/fdarkaou/peekpanda-mcp) |
 | 88 | **TraderWAI** | Hosted remote MCP server (Streamable HTTP, OAuth 2.1 with dynamic client registration) that lets AI clients read live charts for forex, metals, indices, energy, futures and crypto, draw analysis on them, backtest rule-based strategies on 1-minute history, and place risk-sized orders on the user's own MetaTrader 4/5, cTrader, TradeLocker, Match-Trader, Binance or Bybit account. Endpoint `https://mcp.traderwai.com`; free plan, paid plans for more executions. Registry `com.traderwai/traderwai` | [GitHub](https://github.com/leonardo-mazzitelli/traderwai-mcp) |
 | 88 | **HEY Research Lab** | Hosted read-only MCP server (Streamable HTTP, no key) that researches Robinhood Chain projects and tokens: whether a team is still shipping, what it shipped and what changed, each claim with its source. Endpoint `https://heyresearch.xyz/mcp`; also `npx -y @hey-research-lab/mcp` | [GitHub](https://github.com/hey-research-lab/hey-research-open) |
+| 88 | **SoldFetch** | Hosted MCP server for eBay sold and active listings; not affiliated with eBay | [GitHub](https://github.com/ecom-crawl/soldfetch-mcp) |
 
 ### AI & Machine Learning
 
