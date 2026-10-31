@@ -358,6 +358,7 @@ MCP servers for accessing external services and APIs.
 | 88 | **HEY Research Lab** | Hosted read-only MCP server (Streamable HTTP, no key) that researches Robinhood Chain projects and tokens: whether a team is still shipping, what it shipped and what changed, each claim with its source. Endpoint `https://heyresearch.xyz/mcp`; also `npx -y @hey-research-lab/mcp` | [GitHub](https://github.com/hey-research-lab/hey-research-open) |
 | 88 | **SoldFetch** | Hosted MCP server for eBay sold and active listings; not affiliated with eBay | [GitHub](https://github.com/ecom-crawl/soldfetch-mcp) |
 | 88 | **Sports Odds API (BetRivers, Unibet & 22 more books)** | Live odds from 24 Kambi-powered sportsbooks in one call — BetRivers (12 US states + Ontario), Unibet, Paf, Svenska Spel, ATG; hosted Streamable HTTP `https://mcp.apify.com?tools=publicrecords/sports-odds-api` (Apify OAuth) | [Store](https://apify.com/publicrecords/sports-odds-api) |
+| 88 | **Scalekit** | Hosted remote MCP server (Streamable HTTP, OAuth 2.1) giving agents 600+ connectors and 35,000+ tools, each call made under the end user's own OAuth grant with scoped tool access | [Website](https://scalekit.com) · [Docs](https://docs.scalekit.com/agentkit/overview/) |
 
 ### AI & Machine Learning
 
