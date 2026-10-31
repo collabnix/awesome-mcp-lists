@@ -525,6 +525,7 @@ MCP servers for AI and machine learning capabilities.
 | 11 | **Anansi Haven** | Free home base for AI agents: passport, persistent memory, E2E-encrypted private storage, job board, agent directory and skills library. Hosted Streamable HTTP MCP at `https://anansi-haven.anansidata.workers.dev/mcp` (also A2A + REST); free public beta. | [GitHub](https://github.com/kburrus64-max/anansi-haven) |
 | 10 | **Selvedge** | Local SQLite decision memory for coding agents, with MCP tools to save and retrieve rationale, rejected approaches, and entity history. | [GitHub](https://github.com/masondelan/selvedge) |
 | 10 | **ppl** | Personal CRM for AI agents: look up and update contacts, log interactions, keep notes, and set reminders and tasks about the people in your life (about 120 tools). Hosted Streamable HTTP MCP `https://withppl.com/mcp` with OAuth 2.1; free beta up to 1,000 contacts. [Agent setup](https://withppl.com/agents) · [Sign up](https://withppl.com/register) | [Docs](https://withppl.com/agents) |
+| 11 | **Podwise** | Podcast knowledge for AI agents: search episodes, pull transcripts, ask questions about an episode, and export summaries and mind maps as Markdown. Hosted Streamable HTTP endpoint with Podwise sign-in (Pro or Enterprise plan required). | [GitHub](https://github.com/hardhackerlabs/podwise-plugin) · [Docs](https://docs.podwise.ai/mcp) |
 
 ### Multimedia & Design
 
