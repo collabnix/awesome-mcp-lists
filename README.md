@@ -504,6 +504,7 @@ MCP servers for AI and machine learning capabilities.
 | 27 | **Zeptap** | Mac app with a local MCP server that lets AI agents operate a real iPhone over USB and Bluetooth, for testing iOS apps on a device. Paid, first hour free. | [Website](https://zeptap.com) · [GitHub](https://github.com/Zeptap/mcp) |
 | 27 | **UI Verify** | Hosted Streamable HTTP MCP (OAuth) for visual testing: list a pull request's changed Storybook, Playwright or Vitest screenshots, read the diffs, comment on them and accept new baselines | [Website](https://uiverify.ai) · [GitHub](https://github.com/uiverify/uiverify) |
 | 27 | **ReMCP** | OAuth-protected remote MCP for user-paired computers supporting files, shell commands, process diagnostics, browser and desktop automation; tools can modify device state. Hosted endpoint `https://remcp.site/mcp` | [GitHub](https://github.com/getremcp/remcp) |
+| 27 | **Carbon Forge** | Source control and a shared record for people and agents: code, files and prose in one record on the server, read and written over MCP. Hosted Streamable HTTP endpoint `https://carbonforge.dev/api/mcp`; public workspaces read without a token, writing needs a bearer token | [Docs](https://carbonforge.dev/docs/p/guides/mcp-anonymous-access) |
 
 ### Communication
 
