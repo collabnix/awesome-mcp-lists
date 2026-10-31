@@ -499,6 +499,7 @@ MCP servers for AI and machine learning capabilities.
 | 10 | **PDFtoMarkdown.ai** | Converts local PDF, DOCX, PPTX, XLSX, PNG/JPG, HTML and EPUB into structured Markdown with headings, tables and OCR via the PDFtoMarkdown.ai API (API key; 10 free pages then pay-per-page). | [GitHub](https://github.com/happywpco/pdftomarkdown-mcp) |
 | 10 | **Whisper Memos** | Official hosted Streamable HTTP MCP server with OAuth for the Whisper Memos iPhone and Apple Watch voice memo app: list and read memo transcripts and summaries, list labels, view account details, and delete memos. | [Config](https://github.com/whispermemos/whisper-memos-plugin) · [Docs](https://whispermemos.com/mcp) |
 | 11 | **Anansi Haven** | Free home base for AI agents: passport, persistent memory, E2E-encrypted private storage, job board, agent directory and skills library. Hosted Streamable HTTP MCP at `https://anansi-haven.anansidata.workers.dev/mcp` (also A2A + REST); free public beta. | [GitHub](https://github.com/kburrus64-max/anansi-haven) |
+| 10 | **Selvedge** | Local SQLite decision memory for coding agents, with MCP tools to save and retrieve rationale, rejected approaches, and entity history. | [GitHub](https://github.com/masondelan/selvedge) |
 
 ### Multimedia & Design
 
