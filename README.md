@@ -516,6 +516,7 @@ MCP servers for AI and machine learning capabilities.
 | 10 | **PlaceCall** | Places real outbound phone calls to US businesses for an agent (reservations, appointments, inquiries, quotes) through a hosted Streamable HTTP MCP server with OAuth or an API key; handles phone menus and hold, can ask the agent a question mid-call, and returns the outcome, transcript and recording. | [GitHub](https://github.com/voygr-tech/placecall) |
 | 10 | **PodPitch** | Hosted MCP for public podcast discovery without an account; existing customers can connect with OAuth for campaigns, drafts, inbox replies and outreach | [GitHub](https://github.com/PodPitch/podpitch-plugins) |
 | 10 | **Cooper Email** | Give an agent its own email inbox (`username@cooperemail.com`): send, read, reply, and wait for replies or sign-up codes through a hosted Streamable HTTP MCP server with OAuth or an API key. | [Docs](https://cooperemail.com/docs/mcp) |
+| 10 | **/call-me** | Lets an AI agent ring or text the user's iPhone and get the spoken or typed reply back as text, through a hosted Streamable HTTP MCP server with no credentials at the endpoint; the iPhone app is a paid subscription. | [GitHub](https://github.com/radres/call-me) |
 
 ### Knowledge Management
 
