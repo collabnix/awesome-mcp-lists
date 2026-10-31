@@ -242,6 +242,7 @@ MCP servers for web search, content access, and web automation.
 | 58 | **Forever In Our Hearts** | Hosted, read-only MCP server (Streamable HTTP, no auth) to search public online memorials, funeral notices and partner funeral homes, with links to each page | [GitHub](https://github.com/Forever-In-Our-Hearts/memorials-mcp-server) |
 | 59 | **toolkb-mcp** | Local stdio server that returns YouTube transcripts and playlists, web pages as Markdown, and App Store reviews; no API key or account. Install via `npx -y github:jack-reson8/toolkb-mcp` | [GitHub](https://github.com/jack-reson8/toolkb-mcp) |
 | 60 | **BrewPage** | Hosted Streamable HTTP MCP to publish HTML, Markdown, files, multi-file static sites, JSON and key-value data on brewpage.app and get a shareable URL plus a manage link; free, no auth. Endpoint: `https://brewpage.app/mcp`; local: `npx -y brewpage-mcp` | [GitHub](https://github.com/kochetkov-ma/brewpage-openapi) · [Docs](https://kochetkov-ma.github.io/brewpage-openapi/) |
+| 61 | **AgentSearch MCP** | Web search, URL-to-Markdown extract, and JS page render tools for AI agents (stdio via `npx -y @agentsearchhq/agentsearch-mcp`, plus a .mcpb bundle for Claude Desktop). Search works with no API key (up to 25/day per IP); extract and render are pay-per-call. | [GitHub](https://github.com/agentsearchhq-coder/agentsearch-mcp) |
 
 ### Integrations & APIs
 
