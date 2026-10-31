@@ -415,6 +415,7 @@ MCP servers for AI and machine learning capabilities.
 | 75 | **editor** | Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents. | [GitHub](https://github.com/pascalorg/editor) |
 | 76 | **rea** | Reverse engineer anything with agents, from app behavior down to native binaries. | [GitHub](https://github.com/morluto/rea) |
 | 77 | **realrun-mcp** | Read-only remote MCP server over RealRun's independent tests of AI models on five everyday tasks: scores, a model pick and safety warnings. Hosted, no auth. | [GitHub](https://github.com/baseledgerip/realrun-mcp) |
+| 77 | **zerouter-mcp** | AI API gateway MCP for Claude, GPT, Gemini, Grok and Kimi via one OpenAI-compatible Zerouter API key: chat, compare models side by side, and look up API pricing. Runs locally via MCPB bundle or Docker | [GitHub](https://github.com/ZerouterAI/zerouter-mcp) |
 
 ### Security & Authentication
 
