@@ -486,6 +486,7 @@ MCP servers for AI and machine learning capabilities.
 | 25 | **OtaKit** | Over-the-air updates for Capacitor apps, as a hosted Streamable HTTP MCP (OAuth) and a local stdio server (`npx -y @otakit/cli@latest mcp`): inspect the project, check native compatibility, upload web bundles, publish releases after human approval, control staged rollouts, read rollout health and revert | [Website](https://otakit.app) · [GitHub](https://github.com/OtaKit/otakit) |
 | 26 | **NoMac** | Hosted Streamable HTTP MCP that gives agents a real cloud Mac with Xcode by the minute: start a macOS VM, run xcodebuild and Simulator commands, move files, open the desktop for a human, manage TestFlight and App Store Connect, then stop it; OAuth, no API key in client config | [Website](https://nomac.app) |
 | 27 | **awesome-remote-mcp-servers** | A collection of remote MCP servers. | [GitHub](https://github.com/punkpeye/awesome-remote-mcp-servers) |
+| 27 | **Zeptap** | Mac app with a local MCP server that lets AI agents operate a real iPhone over USB and Bluetooth, for testing iOS apps on a device. Paid, first hour free. | [Website](https://zeptap.com) · [GitHub](https://github.com/Zeptap/mcp) |
 
 ### Communication
 
