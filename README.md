@@ -361,6 +361,7 @@ MCP servers for accessing external services and APIs.
 | 88 | **Scalekit** | Hosted remote MCP server (Streamable HTTP, OAuth 2.1) giving agents 600+ connectors and 35,000+ tools, each call made under the end user's own OAuth grant with scoped tool access | [Website](https://scalekit.com) · [Docs](https://docs.scalekit.com/agentkit/overview/) |
 | 88 | **BestPrice Shopping** | Read-only shopping decisions, product search, live offers, delivered totals, and price history for Greece. No BestPrice account or API key. Hosted Streamable HTTP MCP `https://mcp.bestprice.gr/mcp` | [GitHub](https://github.com/TheBestCo/bestprice-mcp) |
 | 88 | **TikTokAPI.io MCP Server** | Official zero-dependency MCP server to search TikTok videos, 1080p no-watermark streams, creator profiles, comments, and Creative Center commercial ads from Claude and Cursor ([Website](https://tiktokapi.io/mcp)) | [GitHub](https://github.com/kaitoInfra/tiktokapi-mcp-server) |
+| 88 | **Fictura** | AI-native mobile app growth data layer for coding agents: hosted Streamable HTTP MCP exposes app setup, real paywall/onboarding configurations, subscription funnels, experiments, attribution and production error traces; authorized paywall/onboarding edits stay in draft. OAuth 2.1 with DCR or a scoped key via `X-API-Key`. Endpoint `https://mcp.fictura.co/mcp` · Registry `co.fictura/mcp` | [GitHub](https://github.com/Apex-Byte-Technologies/fictura-mcp) · [Docs](https://docs.fictura.co/connections/outgoing/mcp-server) |
 
 ### AI & Machine Learning
 
