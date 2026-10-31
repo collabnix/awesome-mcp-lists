@@ -538,6 +538,7 @@ MCP servers for AI and machine learning capabilities.
 | 10 | **ppl** | Personal CRM for AI agents: look up and update contacts, log interactions, keep notes, and set reminders and tasks about the people in your life (about 120 tools). Hosted Streamable HTTP MCP `https://withppl.com/mcp` with OAuth 2.1; free beta up to 1,000 contacts. [Agent setup](https://withppl.com/agents) · [Sign up](https://withppl.com/register) | [Docs](https://withppl.com/agents) |
 | 11 | **Podwise** | Podcast knowledge for AI agents: search episodes, pull transcripts, ask questions about an episode, and export summaries and mind maps as Markdown. Hosted Streamable HTTP endpoint with Podwise sign-in (Pro or Enterprise plan required). | [GitHub](https://github.com/hardhackerlabs/podwise-plugin) · [Docs](https://docs.podwise.ai/mcp) |
 | 11 | **Koru** | Local stdio MCP server built into Koru, a free, open-source (MPL-2.0), local-first desktop app for notes, documents and files on Windows and macOS: search, read, create and edit documents stored on the device, no account or cloud required | [GitHub](https://github.com/koruworks/mono) |
+| 11 | **AgentSandboxes** | Hosted read-only remote MCP index of cloud sandbox providers for AI agents; endpoint `https://agentsandboxes.fyi/mcp`, no auth | [Site](https://agentsandboxes.fyi) · [Docs](https://agentsandboxes.fyi/developers) |
 
 ### Multimedia & Design
 
