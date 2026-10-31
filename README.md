@@ -513,6 +513,7 @@ MCP servers for AI and machine learning capabilities.
 | 10 | **Mysocial** | Read connected social content history, performance signals, and creator memory through a hosted Streamable HTTP MCP server with OAuth 2.1. | [GitHub](https://github.com/mysocialio/mysocial-intelligence) |
 | 10 | **PlaceCall** | Places real outbound phone calls to US businesses for an agent (reservations, appointments, inquiries, quotes) through a hosted Streamable HTTP MCP server with OAuth or an API key; handles phone menus and hold, can ask the agent a question mid-call, and returns the outcome, transcript and recording. | [GitHub](https://github.com/voygr-tech/placecall) |
 | 10 | **PodPitch** | Hosted MCP for public podcast discovery without an account; existing customers can connect with OAuth for campaigns, drafts, inbox replies and outreach | [GitHub](https://github.com/PodPitch/podpitch-plugins) |
+| 10 | **Cooper Email** | Give an agent its own email inbox (`username@cooperemail.com`): send, read, reply, and wait for replies or sign-up codes through a hosted Streamable HTTP MCP server with OAuth or an API key. | [Docs](https://cooperemail.com/docs/mcp) |
 
 ### Knowledge Management
 
