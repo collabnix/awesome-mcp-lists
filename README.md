@@ -347,6 +347,7 @@ MCP servers for accessing external services and APIs.
 | 88 | **rdyrct** | Open-source URL shortener and QR generator; create short links and QR codes and read click analytics from an MCP client connected through OAuth | [GitHub](https://github.com/baronunread/rdyrct) |
 | 88 | **NeverApply** | Hosted remote MCP server (Streamable HTTP, OAuth 2.1 with PKCE) for job seekers: search and match jobs, tailor resumes, answer screening questions, prep for interviews, and apply with your approval; 15 tools. Endpoint `https://neverapply.co/mcp`. Registry `co.neverapply/neverapply` | [Docs](https://neverapply.co/features/mcp) |
 | 88 | **Warden MCP** | Hosted remote MCP server (Streamable HTTP; OAuth or agent key for wallet and trading tools) for Warden Token Terminal: AI agents find tokens, quote swaps and trade onchain on Base, BNB Chain, Robinhood Chain and Arc within limits the user sets. | [GitHub](https://github.com/warden-protocol/warden-mcp) |
+| 88 | **datawebot** | Hosted remote MCP server (Streamable HTTP, OAuth 2.1 email sign-in) with ecommerce product data for agents: product search across online shops worldwide, every seller's price for one product with direct shop links, and extraction Jobs on Amazon (10 countries) and 1,100+ Shopify stores. Endpoint `https://mcp.datawebot.com/mcp` | [GitHub](https://github.com/datawebot/datawebot-mcp) · [Docs](https://www.datawebot.com/docs/agents) |
 
 ### AI & Machine Learning
 
