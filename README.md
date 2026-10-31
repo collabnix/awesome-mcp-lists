@@ -546,6 +546,7 @@ MCP servers for AI and machine learning capabilities.
 | 11 | **AgentSandboxes** | Hosted read-only remote MCP index of cloud sandbox providers for AI agents; endpoint `https://agentsandboxes.fyi/mcp`, no auth | [Site](https://agentsandboxes.fyi) · [Docs](https://agentsandboxes.fyi/developers) |
 | 11 | **Agent Wallet Index** | Hosted read-only remote MCP index of wallets and payment rails for AI agents; endpoint `https://agentwalletindex.fyi/mcp`, no auth | [Site](https://agentwalletindex.fyi) · [Docs](https://agentwalletindex.fyi/developers) |
 | 11 | **CreditUnions** | Hosted read-only remote MCP index of US credit unions with NCUA call-report data; endpoint `https://creditunions.fyi/mcp`, no auth | [Site](https://creditunions.fyi) · [Docs](https://creditunions.fyi/developers) |
+| 11 | **Docsy** | Hosted OAuth Streamable HTTP MCP with five read-only tools to resolve libraries and retrieve current and version-specific framework/SDK documentation with canonical source links. Connect at `https://docsy.remcp.site/mcp/registry` | [GitHub](https://github.com/getremcp/docsy-plugin) |
 
 ### Multimedia & Design
 
