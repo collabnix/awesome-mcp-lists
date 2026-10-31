@@ -235,6 +235,7 @@ MCP servers for web search, content access, and web automation.
 | 51 | **next-ai-draw-io** | Draw and edit draw.io diagrams by chatting with an AI. Web app, desktop app, and an MCP server for Claude Code, Cursor, Codex and VS Code. | [GitHub](https://github.com/DayuanJiang/next-ai-draw-io) |
 | 52 | **xerj** | Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora. | [GitHub](https://github.com/xerj-org/xerj) |
 | 53 | **appllama-skills** | A builder, not just a researcher. Agent skills that turn top-grossing app patterns into native-quality mobile screens. | [GitHub](https://github.com/Appllama/appllama-skills) |
+| 51 | **AI观潮 News MCP** | Curated AI news, daily briefs, trending stories and an LLM leaderboard; summaries in Chinese with source links. Hosted Streamable HTTP with a personal Bearer token (free daily quota, then points); 9 tools. Remote MCP `https://aiguanchao.com/mcp` | [Docs](https://aiguanchao.com/en/agent) |
 
 ### Integrations & APIs
 
