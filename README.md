@@ -340,6 +340,7 @@ MCP servers for accessing external services and APIs.
 | 86 | **RestoSignals** | Finds US restaurants and bars 1-6 months before they open: liquor-license, food-permit and new-business filings fused into scored venues with owner contact. Hosted Streamable HTTP at https://api.restosignals.com/mcp; API key in `X-API-Key` (free key) | [GitHub](https://github.com/paperandbeyond23-gif/restosignals-mcp) |
 | 86 | **BacklinkGenie** | Hosted remote MCP server (Streamable HTTP, OAuth 2.1 or API key) for link-building outreach: list and approve pitches to editors, read and answer replies, import posts to pitch, and check which backlinks are live | [GitHub](https://github.com/nikunjness/backlinkgenie-mcp) |
 | 86 | **GSCmate** | Hosted read-only MCP server with Google OAuth 2.1 that lets AI agents access Google Search Console properties, search performance, sitemaps, and URL inspection data. | [Docs](https://gscmate.com/mcp-setup.html) |
+| 88 | **Grey Ridge x402 Data & Token Safety** | Hosted Streamable HTTP MCP (22 tools), no API key: Base token honeypot/swap gate, Base RPC reads, crypto prices/funding, DeFi yields, Polymarket. Pay-per-call x402 (USDC on Base), free previews. `https://x402-data-api.sigrunner.workers.dev/mcp` | [GitHub](https://github.com/rezearcher/x402-data-api) |
 
 ### AI & Machine Learning
 
