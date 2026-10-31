@@ -241,6 +241,7 @@ MCP servers for web search, content access, and web automation.
 | 51 | **FSB (Full Self Browsing)** | Drive your real Chrome, Edge, Brave or Arc browser from any MCP client through a local extension bridge; reads pages via DOM, selectors and ARIA instead of screenshots, with 69 tools for navigation, clicks, typing, tabs, file uploads, session replay and multi-agent tab ownership. Local stdio via `npx -y fsb-mcp-server@latest`, no API key | [GitHub](https://github.com/fullselfbrowsing/FSB) |
 | 51 | **Forever In Our Hearts** | Hosted, read-only MCP server (Streamable HTTP, no auth) to search public online memorials, funeral notices and partner funeral homes, with links to each page | [GitHub](https://github.com/Forever-In-Our-Hearts/memorials-mcp-server) |
 | 51 | **toolkb-mcp** | Local stdio server that returns YouTube transcripts and playlists, web pages as Markdown, and App Store reviews; no API key or account. Install via `npx -y github:jack-reson8/toolkb-mcp` | [GitHub](https://github.com/jack-reson8/toolkb-mcp) |
+| 51 | **BrewPage** | Hosted Streamable HTTP MCP to publish HTML, Markdown, files, multi-file static sites, JSON and key-value data on brewpage.app and get a shareable URL plus a manage link; free, no auth. Endpoint: `https://brewpage.app/mcp`; local: `npx -y brewpage-mcp` | [GitHub](https://github.com/kochetkov-ma/brewpage-openapi) · [Docs](https://kochetkov-ma.github.io/brewpage-openapi/) |
 
 ### Integrations & APIs
 
