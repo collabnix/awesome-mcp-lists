@@ -505,6 +505,7 @@ MCP servers for AI and machine learning capabilities.
 | 10 | **Whisper Memos** | Official hosted Streamable HTTP MCP server with OAuth for the Whisper Memos iPhone and Apple Watch voice memo app: list and read memo transcripts and summaries, list labels, view account details, and delete memos. | [Config](https://github.com/whispermemos/whisper-memos-plugin) · [Docs](https://whispermemos.com/mcp) |
 | 11 | **Anansi Haven** | Free home base for AI agents: passport, persistent memory, E2E-encrypted private storage, job board, agent directory and skills library. Hosted Streamable HTTP MCP at `https://anansi-haven.anansidata.workers.dev/mcp` (also A2A + REST); free public beta. | [GitHub](https://github.com/kburrus64-max/anansi-haven) |
 | 10 | **Selvedge** | Local SQLite decision memory for coding agents, with MCP tools to save and retrieve rationale, rejected approaches, and entity history. | [GitHub](https://github.com/masondelan/selvedge) |
+| 10 | **ppl** | Personal CRM for AI agents: look up and update contacts, log interactions, keep notes, and set reminders and tasks about the people in your life (about 120 tools). Hosted Streamable HTTP MCP `https://withppl.com/mcp` with OAuth 2.1; free beta up to 1,000 contacts. [Agent setup](https://withppl.com/agents) · [Sign up](https://withppl.com/register) | [Docs](https://withppl.com/agents) |
 
 ### Multimedia & Design
 
