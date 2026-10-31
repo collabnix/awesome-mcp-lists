@@ -237,6 +237,7 @@ MCP servers for web search, content access, and web automation.
 | 53 | **appllama-skills** | A builder, not just a researcher. Agent skills that turn top-grossing app patterns into native-quality mobile screens. | [GitHub](https://github.com/Appllama/appllama-skills) |
 | 51 | **AI观潮 News MCP** | Curated AI news, daily briefs, trending stories and an LLM leaderboard; summaries in Chinese with source links. Hosted Streamable HTTP with a personal Bearer token (free daily quota, then points); 9 tools. Remote MCP `https://aiguanchao.com/mcp` | [Docs](https://aiguanchao.com/en/agent) |
 | 51 | **Seonix SEO MCP** | Audits any website for technical SEO, GEO/AEO (JSON-LD, llms.txt, AI-crawler rules) and page speed, and proposes and dry-runs fixes; open-source read-only server (MIT, TypeScript) with tools `audit_site`, `speed_audit`, `propose_fixes`, `preview_fix`. Hosted Remote MCP `https://api.seonix.ai/mcp` (Streamable HTTP, Bearer key, paid plans, 36 read-only tools) · Registry `io.github.pahaa97/seonix` | [GitHub](https://github.com/seonix-ai/seonix-mcp) |
+| 51 | **FSB (Full Self Browsing)** | Drive your real Chrome, Edge, Brave or Arc browser from any MCP client through a local extension bridge; reads pages via DOM, selectors and ARIA instead of screenshots, with 69 tools for navigation, clicks, typing, tabs, file uploads, session replay and multi-agent tab ownership. Local stdio via `npx -y fsb-mcp-server@latest`, no API key | [GitHub](https://github.com/fullselfbrowsing/FSB) |
 
 ### Integrations & APIs
 
