@@ -574,6 +574,7 @@ MCP servers for AI and machine learning capabilities.
 | 8 | **[KyttoMCP](https://kytto.jakubhecht.sk/)** | Local control panel that manages MCP server configuration across Claude Desktop, Claude
   Code, Cursor, VS Code and Codex from one matrix | Windows, macOS |
 | 9 | **[vixl](https://github.com/vixl-ai/vixl)** | Local-first Tauri desktop coding agent with BYOK, Ollama / OpenAI-compatible hosts, and MCP (stdio/http/sse) | Windows, macOS, Linux |
+| 10 | **[Volt](https://github.com/LeulAria/VOLT)** | Open-source AI code editor on VS Code core with MCP client support; runs Claude Code, Codex, OpenCode and Kimi over ACP | Windows, macOS, Linux |
 
 ### Mobile Applications
 
