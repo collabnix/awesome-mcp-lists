@@ -505,6 +505,7 @@ MCP servers for AI and machine learning capabilities.
 | 27 | **UI Verify** | Hosted Streamable HTTP MCP (OAuth) for visual testing: list a pull request's changed Storybook, Playwright or Vitest screenshots, read the diffs, comment on them and accept new baselines | [Website](https://uiverify.ai) · [GitHub](https://github.com/uiverify/uiverify) |
 | 27 | **ReMCP** | OAuth-protected remote MCP for user-paired computers supporting files, shell commands, process diagnostics, browser and desktop automation; tools can modify device state. Hosted endpoint `https://remcp.site/mcp` | [GitHub](https://github.com/getremcp/remcp) |
 | 27 | **Carbon Forge** | Source control and a shared record for people and agents: code, files and prose in one record on the server, read and written over MCP. Hosted Streamable HTTP endpoint `https://carbonforge.dev/api/mcp`; public workspaces read without a token, writing needs a bearer token | [Docs](https://carbonforge.dev/docs/p/guides/mcp-anonymous-access) |
+| 27 | **Oh My Android** | Native macOS control panel for the Android Emulator and real devices (dark mode, font scale, locale/RTL, TalkBack, GPS, layout inspector in dp) with a built-in stdio MCP server (18 tools) so Claude Code, Codex and Cursor can see and drive the emulator. Install: `brew install --cask ateymoori/tap/oh-my-android` | [GitHub](https://github.com/ateymoori/oh-my-android) |
 
 ### Communication
 
