@@ -240,6 +240,7 @@ MCP servers for web search, content access, and web automation.
 | 51 | **Seonix SEO MCP** | Audits any website for technical SEO, GEO/AEO (JSON-LD, llms.txt, AI-crawler rules) and page speed, and proposes and dry-runs fixes; open-source read-only server (MIT, TypeScript) with tools `audit_site`, `speed_audit`, `propose_fixes`, `preview_fix`. Hosted Remote MCP `https://api.seonix.ai/mcp` (Streamable HTTP, Bearer key, paid plans, 36 read-only tools) · Registry `io.github.pahaa97/seonix` | [GitHub](https://github.com/seonix-ai/seonix-mcp) |
 | 51 | **FSB (Full Self Browsing)** | Drive your real Chrome, Edge, Brave or Arc browser from any MCP client through a local extension bridge; reads pages via DOM, selectors and ARIA instead of screenshots, with 69 tools for navigation, clicks, typing, tabs, file uploads, session replay and multi-agent tab ownership. Local stdio via `npx -y fsb-mcp-server@latest`, no API key | [GitHub](https://github.com/fullselfbrowsing/FSB) |
 | 51 | **Forever In Our Hearts** | Hosted, read-only MCP server (Streamable HTTP, no auth) to search public online memorials, funeral notices and partner funeral homes, with links to each page | [GitHub](https://github.com/Forever-In-Our-Hearts/memorials-mcp-server) |
+| 51 | **toolkb-mcp** | Local stdio server that returns YouTube transcripts and playlists, web pages as Markdown, and App Store reviews; no API key or account. Install via `npx -y github:jack-reson8/toolkb-mcp` | [GitHub](https://github.com/jack-reson8/toolkb-mcp) |
 
 ### Integrations & APIs
 
