@@ -500,6 +500,7 @@ MCP servers for AI and machine learning capabilities.
 | 27 | **awesome-remote-mcp-servers** | A collection of remote MCP servers. | [GitHub](https://github.com/punkpeye/awesome-remote-mcp-servers) |
 | 27 | **Zeptap** | Mac app with a local MCP server that lets AI agents operate a real iPhone over USB and Bluetooth, for testing iOS apps on a device. Paid, first hour free. | [Website](https://zeptap.com) · [GitHub](https://github.com/Zeptap/mcp) |
 | 27 | **UI Verify** | Hosted Streamable HTTP MCP (OAuth) for visual testing: list a pull request's changed Storybook, Playwright or Vitest screenshots, read the diffs, comment on them and accept new baselines | [Website](https://uiverify.ai) · [GitHub](https://github.com/uiverify/uiverify) |
+| 27 | **ReMCP** | OAuth-protected remote MCP for user-paired computers supporting files, shell commands, process diagnostics, browser and desktop automation; tools can modify device state. Hosted endpoint `https://remcp.site/mcp` | [GitHub](https://github.com/getremcp/remcp) |
 
 ### Communication
 
