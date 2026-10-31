@@ -573,6 +573,7 @@ MCP servers for AI and machine learning capabilities.
 | 14 | **screenRIG** | Hosted MCP server for digital signage screens, playlists, media, schedules and playback reports, with OAuth authorization | [Docs](https://screenrig.ai/docs/mcp/) |
 | 14 | **VideoGen MCP** | Create editable videos from storyboards/scripts, generate media, edit projects and export through the VideoGen API; hosted HTTP or local stdio, account and generation credits required | [GitHub](https://github.com/video-gen/videogen-mcp) · [Setup](https://videogen.io/videogen-mcp) |
 | 15 | **Aria Icons** | Search ~1.4M open-source SVG icons and add them as SVG or React/Vue/Svelte/Solid components; remote endpoint, no auth | [GitHub](https://github.com/LeulAria/Aria-Icons) |
+| 15 | **Tera Studio** | Hosted Streamable HTTP MCP server for singers, read-only with no sign-in: looks up a song's key, tempo and range by title, or opens an MCP App that finds a song file's key and tempo or moves it to another key in the browser, without uploading the file | [Docs](https://terastudio.co/ai-assistants/) |
 
 
 
