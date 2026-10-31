@@ -328,6 +328,7 @@ MCP servers for accessing external services and APIs.
 | 86 | **WalletFollow** | Hosted read-only MCP at [walletfollow.ai](https://walletfollow.ai/mcp) for Hyperliquid wallet, market and copy-portfolio research with freshness and coverage information; Streamable HTTP and OAuth | [GitHub](https://github.com/AperiAnalytics/walletfollow-plugin) |
 | 86 | **CareJobs.Now** | Free hosted read-only Streamable HTTP MCP server for US healthcare jobs: search 170,000+ open jobs read daily from hospitals' and health systems' career sites, get job details, posted pay by kind of job, employers, states; no auth, no API key. Endpoint `https://carejobs.now/api/mcp` | [GitHub](https://github.com/yumaheymans/carejobs-mcp) |
 | 86 | **AltoRank** | Hosted Streamable HTTP MCP server (OAuth) for open-source SEO content software: site readiness checks for search engines and AI crawlers, keyword research, Search Console data and sourced drafts into a person's review queue; no approve or publish tool. AGPL-3.0, self-hostable. [Website](https://altorank.co) | [GitHub](https://github.com/AltoRank/altorank) |
+| 86 | **Appie.run** | Hosted Streamable HTTP MCP at `https://appie.run/mcp` with 21 tools to find Reddit threads and draft replies, track LinkedIn profiles and leads, write articles in a brand voice, update brand context, train and query website chatbots, and create trackable short links; Bearer API key, free plan with 500 credits | [GitHub](https://github.com/appierun/appie-mcp) · [Docs](https://appie.run/docs/mcp) |
 
 ### AI & Machine Learning
 
