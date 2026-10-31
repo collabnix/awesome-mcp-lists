@@ -438,6 +438,7 @@ MCP servers for AI and machine learning capabilities.
 | 76 | **rea** | Reverse engineer anything with agents, from app behavior down to native binaries. | [GitHub](https://github.com/morluto/rea) |
 | 77 | **realrun-mcp** | Read-only remote MCP server over RealRun's independent tests of AI models on five everyday tasks: scores, a model pick and safety warnings. Hosted, no auth. | [GitHub](https://github.com/baseledgerip/realrun-mcp) |
 | 77 | **zerouter-mcp** | AI API gateway MCP for Claude, GPT, Gemini, Grok and Kimi via one OpenAI-compatible Zerouter API key: chat, compare models side by side, and look up API pricing. Runs locally via MCPB bundle or Docker | [GitHub](https://github.com/ZerouterAI/zerouter-mcp) |
+| 77 | **Athmex** | Gives Claude and ChatGPT athlete profiles, personal bests, goals, races, and weekly constraints for personalised training conversations; hosted service requiring an Athmex account and connected membership | [Docs](https://www.athmex.com/faq) |
 
 ### Security & Authentication
 
