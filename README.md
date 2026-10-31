@@ -133,6 +133,10 @@ MCP servers for managing infrastructure, containers, and DevOps workflows.
 | 64 | **invoice-pdf-billing** | Create PDF invoices from your AI chat: clients, numbering, VAT, overdue reports. All data is local, so billing data never leaves the host. | [GitHub](https://github.com/theluckystrike/mcp-servers/tree/main/servers/invoice) |
 | 65 | **time-tracker-timesheet** | Track billable time from your AI chat: timers, entries, reports, CSV export. All data stays local, useful for freelancers and consultancies billing hours. | [GitHub](https://github.com/theluckystrike/mcp-servers/tree/main/servers/time-tracker) |
 | 66 | **spinnaker-mcp** | MCP server for any Spinnaker instance through the Gate API: 37 tools for applications, pipelines, executions, deployment strategies and infrastructure, with a read-only toolset. Docker image `drumsergio/spinnaker-mcp`. | [GitHub](https://github.com/GeiserX/spinnaker-mcp) |
+| 67 | **Trail-Code** | Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase. | [GitHub](https://github.com/trailhq/Trail-Code) |
+| 68 | **dashboard-icons** | 3,400+ curated icons and logos for dashboards and AI agents. SVG, PNG and WEBP on a free CDN, plus an MCP server for Claude Code, Codex, ChatGPT, Cursor, Hermes and OpenClaw. | [GitHub](https://github.com/homarr-labs/dashboard-icons) |
+| 69 | **AiSOC** | Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue. | [GitHub](https://github.com/beenuar/AiSOC) |
+| 70 | **mcp-server-cloudflare** | Product specific Cloudflare MCP servers | [GitHub](https://github.com/cloudflare/mcp-server-cloudflare) |
 
 ### Database & Storage
 
@@ -169,6 +173,7 @@ MCP servers for accessing and managing databases and storage solutions.
 | 27 | **Douyin_TikTok_Download_API** | 🚀 抖音、TikTok 数据采集与无水印视频下载 API，自托管，支持 MCP 调用与 Docker 一键部署。&#124; Self-hosted TikTok & Douyin scraper and no-watermark video downloader - async REST API, MCP server, CLI and web console for posts, profiles, comments and playlists. Self-healing identity pool, PostgreSQL archive, one docker compose up.  | [GitHub](https://github.com/Evil0ctal/Douyin_TikTok_Download_API) |
 | 28 | **Prisma MCP Server** | Official hosted MCP server (Streamable HTTP, sign in with a Prisma account) for managing Prisma Postgres databases, running SQL, and managing Prisma Compute deployments and Object Storage | [Docs](https://www.prisma.io/docs/ai/tools/mcp-server) |
 | 29 | **RowSafe** | CLI-bundled stdio MCP server for PostgreSQL backup health, migration previews on isolated copies, and opt-in named restore points | [GitHub](https://github.com/rowsafe/rowsafe) |
+| 30 | **nightingale** | Open-source, self-hosted alerting for metrics, logs, and databases. Includes a built-in AI agent and MCP server. | [GitHub](https://github.com/ccfos/nightingale) |
 
 ### Web & Content
 
@@ -227,6 +232,9 @@ MCP servers for web search, content access, and web automation.
 | 49 | **chucho** | Hosted vacation rental search with public photos, property details, and direct host booking links. English/Spanish; Streamable HTTP; free, no auth. Endpoint: `https://chucho.ai/chatgpt/mcp` | [Website](https://chucho.ai/chatgpt/) |
 | 50 | **CurlShot** | Hosted Streamable HTTP MCP that screenshots any web page, or your own HTML or Markdown, as PNG, JPEG, WebP, PDF or a scrolling MP4/WebM/GIF: full page, CSS-selector element, device presets, dark mode, ad and cookie-banner blocking. Tools `take_screenshot` and `list_devices`; Bearer API key, free plan 100 screenshots/month. Remote MCP `https://curlshot.com/api/mcp` · Registry `io.github.SergiuPogor/curlshot` | [Docs](https://curlshot.com/tools/screenshot-tool-for-ai-agents) |
 | 50 | **google-hotels-mcp** | MCP server for Google Hotels, Google Vacation Rentals, and the hotel price calendar — search hotels and rentals by city or map area, cross-OTA rates (Booking.com / Expedia / Agoda / Vrbo), and 3-month daily price calendars via three Apify actors. Python stdio, free install via `uvx`. | [GitHub](https://github.com/huynhtanan/google-hotels-mcp) |
+| 51 | **next-ai-draw-io** | Draw and edit draw.io diagrams by chatting with an AI. Web app, desktop app, and an MCP server for Claude Code, Cursor, Codex and VS Code. | [GitHub](https://github.com/DayuanJiang/next-ai-draw-io) |
+| 52 | **xerj** | Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora. | [GitHub](https://github.com/xerj-org/xerj) |
+| 53 | **appllama-skills** | A builder, not just a researcher. Agent skills that turn top-grossing app patterns into native-quality mobile screens. | [GitHub](https://github.com/Appllama/appllama-skills) |
 
 ### Integrations & APIs
 
@@ -471,6 +479,7 @@ MCP servers for AI and machine learning capabilities.
 | 24 | **MobileBuildMCP** | A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects. | [GitHub](https://github.com/getsentry/MobileBuildMCP) |
 | 25 | **OtaKit** | Over-the-air updates for Capacitor apps, as a hosted Streamable HTTP MCP (OAuth) and a local stdio server (`npx -y @otakit/cli@latest mcp`): inspect the project, check native compatibility, upload web bundles, publish releases after human approval, control staged rollouts, read rollout health and revert | [Website](https://otakit.app) · [GitHub](https://github.com/OtaKit/otakit) |
 | 26 | **NoMac** | Hosted Streamable HTTP MCP that gives agents a real cloud Mac with Xcode by the minute: start a macOS VM, run xcodebuild and Simulator commands, move files, open the desktop for a human, manage TestFlight and App Store Connect, then stop it; OAuth, no API key in client config | [Website](https://nomac.app) |
+| 27 | **awesome-remote-mcp-servers** | A collection of remote MCP servers. | [GitHub](https://github.com/punkpeye/awesome-remote-mcp-servers) |
 
 ### Communication
 
