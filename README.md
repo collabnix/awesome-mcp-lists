@@ -360,6 +360,7 @@ MCP servers for accessing external services and APIs.
 | 88 | **Sports Odds API (BetRivers, Unibet & 22 more books)** | Live odds from 24 Kambi-powered sportsbooks in one call — BetRivers (12 US states + Ontario), Unibet, Paf, Svenska Spel, ATG; hosted Streamable HTTP `https://mcp.apify.com?tools=publicrecords/sports-odds-api` (Apify OAuth) | [Store](https://apify.com/publicrecords/sports-odds-api) |
 | 88 | **Scalekit** | Hosted remote MCP server (Streamable HTTP, OAuth 2.1) giving agents 600+ connectors and 35,000+ tools, each call made under the end user's own OAuth grant with scoped tool access | [Website](https://scalekit.com) · [Docs](https://docs.scalekit.com/agentkit/overview/) |
 | 88 | **BestPrice Shopping** | Read-only shopping decisions, product search, live offers, delivered totals, and price history for Greece. No BestPrice account or API key. Hosted Streamable HTTP MCP `https://mcp.bestprice.gr/mcp` | [GitHub](https://github.com/TheBestCo/bestprice-mcp) |
+| 88 | **TikTokAPI.io MCP Server** | Official zero-dependency MCP server to search TikTok videos, 1080p no-watermark streams, creator profiles, comments, and Creative Center commercial ads from Claude and Cursor ([Website](https://tiktokapi.io/mcp)) | [GitHub](https://github.com/kaitoInfra/tiktokapi-mcp-server) |
 
 ### AI & Machine Learning
 
