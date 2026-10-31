@@ -137,6 +137,7 @@ MCP servers for managing infrastructure, containers, and DevOps workflows.
 | 68 | **dashboard-icons** | 3,400+ curated icons and logos for dashboards and AI agents. SVG, PNG and WEBP on a free CDN, plus an MCP server for Claude Code, Codex, ChatGPT, Cursor, Hermes and OpenClaw. | [GitHub](https://github.com/homarr-labs/dashboard-icons) |
 | 69 | **AiSOC** | Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue. | [GitHub](https://github.com/beenuar/AiSOC) |
 | 70 | **mcp-server-cloudflare** | Product specific Cloudflare MCP servers | [GitHub](https://github.com/cloudflare/mcp-server-cloudflare) |
+| 67 | **deed.page** | Publish an HTML file, a static folder (tarball) or a JSON file map to a permanent `https://{slug}.deed.page/` URL, then update, roll back versions or attach a custom domain. Hosted Streamable HTTP MCP `https://deed.page/mcp` with 24 tools; no account or auth to publish, the first publish returns an owner token for updates. | [Docs](https://deed.page/docs) · [Skill](https://github.com/f-o-x11/deed-page-skill) |
 
 ### Database & Storage
 
