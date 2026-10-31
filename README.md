@@ -539,6 +539,7 @@ MCP servers for AI and machine learning capabilities.
 | 11 | **Podwise** | Podcast knowledge for AI agents: search episodes, pull transcripts, ask questions about an episode, and export summaries and mind maps as Markdown. Hosted Streamable HTTP endpoint with Podwise sign-in (Pro or Enterprise plan required). | [GitHub](https://github.com/hardhackerlabs/podwise-plugin) · [Docs](https://docs.podwise.ai/mcp) |
 | 11 | **Koru** | Local stdio MCP server built into Koru, a free, open-source (MPL-2.0), local-first desktop app for notes, documents and files on Windows and macOS: search, read, create and edit documents stored on the device, no account or cloud required | [GitHub](https://github.com/koruworks/mono) |
 | 11 | **AgentSandboxes** | Hosted read-only remote MCP index of cloud sandbox providers for AI agents; endpoint `https://agentsandboxes.fyi/mcp`, no auth | [Site](https://agentsandboxes.fyi) · [Docs](https://agentsandboxes.fyi/developers) |
+| 11 | **Agent Wallet Index** | Hosted read-only remote MCP index of wallets and payment rails for AI agents; endpoint `https://agentwalletindex.fyi/mcp`, no auth | [Site](https://agentwalletindex.fyi) · [Docs](https://agentwalletindex.fyi/developers) |
 
 ### Multimedia & Design
 
