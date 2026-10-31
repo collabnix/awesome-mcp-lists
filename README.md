@@ -527,6 +527,8 @@ MCP servers for AI and machine learning capabilities.
 | 10 | **Cooper Email** | Give an agent its own email inbox (`username@cooperemail.com`): send, read, reply, and wait for replies or sign-up codes through a hosted Streamable HTTP MCP server with OAuth or an API key. | [Docs](https://cooperemail.com/docs/mcp) |
 | 10 | **/call-me** | Lets an AI agent ring or text the user's iPhone and get the spoken or typed reply back as text, through a hosted Streamable HTTP MCP server with no credentials at the endpoint; the iPhone app is a paid subscription. | [GitHub](https://github.com/radres/call-me) |
 
+| 10 | **model.tools** | Zero-auth email verification code (OTP / magic link) extractor, KV state checkpoints, webhook receiver bins, delayed HTTP wakeup timers, and URL-to-Markdown reader via hosted Streamable HTTP (`https://mcp.model.tools/mcp`) or stdio. | [GitHub](https://github.com/maceip/model-tools-mcp) |
+
 ### Knowledge Management
 
 | # | MCP Server | Description | Link |
