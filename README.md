@@ -349,6 +349,7 @@ MCP servers for accessing external services and APIs.
 | 88 | **Warden MCP** | Hosted remote MCP server (Streamable HTTP; OAuth or agent key for wallet and trading tools) for Warden Token Terminal: AI agents find tokens, quote swaps and trade onchain on Base, BNB Chain, Robinhood Chain and Arc within limits the user sets. | [GitHub](https://github.com/warden-protocol/warden-mcp) |
 | 88 | **datawebot** | Hosted remote MCP server (Streamable HTTP, OAuth 2.1 email sign-in) with ecommerce product data for agents: product search across online shops worldwide, every seller's price for one product with direct shop links, and extraction Jobs on Amazon (10 countries) and 1,100+ Shopify stores. Endpoint `https://mcp.datawebot.com/mcp` | [GitHub](https://github.com/datawebot/datawebot-mcp) · [Docs](https://www.datawebot.com/docs/agents) |
 | 88 | **Kandle** | Lets an agent read and drive Kandle, an open-source browser charting app for crypto, stocks and forex: candles, indicator values, drawings, alerts, bar replay, scripts with strategy backtests and screenshots (26 tools). Local stdio server via `npx`; crypto data needs no API key. Registry `io.github.Kernel-Hunter/kandle` | [GitHub](https://github.com/Kernel-Hunter/kandle) |
+| 88 | **PeekPanda** | Hosted remote MCP server (Streamable HTTP, OAuth or API key) for iOS competitor intelligence: Meta ads, App Store keyword rankings and viral content for any iOS app. | [GitHub](https://github.com/fdarkaou/peekpanda-mcp) |
 
 ### AI & Machine Learning
 
