@@ -497,6 +497,7 @@ MCP servers for AI and machine learning capabilities.
 | 26 | **NoMac** | Hosted Streamable HTTP MCP that gives agents a real cloud Mac with Xcode by the minute: start a macOS VM, run xcodebuild and Simulator commands, move files, open the desktop for a human, manage TestFlight and App Store Connect, then stop it; OAuth, no API key in client config | [Website](https://nomac.app) |
 | 27 | **awesome-remote-mcp-servers** | A collection of remote MCP servers. | [GitHub](https://github.com/punkpeye/awesome-remote-mcp-servers) |
 | 27 | **Zeptap** | Mac app with a local MCP server that lets AI agents operate a real iPhone over USB and Bluetooth, for testing iOS apps on a device. Paid, first hour free. | [Website](https://zeptap.com) · [GitHub](https://github.com/Zeptap/mcp) |
+| 27 | **UI Verify** | Hosted Streamable HTTP MCP (OAuth) for visual testing: list a pull request's changed Storybook, Playwright or Vitest screenshots, read the diffs, comment on them and accept new baselines | [Website](https://uiverify.ai) · [GitHub](https://github.com/uiverify/uiverify) |
 
 ### Communication
 
