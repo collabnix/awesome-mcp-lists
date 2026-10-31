@@ -327,6 +327,7 @@ MCP servers for accessing external services and APIs.
 | 87 | **Shortimize** | Hosted remote MCP server (Streamable HTTP, API key via Bearer token) for tracking TikTok, Instagram Reels and YouTube Shorts accounts and videos: views, growth and analytics. | [Docs](https://docs.shortimize.com) |
 | 86 | **WalletFollow** | Hosted read-only MCP at [walletfollow.ai](https://walletfollow.ai/mcp) for Hyperliquid wallet, market and copy-portfolio research with freshness and coverage information; Streamable HTTP and OAuth | [GitHub](https://github.com/AperiAnalytics/walletfollow-plugin) |
 | 86 | **CareJobs.Now** | Free hosted read-only Streamable HTTP MCP server for US healthcare jobs: search 170,000+ open jobs read daily from hospitals' and health systems' career sites, get job details, posted pay by kind of job, employers, states; no auth, no API key. Endpoint `https://carejobs.now/api/mcp` | [GitHub](https://github.com/yumaheymans/carejobs-mcp) |
+| 86 | **AltoRank** | Hosted Streamable HTTP MCP server (OAuth) for open-source SEO content software: site readiness checks for search engines and AI crawlers, keyword research, Search Console data and sourced drafts into a person's review queue; no approve or publish tool. AGPL-3.0, self-hostable. [Website](https://altorank.co) | [GitHub](https://github.com/AltoRank/altorank) |
 
 ### AI & Machine Learning
 
