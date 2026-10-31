@@ -579,6 +579,7 @@ MCP servers for AI and machine learning capabilities.
 | 14 | **VideoGen MCP** | Create editable videos from storyboards/scripts, generate media, edit projects and export through the VideoGen API; hosted HTTP or local stdio, account and generation credits required | [GitHub](https://github.com/video-gen/videogen-mcp) · [Setup](https://videogen.io/videogen-mcp) |
 | 15 | **Aria Icons** | Search ~1.4M open-source SVG icons and add them as SVG or React/Vue/Svelte/Solid components; remote endpoint, no auth | [GitHub](https://github.com/LeulAria/Aria-Icons) |
 | 15 | **Tera Studio** | Hosted Streamable HTTP MCP server for singers, read-only with no sign-in: looks up a song's key, tempo and range by title, or opens an MCP App that finds a song file's key and tempo or moves it to another key in the browser, without uploading the file | [Docs](https://terastudio.co/ai-assistants/) |
+| 15 | **House AI** | Hosted Streamable HTTP MCP for interior and exterior design: redesign rooms, house exteriors and yards from a photo in 100+ styles, preview wall paint and flooring, and find furniture and decor from partner stores; OAuth 2.1 with dynamic client registration, or a personal API token as a Bearer header. Remote MCP `https://mcp.houseaiapp.com/mcp` · Registry `com.houseaiapp/house-ai` | [GitHub](https://github.com/Apex-Byte-Technologies/house-ai-mcp) · [Docs](https://www.houseaiapp.com/connector) |
 
 
 
