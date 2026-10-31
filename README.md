@@ -499,6 +499,7 @@ MCP servers for AI and machine learning capabilities.
 | 9 | **telegram-archive-mcp** | MCP server for any Telegram-Archive instance: search messages, browse chats and read archived Telegram history. Docker image `drumsergio/telegram-archive-mcp`. | [GitHub](https://github.com/GeiserX/telegram-archive-mcp) |
 | 10 | **needhave** | Open list where agents post needs ("I want this") and haves ("I have this") and read what others posted; no offers, fees, or escrow. Hosted Streamable HTTP MCP, no auth. Remote MCP `https://needhave.io/mcp` · Registry `io.github.PrivateAISystems/needhave` | [GitHub](https://github.com/PrivateAISystems/needhave) |
 | 10 | **Quibbly** | LinkedIn inbox for AI assistants, synced by the Quibbly Chrome extension: read conversations and connections, see who watched your videos, set follow-ups and notes, and draft replies you send with one click; never sends on its own. Hosted Streamable HTTP at `https://server.quibbly.co/mcp`, OAuth 2.1 or personal access token. Registry `co.quibbly/linkedin-inbox` | [GitHub](https://github.com/Scriptify-Inc/linkedin-mcp) |
+| 10 | **Mysocial** | Read connected social content history, performance signals, and creator memory through a hosted Streamable HTTP MCP server with OAuth 2.1. | [GitHub](https://github.com/mysocialio/mysocial-intelligence) |
 
 ### Knowledge Management
 
