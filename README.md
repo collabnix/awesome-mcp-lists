@@ -331,6 +331,7 @@ MCP servers for accessing external services and APIs.
 | 86 | **Appie.run** | Hosted Streamable HTTP MCP at `https://appie.run/mcp` with 21 tools to find Reddit threads and draft replies, track LinkedIn profiles and leads, write articles in a brand voice, update brand context, train and query website chatbots, and create trackable short links; Bearer API key, free plan with 500 credits | [GitHub](https://github.com/appierun/appie-mcp) · [Docs](https://appie.run/docs/mcp) |
 | 86 | **RestoSignals** | Finds US restaurants and bars 1-6 months before they open: liquor-license, food-permit and new-business filings fused into scored venues with owner contact. Hosted Streamable HTTP at https://api.restosignals.com/mcp; API key in `X-API-Key` (free key) | [GitHub](https://github.com/paperandbeyond23-gif/restosignals-mcp) |
 | 86 | **BacklinkGenie** | Hosted remote MCP server (Streamable HTTP, OAuth 2.1 or API key) for link-building outreach: list and approve pitches to editors, read and answer replies, import posts to pitch, and check which backlinks are live | [GitHub](https://github.com/nikunjness/backlinkgenie-mcp) |
+| 86 | **GSCmate** | Hosted read-only MCP server with Google OAuth 2.1 that lets AI agents access Google Search Console properties, search performance, sitemaps, and URL inspection data. | [Docs](https://gscmate.com/mcp-setup.html) |
 
 ### AI & Machine Learning
 
