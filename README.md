@@ -326,6 +326,7 @@ MCP servers for accessing external services and APIs.
 | 86 | **Social Growth Engineers** | Hosted remote MCP server (Streamable HTTP, OAuth) for viral TikTok/Reels videos, hooks, app growth playbooks, articles, reports and App Store data. | [Docs](https://www.socialgrowthengineers.com) |
 | 87 | **Shortimize** | Hosted remote MCP server (Streamable HTTP, API key via Bearer token) for tracking TikTok, Instagram Reels and YouTube Shorts accounts and videos: views, growth and analytics. | [Docs](https://docs.shortimize.com) |
 | 86 | **WalletFollow** | Hosted read-only MCP at [walletfollow.ai](https://walletfollow.ai/mcp) for Hyperliquid wallet, market and copy-portfolio research with freshness and coverage information; Streamable HTTP and OAuth | [GitHub](https://github.com/AperiAnalytics/walletfollow-plugin) |
+| 86 | **CareJobs.Now** | Free hosted read-only Streamable HTTP MCP server for US healthcare jobs: search 170,000+ open jobs read daily from hospitals' and health systems' career sites, get job details, posted pay by kind of job, employers, states; no auth, no API key. Endpoint `https://carejobs.now/api/mcp` | [GitHub](https://github.com/yumaheymans/carejobs-mcp) |
 
 ### AI & Machine Learning
 
