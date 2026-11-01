@@ -558,6 +558,7 @@ MCP servers for AI and machine learning capabilities.
 | 20 | **CreditUnions** | Hosted read-only remote MCP index of US credit unions with NCUA call-report data; endpoint `https://creditunions.fyi/mcp`, no auth | [Site](https://creditunions.fyi) · [Docs](https://creditunions.fyi/developers) |
 | 21 | **Docsy** | Hosted OAuth Streamable HTTP MCP with five read-only tools to resolve libraries and retrieve current and version-specific framework/SDK documentation with canonical source links. Connect at `https://docsy.remcp.site/mcp/registry` | [GitHub](https://github.com/getremcp/docsy-plugin) |
 | 22 | **Enhanciar** | A company brain that answers from your Slack, Gmail, Notion and Drive with the source, then drafts the reply or ticket for you to approve. Hosted Streamable HTTP MCP `https://enhanciar.in/enhanciar/mcp/` with an API key (paid plans). Tools include query, search_wiki, get_page, impact and propose_action. [Site](https://enhanciar.in) | [GitHub](https://github.com/enhanciar/enhanciar-mcp) |
+| 23 | **deja-vu** | Search your past AI coding sessions across 43 coding agents (Claude Code, Codex, Cursor, opencode, Gemini CLI) over stdio MCP (`deja mcp`); local SQLite FTS5 index, no LLM, no embeddings | [GitHub](https://github.com/vshulcz/deja-vu) |
 
 ### Multimedia & Design
 
