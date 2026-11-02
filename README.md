@@ -138,6 +138,7 @@ MCP servers for managing infrastructure, containers, and DevOps workflows.
 | 69 | **AiSOC** | Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue. | [GitHub](https://github.com/beenuar/AiSOC) |
 | 70 | **mcp-server-cloudflare** | Product specific Cloudflare MCP servers | [GitHub](https://github.com/cloudflare/mcp-server-cloudflare) |
 | 71 | **deed.page** | Publish an HTML file, a static folder (tarball) or a JSON file map to a permanent `https://{slug}.deed.page/` URL, then update, roll back versions or attach a custom domain. Hosted Streamable HTTP MCP `https://deed.page/mcp` with 24 tools; no account or auth to publish, the first publish returns an owner token for updates. | [Docs](https://deed.page/docs) · [Skill](https://github.com/f-o-x11/deed-page-skill) |
+| 72 | **TREK** | The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journals, offline PWA, SSO and an AI-ready MCP server, with planet-wide place search and routing built in. | [GitHub](https://github.com/liketrek/TREK) |
 
 ### Database & Storage
 
@@ -447,6 +448,8 @@ MCP servers for AI and machine learning capabilities.
 | 77 | **zerouter-mcp** | AI API gateway MCP for Claude, GPT, Gemini, Grok and Kimi via one OpenAI-compatible Zerouter API key: chat, compare models side by side, and look up API pricing. Runs locally via MCPB bundle or Docker | [GitHub](https://github.com/ZerouterAI/zerouter-mcp) |
 | 78 | **Athmex** | Gives Claude and ChatGPT athlete profiles, personal bests, goals, races, and weekly constraints for personalised training conversations; hosted service requiring an Athmex account and connected membership | [Docs](https://www.athmex.com/faq) |
 | 79 | **Agent Coach (upskill.coach)** | Hosted coach for AI agents: searches a skill, MCP server, repo and prompt library where items are security-scanned (prompt injection, malicious code, secret leaks) at a pinned commit, matches them to the agent's goal, and runs daily check-ins with public keep/temporary/remove rules. 13 tools; library search needs no key. Remote MCP `https://upskill.coach/mcp` (Streamable HTTP) | [Docs](https://upskill.coach/docs/mcp) |
+| 80 | **mobile-mcp** | Mobile MCP: let AI agents drive your iOS and Android apps. MCP server for simulators, emulators and real devices. Works with Claude Code, Codex, Cursor and any MCP client. | [GitHub](https://github.com/mobile-next/mobile-mcp) |
+| 81 | **ffmpeg-skill** | Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys. | [GitHub](https://github.com/kajisho5/ffmpeg-skill) |
 
 ### Security & Authentication
 
