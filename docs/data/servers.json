@@ -1,11 +1,11 @@
 {
   "generated": true,
   "counts": {
-    "servers": 484,
+    "servers": 486,
     "clients": 23,
     "toolkits": 47,
     "docker": 193,
-    "total": 747
+    "total": 749
   },
   "groups": {
     "servers": [
@@ -1714,6 +1714,12 @@
         "category": "Integrations & APIs"
       },
       {
+        "name": "Nunify",
+        "description": "MCP server that enables AI assistants like Claude and ChatGPT to retrieve event data and execute event management operations in the Nunify event platform. Remote MCP `https://app.nunify.com/mcp` · OAuth 2.1",
+        "url": "https://www.nunify.com",
+        "category": "Integrations & APIs"
+      },
+      {
         "name": "tavily",
         "description": "AI-powered web search and research assistant",
         "url": "https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/tavily.md",
@@ -2911,6 +2917,12 @@
         "name": "CartViral",
         "description": "Hosted MCP server (Streamable HTTP, OAuth 2.1 or API key) that imports products from a store or product link and makes vertical product videos (photo montages, AI story reels, creator UGC clips), product photos, carousels, static ads and listing copy for e-commerce, returning download links; it never posts to social accounts",
         "url": "https://github.com/artemecom/cartviral-mcp",
+        "category": "Multimedia & Design"
+      },
+      {
+        "name": "Makernice",
+        "description": "Generate AI videos and images with 17 models; every job is priced in USD before it runs.",
+        "url": "https://makernice.com/mcp/",
         "category": "Multimedia & Design"
       }
     ],
