@@ -369,6 +369,7 @@ MCP servers for accessing external services and APIs.
 | 113 | **PapaHR** | Hosted remote MCP server (Streamable HTTP, OAuth 2.1 with PKCE and dynamic client registration) for the PapaHR HR system: ask about employees, time off, probation endings, hiring, surveys and eNPS, goals and HR costs. Part of PapaHR Pro | [Docs](https://papahr.com/) |
 | 113 | **Rankwise** | AI search visibility: AI citations per engine, AI share of voice against competitors, tracked questions, content briefs and articles; 50 tools, 6 public with no sign-in; OAuth 2.1. Remote MCP `https://tryrankwise.com/api/mcp` · Registry `com.tryrankwise/rankwise` | [GitHub](https://github.com/0xrome/rankwise-plugin) |
 | 113 | **Ahel** | Company and people enrichment, SEO and SERP data, social media data and official EU business registers for AI agents from one hosted MCP server; price shown before each call, pay per call | [GitHub](https://github.com/ahel-technologies/ahel) |
+| 113 | **Etsy Search & Shop Sales MCP** | Hosted remote MCP server (Streamable HTTP, Apify OAuth or API token as Bearer) with two Apify Actor tools: live Etsy search results by keyword, category or market page (price, rating, reviews, Bestseller and Star Seller badges, ad flag, search rank) and sales counters for named Etsy shops, each with the date it was read. | [GitHub](https://github.com/GeminiGeorge22/etsy-sales-mcp) |
 
 ### AI & Machine Learning
 
