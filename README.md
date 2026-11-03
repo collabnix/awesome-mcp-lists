@@ -591,6 +591,7 @@ MCP servers for AI and machine learning capabilities.
 | 19 | **ReelsFarm** | Hosted MCP server (Streamable HTTP, OAuth or API key) for creating AI avatars, product photos, AI videos and TikTok/Instagram slideshows, then scheduling and publishing approved posts to TikTok, Instagram, YouTube and Facebook; ReelsFarm plan or trial required | [Docs](https://reelsfarm.com/docs/mcp) · [SDK](https://github.com/mateohysa/reelsfarm-mcp) |
 | 20 | **Pic2SVG MCP** | Local stdio server that uploads raster images to Pic2SVG's hosted tracing API and returns SVG filled paths; install from source with Node.js 20+ | [Docs](https://pic2svg.com/mcp/) · [GitHub](https://github.com/szj2ys/pic2svg-mcp) |
 | 20 | **Arcmira: YouTube Transcript Search** | Hosted Streamable HTTP MCP for searching indexed YouTube and podcast transcripts, speaker appearances, mentions, sponsors and recommendations with timestamped sources; requires OAuth sign-in or an account API key | [Arcmira](https://arcmira.com) · [GitHub](https://github.com/arcmira/mcp) · [Setup](https://arcmira.com/docs/mcp-server) · [API docs](https://arcmira.com/docs) |
+| 20 | **Wisprs** | Hosted Streamable HTTP MCP server (OAuth) that transcribes audio, video and YouTube links in 100+ languages, then searches, summarizes, translates and exports the transcripts as TXT, SRT, VTT, DOCX or Markdown | [Docs](https://wisprs.co/mcp/setup) |
 
 
 
