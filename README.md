@@ -605,6 +605,7 @@ MCP servers for AI and machine learning capabilities.
 | 20 | **Pic2SVG MCP** | Local stdio server that uploads raster images to Pic2SVG's hosted tracing API and returns SVG filled paths; install from source with Node.js 20+ | [Docs](https://pic2svg.com/mcp/) · [GitHub](https://github.com/szj2ys/pic2svg-mcp) |
 | 20 | **Arcmira: YouTube Transcript Search** | Hosted Streamable HTTP MCP for searching indexed YouTube and podcast transcripts, speaker appearances, mentions, sponsors and recommendations with timestamped sources; requires OAuth sign-in or an account API key | [Arcmira](https://arcmira.com) · [GitHub](https://github.com/arcmira/mcp) · [Setup](https://arcmira.com/docs/mcp-server) · [API docs](https://arcmira.com/docs) |
 | 20 | **Wisprs** | Hosted Streamable HTTP MCP server (OAuth) that transcribes audio, video and YouTube links in 100+ languages, then searches, summarizes, translates and exports the transcripts as TXT, SRT, VTT, DOCX or Markdown | [Docs](https://wisprs.co/mcp/setup) |
+| 20 | **CartViral** | Hosted MCP server (Streamable HTTP, OAuth 2.1 or API key) that imports products from a store or product link and makes vertical product videos (photo montages, AI story reels, creator UGC clips), product photos, carousels, static ads and listing copy for e-commerce, returning download links; it never posts to social accounts | [GitHub](https://github.com/artemecom/cartviral-mcp) |
 
 
 
