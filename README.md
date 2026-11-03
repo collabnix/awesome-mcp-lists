@@ -447,6 +447,8 @@ MCP servers for AI and machine learning capabilities.
 | 77 | **zerouter-mcp** | AI API gateway MCP for Claude, GPT, Gemini, Grok and Kimi via one OpenAI-compatible Zerouter API key: chat, compare models side by side, and look up API pricing. Runs locally via MCPB bundle or Docker | [GitHub](https://github.com/ZerouterAI/zerouter-mcp) |
 | 78 | **Athmex** | Gives Claude and ChatGPT athlete profiles, personal bests, goals, races, and weekly constraints for personalised training conversations; hosted service requiring an Athmex account and connected membership | [Docs](https://www.athmex.com/faq) |
 | 79 | **Agent Coach (upskill.coach)** | Hosted coach for AI agents: searches a skill, MCP server, repo and prompt library where items are security-scanned (prompt injection, malicious code, secret leaks) at a pinned commit, matches them to the agent's goal, and runs daily check-ins with public keep/temporary/remove rules. 13 tools; library search needs no key. Remote MCP `https://upskill.coach/mcp` (Streamable HTTP) | [Docs](https://upskill.coach/docs/mcp) |
+| 80 | **awesome-sports-odds-mcp** | Curated list of sports betting odds MCP servers with one provider per sportsbook, book network, exchange or aggregator, plus Claude Code and Cursor connection snippets | [GitHub](https://github.com/GeminiGeorge22/awesome-sports-odds-mcp) |
+| 81 | **awesome-etsy-mcp** | Curated list of MCP servers for Etsy sellers and e-commerce research: Etsy API, live Etsy search and shop data, scraping platforms and other marketplaces | [GitHub](https://github.com/GeminiGeorge22/awesome-etsy-mcp) |
 
 ### Security & Authentication
 
