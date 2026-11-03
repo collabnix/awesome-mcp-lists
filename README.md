@@ -371,6 +371,7 @@ MCP servers for accessing external services and APIs.
 | 113 | **Ahel** | Company and people enrichment, SEO and SERP data, social media data and official EU business registers for AI agents from one hosted MCP server; price shown before each call, pay per call | [GitHub](https://github.com/ahel-technologies/ahel) |
 | 113 | **Etsy Search & Shop Sales MCP** | Hosted remote MCP server (Streamable HTTP, Apify OAuth or API token as Bearer) with two Apify Actor tools: live Etsy search results by keyword, category or market page (price, rating, reviews, Bestseller and Star Seller badges, ad flag, search rank) and sales counters for named Etsy shops, each with the date it was read. | [GitHub](https://github.com/GeminiGeorge22/etsy-sales-mcp) |
 | 113 | **ATS Jobs MCP** | New job postings since any date or window (24h, 7d, 30d) from Ashby, Greenhouse, Lever and SmartRecruiters job boards. Local stdio server via `npx -y github:GeminiGeorge22/ats-jobs-mcp`; needs your own `APIFY_TOKEN`. MIT | [GitHub](https://github.com/GeminiGeorge22/ats-jobs-mcp) |
+| 113 | **Gov Tenders MCP** | Public-sector tenders, grants and awards (SAM.gov, Grants.gov, USAspending, UK Find a Tender, EU TED) plus Legistar city council agendas and minutes, each with its official source link. Local stdio server via `npx -y github:GeminiGeorge22/gov-tenders-mcp`; needs your own `APIFY_TOKEN`. MIT | [GitHub](https://github.com/GeminiGeorge22/gov-tenders-mcp) |
 
 ### AI & Machine Learning
 
