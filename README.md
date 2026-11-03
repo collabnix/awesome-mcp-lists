@@ -460,6 +460,8 @@ MCP servers for AI and machine learning capabilities.
 | 79 | **Agent Coach (upskill.coach)** | Hosted coach for AI agents: searches a skill, MCP server, repo and prompt library where items are security-scanned (prompt injection, malicious code, secret leaks) at a pinned commit, matches them to the agent's goal, and runs daily check-ins with public keep/temporary/remove rules. 13 tools; library search needs no key. Remote MCP `https://upskill.coach/mcp` (Streamable HTTP) | [Docs](https://upskill.coach/docs/mcp) |
 | 80 | **mobile-mcp** | Mobile MCP: let AI agents drive your iOS and Android apps. MCP server for simulators, emulators and real devices. Works with Claude Code, Codex, Cursor and any MCP client. | [GitHub](https://github.com/mobile-next/mobile-mcp) |
 | 81 | **ffmpeg-skill** | Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys. | [GitHub](https://github.com/kajisho5/ffmpeg-skill) |
+| 80 | **awesome-sports-odds-mcp** | Curated list of sports betting odds MCP servers with one provider per sportsbook, book network, exchange or aggregator, plus Claude Code and Cursor connection snippets | [GitHub](https://github.com/GeminiGeorge22/awesome-sports-odds-mcp) |
+| 81 | **awesome-etsy-mcp** | Curated list of MCP servers for Etsy sellers and e-commerce research: Etsy API, live Etsy search and shop data, scraping platforms and other marketplaces | [GitHub](https://github.com/GeminiGeorge22/awesome-etsy-mcp) |
 
 ### Security & Authentication
 
