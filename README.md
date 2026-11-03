@@ -243,6 +243,7 @@ MCP servers for web search, content access, and web automation.
 | 59 | **toolkb-mcp** | Local stdio server that returns YouTube transcripts and playlists, web pages as Markdown, and App Store reviews; no API key or account. Install via `npx -y github:jack-reson8/toolkb-mcp` | [GitHub](https://github.com/jack-reson8/toolkb-mcp) |
 | 60 | **BrewPage** | Hosted Streamable HTTP MCP to publish HTML, Markdown, files, multi-file static sites, JSON and key-value data on brewpage.app and get a shareable URL plus a manage link; free, no auth. Endpoint: `https://brewpage.app/mcp`; local: `npx -y brewpage-mcp` | [GitHub](https://github.com/kochetkov-ma/brewpage-openapi) · [Docs](https://kochetkov-ma.github.io/brewpage-openapi/) |
 | 61 | **AgentSearch MCP** | Web search, URL-to-Markdown extract, and JS page render tools for AI agents (stdio via `npx -y @agentsearchhq/agentsearch-mcp`, plus a .mcpb bundle for Claude Desktop). Search works with no API key (up to 25/day per IP); extract and render are pay-per-call. | [GitHub](https://github.com/agentsearchhq-coder/agentsearch-mcp) |
+| 61 | **Nova Research (CIVAI)** | Hosted Streamable HTTP MCP for deep research and report generation over live web search. Tool discovery is open; tool calls need a Nova account via OAuth or an API key. Endpoint: `https://nova.civai.co/mcp/agents/research-agent` | [GitHub](https://github.com/civai-technologies/research-agent-mcp-by-nova-civai) · [Docs](https://nova.civai.co/agent/research-agent) |
 
 ### Integrations & APIs
 
