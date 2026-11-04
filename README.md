@@ -722,6 +722,7 @@ MCP servers for AI and machine learning capabilities.
 | 2 | Smithery | Cloud hosting for MCP servers via containers |
 | 3 | [ToolRouter](https://toolrouter.com) | Give your AI agent superpowers with access to 150+ tools on demand with just one account. Competitor research, video production, web search, image generation, security scanning, and more. One API key replaces managing dozens of provider accounts. `npx -y toolrouter-mcp` |
 | 4 | [Aident Loadout](https://aident.ai) | Remote MCP capability layer: connect Codex, Claude Code, Cursor, ChatGPT and other MCP clients to their apps and 400+ Skills through one reusable setup (OAuth vault, one balance, audit). MCP URL `https://loadout.aident.ai/mcp`. Skill: [Aident-AI/aident-skill](https://github.com/Aident-AI/aident-skill) |
+| 5 | [Agentik](https://www.agentik.cc) | Hosted MCP gateway: connect Claude, ChatGPT, Codex or Cursor to 3,000+ tools from 125 providers through one Streamable HTTP endpoint (`https://ai.agentik.cc/mcp`), each call at the provider's price, with the price shown before each call |
 
 ### Templates
 
