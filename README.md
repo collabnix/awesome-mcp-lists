@@ -463,6 +463,7 @@ MCP servers for AI and machine learning capabilities.
 | 81 | **ffmpeg-skill** | Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys. | [GitHub](https://github.com/kajisho5/ffmpeg-skill) |
 | 82 | **awesome-sports-odds-mcp** | Curated list of sports betting odds MCP servers with one provider per sportsbook, book network, exchange or aggregator, plus Claude Code and Cursor connection snippets | [GitHub](https://github.com/GeminiGeorge22/awesome-sports-odds-mcp) |
 | 83 | **awesome-etsy-mcp** | Curated list of MCP servers for Etsy sellers and e-commerce research: Etsy API, live Etsy search and shop data, scraping platforms and other marketplaces | [GitHub](https://github.com/GeminiGeorge22/awesome-etsy-mcp) |
+| 84 | **Model Salt** | Adds outside randomness to creative requests, so one prompt gives a different answer each time it runs; hosted at https://modelsalt.com/mcp with no sign-in, or npx @modelsalt/model-salt | [GitHub](https://github.com/modelsalt/model-salt) |
 
 ### Security & Authentication
 
