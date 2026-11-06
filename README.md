@@ -579,6 +579,7 @@ MCP servers for AI and machine learning capabilities.
 | 22 | **Enhanciar** | A company brain that answers from your Slack, Gmail, Notion and Drive with the source, then drafts the reply or ticket for you to approve. Hosted Streamable HTTP MCP `https://enhanciar.in/enhanciar/mcp/` with an API key (paid plans). Tools include query, search_wiki, get_page, impact and propose_action. [Site](https://enhanciar.in) | [GitHub](https://github.com/enhanciar/enhanciar-mcp) |
 | 23 | **ExtraBrain** | Local MCP server in the proprietary direct-download Mac app for session context, document and profile operations, and supported app controls, with per-client pairing and revocation | [Docs](https://extrabrain.app/help/settings/mcp-connections/) |
 | 24 | **deja-vu** | Search your past AI coding sessions across 43 coding agents (Claude Code, Codex, Cursor, opencode, Gemini CLI) over stdio MCP (`deja mcp`); local SQLite FTS5 index, no LLM, no embeddings | [GitHub](https://github.com/vshulcz/deja-vu) |
+| 25 | **linksee-memory** | Local MCP memory server: one SQLite file that Claude Code, Cursor, Windsurf, OpenAI Codex and Gemini CLI all read and write, for handing a project over with the reasons attached. Drift detection shows which recorded decisions the code has since left. No account or API key; run with `npx -y linksee-memory`. | [GitHub](https://github.com/michielinksee/linksee-memory) |
 
 ### Multimedia & Design
 
