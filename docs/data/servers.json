@@ -2862,7 +2862,7 @@
       {
         "name": "screenRIG",
         "description": "Hosted MCP server for digital signage screens, playlists, media, schedules and playback reports, with OAuth authorization",
-        "url": "https://screenrig.ai/docs/mcp/",
+        "url": "https://screenrig.ai/docs/mcp",
         "category": "Multimedia & Design"
       },
       {
