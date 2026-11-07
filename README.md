@@ -550,6 +550,7 @@ MCP servers for AI and machine learning capabilities.
 | 16 | **/call-me** | Lets an AI agent ring or text the user's iPhone and get the spoken or typed reply back as text, through a hosted Streamable HTTP MCP server with no credentials at the endpoint; the iPhone app is a paid subscription. | [GitHub](https://github.com/radres/call-me) |
 
 | 1 | **model.tools** | Zero-auth email verification code (OTP / magic link) extractor, KV state checkpoints, webhook receiver bins, delayed HTTP wakeup timers, and URL-to-Markdown reader via hosted Streamable HTTP (`https://mcp.model.tools/mcp`) or stdio. | [GitHub](https://github.com/maceip/model-tools-mcp) |
+| 17 | **NumRadar** | Check WhatsApp registration for individual numbers, run bulk validation jobs and query validation allowances through a hosted Streamable HTTP MCP or local npm package (paid account and bearer key required) | [Docs](https://numradar.app/mcp-server) |
 
 ### Knowledge Management
 
