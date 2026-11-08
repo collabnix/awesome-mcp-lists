@@ -373,6 +373,8 @@ MCP servers for accessing external services and APIs.
 | 118 | **ATS Jobs MCP** | New job postings since any date or window (24h, 7d, 30d) from Ashby, Greenhouse, Lever and SmartRecruiters job boards. Local stdio server via `npx -y github:GeminiGeorge22/ats-jobs-mcp`; needs your own `APIFY_TOKEN`. MIT | [GitHub](https://github.com/GeminiGeorge22/ats-jobs-mcp) |
 | 119 | **Gov Tenders MCP** | Public-sector tenders, grants and awards (SAM.gov, Grants.gov, USAspending, UK Find a Tender, EU TED) plus Legistar city council agendas and minutes, each with its official source link. Local stdio server via `npx -y github:GeminiGeorge22/gov-tenders-mcp`; needs your own `APIFY_TOKEN`. MIT | [GitHub](https://github.com/GeminiGeorge22/gov-tenders-mcp) |
 | 120 | **Nunify** | MCP server that enables AI assistants like Claude and ChatGPT to retrieve event data and execute event management operations in the Nunify event platform. Remote MCP `https://app.nunify.com/mcp` · OAuth 2.1 | [Website](https://www.nunify.com) |
+| 121 | **Latino Events (events.lat)** | Search concerts, festivals and cultural events across Mexico, Brazil, Argentina, Colombia, Chile and Peru, with venue, dates and the official ticket link, and save events for signed-in users. Remote MCP `https://ojlsoqhibryhvuyltwpi.supabase.co/functions/v1/mcp` · OAuth 2.1 | [Docs](https://events.lat/llms.txt) |
+| 122 | **depot.fitness** | Search 101 written-out strength-training programs and 539 exercises, read training guides, and save programs or read recent workouts for signed-in users. Remote MCP `https://nihheurtdimdezbhrdba.supabase.co/functions/v1/mcp` · OAuth 2.1 | [Docs](https://depot.fitness/connect) |
 
 ### AI & Machine Learning
 
