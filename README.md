@@ -463,6 +463,8 @@ MCP servers for AI and machine learning capabilities.
 | 81 | **ffmpeg-skill** | Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys. | [GitHub](https://github.com/kajisho5/ffmpeg-skill) |
 | 82 | **awesome-sports-odds-mcp** | Curated list of sports betting odds MCP servers with one provider per sportsbook, book network, exchange or aggregator, plus Claude Code and Cursor connection snippets | [GitHub](https://github.com/GeminiGeorge22/awesome-sports-odds-mcp) |
 | 83 | **awesome-etsy-mcp** | Curated list of MCP servers for Etsy sellers and e-commerce research: Etsy API, live Etsy search and shop data, scraping platforms and other marketplaces | [GitHub](https://github.com/GeminiGeorge22/awesome-etsy-mcp) |
+| 84 | **AiToEarn** | Let's use AI to Earn! | [GitHub](https://github.com/yikart/AiToEarn) |
+| 85 | **skills** | Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity. | [GitHub](https://github.com/scenario-labs/skills) |
 
 ### Security & Authentication
 
@@ -527,6 +529,7 @@ MCP servers for AI and machine learning capabilities.
 | 31 | **Carbon Forge** | Source control and a shared record for people and agents: code, files and prose in one record on the server, read and written over MCP. Hosted Streamable HTTP endpoint `https://carbonforge.dev/api/mcp`; public workspaces read without a token, writing needs a bearer token | [Docs](https://carbonforge.dev/docs/p/guides/mcp-anonymous-access) |
 | 32 | **Oh My Android** | Native macOS control panel for the Android Emulator and real devices (dark mode, font scale, locale/RTL, TalkBack, GPS, layout inspector in dp) with a built-in stdio MCP server (18 tools) so Claude Code, Codex and Cursor can see and drive the emulator. Install: `brew install --cask ateymoori/tap/oh-my-android` | [GitHub](https://github.com/ateymoori/oh-my-android) |
 | 33 | **ComputeFirst** | Free hosted MCP server for deterministic calculations, identifier validation and data transforms; no API key required | [Docs](https://computefirst.net/docs) |
+| 34 | **mcp-server** | MCP Server for Burp | [GitHub](https://github.com/danielgallen/mcp-server) |
 
 ### Communication
 
