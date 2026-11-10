@@ -579,6 +579,11 @@ MCP servers for AI and machine learning capabilities.
 | 22 | **Enhanciar** | A company brain that answers from your Slack, Gmail, Notion and Drive with the source, then drafts the reply or ticket for you to approve. Hosted Streamable HTTP MCP `https://enhanciar.in/enhanciar/mcp/` with an API key (paid plans). Tools include query, search_wiki, get_page, impact and propose_action. [Site](https://enhanciar.in) | [GitHub](https://github.com/enhanciar/enhanciar-mcp) |
 | 23 | **ExtraBrain** | Local MCP server in the proprietary direct-download Mac app for session context, document and profile operations, and supported app controls, with per-client pairing and revocation | [Docs](https://extrabrain.app/help/settings/mcp-connections/) |
 | 24 | **deja-vu** | Search your past AI coding sessions across 43 coding agents (Claude Code, Codex, Cursor, opencode, Gemini CLI) over stdio MCP (`deja mcp`); local SQLite FTS5 index, no LLM, no embeddings | [GitHub](https://github.com/vshulcz/deja-vu) |
+| 25 | **doc2md-lite** | Free local MCP server (uvx/pip) that turns text PDFs and HTML into clean Markdown with real tables. | [GitHub](https://github.com/tidybytetools/doc2md-lite) |
+| 26 | **pdf-table-pull-lite** | Free local MCP server (uvx/pip) that pulls tables from text PDFs into CSV. | [GitHub](https://github.com/tidybytetools/pdf-table-pull-lite) |
+| 27 | **md-chunk-lite** | Free local MCP server (uvx/pip) that splits Markdown into heading-aware chunks for RAG. | [GitHub](https://github.com/tidybytetools/md-chunk-lite) |
+| 28 | **link-check-lite** | Free local MCP server (uvx/pip) that checks URLs for status codes, redirects and broken links. | [GitHub](https://github.com/tidybytetools/link-check-lite) |
+| 29 | **json-shaper-lite** | Free local MCP server (uvx/pip) that turns key:value notes, CSV/TSV and Markdown tables into typed JSON. | [GitHub](https://github.com/tidybytetools/json-shaper-lite) |
 
 ### Multimedia & Design
 
