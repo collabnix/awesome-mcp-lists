@@ -608,6 +608,7 @@ MCP servers for AI and machine learning capabilities.
 | 22 | **Wisprs** | Hosted Streamable HTTP MCP server (OAuth) that transcribes audio, video and YouTube links in 100+ languages, then searches, summarizes, translates and exports the transcripts as TXT, SRT, VTT, DOCX or Markdown | [Docs](https://wisprs.co/mcp/setup) |
 | 23 | **CartViral** | Hosted MCP server (Streamable HTTP, OAuth 2.1 or API key) that imports products from a store or product link and makes vertical product videos (photo montages, AI story reels, creator UGC clips), product photos, carousels, static ads and listing copy for e-commerce, returning download links; it never posts to social accounts | [GitHub](https://github.com/artemecom/cartviral-mcp) |
 | 24 | **Makernice** | Generate AI videos and images with 17 models; every job is priced in USD before it runs. | [Docs](https://makernice.com/mcp/) |
+| 25 | **ClipUGC** | Makes vertical UGC videos for mobile apps with an AI influencer who keeps the same face, then merges the app screen recording and a hook into the video; local stdio via `npx -y clipugc mcp` (API key) or hosted Streamable HTTP at `https://clipugc.com/mcp` (OAuth); free credits to try, paid plans for more | [GitHub](https://github.com/clipugc/ClipUGC-CLI) · [Docs](https://clipugc.com/mcp) |
 
 
 
