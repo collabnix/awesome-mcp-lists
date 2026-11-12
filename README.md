@@ -373,6 +373,7 @@ MCP servers for accessing external services and APIs.
 | 118 | **ATS Jobs MCP** | New job postings since any date or window (24h, 7d, 30d) from Ashby, Greenhouse, Lever and SmartRecruiters job boards. Local stdio server via `npx -y github:GeminiGeorge22/ats-jobs-mcp`; needs your own `APIFY_TOKEN`. MIT | [GitHub](https://github.com/GeminiGeorge22/ats-jobs-mcp) |
 | 119 | **Gov Tenders MCP** | Public-sector tenders, grants and awards (SAM.gov, Grants.gov, USAspending, UK Find a Tender, EU TED) plus Legistar city council agendas and minutes, each with its official source link. Local stdio server via `npx -y github:GeminiGeorge22/gov-tenders-mcp`; needs your own `APIFY_TOKEN`. MIT | [GitHub](https://github.com/GeminiGeorge22/gov-tenders-mcp) |
 | 120 | **Nunify** | MCP server that enables AI assistants like Claude and ChatGPT to retrieve event data and execute event management operations in the Nunify event platform. Remote MCP `https://app.nunify.com/mcp` · OAuth 2.1 | [Website](https://www.nunify.com) |
+| 121 | **Tapetide Indian Stock Market MCP** | Research data on about 8,000 NSE and BSE listed Indian stocks: financials, a 326-ratio screener, technical indicators, FII/DII flows, end-of-day index option chains with IV, filings and IPOs; 48 tools (55 including aliases). Remote MCP `https://mcp.tapetide.com/mcp` (Google OAuth or personal token) or local `npx -y tapetide-mcp`. Free tier, MIT · Registry `com.tapetide/stock-research-mcp` | [GitHub](https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp) |
 
 ### AI & Machine Learning
 
