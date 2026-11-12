@@ -246,6 +246,7 @@ MCP servers for web search, content access, and web automation.
 | 60 | **BrewPage** | Hosted Streamable HTTP MCP to publish HTML, Markdown, files, multi-file static sites, JSON and key-value data on brewpage.app and get a shareable URL plus a manage link; free, no auth. Endpoint: `https://brewpage.app/mcp`; local: `npx -y brewpage-mcp` | [GitHub](https://github.com/kochetkov-ma/brewpage-openapi) · [Docs](https://kochetkov-ma.github.io/brewpage-openapi/) |
 | 61 | **AgentSearch MCP** | Web search, URL-to-Markdown extract, and JS page render tools for AI agents (stdio via `npx -y @agentsearchhq/agentsearch-mcp`, plus a .mcpb bundle for Claude Desktop). Search works with no API key (up to 25/day per IP); extract and render are pay-per-call. | [GitHub](https://github.com/agentsearchhq-coder/agentsearch-mcp) |
 | 62 | **Nova Research (CIVAI)** | Hosted Streamable HTTP MCP for deep research and report generation over live web search. Tool discovery is open; tool calls need a Nova account via OAuth or an API key. Endpoint: `https://nova.civai.co/mcp/agents/research-agent` | [GitHub](https://github.com/civai-technologies/research-agent-mcp-by-nova-civai) · [Docs](https://nova.civai.co/agent/research-agent) |
+| 63 | **AgentWeb** | Hosted Streamable HTTP MCP (OAuth 2.1) at https://mcp.agentweb.us/mcp. Lets any agent act on real signed-in sites: search, order, book and submit as typed, verified actions | [GitHub](https://github.com/AgentWeb-Labs/agentweb-mcp) |
 
 ### Integrations & APIs
 
