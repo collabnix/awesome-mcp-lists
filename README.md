@@ -608,7 +608,7 @@ MCP servers for AI and machine learning capabilities.
 | 22 | **Wisprs** | Hosted Streamable HTTP MCP server (OAuth) that transcribes audio, video and YouTube links in 100+ languages, then searches, summarizes, translates and exports the transcripts as TXT, SRT, VTT, DOCX or Markdown | [Docs](https://wisprs.co/mcp/setup) |
 | 23 | **CartViral** | Hosted MCP server (Streamable HTTP, OAuth 2.1 or API key) that imports products from a store or product link and makes vertical product videos (photo montages, AI story reels, creator UGC clips), product photos, carousels, static ads and listing copy for e-commerce, returning download links; it never posts to social accounts | [GitHub](https://github.com/artemecom/cartviral-mcp) |
 | 24 | **Makernice** | Generate AI videos and images with 17 models; every job is priced in USD before it runs. | [Docs](https://makernice.com/mcp/) |
-| 25 | **WaveLocus** | Hosted Streamable HTTP MCP server (OAuth) for measuring voice recording levels in the browser, previewing gain changes, comparing edits, and sharing approved measurements. | [Setup guide](https://wavelocus.com/voice-recording-review) |
+| 25 | **WaveLocus** | Hosted Streamable HTTP MCP server (OAuth) for reviewing up to three voice excerpts in the browser, measuring sample peak, RMS, DC offset, full-scale sample count, estimated true peak and gated LUFS when available, checking levels in a selected background passage, comparing an original and edited copy of the same passage, previewing gain changes, exporting an adjusted WAV when eligible, and sharing only approved measurements. | [Docs](https://wavelocus.com/voice-recording-review) |
 
 
 
