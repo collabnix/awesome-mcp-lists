@@ -548,6 +548,7 @@ MCP servers for AI and machine learning capabilities.
 | 14 | **PodPitch** | Hosted MCP for public podcast discovery without an account; existing customers can connect with OAuth for campaigns, drafts, inbox replies and outreach | [GitHub](https://github.com/PodPitch/podpitch-plugins) |
 | 15 | **Cooper Email** | Give an agent its own email inbox (`username@cooperemail.com`): send, read, reply, and wait for replies or sign-up codes through a hosted Streamable HTTP MCP server with OAuth or an API key. | [Docs](https://cooperemail.com/docs/mcp) |
 | 16 | **/call-me** | Lets an AI agent ring or text the user's iPhone and get the spoken or typed reply back as text, through a hosted Streamable HTTP MCP server with no credentials at the endpoint; the iPhone app is a paid subscription. | [GitHub](https://github.com/radres/call-me) |
+| 17 | **SyncBooster** | Draft, schedule and publish social media posts to Facebook, Instagram, LinkedIn, X, TikTok and Google Business Profile through a hosted Streamable HTTP MCP server with OAuth or an API key; a SyncBooster account is required (100 tokens to start, no card). | [Docs](https://syncbooster.pl/en/mcp) |
 
 | 1 | **model.tools** | Zero-auth email verification code (OTP / magic link) extractor, KV state checkpoints, webhook receiver bins, delayed HTTP wakeup timers, and URL-to-Markdown reader via hosted Streamable HTTP (`https://mcp.model.tools/mcp`) or stdio. | [GitHub](https://github.com/maceip/model-tools-mcp) |
 
