@@ -980,6 +980,7 @@ A representative selection is listed below:
 | 20 | **CompressGIF** | Compress GIFs from HTTPS URLs, poll compression jobs, and check credit usage over Streamable HTTP with API key authentication. | [Docs](https://compressgif.net/docs) |
 | 21 | **KitCut** | Hosted remote MCP server (OAuth) that makes narrated, scored animated films from a chat: from an idea or a video template (event and speaker promos, invitations), with series projects and YouTube publishing | [Docs](https://kitcut.ai/docs/assistants) |
 | 22 | **Creative Claw** | Hosted MCP server for generating and editing images, video, and audio with reusable Characters and brand assets through OAuth | [GitHub](https://github.com/CreativeClawCo/creative-claw-marketplace) |
+| 23 | **Cassette** | Find browser games at `https://cassette.gg/mcp` without sign-in, or publish games at `https://cassette.gg/mcp/publish` with OAuth and human approval; hosted Streamable HTTP | [Docs](https://cassette.gg/agents/guide.md) |
 
 
 
