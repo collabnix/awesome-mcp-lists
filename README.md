@@ -259,6 +259,7 @@ MCP servers for accessing external services and APIs.
 | 4 | **shopsavvy** | Complete product and pricing data solution - search products, compare prices, track history | [GitHub](https://github.com/shopsavvy/shopsavvy-mcp-server) |
 | 5 | **agent-signal** | Collective intelligence for AI shopping agents - 23 tools for buyer intelligence, seller analytics, price alerts, and trend tracking | [GitHub](https://github.com/dan24ou-cpu/agent-signal) |
 | 6 | **buywhere-mcp** | Real-time product search and price comparison across Singapore and SEA merchants (Lazada, Shopee, FairPrice, etc.) | [GitHub](https://github.com/BuyWhere/buywhere-mcp?utm_source=awesome-mcp-lists&utm_medium=referral&utm_campaign=june30_25k&utm_content=awesome-mcp-lists) |
+| 7 | **No Stairs Please** | Remote MCP server for searching 38,000+ small live music venues across all 50 US states, room capacities, and booking contacts | [Docs](https://nostairsplease.com/mcp) |
 | 7 | atlassian | Integrate with Atlassian products like Jira and Confluence | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/atlassian.md) |
 | 8 | azure | Interact with Microsoft Azure cloud services and resources | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/azure.md) |
 | 9 | google-maps | Geographic information and location services | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/google-maps.md) |
