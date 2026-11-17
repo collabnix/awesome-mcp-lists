@@ -140,6 +140,7 @@ MCP servers for managing infrastructure, containers, and DevOps workflows.
 | 71 | **deed.page** | Publish an HTML file, a static folder (tarball) or a JSON file map to a permanent `https://{slug}.deed.page/` URL, then update, roll back versions or attach a custom domain. Hosted Streamable HTTP MCP `https://deed.page/mcp` with 24 tools; no account or auth to publish, the first publish returns an owner token for updates. | [Docs](https://deed.page/docs) · [Skill](https://github.com/f-o-x11/deed-page-skill) |
 | 72 | **TREK** | The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journals, offline PWA, SSO and an AI-ready MCP server, with planet-wide place search and routing built in. | [GitHub](https://github.com/liketrek/TREK) |
 | 73 | **Kilobat CLI** | Local stdio MCP server for macOS network diagnostics: DNS, latency, route inspection and host connectivity checks; GPL-3.0-only, macOS 14+ and Xcode 16+ for source installation | [GitHub](https://github.com/seifip/kilobat-cli) |
+| 74 | **kosa8** | Sealed microVM sandboxes for AI agents (own kernel, host-enforced egress allow-list): run commands, move files, checkpoint, rewind and fork; local stdio `kosa8 mcp serve` or hosted Streamable HTTP `https://api.kosa8.com/mcp` with an API key; commercial, plans from $29/month | [GitHub](https://github.com/kosa8ai/kosa8-claude-plugin) · [Docs](https://docs.kosa8.com) |
 
 ### Database & Storage
 
