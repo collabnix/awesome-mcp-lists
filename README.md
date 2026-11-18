@@ -373,7 +373,7 @@ MCP servers for accessing external services and APIs.
 | 118 | **ATS Jobs MCP** | New job postings since any date or window (24h, 7d, 30d) from Ashby, Greenhouse, Lever and SmartRecruiters job boards. Local stdio server via `npx -y github:GeminiGeorge22/ats-jobs-mcp`; needs your own `APIFY_TOKEN`. MIT | [GitHub](https://github.com/GeminiGeorge22/ats-jobs-mcp) |
 | 119 | **Gov Tenders MCP** | Public-sector tenders, grants and awards (SAM.gov, Grants.gov, USAspending, UK Find a Tender, EU TED) plus Legistar city council agendas and minutes, each with its official source link. Local stdio server via `npx -y github:GeminiGeorge22/gov-tenders-mcp`; needs your own `APIFY_TOKEN`. MIT | [GitHub](https://github.com/GeminiGeorge22/gov-tenders-mcp) |
 | 120 | **Nunify** | MCP server that enables AI assistants like Claude and ChatGPT to retrieve event data and execute event management operations in the Nunify event platform. Remote MCP `https://app.nunify.com/mcp` · OAuth 2.1 | [Website](https://www.nunify.com) |
-
+| 121 | **CheapCarRent** | Official hosted Streamable HTTP MCP for car rental search at 15,000 pickup points in 46 countries, 19 languages; no auth, read-only tools list_locations and search_cars. Remote MCP `https://cheapcarent.com/mcp` · Registry `com.cheapcarent/search` | [GitHub](https://github.com/aleksandrjefimov4-crypto/cheapcarent-mcp) · [Docs](https://cheapcarent.com/developers) |
 ### AI & Machine Learning
 
 MCP servers for AI and machine learning capabilities.
