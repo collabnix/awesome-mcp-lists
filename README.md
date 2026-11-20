@@ -489,6 +489,7 @@ MCP servers for AI and machine learning capabilities.
 | 19 | **ReverseAI** | Static reverse engineering of untrusted ELF/PE/Mach-O binaries, Android APKs and JavaScript packages over stdio MCP: Ghidra, JADX, LIEF, YARA-X and Babel run in one-shot offline Docker containers, every byte fact is re-checked on the host, and files are never executed | [GitHub](https://github.com/dagoSte/reverseai) |
 | 20 | **Ironheights** | Local scanner for AI agent skills (OpenClaw, Claude Code, Codex, Cursor) and MCP configs: static rules return an allow/blocked decision with findings before install, and flag skills or MCP tool descriptions that change after approval. Runs as a CLI or a stdio MCP server via `npx -y ironheights mcp` | [GitHub](https://github.com/Frank-Masciopinto/ironheights) |
 | 21 | **ichi-mcp** | Free MCP server for the Internet Cyber Health Index (ICHI) — query the current internet-wide threat band and score, retrieve critical vulnerability advisories, and check live data-source health. Run with `uvx --from git+https://github.com/bernik-bot/ichi-mcp ichi-mcp`. | [GitHub](https://github.com/bernik-bot/ichi-mcp) |
+| 22 | **IPGeolocation.io MCP Server** | Get IP geolocation, company information, ASN and network data, abuse contacts and IP security signals (VPN, proxy, Tor, bot, hosting and spam), or use the server for time zones, astronomy, currency data and user-agent parsing. | [GitHub](https://github.com/IPGeolocation/ipgeolocation-io-mcp) |
 
 ### Development Tools
 
