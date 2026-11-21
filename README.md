@@ -527,6 +527,7 @@ MCP servers for AI and machine learning capabilities.
 | 31 | **Carbon Forge** | Source control and a shared record for people and agents: code, files and prose in one record on the server, read and written over MCP. Hosted Streamable HTTP endpoint `https://carbonforge.dev/api/mcp`; public workspaces read without a token, writing needs a bearer token | [Docs](https://carbonforge.dev/docs/p/guides/mcp-anonymous-access) |
 | 32 | **Oh My Android** | Native macOS control panel for the Android Emulator and real devices (dark mode, font scale, locale/RTL, TalkBack, GPS, layout inspector in dp) with a built-in stdio MCP server (18 tools) so Claude Code, Codex and Cursor can see and drive the emulator. Install: `brew install --cask ateymoori/tap/oh-my-android` | [GitHub](https://github.com/ateymoori/oh-my-android) |
 | 33 | **ComputeFirst** | Free hosted MCP server for deterministic calculations, identifier validation and data transforms; no API key required | [Docs](https://computefirst.net/docs) |
+| 34 | **Taskhold** | Hosted remote MCP server (Streamable HTTP, OAuth 2.1 with PKCE and dynamic client registration, no API key) for a task list shared by you and your coding agents: pick up the next task, plan steps, report progress, block with a question and complete work; 23 tools. Paid, 7-day trial. Endpoint `https://taskhold.com/api/mcp` | [Docs](https://taskhold.com/install) · [GitHub](https://github.com/gettaskhold/taskhold-plugin) |
 
 ### Communication
 
