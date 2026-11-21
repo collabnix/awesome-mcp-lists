@@ -687,6 +687,7 @@ MCP servers for AI and machine learning capabilities.
 | 3 | [stephencme/create-mcp-ts](https://github.com/stephencme/create-mcp-ts) | TypeScript | MCP server creator with templates |
 | 4 | [Upsonic/gpt-computer-assistant](https://github.com/Upsonic/gpt-computer-assistant) | Python | Framework for AI agents |
 | 5 | [p-funk/FEGIS](https://github.com/p-funk/FEGIS) | Python | Interactive agent framework |
+| 6 | [basementstudio/xmcp](https://github.com/basementstudio/xmcp) | TypeScript | Build MCP servers with file-based tools, resources, prompts, and HTTP or STDIO transport |
 
 
 ### Testing Tools
