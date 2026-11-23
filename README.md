@@ -54,6 +54,7 @@ The **[Model Context Protocol (MCP)](https://modelcontextprotocol.io)** is an op
 - [📄 License](#license)
 
 ## MCP Servers
+- [Skool Community Scraper](https://github.com/GeminiGeorge22/publicrecords-mcp/tree/main/servers/skool-community-mcp) - Search Skool communities by keyword. Members, price, rating and estimated monthly revenue for each, plus daily growth tracking.
 
 MCP servers expose tools, data, and capabilities to AI assistants. Browse by category below.
 
