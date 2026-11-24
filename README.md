@@ -247,6 +247,8 @@ MCP servers for web search, content access, and web automation.
 | 61 | **AgentSearch MCP** | Web search, URL-to-Markdown extract, and JS page render tools for AI agents (stdio via `npx -y @agentsearchhq/agentsearch-mcp`, plus a .mcpb bundle for Claude Desktop). Search works with no API key (up to 25/day per IP); extract and render are pay-per-call. | [GitHub](https://github.com/agentsearchhq-coder/agentsearch-mcp) |
 | 62 | **Nova Research (CIVAI)** | Hosted Streamable HTTP MCP for deep research and report generation over live web search. Tool discovery is open; tool calls need a Nova account via OAuth or an API key. Endpoint: `https://nova.civai.co/mcp/agents/research-agent` | [GitHub](https://github.com/civai-technologies/research-agent-mcp-by-nova-civai) · [Docs](https://nova.civai.co/agent/research-agent) |
 
+| 63 | **ContHunt** | Hosted MCP server for researching short-form videos on TikTok, Instagram Reels and YouTube Shorts | [Docs](https://conthunt.app/docs/integrations/mcp) |
+
 ### Integrations & APIs
 
 MCP servers for accessing external services and APIs.
