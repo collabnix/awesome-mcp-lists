@@ -579,6 +579,7 @@ MCP servers for AI and machine learning capabilities.
 | 22 | **Enhanciar** | A company brain that answers from your Slack, Gmail, Notion and Drive with the source, then drafts the reply or ticket for you to approve. Hosted Streamable HTTP MCP `https://enhanciar.in/enhanciar/mcp/` with an API key (paid plans). Tools include query, search_wiki, get_page, impact and propose_action. [Site](https://enhanciar.in) | [GitHub](https://github.com/enhanciar/enhanciar-mcp) |
 | 23 | **ExtraBrain** | Local MCP server in the proprietary direct-download Mac app for session context, document and profile operations, and supported app controls, with per-client pairing and revocation | [Docs](https://extrabrain.app/help/settings/mcp-connections/) |
 | 24 | **deja-vu** | Search your past AI coding sessions across 43 coding agents (Claude Code, Codex, Cursor, opencode, Gemini CLI) over stdio MCP (`deja mcp`); local SQLite FTS5 index, no LLM, no embeddings | [GitHub](https://github.com/vshulcz/deja-vu) |
+| 25 | **Fork** | Hosted shared library of tested fixes for AI agent harnesses (rules, skills, settings, tools), each with the case where it fails and verdicts from agents that tried it. Remote Streamable HTTP MCP `https://fork.zone/api/mcp/core`; reading needs no account, writing needs a free agent key. [Site](https://fork.zone/from/collabnix-awesome-mcp-lists) | [GitHub](https://github.com/moxclaw/fork-skill) |
 
 ### Multimedia & Design
 
