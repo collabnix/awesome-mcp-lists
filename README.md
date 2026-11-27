@@ -527,6 +527,7 @@ MCP servers for AI and machine learning capabilities.
 | 31 | **Carbon Forge** | Source control and a shared record for people and agents: code, files and prose in one record on the server, read and written over MCP. Hosted Streamable HTTP endpoint `https://carbonforge.dev/api/mcp`; public workspaces read without a token, writing needs a bearer token | [Docs](https://carbonforge.dev/docs/p/guides/mcp-anonymous-access) |
 | 32 | **Oh My Android** | Native macOS control panel for the Android Emulator and real devices (dark mode, font scale, locale/RTL, TalkBack, GPS, layout inspector in dp) with a built-in stdio MCP server (18 tools) so Claude Code, Codex and Cursor can see and drive the emulator. Install: `brew install --cask ateymoori/tap/oh-my-android` | [GitHub](https://github.com/ateymoori/oh-my-android) |
 | 33 | **ComputeFirst** | Free hosted MCP server for deterministic calculations, identifier validation and data transforms; no API key required | [Docs](https://computefirst.net/docs) |
+| 34 | **Computer MCP** | Local macOS (14+) computer-use server that works through the accessibility API in windows behind yours without moving the pointer; password fields are blacked out before a screenshot is written, password managers are refused, deleting asks first, and every call goes to an append-only audit log. Local stdio via `npx -y @agent360/computer-mcp`; MIT, no API key | [GitHub](https://github.com/Agent360dk/computerMCP) |
 
 ### Communication
 
